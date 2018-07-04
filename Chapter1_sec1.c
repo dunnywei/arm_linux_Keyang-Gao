@@ -12,7 +12,13 @@ Clock->Memory, Flash, port, data sheet, manual
 Unit 3->ARM boot loader
 
 Like BIOS
-Boot->like the embedded board to intialized by the minimum hardware enviroment (4:57)
-loader->
+-Boot->like the embedded board to intialized by the minimum hardware enviroment (4:57)
+-loader->Let the OS(Linux/Android) inside the flash/hard drive (5:17) into the RAM (5:44)
+and redy to execute (5:49)
+-U_boot->open source (6:14). They are using tiny-210 development board (6:49)
+
+
+
+
   
 */
