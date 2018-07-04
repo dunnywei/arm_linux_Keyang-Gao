@@ -1,5 +1,8 @@
 /*
 -https://www.youtube.com/watch?v=pet3bOhOXzY&index=1&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
+or
+https://www.youtube.com/watch?v=pet3bOhOXzY&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
+
 Unit 1->ARM register, ARM CPU mode, ARM assembly, 
 
 Unit 2->External hardware and device driver
