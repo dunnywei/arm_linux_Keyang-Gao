@@ -56,11 +56,16 @@ Unit 5->Linux Kernel core data structure (13:14)
 Unit 7->Linux interrupt (17:05)
   -Part 1(上半部)->it relates to kernel while writing device driver (17:55)
   -Part 2(下半部)
+  -When there is a requirement to have context switch in process,we need to have interrupt (17:44)
+  -
   
  Unit 8->串口驱动(serial port) (18:13)
     -linux interrupt programming
     -character device (18:24)
-    -
+--------------Now move on to ARM architecture (@20:21)----------------------------------
+ARM assembly (@24:20)
+-Power (@24:45)
+-
 
 
 
