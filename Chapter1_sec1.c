@@ -24,6 +24,15 @@ Unit 4->ARM interrupt programming (@8:02)
 -U must know the interrupt bofore going to the OS. Otherwise, it won't help(@8:26)
 -When there is a context switch(切换) required for swapping out one process running on the CPU. It requires
 interrupt(@8:42)
+-When interrupt happen during the context switch, it needs to keep what have left from previous CPU state (8:48)
+-When interrupt ends, it needs to go back to the previous state (8:52)
+-how to keep and return to the prvious state, it relates
+to the ARM interrupt assembly code (8:55) NOT in C lanquage (9:02)
+
+Unit 5->Linux OS (@9:44)
+-After understaning the development board in arm, we will move on to Linux OS
+-What we need to know how to register the device driver in Linux (@10:32)
+-
 
 
 
