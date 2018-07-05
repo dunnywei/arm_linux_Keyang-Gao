@@ -1,5 +1,5 @@
 /*
--https://www.youtube.com/watch?v=pet3bOhOXzY&index=1&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
+helpful link->https://0xax.gitbooks.io/linux-insides/DataStructures/linux-datastructures-2.html
 or
 https://www.youtube.com/watch?v=pet3bOhOXzY&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
 
@@ -33,7 +33,8 @@ Unit 6->Linux OS (@9:44)
 -After understaning the development board in arm, we will move on to Linux OS
 -What we need to know how to register the device driver in Linux (@10:32)
 -We will focus on the character device driver (11:11)
--Block device driver
+  -Block device driver for LED (@18:41)->require development board
+  -We can simulate this through our PC(@19:12)
 -Network
 -USB
 -Under chacracter device driver->it deals with a lot of data strcture(12:04)
@@ -42,6 +43,24 @@ Unit 6->Linux OS (@9:44)
 -So before we dig into device driver, we need to go through Unit 5
 
 Unit 5->Linux Kernel core data structure (13:14)
+-VFS->virtual file system(13:26)
+        -file
+        -kobject
+-data structure
+       -double link list (14:26)
+       -Radix tree(14:45)
+          ->https://0xax.gitbooks.io/linux-insides/DataStructures/linux-datastructures-2.html
+          ->Don't use your creat your own data structure (14:55)
+       -Data structure->Really important for interviewing
+       -Bit array(16:34)
+Unit 7->Linux interrupt (17:05)
+  -Part 1(上半部)->it relates to kernel while writing device driver (17:55)
+  -Part 2(下半部)
+  
+ Unit 8->串口驱动(serial port) (18:13)
+    -linux interrupt programming
+    -character device (18:24)
+    -
 
 
 
