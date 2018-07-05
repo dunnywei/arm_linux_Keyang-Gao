@@ -29,10 +29,20 @@ interrupt(@8:42)
 -how to keep and return to the prvious state, it relates
 to the ARM interrupt assembly code (8:55) NOT in C lanquage (9:02)
 
-Unit 5->Linux OS (@9:44)
+Unit 6->Linux OS (@9:44)
 -After understaning the development board in arm, we will move on to Linux OS
 -What we need to know how to register the device driver in Linux (@10:32)
--
+-We will focus on the character device driver (11:11)
+-Block device driver
+-Network
+-USB
+-Under chacracter device driver->it deals with a lot of data strcture(12:04)
+-Such as double link list in linux kernel (12:30)
+-Tree (data structure) (12:36)
+-So before we dig into device driver, we need to go through Unit 5
+
+Unit 5->Linux Kernel core data structure (13:14)
+
 
 
 
