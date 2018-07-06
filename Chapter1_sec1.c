@@ -98,7 +98,9 @@ ARM assembly (@24:20)
 -Thare are four itmes looks the same (@31:18)->They are DRAM (@31:20)
 -Each one has 128MB(兆字节) RAM (@31:27)
 -Since there are 4 memories block=4 Channel(通道) (@32:18)
-
+-Each channel provides one 字节(Byte) (@32:22)
+-So if you are writing a long (4byte), it will be stored in 4 channels as 32 bytes (@32:39)
+-Each byte is stored in each channel/RAM (@32:37)
 
 
 
