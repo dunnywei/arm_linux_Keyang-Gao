@@ -136,6 +136,7 @@ u will hear a sound (@37:06)
     -cache 预取器 (@40:16)
     -Control unit (控制器) (@40:36)
     -Compiler (编译器) (@41:01)
+    -It is called ARM v9, ARM v7 (@50:09), or CORTEX_A8 (@50:12)
  -RISC(精简指令集计算机)
     -ARM, MIPS
     -From UC Berkley
@@ -148,8 +149,9 @@ u will hear a sound (@37:06)
 -Those companies like mediatek add its own peripheral (@48:13)
 -Like samsung focus on multmedia,ipad and LCD so it needs to add
 2D/3D hardware accelerator (@48:20),interrupt Controller(中断控制器) (@49:05), MMU(内存管理单元)
-(@49:25) and (peripheral controllers)外围控制器 or 外设控制器 on top of  CPU (@49:43)
--
+(@49:25) and (peripheral controllers)外围控制器 or 外设控制器 to form a CPU (@49:43)(IMPORTANT)is known
+as S5PV210 for Samsung (@50:47)
+->The tiny-210 development board manufacturers(友善电子) buy S5PV210 from Samsung (@51:30)
 
 
 
