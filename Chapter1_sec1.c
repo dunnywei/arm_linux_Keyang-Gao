@@ -127,6 +127,15 @@ eg with Eelectrical magnets
 going to have one board with 6 layers->super expensive and more challenging in layout (36:38)
 -Under the screen, there is a buzzer (蜂鸣器) (@37:03), after starting the developmet board.
 u will hear a sound (@37:06)
+-------------End of introducing the development board--------------------------------------
+-u can add/buy a GPS module (37:39)
+-ARM CPU->a.k.a ARM 内核 (@38:44)
+-What does CPU contain? (@39:27)
+    -Register 寄存器
+    -ALU (算术逻辑单元) or 运算元 (@40:04)
+    -cache 预取器 (@40:16)
+    -Control unit (控制器) (@40:36)
+    -Compiler (编译器) (@41:01)
 
 
 
