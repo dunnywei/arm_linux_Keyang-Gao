@@ -92,7 +92,12 @@ ARM assembly (@24:20)
 -What's the core inside the CPU (@30:13)
   -CPU, RAM (30:29)
   -I don't even need a hard drive (@30:33)
-  
+-On the small board, there is a CPU (@30:42)
+-Coretex A8 core (@30:47)
+-In embedded system, the are a.k.a MPU->微处理器 (@31:11)
+-Thare are four itmes looks the same (@31:18)->They are DRAM (@31:20)
+-Each one has 128MB(兆字节) RAM (@31:27)
+-Since there are 4 memories block=4 Channel(通道) (@32:18)
 
 
 
