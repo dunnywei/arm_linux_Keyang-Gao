@@ -76,9 +76,23 @@ ARM assembly (@24:20)
 -audio (26:35)
 -microphone (@26:43)
 -RJ-45 internet connection (26:50)
--Reset key->To reset the system (@27:03)->important
-
--
+-S2 Boot Mode Switch->To boot (@27:03)->important
+-Do we start from Nand flash or SD card? (@27:08)
+  -It starts from the NAND flash (@27:26). It is like boot from from the hard drive(@27:32)
+  -However, you have an optoin to boot from SD card (@27:38)
+-Reset(@27:50)->reset the system
+-There are extenral periphrals for connecting to the camera such as CDC/COMS switch/COMS camera (@28:04)
+-AV2,AV1,TVOUT refers to the TV (@28:09)
+-CON14:RS485 (@28:16) 
+-adc模数转换器 may be at (@28:29) (Not sure)
+-There is a 4.5" screen (@28:45)
+-You need to provide the pressure for the touch screen (@29:09)
+-There is a smaller board on top of the main board (@29:27)
+-Don't ake out the smaller board (29:50)
+-What's the core inside the CPU (@30:13)
+  -CPU, RAM (30:29)
+  -I don't even need a hard drive (@30:33)
+  
 
 
 
