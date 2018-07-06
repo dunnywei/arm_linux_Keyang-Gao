@@ -130,7 +130,7 @@ u will hear a sound (@37:06)
 -------------End of introducing the development board--------------------------------------
 -u can add/buy a GPS module (37:39)
 -ARM CPU->a.k.a ARM 内核 (@38:44)
--What does CPU contain? (@39:27)
+-What does CPU Core contain? (@39:27)
     -Register 寄存器
     -ALU (算术逻辑单元) or 运算元 (@40:04)
     -cache 预取器 (@40:16)
@@ -152,8 +152,9 @@ u will hear a sound (@37:06)
 (@49:25) and (peripheral controllers)外围控制器 or 外设控制器 to form a CPU (@49:43)(IMPORTANT)is known
 as S5PV210 for Samsung (@50:47)
 ->The tiny-210 development board manufacturers(友善电子) buy S5PV210 from Samsung (@51:30)
-
-
+------------------------------------------------------------------------------------
+-For every CPU of S5PV210 sold, Samsung has to pay ARM inc (@52:45)  
+-Difference between RISC and CISC (精简指令集计算机 vs 复杂指令计算机) (@57:47)
 
 
 
