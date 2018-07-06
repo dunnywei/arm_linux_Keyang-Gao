@@ -64,8 +64,22 @@ Unit 7->Linux interrupt (17:05)
     -character device (18:24)
 --------------Now move on to ARM architecture (@20:21)----------------------------------
 ARM assembly (@24:20)
--Power (@24:45)
+-Power Supply(@24:45) usually 5V (24:48)
+-Powr ON/OFF (@25:05)
+-Push buttom (@25:09)
+-USB port(@25:31)
+-COM port (25:58)->different COM port (@25:58) relates to RS-232 as desscribed
+->https://www.electronicshub.org/types-of-computer-ports/
+->https://www.aliexpress.com/item/Tiny210-development-board-with-7-inch-touch-screen-Android-4-0-Cortex-A8/559890438.html
+-COM1 usually for transmitting files from PC to target board
+-COM3 usually used for writing driver (@26:25)
+-audio (26:35)
+-microphone (@26:43)
+-RJ-45 internet connection (26:50)
+-Reset key->To reset the system (@27:03)->important
+
 -
+
 
 
 
