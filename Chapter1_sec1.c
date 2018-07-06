@@ -101,8 +101,17 @@ ARM assembly (@24:20)
 -Each channel provides one 字节(Byte) (@32:22)
 -So if you are writing a long (4byte), it will be stored in 4 channels as 32 bytes (@32:39)
 -Each byte is stored in each channel/RAM (@32:37)
-
-
+-IF there is (8 bytes) then each RAM will store 2 bytes(字节) (@32:46)
+-Beside CPU, there is a NAND flash (@32:59)
+-It is like a hard disk in PC(@33:07)
+-NAND flash is 256 MB (@33:16)
+-Everthing comes together is a.k.a development board (开发板) (@33:26)
+-This board is not a product but a lot of products can be made from this board.(@33:31)
+-For the final product, we only pick what we want such as screen or camera
+and rests such as COM, USB connectors are all ignored (@34:09)
+-This development board is for verificatin/validation purpose (@34:16)
+-Why do we need to split the top board containg the CPU and buttom board with a lot of I/O(@34:47)
+-
 
 
 
