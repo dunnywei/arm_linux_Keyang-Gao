@@ -111,7 +111,23 @@ ARM assembly (@24:20)
 and rests such as COM, USB connectors are all ignored (@34:09)
 -This development board is for verificatin/validation purpose (@34:16)
 -Why do we need to split the top board containg the CPU and buttom board with a lot of I/O(@34:47)
--
+-OS requires CPU,RAM and hard drive (@35:11)
+-However the peripherals for the products can be vary (@35:11)
+-Therefore I can have a mass production of the CPU core (Top board) and sell them to the
+individual company requiring different peripherals for their prodcuts (@35:25)
+-So the can deliver the products in a fast fashion(@35:33)
+-Second reason is due to the circut layout 电路布局 (@35:41). The main board(upper board) is 4 layers
+(@35:43).
+-The based(buttom) board is two layers (@35:48)
+-6 layers means that there are six layers of integrated circuit in the PCB (@35:55)
+-There will be signal interferences if two circuits get too close together (@36:06)
+eg with Eelectrical magnets
+-The cost of having 6 layers is more expensive thean having 2 layers (@36:18)
+-If we don't split into upper(main) and lower(base) boards, we need to have one board. We are
+going to have one board with 6 layers->super expensive and more challenging in layout (36:38)
+-Under the screen, there is a buzzer (蜂鸣器) (@37:03), after starting the developmet board.
+u will hear a sound (@37:06)
+
 
 
 
