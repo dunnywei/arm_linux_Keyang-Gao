@@ -135,7 +135,7 @@ u will hear a sound (@37:06)
     -ALU (算术逻辑单元) or 运算元 (@40:04)
     -cache 预取器 (@40:16)
     -Control unit (控制器) (@40:36)
-    -Compiler (编译器) (@41:01)
+    -decoder (译码器) (@41:01)
     -It is called ARM v9, ARM v7 (@50:09), or CORTEX_A8 (@50:12)
  -RISC(精简指令集计算机)
     -ARM, MIPS
@@ -163,6 +163,11 @@ as S5PV210 for Samsung (@50:47)
 ->It doesn't know what is the size of the instructions required (58:58)
 ->So it will analyze(分析) the first byte (字节) (@59:04)
 ->The first byte (字节) will tell cache 预取器 how is the length of instruction set implicitly (@59:10)
+->So if the 1st  byte(字节) tells cache 预取器 that the length of instruction set is 5, so I (@59:20) 
+keep reading the next 4 bytes and put into the CPU (@59:19) and give to the decoder (译码器) to analyze the intruction
+set as the whole (@59:24)
+->please see the following for more detail
+https://en.wikipedia.org/wiki/Instruction_cycle
 ->
 
 
