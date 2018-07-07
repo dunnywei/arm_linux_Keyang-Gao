@@ -155,9 +155,17 @@ as S5PV210 for Samsung (@50:47)
 ------------------------------------------------------------------------------------
 -For every CPU of S5PV210 sold, Samsung has to pay ARM inc (@52:45)  
 -Difference between RISC and CISC (精简指令集计算机 vs 复杂指令计算机) (@57:47)
+->For example in x86 assembly, the short instruction set can be 2 byte(字节) such as MOV %AX,%BX
+->The long instruction set can be more than 10 byte byte(字节) (@58:15)
+->How does cache 预取器 get the intructin sets from the RAM (@58:26)?
+->In x86, the machine instruction set can be vary from 2,10 to 20 bytes(字节)
+->Does CPU's cache 预取器 knows that what is the size of the instruction set in advance before execuring the code? (58:54)
+->It doesn't know what is the size of the instructions required (58:58)
+->So it will analyze(分析) the first byte (字节) (@59:04)
+->The first byte (字节) will tell cache 预取器 how is the length of instruction set implicitly (@59:10)
+->
 
 
 
 
-  
 */
