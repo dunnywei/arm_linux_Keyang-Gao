@@ -180,7 +180,8 @@ https://en.wikipedia.org/wiki/Instruction_cycle
 -eg. If I want to move data (4byte) from one address space inside RAM to another address (1:00:51)(1:00:56)
 -RISC 精简指令集 can't do it directly due to its simple instruction (1:01:17). It has to follow the strucutre
 of Load and STORE (@1:01:23)
--
+-So in RISC 精简指令集, it has to load the data from one address inside RAM to CPU (1:01:51)
+-Then it will store the data from the register(寄存器) to another address of RAM (1:01:57)
 
 
 
