@@ -181,8 +181,10 @@ https://en.wikipedia.org/wiki/Instruction_cycle
 -RISC 精简指令集 can't do it directly due to its simple instruction (1:01:17). It has to follow the strucutre
 of Load and STORE (@1:01:23)
 -So in RISC 精简指令集, it has to load the data from one address inside RAM to CPU (1:01:51)
--Then it will store the data from the register(寄存器) to another address of RAM (1:01:57)
-
+-Then it will store the data from the register(寄存器) to another address of RAM (1:01:57). Require at least two
+instruction set
+-In CISC (复杂指令计算机), it can directly access/store from/to the memory due to its more powerful instruction (1:02:06)
+so it only need one instruction set (1:02:13) without going through CPU (1:02:19)
 
 
 
