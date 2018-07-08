@@ -173,6 +173,10 @@ https://en.wikipedia.org/wiki/Instruction_cycle
 ->In ARM, the length of instruction is 32 bit (@59:57)=4bytes(字节)
 ->Therefore, when arm CPU load the instruction set from RAM (内存), I don't need to anaylize its length
 (@1:00:08)
+->1) For RISC 精简指令集, the lenght of instruction set is fixed->important (1:00:23)
+     For CISC, the instructio length is not fixed
+->2)For RISC 精简指令集, each instruction only handles ONE simple task
+    FOR CSIC,each instruction handles more tasks (1:00:41)
 ->
 
 
