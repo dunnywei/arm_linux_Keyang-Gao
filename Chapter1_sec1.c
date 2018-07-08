@@ -177,7 +177,12 @@ https://en.wikipedia.org/wiki/Instruction_cycle
      For CISC, the instructio length is not fixed
 ->2)For RISC 精简指令集, each instruction only handles ONE simple task
     FOR CSIC,each instruction handles more tasks (1:00:41)
-->
+-eg. If I want to move data (4byte) from one address space inside RAM to another address (1:00:51)(1:00:56)
+-RISC 精简指令集 can't do it directly due to its simple instruction (1:01:17). It has to follow the strucutre
+of Load and STORE (@1:01:23)
+-
+
+
 
 
 
