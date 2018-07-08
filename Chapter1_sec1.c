@@ -191,8 +191,9 @@ expensive (1:02:30)
 there will be around 700 assemblies (1:04:25)
 ->4) 80% vs 20 %, for those 100 assemblies, you will use 80% of them most of the time in RISC 精简指令集.
 Another 20% will be rarely use. In CISC (复杂指令计算机), it will be vice versa (1:04:48)
-
-
-
-
+->Has the hardware logic first then has the specific assembly code to control it (1:08:19)
+->If I use instruction set system v7 to armv7, will it work? (1:10:06)
+->It may not work since some the intruction set is NOT supported in armv7 (1:10:10)
+->backward compataible, it mays if I develop a hellow world program in armv7, it will be compatible in armv9
+(1:11:05)
 */
