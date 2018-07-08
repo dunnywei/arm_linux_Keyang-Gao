@@ -168,6 +168,11 @@ keep reading the next 4 bytes and put into the CPU (@59:19) and give to the deco
 set as the whole (@59:24)
 ->please see the following for more detail
 https://en.wikipedia.org/wiki/Instruction_cycle
+->Therefore, your CPU's cache 预取器 will be more complex since it requires to anayze the size of intructions set (@59:31)
+->Advantage for 精简指令集 (@59:35), the length of insruction set is always the same (@59:54)
+->In ARM, the length of instruction is 32 bit (@59:57)=4bytes(字节)
+->Therefore, when arm CPU load the instruction set from RAM (内存), I don't need to anaylize its length
+(@1:00:08)
 ->
 
 
