@@ -185,7 +185,12 @@ of Load and STORE (@1:01:23)
 instruction set
 -In CISC (复杂指令计算机), it can directly access/store from/to the memory due to its more powerful instruction (1:02:06)
 so it only need one instruction set (1:02:13) without going through CPU (1:02:19)
-
+-Due to its powerful instruction set, its digital logic will be much more complicated (1:02:27) so it will be more
+expensive (1:02:30)
+->3)In RISC 精简指令集, there are about (1:04:17) 100 common  used assemblies (1:04:15), in CISC (复杂指令计算机),
+there will be around 700 assemblies (1:04:25)
+->4) 80% vs 20 %, for those 100 assemblies, you will use 80% of them most of the time in RISC 精简指令集.
+Another 20% will be rarely use. In CISC (复杂指令计算机), it will be vice versa (1:04:48)
 
 
 
