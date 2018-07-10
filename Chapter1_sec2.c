@@ -20,7 +20,11 @@ and cooperate. (0:53)
   -Abort(终止) (2:16)
   -IRQ(普通中断)(2:20)
   -undefined(未定义)(2:24)
-  
+  ->helpful linnk https://blog.csdn.net/yjzl1911/article/details/5642957
+-At one time, CPU can only operate in one mode(模式)(2:35)
+-If CPU is working on supervisor mode(超级管理模式), CPU can only access/read
+those registers (2:46)
+-r0 to r7 is unbanked(未分组) registered (3:09)
 
 
 
