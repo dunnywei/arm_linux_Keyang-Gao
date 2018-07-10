@@ -12,6 +12,8 @@ and cooperate. (0:53)
   -ESP, EIP
   -EFLAG (1:18)
 ->In ARM (1:23), there are 37 registers in side ARM (1:27)
+->U need to memorize and know what does each register is doing(1:30)
+->There are seven modes in ARM cpu (1:59)
 
 
 
