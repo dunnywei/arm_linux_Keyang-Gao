@@ -14,6 +14,13 @@ and cooperate. (0:53)
 ->In ARM (1:23), there are 37 registers in side ARM (1:27)
 ->U need to memorize and know what does each register is doing(1:30)
 ->There are seven modes in ARM cpu (1:59)
+  -System &User
+  -FIQ=Fast interrup(快速中断)
+  -Supervisor (超级管理模式)(监视模式)(2:12)
+  -Abort(终止) (2:16)
+  -IRQ(普通中断)(2:20)
+  -undefined(未定义)(2:24)
+  
 
 
 
