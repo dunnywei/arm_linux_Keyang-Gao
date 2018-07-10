@@ -27,7 +27,9 @@ those registers (2:46)
 -helpful link for banking and unbanking->https://stackoverflow.com/questions/13432297/what-does-banking-a-register-mean
 -r0 to r7 is unbanked(未分组) registered (3:09).Those eight registers can store data/value (3:16)
 -r8 to r12 (3:24). They can also store value/data (3:33)
--
+-r13 and r14(3:41).
+-r13 is used as stacking pointer( 栈指针字寄存器)(SP) for storing the stack's address at the top(栈顶地址) (3:58)
+
 
 
 */
