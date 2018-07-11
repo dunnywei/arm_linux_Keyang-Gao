@@ -1,0 +1,7 @@
+//page 54 top from ARM assembly lanquage foundation
+//Program 4
+LDR r0,=0xE00ED88
+LDR r1,[r0]
+ORR r1,r1,#(0xF<<20)
+STR r1,[r0]
+
