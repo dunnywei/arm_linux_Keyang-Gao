@@ -31,7 +31,18 @@ those registers (2:46)
 -r13 is used as stacking pointer( 栈指针字寄存器)(SP) for storing the stack's address at the top(栈顶地址) (3:58)
   -In x86, it is named as ESP (4:21)
   -Where r13 or stack pointer opoints to relate to address of th stack (4:37)
-->
+->r14 is used as the subroutine link register(LR)(链接寄存器)
+  -Keep the return address of the program for example if there is any branch occcurred (4:56)
+  -Elaboration (5:24)
+  -1:
+  -2:
+  -3:func();//BL func (5:53)
+  -4:after the function branch, the program needs to continue execue here (5:35). 
+     Here it is called the return address(5:41)
+  -5:
+  -LR是链接寄存器，是ARM处理器中一个有特殊用途的寄存器，当调用函数时，返回地址即PC的值被保存到LR中（mov lr,pc）。
+good link 4->https://blog.csdn.net/vincent_fang/article/details/17166509
+good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211h/ch02s08s01.html
 
 
 
