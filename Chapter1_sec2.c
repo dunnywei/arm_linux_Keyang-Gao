@@ -29,6 +29,9 @@ those registers (2:46)
 -r8 to r12 (3:24). They can also store value/data (3:33)
 -r13 and r14(3:41).
 -r13 is used as stacking pointer( 栈指针字寄存器)(SP) for storing the stack's address at the top(栈顶地址) (3:58)
+  -In x86, it is named as ESP (4:21)
+  -Where r13 or stack pointer opoints to relate to address of th stack (4:37)
+->
 
 
 
