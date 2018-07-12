@@ -51,7 +51,11 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
   -but where it really gets from RAM is controlled by L15/PC (7:32)
   -So what does the address which PC keeps (7:45) will be executed in the program within
   RAM (7:50)
-  -(7:59)
+  -(7:59) When I have a branch due to function 函数 (8:04),I want to return to #4 to 
+  conitnue to execute (8:09)
+  -My return address in L14/LR is #4 (8:17)
+  -R15 will point out to the next instructin set to execute (8:27)
+  -
 
 
 
