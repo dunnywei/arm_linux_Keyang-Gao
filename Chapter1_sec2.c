@@ -60,9 +60,19 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
 ->Supervisor (超级管理模式) (9:35)
   -r0 to r12 has nothing special to (9:41) to store variables(变量) and data (数据)
   (9:44)
-  -It can also see R13(SP),R14(LR) and R15(PC),Current Program Status Register (CPSR),
+  -all registers are 32 bits(10:36)
+  -It can also see R13(SP),R14(LR) and R15(PC),Current Program Status Register (CPSR)
   -Current Program Status Register (CPSR)(当前程序状态寄存器)(10:22)
+    -It tells us what is the status of execution (10:46)
+    -Refer to p31 top in arm_architecture.pdf
+    -Good link->https://blog.csdn.net/wuyuzun/article/details/70332229
+    -32 bit registers
+    -From bit 0 to bit 4->(11:26) it tells what kind of mode(模式位) you are in(11:29)
+    -There are seven modes (11:37)
+    -What modes(模式) maater(11:55)?
+    -In Linux there is user mode and kernel mode(12:12)
+    -Such as section error (断错误) (12:29)
+    -So how do they implement it (12:36)?
     -
-
 
 */
