@@ -5,3 +5,15 @@ LDR r1,[r0]
 ORR r1,r1,#(0xF<<20)
 STR r1,[r0]
 
+//X86
+.data
+value:
+   
+mov ebx,0E00ED88h
+mov eax,[ebx]
+INC eax
+mov [ebx],eax
+
+//good linkd for caller and callee->https://idea.popcount.org/2013-07-16-baby-steps-in-x86-assembly/
+//x86 assembly tutorial->https://www.tutorialspoint.com/assembly_programming/assembly_numbers.htm
+//caller and callee->http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html
