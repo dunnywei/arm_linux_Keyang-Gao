@@ -38,13 +38,20 @@ those registers (2:46)
   -#2:
   -#3:func();//BL func (5:53)
       -When branch occur, the return address or PC的值(It will always point to the next one as #4)is automaticall stored (6:02)
-      in R14 (6:27)
+      in R14/LR (6:27)(6:46)
   -#4:after the function branch, the program needs to continue execue here (5:35). 
      Here it is called the return address(5:41)
   -#5:
   -LR是链接寄存器，是ARM处理器中一个有特殊用途的寄存器，当调用函数时，返回地址即PC的值被保存到LR中（mov lr,pc）。
 good link 4->https://blog.csdn.net/vincent_fang/article/details/17166509
 good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211h/ch02s08s01.html
+->R15 a.k.a PC register(寄存器) or 程序计数器(6:50)
+  -elaboration (7:22)
+  -预取器(cache) (7:25) obtains the instruction set from the RAM (7:26)
+  -but where it really gets from RAM is controlled by L15/PC (7:32)
+  -So what does the address which PC keeps (7:45) will be executed in the program within
+  RAM (7:50)
+  -(7:59)
 
 
 
