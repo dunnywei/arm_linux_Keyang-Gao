@@ -55,8 +55,14 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
   conitnue to execute (8:09)
   -My return address in L14/LR is #4 (8:17)
   -R15 will point out to the next instructin set to execute (8:27)
-  -
-
+  -So what you need to do is to put the content of R14/LR into R15/PC so it will
+  points to #4 (9:00)
+->Supervisor (超级管理模式) (9:35)
+  -r0 to r12 has nothing special to (9:41) to store variables(变量) and data (数据)
+  (9:44)
+  -It can also see R13(SP),R14(LR) and R15(PC),Current Program Status Register (CPSR),
+  -Current Program Status Register (CPSR)(当前程序状态寄存器)(10:22)
+    -
 
 
 */
