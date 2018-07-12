@@ -71,8 +71,9 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
     -There are seven modes (11:37)
     -What modes(模式) maater(11:55)?
     -In Linux there is user mode and kernel mode(12:12)
-    -Such as section error (断错误) (12:29)
+    -Such as segment error (段错误) (12:29) while accessing the kernel (12:35)
     -So how do they implement it (12:36)?
+    -When user access the kernel space, there is an error and why?(12:47)
+    -This is call the CPU protected mode(保护模式) (13:32)
     -
-
 */
