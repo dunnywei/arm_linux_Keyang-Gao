@@ -82,7 +82,10 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
       -RAIN3->Lowest level of privilege(特权级) (14:45)
     ->When linux kernel runs on x86, it only use RAIN0 and RAIN3 (14:48)
     ->RAIN0 for kernel and RAIN3 for user (15:02)
+
+->Physical Memory(物理内存)
 ->MMU (15:40)
-   ->Physical Memory
+    -Physical memory(物理内存) to virtual memory (虚拟内存) swap 转换(15:56)
+    -
     
 */
