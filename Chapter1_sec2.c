@@ -86,6 +86,15 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
 ->Physical Memory(物理内存)
 ->MMU (15:40)
     -Physical memory(物理内存) to virtual memory (虚拟内存) swap 转换(15:56)
-    -
+->Now if I have two processes(程序) running(16:16) as a.out and b.out (16:28)
+->Each of 程序 has its own kernel space(内核空间) between 3G to 4G (16:39) and 
+user space(用户空间) between 0G to 1G (17:15)
+->What is inside the user space (用户空间) (17:30)?
+    -stack(栈) (17:34)
+    -shared library 共享庫 (17:40)
+    -shared memory 共享内存 (17:42)
+    -heap 堆 (17:47)
+
+
     
 */
