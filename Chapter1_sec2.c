@@ -75,5 +75,14 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
     -So how do they implement it (12:36)?
     -When user access the kernel space, there is an error and why?(12:47)
     -This is call the CPU protected mode(保护模式) (13:32)
-    -
+ good link for x86 protected mode(保护模式)->https://blog.csdn.net/wrx1721267632/article/details/51941638
+    -x86 has the RAIN0 to RAIN3 (13:41)
+      -RAIN0->highest level of privilege(特权级) (14:12)
+            ->Can access any resource in CPU(14:23)
+      -RAIN3->Lowest level of privilege(特权级) (14:45)
+    ->When linux kernel runs on x86, it only use RAIN0 and RAIN3 (14:48)
+    ->RAIN0 for kernel and RAIN3 for user (15:02)
+->MMU (15:40)
+   ->Physical Memory
+    
 */
