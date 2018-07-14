@@ -111,7 +111,16 @@ user space(用户空间) between 0G to 3G (17:15)
 ((unsigned int*) 0xDFFFFFFF)=0x12345678------------->(S1)
 ->What does it mean (20:21)?
 ->It means that I want to put the content into the address of 0xDFFFFFFF (21:03)
-->During the execution of my ccode, if the code (代码) of (S1) occurs (21:07)
+->During the execution of my ccode, if the code (代码) of (S1) occurs (21:07), the kernel space
+(内核空间)) has only 3GB to 4GB space (21:10)
+->We will see what's going to happen (21:13)
+->He is going to test this scenario (21:31)
+->He is going to write the code as
+int main(void)
+{
+   *((unsigend int*)0xcfff0000)=0x12345678; //between 3GB and 4GB (22:12)
+}
+->(22:28)
   
     
 */
