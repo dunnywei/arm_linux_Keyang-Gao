@@ -103,7 +103,9 @@ user space(用户空间) between 0G to 3G (17:15)
 ->If you just write a line of a code(代码) such as (18:46)
   -0xDFFF FFFF (18:59), a 32bit data (19:01)
   -(19:14) 32 bit for 4G (19:20)
-  -3GB barrier from 0GB to 3GB in userspace(用户空间) (19:25)
-
+  -3GB(0xC0000 0000) barrier from 0GB to 3GB in userspace(用户空间) (19:25)
+  - 80000 0000=2GB since 34359738368d/1024(KB)/1024(MB)/1024(GB)
+  - 40000 0000=1GB since 1073741824/1024(KB)/1024(MB)/1024(GB) (19:44)
+  
     
 */
