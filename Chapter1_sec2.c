@@ -88,7 +88,7 @@ good link 5->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0211
     -Physical memory(物理内存) to virtual memory (虚拟内存) swap 转换(15:56)
 ->Now if I have two processes(程序) running(16:16) as a.out and b.out (16:28)
 ->Each of 程序 has its own kernel space(内核空间) between 3G to 4G (16:39) and 
-user space(用户空间) between 0G to 1G (17:15)
+user space(用户空间) between 0G to 3G (17:15)
 ->What is inside the user space (用户空间) (17:30)?
     -stack(栈) (17:34)
     -shared library 共享庫 (17:40)
@@ -98,9 +98,12 @@ user space(用户空间) between 0G to 1G (17:15)
     -text (18:01)
     ->bss segment(BSS段)
     ->good link (http://www.360doc.com/content/12/0331/21/8363527_199765130.shtml)
- ->The code(代码) and data(数据) are all saved in user space用户空间(18:32)
- ->
-
+->The code(代码) and data(数据) are all saved in user space用户空间(18:32)
+->When there is a system call (系统调用), we can move to ther kernel space(内核空间) (18:33)
+->If you just write a line of a code(代码) such as (18:46)
+  -0xDFFF FFFF (18:59), a 32bit data (19:01)
+  -(19:14) 32 bit for 4G (19:20)
+  -3GB barrier from 0GB to 3GB in userspace(用户空间) (19:25)
 
     
 */
