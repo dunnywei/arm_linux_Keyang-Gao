@@ -106,6 +106,10 @@ user space(用户空间) between 0G to 3G (17:15)
   -3GB(0xC0000 0000) barrier from 0GB to 3GB in userspace(用户空间) (19:25)
   - 80000 0000=2GB since 34359738368d/1024(KB)/1024(MB)/1024(GB)
   - 40000 0000=1GB since 1073741824/1024(KB)/1024(MB)/1024(GB) (19:44)
+-For 0xDFFF FFFF, should it be stored between the address of 3GB and 4GB (19:52)
+-So I will do some manipuation(操作) on the 0xDFFF FFFF (20:07) as 
+(unsigned int*) 0xDFFF FFFF
+->What does it mean (20:21)?
   
     
 */
