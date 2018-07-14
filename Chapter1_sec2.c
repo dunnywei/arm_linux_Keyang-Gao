@@ -94,6 +94,12 @@ user space(用户空间) between 0G to 1G (17:15)
     -shared library 共享庫 (17:40)
     -shared memory 共享内存 (17:42)
     -heap 堆 (17:47)
+    -data
+    -text (18:01)
+    ->bss segment(BSS段)
+    ->good link (http://www.360doc.com/content/12/0331/21/8363527_199765130.shtml)
+ ->The code(代码) and data(数据) are all saved in user space用户空间(18:32)
+ ->
 
 
     
