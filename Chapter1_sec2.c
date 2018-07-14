@@ -108,8 +108,10 @@ user space(用户空间) between 0G to 3G (17:15)
   - 40000 0000=1GB since 1073741824/1024(KB)/1024(MB)/1024(GB) (19:44)
 -For 0xDFFF FFFF, should it be stored between the address of 3GB and 4GB (19:52)
 -So I will do some manipuation(操作) on the 0xDFFF FFFF (20:07) as 
-(unsigned int*) 0xDFFF FFFF
+((unsigned int*) 0xDFFFFFFF)=0x12345678------------->(S1)
 ->What does it mean (20:21)?
+->It means that I want to put the content into the address of 0xDFFFFFFF (21:03)
+->During the execution of my ccode, if the code (代码) of (S1) occurs (21:07)
   
     
 */
