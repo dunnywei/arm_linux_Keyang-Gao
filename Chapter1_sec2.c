@@ -122,7 +122,9 @@ int main(void)
    printf("%x\n",*((unsigend int*)0xcfff0000);
 }
 ->(22:28) to (22:49) editing
-->it will cause segmentation fault(段错误)
-  
+->it will cause segmentation fault(段错误)(23:07) between 3GB and 4GB (23:30)
+->While executeing the code in CPU, you are at the RAIN3(特权级) of user space用户空间 (23:45) between 0GB and 3GB
+->If you want to run the code between 3GB and 4GB, you need to have RAIN0((特权级)) (23:50)
+->So how do you swtich between the priviledge/permission (權限) (23:57)? Through MMU 转换
     
 */
