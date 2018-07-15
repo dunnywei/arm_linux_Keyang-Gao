@@ -126,5 +126,6 @@ int main(void)
 ->While executeing the code in CPU, you are at the RAIN3(特权级) of user space用户空间 (23:45) between 0GB and 3GB
 ->If you want to run the code between 3GB and 4GB, you need to have RAIN0((特权级)) (23:50)
 ->So how do you swtich between the priviledge/permission (權限) (23:57)? Through MMU 转换
-    
+->What MMU is doing is to refelct the virtual memory to physical memory(虚拟地址映射)(24:00)
+good link->https://blog.csdn.net/littlemushroom_/article/details/50644898
 */
