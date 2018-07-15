@@ -119,8 +119,10 @@ user space(用户空间) between 0G to 3G (17:15)
 int main(void)
 {
    *((unsigend int*)0xcfff0000)=0x12345678; //between 3GB and 4GB (22:12)
+   printf("%x\n",*((unsigend int*)0xcfff0000);
 }
-->(22:28)
+->(22:28) to (22:49) editing
+->it will cause segmentation fault(段错误)
   
     
 */
