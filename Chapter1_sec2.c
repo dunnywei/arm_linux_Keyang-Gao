@@ -131,4 +131,7 @@ good link->https://blog.csdn.net/littlemushroom_/article/details/50644898
 ->So the executable code He has a.out or b.out
 ->when you run Linux CLI as ./a.out it will execute(24:15) and load (加载)(24:16)
 ->During load (加载), the Linux is gone through 虚拟化设计 (24:19)
+->The  code(代码) segment and data (数据段) segment of a.out (24:23) should be mapped into the physical RAM (物理内存) (24:23)
+->What does it mean? (24:27)
+->
 */
