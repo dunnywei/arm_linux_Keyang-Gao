@@ -128,4 +128,7 @@ int main(void)
 ->So how do you swtich between the priviledge/permission (權限) (23:57)? Through MMU 转换
 ->What MMU is doing is to map the virtual memory to physical memory(虚拟地址映射)(24:00)
 good link->https://blog.csdn.net/littlemushroom_/article/details/50644898
+->So the executable code He has a.out or b.out
+->when you run Linux CLI as ./a.out it will execute(24:15) and load (加载)(24:16)
+->During load (加载), the Linux is gone through 虚拟化设计 (24:19)
 */
