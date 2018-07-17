@@ -133,9 +133,9 @@ good link->https://blog.csdn.net/littlemushroom_/article/details/50644898
 ->During load (加载), the Linux is gone through 虚拟化设计 (24:19)
 ->The  code(代码) segment and data (数据段) segment of a.out (24:23) should be mapped into the physical RAM (物理内存) (24:23)
 ->What does it mean? (24:27)
-->When a.out is load (加载) to physical RAM (物理内存).(??) This address will be mapped to MMU
-and cause interrupt(24:42). Then it will be mapped into the process(进程) of a.out (24:46)
-->b.out will be loaded to (加载) to physical RAM (物理内存) (24:55). It will consumes 消耗
+->When a.out is load (加载) to the address space inside physical RAM (物理内存).(??) This address space 
+will use MMU to cause interrupt(24:42) and mapped(映射) (24:43) into the process(进程) address of a.out (24:46)
+->b.out will be loaded to (加载) the physical RAM (物理内存) (24:55). It will consumes 消耗
 the physical RAM (物理内存)(24:57)
 ->Then it will mapped(映射) though MMU to the code(代码)/data(数据)
 segment of user mode 用户空间 in the process(进程) of b.out (25:00)
