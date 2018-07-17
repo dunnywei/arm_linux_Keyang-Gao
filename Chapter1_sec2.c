@@ -139,4 +139,6 @@ will use MMU to cause interrupt(24:42) and mapped(映射) (24:43) into the proce
 the physical RAM (物理内存)(24:57)
 ->Then it will mapped(映射) though MMU to the code(代码)/data(数据)
 segment of user mode 用户空间 in the process(进程) of b.out (25:00)
+->(25:03) Two processes have the its kernel space (内核空间) (25:06)
+->In the  kernel space (内核空间), the code segment(代码) of OS is running (25:09)
 */
