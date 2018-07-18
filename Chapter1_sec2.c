@@ -150,5 +150,7 @@ save one copy for all processes or it save mulitple copies? (25:16)
 (25:40)
 ->Therefore many processes (进程) share one kernel(内核) space (25:44). Due to this reason (25:47)
 each process's(进程) kernel contains PCB (进程控制块) (25:53)
-->
+->What happen if one process(进程) change another process's(进程) PCB inside its kernel(26:00)->unsafe (26:04)
+->There is a mechanism to prevent this kind of operation on the kernel space in (进程) (26:11) 
+->So how do they do the test? (26:19)
 */
