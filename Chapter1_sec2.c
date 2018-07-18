@@ -143,9 +143,12 @@ segment of user mode 用户空间 in the process(进程) of b.out (25:00)
 ->In the  kernel space (内核空间), the code segment(代码) of OS is running (25:09)
 ->Question how many copies of kernel code (内核代码) in pyhsical memory (物理内存)
 save one copy for all processes or it save mulitple copies? (25:16)
-->The answer is that it only need to save one copy for all processes(25:22)
+->The answer is that it only need to save one copy in physcail memory (物理内存) for all processes(25:22)
 ->Kernel inside the pyhsical memory (物理内存) save one copy and go through MMU to find mapped adressed(映射地址)
 (25:32)
 ->3GB to 4GB kernel's virtual address is 虚拟地址 (25:39) is mapped(映射) through MMU to kernel's physical address(物理地址)
 (25:40)
+->Therefore many processes (进程) share one kernel(内核) space (25:44). Due to this reason (25:47)
+each process's(进程) kernel contains PCB (进程控制块) (25:53)
+->
 */
