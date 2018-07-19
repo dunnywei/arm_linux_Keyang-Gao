@@ -153,4 +153,8 @@ each process's(进程) kernel contains PCB (进程控制块) (25:53)
 ->What happen if one process(进程) change another process's(进程) PCB inside its kernel(26:00)->unsafe (26:04)
 ->There is a mechanism to prevent this kind of operation on the kernel space in (进程) (26:11) 
 ->So how do they do the test? (26:19)
+->In the kernel of pyhsical memory(物理地址), it allows RAIN0 level 级别 can access (26:22)
+->In the user space of pyhsical memory(物理地址), it allows RAIN3 level 级别 can access (26:28)
+->This restriction applied MMU to realize (实现) (26:34) 
+
 */
