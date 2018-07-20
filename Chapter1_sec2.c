@@ -158,8 +158,11 @@ each process's(进程) kernel contains PCB (进程控制块) (25:53)
 ->This restriction applied MMU to realize (实现) (26:34) 
 ->The phiscal memory (物理内存) can't have this kind of restriction (26:36)
 ->Rain0 and Rain3 are configure(设置) in MMU (26:40)
--> When MMU map (映射) the kernel space/User space of a.out to physical memory (物理内存)(26:44), it will configure 
-(设置)as RAIN0 or RAIN3 via MMU(26:46)
+-> When MMU map (映射) the kernel space/User space of a.out from virutal memory(虚拟内存) to physical memory (物理内存)(26:44), 
+it will configure (设置)as RAIN0 or RAIN3 via MMU(26:46)
 ->When it is 3GB to 4GB virutal address 虚拟地址, I will map (映射) (26:50) as RAIN0 as Highest 
 privilege  level in privileged mode  (最高特权级)(最高权限)  (26:53)
+->For RAIN0 模式 in physical address, RAIN3 模式 can't access (26:53)
+->So for previous exampeple, we have a segmentation fault. Why? (27:00)
+->
 */
