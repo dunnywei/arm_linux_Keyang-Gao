@@ -156,5 +156,6 @@ each process's(进程) kernel contains PCB (进程控制块) (25:53)
 ->In the kernel of pyhsical memory(物理地址), it allows RAIN0 level 级别 can access (26:22)
 ->In the user space of pyhsical memory(物理地址), it allows RAIN3 level 级别 can access (26:28)
 ->This restriction applied MMU to realize (实现) (26:34) 
-
+->The phiscal memory (物理内存) can't have this kind of restriction (26:36)
+->Rain0 and Rain3 are configure(设置) in MMU (26:40)
 */
