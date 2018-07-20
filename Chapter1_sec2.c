@@ -161,5 +161,5 @@ each process's(进程) kernel contains PCB (进程控制块) (25:53)
 -> When MMU map (映射) the kernel space/User space of a.out to physical memory (物理内存)(26:44), it will configure 
 (设置)as RAIN0 or RAIN3 via MMU(26:46)
 ->When it is 3GB to 4GB virutal address 虚拟地址, I will map (映射) (26:50) as RAIN0 as Highest 
-privilege  level  (最高特权级)(最高权限) (26:53)
+privilege  level in privileged mode  (最高特权级)(最高权限)  (26:53)
 */
