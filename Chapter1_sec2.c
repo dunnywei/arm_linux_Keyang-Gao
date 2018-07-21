@@ -164,5 +164,6 @@ it will configure (设置)as RAIN0 or RAIN3 via MMU(26:46)
 privilege  level in privileged mode  (最高特权级)(最高权限)  (26:53)
 ->For RAIN0 模式 in physical address, RAIN3 模式 can't access (26:53)
 ->So for previous exampeple, we have a segmentation fault. Why? (27:00)
-->
+->Since we are at RAIN3 in user mode (用户空间) has no privilege (权限) to
+operate 3GB to 4GB of kernel space (内核空间) in physical memory (物理地址) from MMU (7:05)
 */
