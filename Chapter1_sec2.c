@@ -163,7 +163,9 @@ it will configure (设置)as RAIN0 or RAIN3 via MMU(26:46)
 ->When it is 3GB to 4GB virutal address 虚拟地址, I will map (映射) (26:50) as RAIN0 as Highest 
 privilege  level in privileged mode  (最高特权级)(最高权限)  (26:53)
 ->For RAIN0 模式 in physical address, RAIN3 模式 can't access (26:53)
-->So for previous exampeple, we have a segmentation fault. Why? (27:00)
+->So for previous exampeple, we have a segmentation fault (段错误). Why? (27:00)
 ->Since we are at RAIN3 in user mode (用户空间) has no privilege (权限) to
-operate 3GB to 4GB of kernel space (内核空间) in physical memory (物理地址) from MMU (7:05)
+operate 3GB to 4GB of kernel space (内核空间) in physical memory (物理地址) from MMU (27:05)
+->When there is a system call(系统调用), what happen? (27:20)
+->When there is a system call(系统调用), we will say it is a segmentation interrupt (段中断) (27:21)
 */
