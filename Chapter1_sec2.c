@@ -171,7 +171,8 @@ operate 3GB to 4GB of kernel space (内核空间) in physical memory (物理地�
 ->(27:29) soft interrupt (软中断) can also be called as 陷阱门 (27:40)
 ->soft interrupt (软中断) mainly let CPU (27:49) to swtich mode from RAIN3(User Mode) as (用户模式) to RAIN0 (Kernel Mode) as (内核模式)
 (27:53)
-->
+->At the same time, it will jump(跳) to the specified(指定) address(地址)
+in the kernel so it can execuit (28:01)(28:02)
 
 
 */
