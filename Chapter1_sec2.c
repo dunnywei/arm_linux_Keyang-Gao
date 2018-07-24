@@ -168,5 +168,10 @@ privilege  level in privileged mode  (最高特权级)(最高权限)  (26:53)
 operate 3GB to 4GB of kernel space (内核空间) in physical memory (物理地址) from MMU (27:05)
 ->When there is a system call(系统调用), what happen? (27:20)
 ->When there is a system call(系统调用), we will say it is a soft interrupt (软中断) (27:21)
-->(27:29)
+->(27:29) soft interrupt (软中断) can also be called as 陷阱门 (27:40)
+->soft interrupt (软中断) mainly let CPU (27:49) to swtich mode from RAIN3(User Mode) as (用户模式) to RAIN0 (Kernel Mode) as (内核模式)
+(27:53)
+->
+
+
 */
