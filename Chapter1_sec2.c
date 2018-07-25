@@ -172,7 +172,9 @@ operate 3GB to 4GB of kernel space (内核空间) in physical memory (物理地�
 ->soft interrupt (软中断) mainly let CPU (27:49) to swtich mode from RAIN3(User Mode) as (用户模式) to RAIN0 (Kernel Mode) as (内核模式)
 (27:53)
 ->At the same time, it will jump(跳) to the specified(指定) address(地址)
-in the kernel so it can execuit (28:01)(28:02)
+where it is defined by the kernel so it can execute (28:01)(28:02)
+->At that specified(指定) address(地址), it will determine (28:07) if it s read, write
+or oepn system calls (28:11)
 
 
 */
