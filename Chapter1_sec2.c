@@ -175,6 +175,8 @@ operate 3GB to 4GB of kernel space (内核空间) in physical memory (物理地�
 where it is defined by the kernel so it can execute (28:01)(28:02)
 ->At that specified(指定) address(地址), it will determine (28:07) if it s read, write
 or oepn system calls (28:11)
-
+->Then it will use "swithc and case structure 结构" to find its corresdponding execution flow
+(执行流程)(28:16)
+->
 
 */
