@@ -179,4 +179,6 @@ or oepn system calls (28:11)
 (执行流程)(28:16)
 ->Up to NOW, it relates to the RAIN0(Kernel Mode 内核模式 ) and RAIN3(User mode用户模式) in x86 (28:29)
 -> Only RAIN0 can visit kernel space (内核空间) in physical memory (物理内存) but RAIN3 can't (28:35)
+->Now we move to the ARM processor (28:49)
+->
 */
