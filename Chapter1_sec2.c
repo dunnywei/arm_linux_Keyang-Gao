@@ -181,5 +181,7 @@ or oepn system calls (28:11)
 -> Only RAIN0 can visit kernel space (内核空间) in physical memory (物理内存) but RAIN3 can't (28:35)
 ->Now we move to the ARM processor (28:49), it doesn't has rain0 and rain3 (29:10)
 ->Theare are seven modes(工作模式) in arm CPU (29:11)
-->There are only categories or grades(级别) as RAIN0 and RAIN3 (29:21)
+->There are only two categories or grades(级别) as RAIN0 and RAIN3 (29:21) for 7 modes
+(模式) (29:28)
+->There are only categories or grades(级别)->non-supervisor (特权级别) and supervisor (特权级别) (29:45)
 */
