@@ -184,4 +184,7 @@ or oepn system calls (28:11)
 ->There are only two categories or grades(级别) as RAIN0 and RAIN3 (29:21) for 7 modes
 (模式) (29:28)
 ->There are only categories or grades(级别)->non-supervisor (特权级别) and supervisor (特权级别) (29:45)
+  ->good links->https://www.cnblogs.com/shangdawei/archive/2013/04/05/3000869.html 
+  and https://blog.csdn.net/m0_37973607/article/details/77877506
+
 */
