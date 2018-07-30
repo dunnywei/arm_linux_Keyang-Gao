@@ -7,3 +7,5 @@
 (30:09)(30:20)(30:31)(31:16)
 ->IF CPU is at priviledge level, it is like running at RAIN0 (31:24), it can access to any address
 in the kernel space in the memory (内核内存) (31:27)
+->In ARM CPU, the user application (普通用户程序) is running in user mode (用户模式)(31:35)
+ ->
