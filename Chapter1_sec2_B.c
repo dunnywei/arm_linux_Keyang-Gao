@@ -12,3 +12,8 @@ priority level (级别最低)
  ->(31:41) When Kernel is running it is in the Supervisor mode(超级管理模式) (31:48)
   -When you want to have a system call(调用) on two procecesses (进程) (31:52), kernel (内核) 
   is running in Supervisor mode(超级管理模式) (31:56)
+->Let's go back to the CPSR (程序状态寄存器) (32:30)
+->GOOD reference->https://blog.csdn.net/david_luyang/article/details/6276533
+->So how do we know which mode does the ARM cpu is running (32:41)?
+->we will see from bit 0 to bit 4 on the right (32:41)
+  
