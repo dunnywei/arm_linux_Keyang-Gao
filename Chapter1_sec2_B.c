@@ -31,4 +31,5 @@ from the RAM 内存 (33:24)
 ->I is for IRQ for enable (0)/disable regular interrupt (1) 普通中断
 ->Bit 8 to Bit 27 is reserved 保留(34:23)
 ->(34:32)
-->Condition code flags (条件码标志) from bit 28 to bit 31 is really important (34:35)
+->Condition code flags (条件码标志) from bit 31 to bit 28(NZCV) is really important (34:35)
+->It tells the status(状态) when the program (程序) is running(运行) (34:40) 
