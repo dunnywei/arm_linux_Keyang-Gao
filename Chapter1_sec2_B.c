@@ -25,5 +25,6 @@ priority level (级别最低)
     ->https://blog.csdn.net/itismine/article/details/4753701
 ->The difference between ARM and thumb instruction set is the bit width (位宽) of intruction set when CPU get the instruction
 from the RAM 内存 (33:24)
+->In ARM instructions set, it get 4 bytes (字节) at once (33:31)
   
   
