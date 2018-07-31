@@ -16,4 +16,10 @@ priority level (级别最低)
 ->GOOD reference->https://blog.csdn.net/david_luyang/article/details/6276533
 ->So how do we know which mode does the ARM cpu is running (32:41)?
 ->we will see from bit 0 to bit 4 on the right (32:41)
+->T for State bit->we rarely use it (32:48)
+  -It supports both ARM and THUMB instruction set (32:55)
+  -So it use T to switch between thumb vs ARM (33:01) so
+    T=1,ARM instruction set
+    T=0, Thumb instruction set (33:15)
+  
   
