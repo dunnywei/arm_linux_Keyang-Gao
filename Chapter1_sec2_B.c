@@ -10,3 +10,5 @@ in the kernel space in the memory (内核内存) (31:27)
 ->Linux in ARM CPU, the user application (普通用户程序) is running in user mode (用户模式)(31:35). With lowest
 priority level (级别最低)
  ->(31:41) When Kernel is running it is in the Supervisor mode(超级管理模式) (31:48)
+  -When you want to have a system call(调用) on two procecesses (进程) (31:52), kernel (内核) 
+  is running in Supervisor mode(超级管理模式) (31:56)
