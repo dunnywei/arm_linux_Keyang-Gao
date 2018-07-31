@@ -21,5 +21,9 @@ priority level (级别最低)
   -So it use T to switch between thumb vs ARM (33:01) so
     T=1,ARM instruction set
     T=0, Thumb instruction set (33:15)
+   -Reference for the difference between ARM and THUMB
+    ->https://blog.csdn.net/itismine/article/details/4753701
+->The difference between ARM and thumb instruction set is the bit width (位宽) of intruction set when CPU get the instruction
+from the RAM 内存 (33:24)
   
   
