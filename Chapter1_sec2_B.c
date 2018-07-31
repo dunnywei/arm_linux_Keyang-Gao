@@ -27,4 +27,8 @@ priority level (级别最低)
 from the RAM 内存 (33:24)
 ->In ARM instructions set, it will get 4 bytes (字节) at once (33:31)
 ->In thum instruction set, it will get 2 bytes (字节) at once (33:38)
-  
+->F is for FIQ for enable (0)/disable fast interrupt (1)->(33:58)
+->I is for IRQ for enable (0)/disable regular interrupt (1) 普通中断
+->Bit 8 to Bit 27 is reserved 保留(34:23)
+->(34:32)
+->
