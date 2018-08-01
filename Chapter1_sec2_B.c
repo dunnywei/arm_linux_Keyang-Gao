@@ -38,3 +38,7 @@ from the RAM 内存 (33:24)
 ->Multiplication and division can be considered as shift(35:54)
   -If you shift(移位) left by one bit, it means multiply by 2 (36:01)
   -If you shift(移位) right by one bit, it means divide by 2 (36:01)
+->If I wantto operate A and B as variables (操作变量) (36:20) to do the add (加法) operation then
+put the reslult in C (36:25)
+->
+
