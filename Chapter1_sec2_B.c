@@ -40,5 +40,6 @@ from the RAM 内存 (33:24)
   -If you shift(移位) right by one bit, it means divide by 2 (36:01)
 ->If I wantto operate A and B as variables (操作变量) (36:20) to do the add (加法) operation then
 put the reslult in C (36:25)
-->A,B and C are all registers with 32bit (36:29)
+->A,B and C are all registers(寄存器) with 32bit (位) (36:29)
+->We will have CPSR (程序状态寄存器) (36:45)
 
