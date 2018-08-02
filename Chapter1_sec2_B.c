@@ -45,4 +45,6 @@ put the reslult in C (36:25)
 ->If two 32bit registeres (寄存器) are added together, we may have overflow (溢出) or carry 进位 (36:51)
 ->GOOD URL=https://blog.csdn.net/nanfangqiulin/article/details/51122718 and
 https://blog.csdn.net/xiaobai00014/article/details/4589057
-->
+-> overflow (溢出) when all 1's in both A and B adding together so there is addition 1 in bit 33 (37:00)
+  -Therefore, there is a carry (37:12)
+  -It will show up in CPSR (程序状态寄存器) as (37:15) C (37:17)
