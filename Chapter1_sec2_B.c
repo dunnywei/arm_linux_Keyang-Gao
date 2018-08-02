@@ -38,8 +38,8 @@ from the RAM 内存 (33:24)
 ->Multiplication and division can be considered as shift(35:54)
   -If you shift(移位) left by one bit, it means multiply by 2 (36:01)
   -If you shift(移位) right by one bit, it means divide by 2 (36:01)
-->If I wantto operate A and B as variables (操作变量) (36:20) to do the add (加法) operation then
-put the reslult in C (36:25)
+->If I want to operate A and B as variables (操作变量) (36:20) to do the add (加法) operation then
+put the reslult in C (36:25), C=A+B;
 ->A,B and C are all registers(寄存器) with 32bit (位) (36:29)
 ->We will have CPSR (程序状态寄存器) (36:45)
 ->If two 32bit registeres (寄存器) are added together, we may have overflow (溢出) or carry 进位 (36:51)
@@ -47,4 +47,9 @@ put the reslult in C (36:25)
 https://blog.csdn.net/xiaobai00014/article/details/4589057
 -> overflow (溢出) when all 1's in both A and B adding together so there is addition 1 in bit 33 (37:00)
   -Therefore, there is a carry (37:12)
-  -It will show up in CPSR (程序状态寄存器) as (37:15) C (37:17)
+  -It will show up in CPSR (程序状态寄存器) as (37:15) C in CPSR(37:17)
+  -During addition and cause carry then C=1 in CPSR (37:23), then the register C still maintain
+  32 bit (位) (37:40)
+  
+  -
+->
