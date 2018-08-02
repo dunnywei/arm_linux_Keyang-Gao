@@ -51,5 +51,8 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
   -During addition and cause carry then C=1 in CPSR (37:23), then the register C still maintain
   32 bit (位) (37:40)
   -When there is a overflow (37:51) will be displayed as V in CPSR (程序状态寄存器) (37:51)
-  -
+  -overfolow vs carry 溢出和进位的区别
+    -signed (有符类型) integer 
+  link1->https://blog.csdn.net/LDWJ2016/article/details/52586872
+  link2 with example ->https://blog.csdn.net/yelbosh/article/details/8208983
 ->
