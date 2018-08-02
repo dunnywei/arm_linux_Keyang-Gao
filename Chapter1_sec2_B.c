@@ -42,4 +42,7 @@ from the RAM 内存 (33:24)
 put the reslult in C (36:25)
 ->A,B and C are all registers(寄存器) with 32bit (位) (36:29)
 ->We will have CPSR (程序状态寄存器) (36:45)
-
+->If two 32bit registeres (寄存器) are added together, we may have overflow (溢出) or carry 进位 (36:51)
+->GOOD URL=https://blog.csdn.net/nanfangqiulin/article/details/51122718 and
+https://blog.csdn.net/xiaobai00014/article/details/4589057
+->
