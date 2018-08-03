@@ -58,3 +58,15 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
 ->Expalinatin of overvlow 溢出 (38:01)
   -eg, adding two numbers together (38:57)
   -(39:00)
+  -Carry(39:35)
+        -eg  1000 0101 as A
+            +1100 0000 as B
+ Result->  1|0100 0101 NOTE:the 1st bit on the most left deosn't exist(41:16) due to 8bits width 
+           therefore C=1,V=1 (42:12)(require to go over)
+->CPU doesn't know if variable is defined as int in C lanquage (42:23) 
+->If A and B are unsigned int, it only need to consider C flag in CPSR (程序状态寄存器) (42:39)
+->if A and B are defined as int, it means signed int. (42:49)
+  -so A and B are both -ve (42:53) so after adding them together, we should have a -ve
+  number(42:59)
+  -but the result is 0100 0101 so we have to check the V flag in CPSR (程序状态寄存器)
+  
