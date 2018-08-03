@@ -70,4 +70,10 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
   number(42:59)
   -but the result is 0100 0101 so we have to check the V flag in CPSR (程序状态寄存器) as overfolow(溢出)
 ->This concept is really important and get confused easily (43:37)
-->
+->Let's move on to the Z in CPSR(程序状态寄存器) (43:46)
+  -it check if it is zero零 or not (43:51)
+  -for example if A=0x0000 and B=0x0000
+    -by adding them together, we will get C=0 so Z=1 in CPSR (程序状态寄存器) will be 1(43:56)
+    -or A=1d and b=-1d then add them together C=0 so(44:01) Z=1 in CPSR (程序状态寄存器)(44:10)
+    -Why do we need?
+    -
