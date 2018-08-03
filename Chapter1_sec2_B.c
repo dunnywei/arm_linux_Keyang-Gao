@@ -64,9 +64,10 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
  Result->  1|0100 0101 NOTE:the 1st bit on the most left deosn't exist(41:16) due to 8bits width 
            therefore C=1,V=1 (42:12)(require to go over)
 ->CPU doesn't know if variable is defined as int in C lanquage (42:23) 
-->If A and B are unsigned int, it only need to consider C flag in CPSR (程序状态寄存器) (42:39)
+->If A and B are unsigned int, it only need to consider C flag in CPSR (程序状态寄存器) (42:39) as Carry(进位)
 ->if A and B are defined as int, it means signed int. (42:49)
   -so A and B are both -ve (42:53) so after adding them together, we should have a -ve
   number(42:59)
-  -but the result is 0100 0101 so we have to check the V flag in CPSR (程序状态寄存器)
-  
+  -but the result is 0100 0101 so we have to check the V flag in CPSR (程序状态寄存器) as overfolow(溢出)
+->This concept is really important and get confused easily (43:37)
+->
