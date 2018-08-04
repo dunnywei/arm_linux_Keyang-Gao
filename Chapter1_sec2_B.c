@@ -38,19 +38,19 @@ from the RAM 内存 (33:24)
 ->Multiplication and division can be considered as shift(35:54)
   -If you shift(移位) left by one bit, it means multiply by 2 (36:01)
   -If you shift(移位) right by one bit, it means divide by 2 (36:01)
-->If I want to operate A and B as variables (操作变量) (36:20) to do the add (加法) operation then
-put the reslult in C (36:25), C=A+B;
-->A,B and C are all registers(寄存器) with 32bit (位) (36:29)
+->If I want to operate A and B as variables (操作变量) or registers (36:20) to do the add (加法) operation then
+put the reslult in D (36:25), C=A+B;
+->A,B and D are all registers(寄存器) with 32bit (位) (36:29)
 ->We will have CPSR (程序状态寄存器) (36:45)
 ->If two 32bit registeres (寄存器) are added together, we may have overflow (溢出) or carry 进位 (36:51)
 ->GOOD URL=https://blog.csdn.net/nanfangqiulin/article/details/51122718 and
 https://blog.csdn.net/xiaobai00014/article/details/4589057
 -> overflow (溢出) when all 1's in both A and B adding together so there is addition 1 in bit 33 (37:00)
   -Therefore, there is a carry (37:12)
-  -It will show up in CPSR (程序状态寄存器) as (37:15) C in CPSR(37:17)
-  -During addition and cause carry then C=1 in CPSR (37:23), then the register C still maintain
+  -It will show up in CPSR (程序状态寄存器) as (37:15) C flag (标志) in CPSR(37:17)
+  -During addition and cause carry then flag (标志) C=1 in CPSR (37:23), then the register D still maintain
   32 bit (位) (37:40)
-  -When there is a overflow (37:51) will be displayed as V in CPSR (程序状态寄存器) (37:51)
+  -When there is a overflow (37:51) will be displayed as flag (标志) V in CPSR (程序状态寄存器) (37:51)
   -overfolow vs carry 溢出和进位的区别
     -signed (有符类型) integer 
   link1->https://blog.csdn.net/LDWJ2016/article/details/52586872
@@ -59,34 +59,36 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
   -eg, adding two numbers together (38:57)
   -(39:00)
   -Carry(39:35)
-        -eg  1000 0101 as A
-            +1100 0000 as B
+        -eg  1000 0101 as register A
+            +1100 0000 as register B
  Result->  1|0100 0101 NOTE:the 1st bit on the most left deosn't exist(41:16) due to 8bits width 
-           therefore C=1,V=1 (42:12)(require to go over)
-->CPU doesn't know if variable is defined as int in C lanquage (42:23) 
-->If A and B are unsigned int, it only need to consider C flag in CPSR (程序状态寄存器) (42:39) as Carry(进位)
+           therefore flags (标志) C=1, (标志) V=1 (42:12)(require to go over)
+->CPU doesn't know if variable is defined as int (integer) in C lanquage (42:23) 
+->If A and B are unsigned int, it only need to consider C flag (标志) in CPSR (程序状态寄存器) (42:39) as Carry(进位)
 ->if A and B are defined as int, it means signed int. (42:49)
   -so A and B are both -ve (42:53) so after adding them together, we should have a -ve
   number(42:59)
-  -but the result is 0100 0101 so we have to check the V flag in CPSR (程序状态寄存器) as overfolow(溢出)
+  -but the result is 0100 0101 so we have to check the V flag (标志) in CPSR (程序状态寄存器) as overfolow(溢出)
 ->This concept is really important and get confused easily (43:37)
-->Let's move on to the Z in CPSR(程序状态寄存器) (43:46)
+->Let's move on to the flag (标志) Z in CPSR(程序状态寄存器) (43:46)
   -it check if it is zero零 or not (43:51)
   -for example if A=0x0000 and B=0x0000
-    -by adding them together, we will get C=0 so Z=1 in CPSR (程序状态寄存器) will be 1(43:56)
-    -or A=1d and b=-1d then add them together C=0 so(44:01) Z=1 in CPSR (程序状态寄存器)(44:10)
+    -by adding them together, we will get flag (标志) C=0 so flag (标志) Z=1 in CPSR (程序状态寄存器) will be set(43:56)
+    -or A=1d and b=-1d then add them together flag (标志) C=0 so(44:01) Z=1 in CPSR (程序状态寄存器)(44:10)
     -Why do we need?
     -In C lanuage (44:18)
-      if(A==3)
+      if(A==3) //A is register
       //more command 1
         
       else
       //more command 2
     -After the program is compiled into assemlby (汇编), it is done by "if(A-3)==0" (44:38)
       -so if A-3=0, then left is equal to the right as ==0 (4:45) 
-    -Then floag of Z=1 in CPSR (程序状态寄存器) (44:49)
+    -Then flag(标志) Z=1 in CPSR (程序状态寄存器) (44:49)
     -In C lanquage, if the condition is met as "if(A==3)", we will continue to execute as line 81.
     -In assembly(汇编), once the Z=1 or set, the program will jump to some other address in Code Segment to
-    continue to execute (45:15)
-     -
+    continue executing (45:15)
+     -In assembly(汇编), once Z!=1, it will jump to another address in Code Segment to conitue executing
+     (45:17)
+->There is another flag (标志) as N in CPSR (程序状态寄存器) (45:26)
 
