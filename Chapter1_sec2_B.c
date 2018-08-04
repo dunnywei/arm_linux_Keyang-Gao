@@ -113,9 +113,8 @@ can access and see 18 registers at maximum. (47:26)
 ->If you are in different mode (模式), the number of registers(寄存器) you can 
 see can vary (47:36) 
 ->If every mode (模式) can see 18 registers, we are going to have 7x18 registers(寄存器)
-due to 7 modes (模式). However, it is not true since registers(寄存器)
- are shared (共用). (47:39)
-->
+due to 7 modes (模式). However, it is not true since some registers(寄存器) are shared (共用). (47:39)(47:52)
+->For example, registers(寄存器) of r0 to r7 are shares 共用 in all 7 modes (模式) (48:03)
 ->  
 ->
 ->  
