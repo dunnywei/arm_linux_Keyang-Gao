@@ -107,6 +107,10 @@ value (值) (45:38)
 ->Linux kernel apply the supervisor Mode (超级管理模式) so it can see r0 to r15, CPSR and SPSR(程序状态保存寄存器) (46:54)
   ->SPSR(程序状态保存寄存器) link->https://blog.csdn.net/jamestaosh/article/details/4369213
 ->SPSR(程序状态保存寄存器)->It is used for backing up(备份) (47:00) CPSR (47:11)
-->ARM has 37 registers (47:16)
+->ARM has 37 registers (47:16) and 7 modes (模式). Within the 7 modes (模式), it will
+able to see and access ,r0 to r15, CPSR and SPSR registers (寄存器) (47:24) so kernel
+can access and see 18 registers at maximum. (47:26)
+->If you are in different mode (模式), the number of registers(寄存器) you can 
+see can vary (47:36) 
   
       
