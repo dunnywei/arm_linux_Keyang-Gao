@@ -104,8 +104,9 @@ value (值) (45:38)
 -------------------------------------------------------------------------------------
 ->In Supervisor Mode (超级管理模式), Kernel is running in 3GB to 4GB (46:37).
 ->Common user(普通用户) can only see (46:47) r0 to r15 and CPSR
-->Supervisor Mode (超级管理模式) can see r0 to r15, CPSR and SPSR(程序状态保存寄存器) (46:54)
+->Linux kernel apply the supervisor Mode (超级管理模式) so it can see r0 to r15, CPSR and SPSR(程序状态保存寄存器) (46:54)
   ->SPSR(程序状态保存寄存器) link->https://blog.csdn.net/jamestaosh/article/details/4369213
-->
+->SPSR(程序状态保存寄存器)->It is used for backing up(备份) (47:00) CPSR (47:11)
+->ARM has 37 registers (47:16)
   
       
