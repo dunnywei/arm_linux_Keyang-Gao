@@ -76,4 +76,8 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
     -by adding them together, we will get C=0 so Z=1 in CPSR (程序状态寄存器) will be 1(43:56)
     -or A=1d and b=-1d then add them together C=0 so(44:01) Z=1 in CPSR (程序状态寄存器)(44:10)
     -Why do we need?
-    -
+    -In C lanuage (44:18)
+      if(A==3)
+    -After the program is compiled into assemlby (汇编), it is done by "if(A-3)==0" (44:38)
+      -so if A-3=0, then left is equal to the right as ==0 (4:45) 
+    -Then floag of Z=1 in CPSR (程序状态寄存器) (44:49)
