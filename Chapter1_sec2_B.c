@@ -78,6 +78,15 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
     -Why do we need?
     -In C lanuage (44:18)
       if(A==3)
+      //more command 1
+        
+      else
+      //more command 2
     -After the program is compiled into assemlby (汇编), it is done by "if(A-3)==0" (44:38)
       -so if A-3=0, then left is equal to the right as ==0 (4:45) 
     -Then floag of Z=1 in CPSR (程序状态寄存器) (44:49)
+    -In C lanquage, if the condition is met as "if(A==3)", we will continue to execute as line 81.
+    -In assembly(汇编), once the Z=1 or set, the program will jump to some other address in Code Segment to
+    continue to execute (45:15)
+     -
+
