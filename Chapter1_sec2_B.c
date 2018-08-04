@@ -93,3 +93,13 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
 ->There is another flag (标志) as N in CPSR (程序状态寄存器) (45:26)
 ->N is used as 符号位 eg 有符号 signed integer (45:32) to check if the result of D register is +ve(正)/-ve (负)
 value (值) (45:38)
+  -It means that it keep the highest bit (最高位) of result Register D after adding A and B together (45:45)
+->1's complement=反码
+->2's complement=补码
+->反码, 补码 link->http://www.cnblogs.com/zhangziqiu/archive/2011/03/30/ComputerCode.html
+->good exlanatin for Flag N(标志) in CPSR (程序状态寄存器))
+------------------------------------------------------------------------------------------------------------
+->In x86, we will use eflag register (46:06)
+  good link for eflag->https://blog.csdn.net/jn1158359135/article/details/7761011
+->
+      
