@@ -91,4 +91,5 @@ https://blog.csdn.net/xiaobai00014/article/details/4589057
      -In assembly(汇编), once Z!=1, it will jump to another address in Code Segment to conitue executing
      (45:17)
 ->There is another flag (标志) as N in CPSR (程序状态寄存器) (45:26)
-
+->N is used as 符号位 eg 有符号 signed integer (45:32) to check if the result of D register is +ve(正)/-ve (负)
+value (值) (45:38)
