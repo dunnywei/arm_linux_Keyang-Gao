@@ -155,9 +155,10 @@ regusters (寄存器) (48:41) so you will see sth like r8_fiq,r13_fiq, r13_svc,r
 ->In this 7 modes (模式),
 ->普通应用程序 is working uner the user mode (用户模式) (51:23) eg using qq, play games.
 ->When there is a system call (51:36) or process context switch (进程切换) (51:37), the working/executing mode (工作模式 ) will swich from
-user/system mode as CPSR to CPSR_svc due to the (特权模式) suerpvisor mode(51:41)(51:44)
+user/system mode as CPSR to CPSR_svc since the  suerpvisor mode is in (特权模式)(51:41)(51:44)
 ->Therefore it has its own/indepnedent  r_13_svc, r_14_svc and SPSR_svc (51:48)
-->
+->While you are playing games on the phone, a phone rings (51:53), it is an interrupt (中断) to the game. (51:56) The the executing
+mode will switch from USER mode to IRQ mode (中断模式) (52:00)
 ->
 ->
 ->
