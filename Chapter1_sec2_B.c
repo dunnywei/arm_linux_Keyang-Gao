@@ -171,7 +171,8 @@ undefined mode (53:08). Therefore we will have exception and we need to do excep
 ->CPU may reboot/shut down/go back to the program to continue execute (53:17)(53:20)
 ->Most of time, CPU is in User (Most application running) and Suerpvisor
 (where kernel is running) Mode (53:26).If there is an interrupt, we will go to IRQ or FIQ mode.
-->
+->linke for arm 7 modes
+https://blog.csdn.net/mr_raptor/article/details/6556157
 ->
 ->
 ->
