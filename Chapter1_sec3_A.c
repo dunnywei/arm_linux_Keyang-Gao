@@ -1,2 +1,37 @@
 //https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS&index=3
 ->(0:00)
+->We have to be familiar with ARM registers especailly ,r13 (SP), r14 (LR) and CPSR (0:21)
+->(0:36) 工作模式 CPSR's lowest five bits on the right (0:36) as link
+  https://blog.csdn.net/david_luyang/article/details/6276533
+  -10000 USER
+  -10001 FIQ
+  -10011 SUPERVISOR
+->USER and SUPERVISOR are the most common one (0:45)
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
