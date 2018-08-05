@@ -132,7 +132,8 @@ regusters (寄存器) (48:41) so you will see sth like r8_fiq,r13_fiq, r13_svc,r
 ->r13 is called 堆栈指针(SP) (48:51)  
 ->r14 is called (LR) as 链接寄存器(LR) (48:56)
 ->more detailed explaination in r14 链接寄存器(LR)
-  link as https://blog.csdn.net/qianlong4526888/article/details/7771555
+  link1 as https://blog.csdn.net/qianlong4526888/article/details/7771555
+  link2 as https://blog.csdn.net/Aguangg_6655_la/article/details/53613270
 ->
 ->  
       
