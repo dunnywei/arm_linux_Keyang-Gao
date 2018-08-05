@@ -1,3 +1,6 @@
+ARM books in chinese->
+  https://books.google.ca/books?id=TH0nDwAAQBAJ&pg=PA39&lpg=PA39&dq=FIQ%2Br8%2B%E7%8B%AC%E7%AB%8B&source=bl&ots=2MVajLGNrV&sig=aqX9Fo1Vb9T32U_xPmzP9Fxzbck&hl=en&sa=X&ved=2ahUKEwiLtLCuz9TcAhWbn4MKHfX3B38Q6AEwA3oECAcQAQ#v=onepage&q=FIQ%2Br8%2B%E7%8B%AC%E7%AB%8B&f=false
+
 //After (30:00)
 //https://www.youtube.com/watch?v=GddifYkmZsI&index=2&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
 ->RAIN3 as Non Priviledge (非特权级别) with lowest priority->(ARM) User
