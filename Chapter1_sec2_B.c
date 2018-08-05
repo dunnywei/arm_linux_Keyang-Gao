@@ -158,9 +158,19 @@ regusters (寄存器) (48:41) so you will see sth like r8_fiq,r13_fiq, r13_svc,r
 user/system mode as CPSR to CPSR_svc since the  suerpvisor mode is in (特权模式)(51:41)(51:44)
 ->Therefore it has its own/indepnedent  r_13_svc, r_14_svc and SPSR_svc (51:48)
 ->While you are playing games on the phone, a phone rings (51:53), it is an interrupt (中断) to the game. (51:56) The the executing
-mode will switch from USER mode to IRQ mode (中断模式) (52:00)
-->
-->
+mode will switch from USER mode to the mode of (模式) (52:00) IQ (快速中断) or IRQ 普通中断 (52:06)
+->Most of time, it will be in IRQ. (52:09)
+->FIQ is usually for duplication of data (52:14) eg. copying a movie to your phone (52:14) so CPU will enter
+the mode of FIQ (52:18)
+->Abort mode (模式) for 数据中止(data abort) or 指令中止(instruction abort). It  occurs when 
+the program running has a bug (53:43) since it want to access the kernel mode address (52:38) or
+want to obtain the empty data at address of 0x8000 (52:43). Therefore CPU will enter ABORT mode (52:50)
+->It causes exception (异常) so you need to have the code to deal with this issue (异常处理) (52:57)
+->Undefine mode occurs when CPU execute the intruction set (指令) which is illegal(非法) (53:05) so CPU will enter the
+undefined mode (53:08). Therefore we will have exception and we need to do exceptoin handling (异常处理) (Not clear in audio) (53:16)
+->CPU may reboot/shut down/go back to the program to continue execute (53:17)(53:20)
+->Most of time, CPU is in User (Most application running) and Suerpvisor
+(where kernel is running) Mode (53:26).If there is an interrupt, we will go to IRQ or FIQ mode.
 ->
 ->
 ->
