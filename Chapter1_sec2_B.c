@@ -154,9 +154,9 @@ regusters (寄存器) (48:41) so you will see sth like r8_fiq,r13_fiq, r13_svc,r
 ->so total, we have 37 registers (50:17)(50:58)
 ->In this 7 modes (模式),
 ->普通应用程序 is working uner the user mode (用户模式) (51:23) eg using qq, play games.
-->When there is a system call (51:36) or process context switch (进程切换) (51:37), the CPSR will swich from
-user/system mode to CPSR_svc (51:41)
-->
+->When there is a system call (51:36) or process context switch (进程切换) (51:37), the working/executing mode (工作模式 ) will swich from
+user/system mode as CPSR to CPSR_svc due to the (特权模式) suerpvisor mode(51:41)(51:44)
+->Therefore it has its own/indepnedent  r_13_svc, r_14_svc and SPSR_svc (51:48)
 ->
 ->
 ->
