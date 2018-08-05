@@ -10,7 +10,8 @@
 ->Little Endian (小端模式) and Big Endian (大端模式) (0:49)
 ->little endian-store lowest byte in lowest address (0:52). ARM uses little endian.
 ->PowerPC uses big endian (1:21)
-->
+->CPU->fetch (取指), decode(译码) ,execute (执行) (1:29)
+    link->https://bbs.ichunqiu.com/thread-40493-1-1.html?from=csdn
 ->
 ->
 ->
