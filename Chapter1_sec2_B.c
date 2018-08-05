@@ -119,8 +119,9 @@ due to 7 modes (模式). However, it is not true since some registers(寄存器)
 (48:15)
 ->FIQ (快速中断) and r8
   linkds for FIQ and IRQ->https://blog.csdn.net/dasheng_604/article/details/5976460
-->
-->  
+->There is a triangle print (三角印) on the manual means (48:17) this register is independent 独立
+and not shared (共用) with others (48:19) (48:21)
+->In System and User mode, they share (共用) r8 to r12 (48:30)  
 ->
 ->  
 ->
