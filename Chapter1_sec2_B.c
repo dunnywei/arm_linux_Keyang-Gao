@@ -121,14 +121,16 @@ due to 7 modes (模式). However, it is not true since some registers(寄存器)
   linkds for FIQ and IRQ->https://blog.csdn.net/dasheng_604/article/details/5976460
 ->There is a triangle print (三角印) on the manual means (48:17) this register is independent 独立
 and not shared (共用) with others (48:19) (48:21)
-->In System 系统模式 and User mode (用户模式), they share (共用) r8 to r12 (48:30)  
+->In System 系统模式 and User mode (用户模式) they share (共用) r8 to r12 (48:30) with , Supervisor mode,
+Abort, IRQ and Undefined Mode (模式)
 ->Except system 系统模式 and User mode (用户模式), rest of them have their independent r13 and r14 
 regusters (寄存器) (48:41) so you will see sth like r8_fiq,r13_fiq, r13_svc,r13_abt,r13_irq, r13_und 
 ->In System 系统模式 and User mode (用户模式), u will only see r8,r11 without anything following (没任何跟的)
   like previous one in line 126 (48:46)  
-->
-->  
-->
+->ARM汇编之寄存器
+  link->http://blog.51cto.com/tigerjibo/1276155
+->r13 is called 堆栈指针(SP) (48:51)  
+->r14 is called (LR) as 链接寄存器(LR) (48:56)
 ->  
 ->
 ->  
