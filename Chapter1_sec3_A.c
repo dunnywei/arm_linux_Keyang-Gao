@@ -7,6 +7,10 @@
   -10001 FIQ
   -10011 SUPERVISOR
 ->USER and SUPERVISOR are the most common one (0:45)
+->Little Endian (小端模式) and Big Endian (大端模式) (0:49)
+->little endian-store lowest byte in lowest address (0:52). ARM uses little endian.
+->PowerPC uses big endian (1:21)
+->
 ->
 ->
 ->
