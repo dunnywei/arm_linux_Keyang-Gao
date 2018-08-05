@@ -137,6 +137,8 @@ regusters (寄存器) (48:41) so you will see sth like r8_fiq,r13_fiq, r13_svc,r
 ->more detailed explaination in r14 链接寄存器(LR)
   link1 as https://blog.csdn.net/qianlong4526888/article/details/7771555
   link2 as https://blog.csdn.net/Aguangg_6655_la/article/details/53613270
-->
-->  
-      
+->r15 as 程序寄存器 (48:58)
+->r13 and r14 have their own/independent stack(栈) and return address (返回地址) for FIQ, Supervior, Abort, IRQ and Undefined modes(模式) (49:11)  
+->User mode (用户模式) share (共用) with system modes
+->r15 is shared (共用) in all modes (49:32)(49:37)
+->So what does it mean? At one time (在同一时间 ), there is only one mode (模式) is executingéworking (49:48)  
