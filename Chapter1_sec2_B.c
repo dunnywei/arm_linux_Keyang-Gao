@@ -142,4 +142,26 @@ regusters (寄存器) (48:41) so you will see sth like r8_fiq,r13_fiq, r13_svc,r
 ->r13 and r14 have their own/independent stack(栈) and return address (返回地址) for FIQ, Supervior, Abort, IRQ and Undefined modes(模式) (49:11)  
 ->User mode (用户模式) share (共用) with system modes
 ->r15 is shared (共用) in all modes (49:32)(49:37)
-->So what does it mean? At one time (在同一时间 ), there is only one mode (模式) is executingéworking (49:48)  
+->So what does it mean? At one time (在同一时间 ), there is only one mode (模式)  executing or working (49:48)(49:50)
+->There is only ONE CPSR for all modes (模式) (49:55) for sharing (共用) 
+->SPSR has is independent for SPSR_fiq, SPSR_svc, SPSR_abt, SPSR_irq, SPSR_und 
+->so r0 to r7=8 for all
+-r8 to r12=5 + 5 for FIQ mode
+->r13 and r14=2*6(user/system+others mode)
+->CPSR=1
+->SPSR=5  
+->PC=1
+->so total, we have 37 registers (50:17)(50:58)
+->In this 7 modes (模式),
+->普通应用程序 is working uner the user mode (用户模式) (51:23) eg using qq, play games.
+->When there is a system call (51:36) or process context switch (进程切换) (51:37), the CPSR will swich from
+user/system mode to CPSR_svc (51:41)
+->
+->
+->
+->
+->
+->
+->
+->
+  
