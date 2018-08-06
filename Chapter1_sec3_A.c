@@ -20,6 +20,8 @@
   -For example (1:58), (2:15) When CPU want to execute an instructions set (指令), it has
   to fetch the instruction from memory (内存) (2:22)
   -the instruction set in 4 bytes 字节 is stored into cache (快速缓冲贮存区) or 预取器 of the CPU (2:27)
+  -After CPU get the instruction set, it get 10101 (机器码). Thefore it requies to decode 译码 from decoder (译码器) (2:37)
+  -
 ->
 ->
 ->
