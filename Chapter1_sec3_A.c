@@ -10,9 +10,12 @@
 ->Little Endian (小端模式) and Big Endian (大端模式) (0:49)
 ->little endian-store lowest byte in lowest address (0:52). ARM uses little endian.
 ->PowerPC uses big endian (1:21)
-->CPU->fetch (取指), decode(译码) ,execute (执行) (1:29)
+->CPU instructin cycle->fetch (取指), decode(译码) ,execute (执行) (1:29)
     link->https://bbs.ichunqiu.com/thread-40493-1-1.html?from=csdn
-->
+->Pipeline 流水线(1:33)
+  -Number of instruction set the CPU can handle (1:46). It doens't means that the instructions sets are executing at the same time (1:52)
+  -It is at different stages (阶段) (1:54). 
+  -For example (1:58)
 ->
 ->
 ->
