@@ -40,6 +40,12 @@
       -link2->https://blog.csdn.net/sc_stanley/article/details/39434783
     -Therefore, the ARM CPU has three pipelines (流水线 ) (5:22)
     -The execution 执行 of instructin set is compelted (完成) (5:25) through 3 pipelines (流水线)
+    -The assembly line (流水线) for cars (5:35), each worker is only responsible for its module (5:40)
+    -These three stages won't be interfeenced (干扰) with each other(6:02)
+    -When you fetch 预取 one instruction set 指令 into the CPU (6:07).
+    -If each stage in fetch (预取指令), decoding (译码), executing (执行) takes 1 clock cycle (时钟周期)
+     (6:22), 
+    -Where the clock cycle=1s/frequency (秒/频率) (6:39)  
 ->
 ->
 ->
