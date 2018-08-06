@@ -39,6 +39,7 @@
       -link1->https://blog.csdn.net/haoge921026/article/details/46686367
       -link2->https://blog.csdn.net/sc_stanley/article/details/39434783
     -Therefore, the ARM CPU has three pipelines (流水线 ) (5:22)
+    -The execution 执行 of instructin set is compelted (完成) (5:25) through 3 pipelines (流水线)
 ->
 ->
 ->
