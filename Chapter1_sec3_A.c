@@ -25,9 +25,12 @@
   -Once the decoder (译码器) know what it means via decoding (2:46) such as ADD R0,R1,R2 
     -adding R1 and R2 to R0 (3:11)
   -decoder(译码器) knows that there is an addition intruction set (指令) (3:35) and registers (including r0,r1 and r12) for doing
-  this operation (3:28)
-  -
-  -  
+  this operation (3:28) and know adding R1 and R2 to R0 (3:30)
+  -Therefore, decoder(译码器) will notify the registers module (寄存器模块) to put R2 and R1 as input 输入端 to ALU (3:47) 
+    through controller (控制器)
+  -There is a connection channel ( 连接通道) between ALU module and register module. Therefore R1 and R2 are passed through
+  the channel to ALU module. (3:59)
+  -So ALU will do the calculating/operation (运算) and write back (回写) to (4:13)  寄存器 module (4:24)
 ->
 ->
 ->
