@@ -48,7 +48,11 @@
     -Where the clock cycle(时钟周期)=1s/frequency (秒/频率) (6:39) so 1Ghz CPU=1ns 
     -If each stage in fetch (预取指令), decoding (译码), executing (执行) takes 1 clock cycle (时钟周期)
      , so it will take 3 clock cycle (7:48) =3ns 纳秒 (7:53)
-    -
+    -For one instruction takes at least 3ns (7:56)
+    -For the 1st instruction set, it is in the second starge of decoding (译码)  (8:03)
+    -Therefore the 1st starge of fetching is empty (空闲的). It can fetch 预取 the 
+    second instructin set(指令) 
+    -At 1st clock cycle (时钟周期) (8:17), 1st instruction set is fetched预取 into CPU. (8:19)
 ->
 ->
 ->
