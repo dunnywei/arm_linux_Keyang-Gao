@@ -33,6 +33,7 @@
   -So ALU will do the calculating/operation (运算) and write back (回写) to (4:13)  寄存器 module (4:24)
   -Therefore R0 will be set to recieve/collect 接收 the result of R1 and R2 (4:34)
   -We can split the process into 3 steps/stages (阶段) (4:39)
+    -The first is called fetch (预取) (4:42)
 ->
 ->
 ->
