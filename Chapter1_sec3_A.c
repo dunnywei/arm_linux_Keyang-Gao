@@ -33,7 +33,12 @@
   -So ALU will do the calculating/operation (运算) and write back (回写) to (4:13)  寄存器 module (4:24)
   -Therefore R0 will be set to recieve/collect 接收 the result of R1 and R2 (4:34)
   -We can split the process into 3 steps/stages (阶段) (4:39)
-    -The first is called fetch (预取) (4:42)
+    -The first is called fetch (预取指令) (4:42)->Put the instruction set (指令) into CPU (5:01)
+    -The second is called decoding (译码) (5:05)->Analyze the instruction set to see what it want to do for the registers(5:10)
+    -The third is called executing (执行) (5:13)->To perform the operation (操作) (5:17)
+      -link1->https://blog.csdn.net/haoge921026/article/details/46686367
+      -link2->https://blog.csdn.net/sc_stanley/article/details/39434783
+    -Therefore, the ARM CPU has three pipelines (流水线 ) (5:22)
 ->
 ->
 ->
