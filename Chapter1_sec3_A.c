@@ -24,7 +24,10 @@
   determine if it is add/subtract by analyzing it.
   -Once the decoder (译码器) know what it means via decoding (2:46) such as ADD R0,R1,R2 
     -adding R1 and R2 to R0 (3:11)
-  -(译码器) knows that it is an addition intruction set (指令) (3:35)
+  -decoder(译码器) knows that there is an addition intruction set (指令) (3:35) and registers (including r0,r1 and r12) for doing
+  this operation (3:28)
+  -
+  -  
 ->
 ->
 ->
