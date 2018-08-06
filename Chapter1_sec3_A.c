@@ -53,7 +53,15 @@
     -Therefore the 1st starge of fetching is empty (空闲的). It can fetch 预取 the 
     second instructin set(指令) 
     -At 1st clock cycle (时钟周期) (8:17), 1st instruction set is fetched预取 into CPU. (8:19)
-->
+    -At 2nd clock cycle (时钟周期) (8:20), 2nd instruction set is fetched预取 into CPU  (8:27)
+                                           1st instruction set is decode (译码) in CPU
+    -At 3rd clock cycle (时钟周期) (8:30),  3rd instruction set is fetched预取 into CPU  (8:40)
+                                           2nd instruction set is decode (译码) in CPU
+                                           1st instruction set is execution (执行) in CPU
+    -At 3rd clock cycle (时钟周期), CPU has 3 instruction sets (指令) in total (8:48). However 
+    these three instructions are in 3 different pipelines (流水线) modules模块 (8:51)
+
+-> 
 ->
 ->
 ->
