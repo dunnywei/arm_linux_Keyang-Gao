@@ -45,7 +45,10 @@
     -When you fetch 预取 one instruction set 指令 into the CPU (6:07).
     -If each stage in fetch (预取指令), decoding (译码), executing (执行) takes 1 clock cycle (时钟周期)
      (6:22), 
-    -Where the clock cycle=1s/frequency (秒/频率) (6:39)  
+    -Where the clock cycle(时钟周期)=1s/frequency (秒/频率) (6:39) so 1Ghz CPU=1ns 
+    -If each stage in fetch (预取指令), decoding (译码), executing (执行) takes 1 clock cycle (时钟周期)
+     , so it will take 3 clock cycle (7:48) =3ns 纳秒 (7:53)
+    -
 ->
 ->
 ->
