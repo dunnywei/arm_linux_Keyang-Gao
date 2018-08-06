@@ -31,6 +31,8 @@
   -There is a connection channel ( 连接通道) between ALU module and register module. Therefore R1 and R2 are passed through
   the channel to ALU module. (3:59)
   -So ALU will do the calculating/operation (运算) and write back (回写) to (4:13)  寄存器 module (4:24)
+  -Therefore R0 will be set to recieve/collect 接收 the result of R1 and R2 (4:34)
+  -We can split the process into 3 steps/stages (阶段) (4:39)
 ->
 ->
 ->
