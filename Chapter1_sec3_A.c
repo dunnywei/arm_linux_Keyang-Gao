@@ -15,13 +15,16 @@
 ->CPU instructin cycle->fetch (取指), decode(译码) ,execute (执行) (1:29)
     link->https://bbs.ichunqiu.com/thread-40493-1-1.html?from=csdn
 ->Pipeline 流水线(1:33)
-  -Number of instruction set the CPU can handle (1:46). It doens't means that the instructions sets are executing at the same time (1:52)
+  -Number of instruction set the CPU can handle (1:46). It doens't means that the instructions sets (指令) are executing at the same time (1:52)
   -It is at different stages (阶段) (1:54). 
   -For example (1:58), (2:15) When CPU want to execute an instructions set (指令), it has
   to fetch the instruction from memory (内存) (2:22)
   -the instruction set in 4 bytes 字节 is stored into cache (快速缓冲贮存区) or 预取器 of the CPU (2:27)
-  -After CPU get the instruction set, it get 10101 (机器码). Thefore it requies to decode 译码 from decoder (译码器) (2:37)
-  -
+  -After CPU get the instruction set, it get 10101 (机器码). Thefore it requies to decode 译码 from decoder (译码器) (2:37) so it can
+  determine if it is add/subtract by analyzing it.
+  -Once the decoder (译码器) know what it means via decoding (2:46) such as ADD R0,R1,R2 
+    -adding R1 and R2 to R0 (3:11)
+  -(译码器) knows that it is an addition intruction set (指令) (3:35)
 ->
 ->
 ->
