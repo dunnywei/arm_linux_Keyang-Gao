@@ -64,6 +64,9 @@
     -In the stage of executing (执行), there is only one instruction set 指令 being executed (9:02)
     -It is called CPU piepeline 流水线 (9:05)
     -Each instruction set 指令 takes 3ns to complete (完成) but (9:18)
+    -Within one second, how many instructions sets (指令) can be executed (执行) (9:29)?
+    -10^9 instructions sets (指令) (9:37) within one second (9:48)(10:06)
+    -Why don't we divide 10^9 with 3? (10:15)
 -> 
 ->
 ->
