@@ -69,9 +69,13 @@
     -Why don't we divide 10^9 with 3? (10:10)
     -Even though one instruction set (指令) requires 3ns (纳秒) to complete (10:15), there are
     three instruction sets (指令) at each 1ns (纳秒) (10:23). Therefore putting ns (纳秒) to one second (秒) (10:27) as
-    微观 (Micro view)(10:27) , since the difference between one second and one nanoseconds are too large.
-    -Therfore, in one second, CPU can execute 10^9 instructin set (指令) (10:36)
--> 
+    微观 (Microscopic view)(10:27) , since the difference between one second and one nanoseconds are too large.
+    -Therfore, in one second, CPU can execute 10^9 -3 or -2 instructin set (指令) (10:36) apprximately (10:46)
+    -In one second, one instruction set takes 1ns (指令) in 宏观 (Macroscopic view) (10:54)
+    -In reality, each instruction set takes 3ns to complete since there are 
+    three stages/pipelines during the CPU execution cycle (11:00)
+->Currenlty, there are more stages (5/7/9) in CPU pipelines (流水线) than 3 stages pipelines (流水线). But 3 stages pipelines (流水线)
+is the most fundamental among others (11:15) (11:21)
 ->
 ->
 ->
