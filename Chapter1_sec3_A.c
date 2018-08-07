@@ -68,7 +68,9 @@
     -10^9 instructions sets (指令) (9:37) within one second (9:48)(10:06)
     -Why don't we divide 10^9 with 3? (10:10)
     -Even though one instruction set (指令) requires 3ns (纳秒) to complete (10:15), there are
-    three instruction sets (指令) at each 1ns (纳秒) (10:23). Therefore
+    three instruction sets (指令) at each 1ns (纳秒) (10:23). Therefore putting ns (纳秒) to one second (秒) (10:27) as
+    微观 (Micro view)(10:27) , since the difference between one second and one nanoseconds are too large.
+    -Therfore, in one second, CPU can execute 10^9 instructin set (指令) (10:36)
 -> 
 ->
 ->
