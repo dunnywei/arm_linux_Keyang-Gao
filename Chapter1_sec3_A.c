@@ -14,7 +14,7 @@
 ->PowerPC uses big endian (1:21)
 ->CPU instructin cycle->fetch (取指), decode(译码) ,execute (执行) (1:29)
     link->https://bbs.ichunqiu.com/thread-40493-1-1.html?from=csdn
-->Pipeline 流水线(1:33)
+->CPU Pipeline 流水线(1:33)
   -Number of instruction set the CPU can handle (1:46). It doens't means that the instructions sets (指令) are executing at the same time (1:52)
   -It is at different stages (阶段) (1:54). 
   -For example (1:58), (2:15) When CPU want to execute an instructions set (指令), it has
@@ -52,15 +52,18 @@
     -For the 1st instruction set, it is in the second starge of decoding (译码)  (8:03)
     -Therefore the 1st starge of fetching is empty (空闲的). It can fetch 预取 the 
     second instructin set(指令) 
-    -At 1st clock cycle (时钟周期) (8:17), 1st instruction set is fetched预取 into CPU. (8:19)
-    -At 2nd clock cycle (时钟周期) (8:20), 2nd instruction set is fetched预取 into CPU  (8:27)
-                                           1st instruction set is decode (译码) in CPU
+    -At 1st clock cycle (时钟周期) (8:17), 1st instruction set 指令 is fetched预取 into CPU. (8:19)
+    -At 2nd clock cycle (时钟周期) (8:20), 2nd instruction set 指令is fetched预取 into CPU  (8:27)
+                                           1st instruction set 指令 is decode (译码) in CPU
     -At 3rd clock cycle (时钟周期) (8:30),  3rd instruction set is fetched预取 into CPU  (8:40)
                                            2nd instruction set is decode (译码) in CPU
                                            1st instruction set is execution (执行) in CPU
     -At 3rd clock cycle (时钟周期), CPU has 3 instruction sets (指令) in total (8:48). However 
-    these three instructions are in 3 different pipelines (流水线) modules模块 (8:51)
-
+    these three instructions are in 3 different pipelines (流水线) modules模块 (8:51) and they don't interference(干扰) 
+    wtih each other (8:56)
+    -In the stage of executing (执行), there is only one instruction set 指令 being executed (9:02)
+    -It is called CPU piepeline 流水线 (9:05)
+    -Each instruction set 指令 takes 3ns to complete (完成) but (9:18)
 -> 
 ->
 ->
