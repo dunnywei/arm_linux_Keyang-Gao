@@ -66,7 +66,9 @@
     -Each instruction set 指令 takes 3ns to complete (完成) but (9:18)
     -Within one second, how many instructions sets (指令) can be executed (执行) (9:29)?
     -10^9 instructions sets (指令) (9:37) within one second (9:48)(10:06)
-    -Why don't we divide 10^9 with 3? (10:15)
+    -Why don't we divide 10^9 with 3? (10:10)
+    -Even though one instruction set (指令) requires 3ns (纳秒) to complete (10:15), there are
+    three instruction sets (指令) at each 1ns (纳秒) (10:23). Therefore
 -> 
 ->
 ->
