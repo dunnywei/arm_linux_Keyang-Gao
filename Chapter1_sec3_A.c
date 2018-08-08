@@ -74,10 +74,10 @@
     -In one second, one instruction set takes 1ns (指令) in 宏观 (Macroscopic view) (10:54)
     -In reality, each instruction set takes 3ns to complete since there are 
     three stages/pipelines during the CPU execution cycle (11:00)
-->Currenlty, there are more stages (5/7/9) in CPU pipelines (流水线) than 3 stages pipelines (流水线). But 3 stages pipelines (流水线)
+->Currenlty, there are more stages (5/7/9/10) in CPU pipelines (流水线) than 3 stages pipelines (流水线). But 3 stages pipelines (流水线)
 is the most fundamental among others (11:15) (11:21)
-->
-->
+->How do they evolve (演化) into (5/7/9/10) in CPU pipelines (流水线) (11:24)?
+->In my decode 译码 stage, I split into two channels (连接通道 or 连接线)(11:30). 
 ->
 ->
 ->
