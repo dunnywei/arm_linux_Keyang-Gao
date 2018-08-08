@@ -92,7 +92,31 @@ is the most fundamental among others (11:15) (11:21)
   -The performance of CPU is moving up (12:26)
   -
 ->Thumb state general register (Thumb状态寄存器)  and program counter (13:01)
-  -It is a 16 bit instructin set (16位指令集) so what it can read is (13:08)
+  -It is a 16 bit instructin set (16位指令集) so what registers(寄存器) it can see are reduced (13:08)
+  -It can only read R0 to R7, R13,R14,R15, CPSR,SPSR registers (寄存器) (13:10) (13:19)
+-> The format of assembly code (汇编指令构造格式) (13:43)
+  -
+  
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
 ->
 ->
 ->
