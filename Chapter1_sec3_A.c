@@ -76,14 +76,14 @@
     three stages/pipelines during the CPU execution cycle (11:00)
 ->Currenlty, there are more stages (5/7/9/10) in CPU pipelines (流水线) than 3 stages pipelines (流水线). But 3 stages pipelines (流水线)
 is the most fundamental among others (11:15) (11:21)
-->How do they evolve (演化) into (5/7/9/10) in CPU pipelines (流水线) (11:24)?
-->In my decode 译码 stage, I refine(细化) it into two channels (??) (连接通道 or 连接线)(11:30). 
-->For cache (快速缓冲贮存区) or 预取器, I also refine 细化 it into two channels (??) 
-  (连接通道 or 连接线) (11:32), 5 channels, 9 channels or 11 channels (11:41) (??)
+->How do they evolve (演化) into (5/7/9/10) in CPU pipelines (流水线) (11:24)
+->In my decode 译码 stage, I refine(细化) it into two more stages CPU pipeline(流水线)(11:30). 
+->For cache (快速缓冲贮存区) or 预取器, I also refine 细化 it into two more stages CPU pipeline(流水线) 
+  (连接通道 or 连接线) (11:32), 5 , 9, 11 more stages CPU pipeline(流水线)(11:41)
   -link->https://en.wikipedia.org/wiki/Instruction_cycle
 ->Therefore 5,7,9 and 11 CPU pipleine (流水线) are all based on 3 CPU pipeline(流水线)
 (11:47) due to refining (细化)(11:58)
-->
+->Refining (细化) has pros and cons for CPU pipeline(流水线) (12:00)
 ->
 ->
 ->
