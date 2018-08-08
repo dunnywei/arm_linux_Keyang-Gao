@@ -15,7 +15,7 @@
 ->CPU instructin cycle->fetch (取指), decode(译码) ,execute (执行) (1:29)
     link->https://bbs.ichunqiu.com/thread-40493-1-1.html?from=csdn
 ->CPU Pipeline 流水线(1:33)
-  -Number of instruction set the CPU can handle (1:46). It doens't means that the instructions sets (指令) are executing at the same time (1:52)
+  -Number of instruction set (指令) the CPU can handle (1:46). It doens't means that the instructions sets (指令) are executing at the same time (1:52)
   -It is at different stages (阶段) (1:54). 
   -For example (1:58), (2:15) When CPU want to execute an instructions set (指令), it has
   to fetch the instruction from memory (内存) (2:22)
@@ -84,6 +84,10 @@ is the most fundamental among others (11:15) (11:21)
 ->Therefore 5,7,9 and 11 CPU pipleine (流水线) are all based on 3 CPU pipeline(流水线)
 (11:47) due to refining (细化)(11:58)
 ->Refining (细化) has pros and cons for CPU pipeline(流水线) (12:00)
+  -Pros
+    -We can make the frequency of CPU becomes higher (12:07)
+  -Cons
+    -It may take a longer time to execute (执行) instructin set (指令)->so slower (12:16)
 ->
 ->
 ->
