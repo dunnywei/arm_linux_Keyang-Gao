@@ -90,7 +90,8 @@ is the most fundamental among others (11:15) (11:21)
     -It may take a longer time to execute (执行) instructin set (指令)->so slower (12:16)
   -When we have the higher frequnecy (频率) in CPU (12:21), we can execute more instruction set (指令) at any given time (12:23)
   -The performance of CPU is moving up (12:26)
-->
+  -
+->Thumb state general register (Thumb状态寄存器)  and program counter (13:01)
 ->
 ->
 ->
