@@ -102,7 +102,7 @@ is the most fundamental among others (11:15) (11:21)
     -(14:25) MOV is a 传输数据 (sending data) with #0X1 as a 立即数 (immediate number)
     -MOV #0X1 as a 立即数 or 数字 to R0 register (寄存器)  (14:39)
     -#0X1 means it is in hex mode (十六进制) (14:48)
-    -In fornt of 立即数 (immediate number), you must add # (井號) (14:55)
+    -In fornt of 立即数 (immediate number), you must add # (井號) or (hash symbol) (14:55)
 ->
 ->
 ->
