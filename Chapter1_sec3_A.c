@@ -97,6 +97,10 @@ is the most fundamental among others (11:15) (11:21)
 -> The format of assembly code (汇编指令构造格式) (13:43)
   -The instruction set in ARM is fixed in 32bit (位) (13:59)
   -Cond opt 分类码 s Rd(desination) Rn(From) 立即数 (14:18)
+  -English link->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Cihcdbca.html
+  -eg MOV R0, #0X1
+    -(14:25) MOV is a 传输数据 (sending data) with #0X1 as a 立即数 (immediate number)
+    -MOV #0X1 as a 立即数 or 数字 to R0 register (寄存器)  (14:39)
   
 ->
 ->
