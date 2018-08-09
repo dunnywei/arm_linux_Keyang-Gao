@@ -113,7 +113,12 @@ is the most fundamental among others (11:15) (11:21)
 ->Cond条件码     |opt 操作码 |分类码 |s    | Rd 目的寄存器 | Rn 原寄存器 | 立即数
   31 (4bit)   27|26              17|16   |15          12|11          8|7      0      
      4bit       |                  |1 bit|   4bit       |   4bit      |8 bit   
-->(17:15)
+->(17:15)(18:40)
+->In opt (operand/操作码) (18:44), we have
+mov       010
+加法add   110
+减法sub   111 
+->(19:11) the 010,110,111 are just example (19:13)
 ->
 ->
 ->
@@ -153,3 +158,20 @@ is the most fundamental among others (11:15) (11:21)
 ->
 ->
 ->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+
