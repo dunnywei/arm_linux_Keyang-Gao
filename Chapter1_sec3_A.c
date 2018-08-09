@@ -96,7 +96,7 @@ is the most fundamental among others (11:15) (11:21)
   -It is a 16 bit instructin set (16位指令集) so what registers(寄存器) it can see are reduced (13:08)
   -It can only read R0 to R7, R13,R14,R15, CPSR,SPSR registers (寄存器) (13:10) (13:19)
 -> The format of assembly code (汇编指令构造格式) (13:43)
-  -The instruction set in ARM is fixed in 32bit (位) (13:59)
+  -The instruction set (指令) in ARM is fixed in 32bit (位) (13:59)
   -Cond opt 分类码 s Rd(desination) Rn(From) 立即数 (14:18)
   -English link->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Cihcdbca.html
   -eg MOV R0, #0X1
@@ -124,6 +124,9 @@ mov       010
     -from 0000 as 0 to 1111 as 15 so there are 16 situation (情况) (19:32)
     -R0 to R15 (19:46) has 16 situations
     -so Rd 目的寄存器 represents from R0 to R15 (19:59)
+    -Normal instruction set 指令 can't not operate 操作 on CPSR 寄存器 (20:04)
+    -CPSR and SPSR 寄存器 (20:07) has TWO special intruction sets (指令) to operates (20:12)
+    -
 ->
 ->
 ->
