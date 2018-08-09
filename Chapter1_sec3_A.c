@@ -104,7 +104,12 @@ is the most fundamental among others (11:15) (11:21)
     -#0X1 means it is in hex mode (十六进制) (14:48)
     -In fornt of 立即数 (immediate number), you must add # (井號) or (hash symbol) (14:55)
     -The direction goes from right to left (15:24)
-    -
+   -eg MOVS R0,R1 (15:32)
+    -Copy the content of register (寄存器)  R1 to register (寄存器) R0 (15:40)
+   -MOV is opt (operand/操作数), R0 is Rd(destination/目的寄存器), #0X1 is 立即数 for
+       MOV R0, #0X1
+    -There are others such as cond, 分类码, s and Rn we didn't use (16:21)  
+    -Rn
 ->
 ->
 ->
