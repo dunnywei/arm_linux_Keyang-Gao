@@ -106,11 +106,14 @@ is the most fundamental among others (11:15) (11:21)
     -The direction goes from right to left (15:24)
    -eg MOVS R0,R1 (15:32)
     -Copy the content of register (寄存器)  R1 to register (寄存器) R0 (15:40)
-   -MOV is opt (operand/操作数), R0 is Rd(destination/目的寄存器), #0X1 is 立即数 for
+   -MOV is opt (operand/操作码), R0 is Rd(destination/目的寄存器), #0X1 is 立即数 for
        MOV R0, #0X1
     -There are others such as cond, 分类码, s and Rn we didn't use (16:21)  
     -Rn
-->
+->Cond条件码     |opt 操作码 |分类码 |s    | Rd 目的寄存器 | Rn 原寄存器 | 立即数
+  31 (4bit)   27|26              17|16   |15          12|11          8|7      0      
+     4bit       |                  |1 bit|   4bit       |   4bit      |8 bit   
+->(17:15)
 ->
 ->
 ->
