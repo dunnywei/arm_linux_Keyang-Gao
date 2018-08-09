@@ -1,3 +1,4 @@
+Linux嵌入式开发和驱动开发--1ARM体系结构和汇编
 ->3 ARM汇编指令构造格式
 
 //https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS&index=3
@@ -119,6 +120,30 @@ mov       010
 加法add   110
 减法sub   111 
 ->(19:11) the 010,110,111 are just example (19:13)
+->Rd 目的寄存器 occupied 4 bits, 2^4=16 situations (情况) (19:28)
+    -from 0000 as 0 to 1111 as 15 so there are 16 situation (情况) (19:32)
+    -R0 to R15 (19:46) has 16 situations
+    -so Rd 目的寄存器 represents from R0 to R15 (19:59)
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
 ->
 ->
 ->
