@@ -101,7 +101,8 @@ is the most fundamental among others (11:15) (11:21)
   -eg MOV R0, #0X1
     -(14:25) MOV is a 传输数据 (sending data) with #0X1 as a 立即数 (immediate number)
     -MOV #0X1 as a 立即数 or 数字 to R0 register (寄存器)  (14:39)
-  
+    -#0X1 means it is in hex mode (十六进制) (14:48)
+    -
 ->
 ->
 ->
