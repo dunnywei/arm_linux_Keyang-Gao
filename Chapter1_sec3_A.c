@@ -136,7 +136,8 @@ mov       010
 ->add r0,r1,#0x55
   -(21:09) add 立即数 (immmediate number) as 0x55 with r1 register then saved to r0 (21:20)
   -When this instruction set (指令) to machine code 机器码, it is a 32 bit 位 at first. (21:25)
-  -
+  -The desinated register 目的寄存器 is R0 (21:29) so it becomes 0000 (21:38)
+  -Origin register (原寄存器) is R1 as 0001 (21:46)
 ->
 ->
 ->
