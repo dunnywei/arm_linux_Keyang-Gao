@@ -126,6 +126,8 @@ mov       010
     -so Rd 目的寄存器 represents from R0 to R15 (19:59)
     -Normal instruction set 指令 can't not operate 操作 on CPSR 寄存器 (20:04)
     -CPSR and SPSR 寄存器 (20:07) has TWO special intruction sets (指令) to operates (20:12)
+      -THOSE intruction sets (指令集) ADD, SUB, MUL and DIV won't touch CPSR and SPSR (20:16)
+      -Those intruction sets can only operate from R0 to R15 (20:22)
     -
 ->
 ->
