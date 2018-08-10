@@ -129,8 +129,14 @@ mov       010
       -THOSE intruction sets (指令集) ADD, SUB, MUL and DIV won't touch CPSR and SPSR (20:16)
       -Those intruction sets can only operate from R0 to R15 (20:22)
     -
-->
-->
+-> Rd 目的寄存器 (20:32)
+  -It is also a 4 bit (比特位) register 寄存器 (20:35)
+  -So it can handle 16 ituations (情况) as well (20:36)
+  -
+->add r0,r1,#0x55
+  -(21:09) add 立即数 (immmediate number) as 0x55 with r1 register then saved to r0 (21:20)
+  -When this instruction set (指令) to machine code 机器码, it is a 32 bit 位 at first. (21:25)
+  -
 ->
 ->
 ->
