@@ -140,7 +140,9 @@ mov       010
   -Origin register (原寄存器) is R1 as 0001 (21:46)
   -The immediate number 立即数 as 0x55 is stored in the 8bit of 立即数 in the instruction set (指令) (21:50) as
   0101 0101 (21:57)
-  -  
+  -opt 操作码 is 110 based on assumption (22:06)
+  -分类码 (22:07) is to classifed as "data transfer (数据传输)", "Computation (计算 or 运算)".
+    -It is a fixed code (22:15)
 ->
 ->
 ->
