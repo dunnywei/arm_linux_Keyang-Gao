@@ -150,8 +150,8 @@ mov       010
     -The result from the instruction set (指令) will affect/modify (影响/修改) the condition  flags (条件标志位) (CPSR) (23:09)(23:19)
    -s码作用 (23:28)
       -The result(结果) from the instruction set (指令) such as "adds" 
-        will affect/modify (影响/修改) the condition  flags (条件标志位) within CPSR register(寄存器) (23:57)
-
+        will affect/modify (影响/修改) the condition  flags (相关标志位/条件标志位) within CPSR register(寄存器) (23:57)
+      -condition  flags(相关标志位 / 条件标志位) relates to NZCV (24:06)
 ->
 ->
 ->
