@@ -143,6 +143,7 @@ mov       010
   -opt 操作码 is 110 based on assumption (22:06)
   -分类码 (22:07) is to classifed as "data transfer (数据传输)", "Computation (计算 or 运算)".
     -It is a fixed code (22:15)
+  -S and Cond条件码 are unkown yet (22:28)
 ->
 ->
 ->
