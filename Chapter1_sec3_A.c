@@ -147,7 +147,8 @@ mov       010
     -s码 only occpuies 1 bit (比特位) (22:43)
     -When the opcodes (操作码) becomes "movs/adds/subs" (22:53) then s码 =1. (22:57)
       link->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0802a/ADDS_addsub_imm.html
-    -The result from the instruction set (指令) will affect/modify (影响/修改) the condition  flags (CPSR) (23:09)
+    -The result from the instruction set (指令) will affect/modify (影响/修改) the condition  flags (条件标志位) (CPSR) (23:09)(23:19)
+    -
 ->
 ->
 ->
