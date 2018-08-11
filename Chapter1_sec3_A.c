@@ -143,7 +143,11 @@ mov       010
   -opt 操作码 is 110 based on assumption (22:06)
   -分类码 (22:07) is to classifed as "data transfer (数据传输)", "Computation (计算 or 运算)".
     -It is a fixed code (22:15)
-  -S and Cond条件码 are unkown yet (22:28)
+  -s码 and Cond条件码 are unkown yet (22:28).They are the hardest parts (22:34)
+    -s码 only occpuies 1 bit (比特位) (22:43)
+    -When the opcodes (操作码) becomes "movs/adds/subs" (22:53) then s码 =1. (22:57)
+      link->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0802a/ADDS_addsub_imm.html
+    -The result from the instruction set (指令) will affect/modify (影响/修改) the condition  flags (CPSR) (23:09)
 ->
 ->
 ->
