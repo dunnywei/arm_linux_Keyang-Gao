@@ -158,8 +158,13 @@ mov       010
         -C flag (标志)->carry 进位
         -V flag (标志)->overflow (溢出)
         good link->https://blog.csdn.net/u010670794/article/details/14107255
-        -If the opcoded contains "adds/subs", the NZCV inside CPSR flags(标志位) register (寄存器) will be reflected if condition is met (24:40)
-->
+        -If the opcoded contains "adds/subs", the NZCV inside CPSR flags(标志位) register (寄存器) will be reflected if
+          condition is met (24:40)
+        -If the opcoded contains "add/sub", there will be NO CHANGE of "NZCV" flag (标志位) in CPSR register(寄存器) (24:49)
+        -For example (25:45)
+        -
+        -  
+-> 
 ->
 ->
 ->
