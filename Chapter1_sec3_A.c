@@ -152,6 +152,11 @@ mov       010
       -The result(结果) from the instruction set (指令) such as "adds" 
         will affect/modify (影响/修改) the condition  flags (相关标志位/条件标志位) within CPSR register(寄存器) (23:57)
       -condition  flags(相关标志位 / 条件标志位) relates to NZCV (24:06)
+        -N flag (标志)->result<0, N=1. Result>=0, N=0
+        -Z flag (标志)->Zero 零
+        -C flag (标志)->carry 进位
+        -V flag (标志)->overflow (溢出)
+        
 ->
 ->
 ->
