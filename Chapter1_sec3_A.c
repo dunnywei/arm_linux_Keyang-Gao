@@ -156,7 +156,7 @@ mov       010
         -Z flag (标志)->Zero 零
         -C flag (标志)->carry 进位
         -V flag (标志)->overflow (溢出)
-        
+        good link->https://blog.csdn.net/u010670794/article/details/14107255
 ->
 ->
 ->
