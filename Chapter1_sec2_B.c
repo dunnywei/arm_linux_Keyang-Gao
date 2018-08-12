@@ -99,6 +99,8 @@ value (值) (45:38)
   -It means that it keep the highest bit (最高位) of result Register D after adding A and B together (45:45)
 ->1's complement=反码
 ->2's complement=补码
+->Check "3.5  n-bit Sign Integers in 2's Complement Representation" in 
+http://www.ntu.edu.sg/home/ehchua/programming/java/datarepresentation.html
 ->反码, 补码 link->http://www.cnblogs.com/zhangziqiu/archive/2011/03/30/ComputerCode.html
 ->good exlanatin for Flag N(标志) in CPSR (程序状态寄存器))
 ------------------------------------------------------------------------------------------------------------
