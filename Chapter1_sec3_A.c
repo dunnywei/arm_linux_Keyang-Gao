@@ -175,8 +175,10 @@ mov       010
              }else{
              }
           -In assembly(汇编), it is like doing the subtraction  (减法) as (A-B)>0 (27:52)
-          -
-          
+          -A>B so no need to 借位,  C位=0 inside NZCV flag (标志位) in CPSR register (寄存器) (28:11) (28:14)
+          link->https://blog.csdn.net/newairzhang/article/details/7929754
+          link2 for 數學借位->https://www.youtube.com/watch?v=393LiD_tWNI
+          -Since there is no need to have 借位, we will continue execute as line 174 //dosth  (28:22)
 -> 
 ->
 ->
