@@ -163,7 +163,11 @@ mov       010
         -If the opcoded contains "add/sub", there will be NO CHANGE of "NZCV" flag (标志位) in CPSR register(寄存器) (24:49)
         -For example (25:45) SUB R0,R1,R1
         -R0=R1-R1 (26:00)
-        -So R0=0 (26:07)  
+        -So R0=0 (26:07)
+        -Will the Z flag (标志位)=1 in CPSR register(寄存器) ?
+        -NO since it is NOT "SUBS" (26:23)(26:31)(27:07)
+        -
+          
 -> 
 ->
 ->
