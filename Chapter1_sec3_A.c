@@ -168,7 +168,14 @@ mov       010
           -NO since it is NOT "SUBS" (26:23)(26:31)(27:07)
     -Cond条件码 (27:14)
           -It is used to determine the status 状态 of  NZCV flag (标志位) in CPSR register (寄存器) (27:19)
-          
+          -For example, (27:29)
+             -if(A>B)
+             {
+               //do sth
+             }else{
+             }
+          -In assembly(汇编), it is like doing the subtraction  (减法) as (A-B)>0 (27:52)
+          -
           
 -> 
 ->
