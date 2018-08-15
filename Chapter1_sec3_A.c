@@ -181,19 +181,38 @@ mov       010
           -A>B so no need to 借位,  C位=1 inside NZCV flag (标志位) in CPSR register (寄存器) (28:11) (28:14)
           link->https://blog.csdn.net/newairzhang/article/details/7929754
           link2 for 數學借位->https://www.youtube.com/watch?v=393LiD_tWNI
-          -Since there is no need to have 借位 and C位=1, we will continue execute as line 174 //dosth  (28:22)
-          -If there is 借位 and C位=0, we will go to "else" and coninue to exectue in line 176 (28:25)
+          -Since there is no need to have 借位 and C位=1, we will continue execute aaa //dosth  (28:22)
+          -If there is 借位 and C位=0, we will go to "else" and coninue to exectue bbb (28:25)
           ->Link for C (位) flag->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0801a/CIADCDHH.html
                              and
                             ->https://community.arm.com/processors/b/blog/posts/condition-codes-1-condition-flags-and-codes
           ->if(a>b) //in assembly (汇编), it will be like subs (28:42)
             -variable a and b will be put into two sepearte register (寄存器) (28:48)
-          ->in assumbly, it will be like (29:06)
+ ->in assumbly, it will be like (29:06) (for new code)
           mov r1, 数a
           mov r2, 数b
-          sub r0,r1,r2 //CPSR C (位)->Set as 1
-          beq aaa
-          //否则 continue to execute bbb code in line 178
+          sub r0,r1,r2 //r1 - r2==0 then CPSR Z (标志位)->Set as 1
+          beq aaa 
+          //否则 continue to execute bbb 
+          
+   -汇编 空指令 arm->
+          https://blog.csdn.net/xwlxw/article/details/43413189
+          https://zhidao.baidu.com/question/198311492.html
+   -beq will keep the return address in R14 (Link pointer) at first.
+     Then check beq condition as if Z (标志位) has be seen set or not .
+     if Z (标志位) has been set, execute  aaa (32:12)(32:39)
+     If Z (标志位) has NOT been set,it will become a 空指令 (32:45)
+     空指令 means that it 什么也不做 then continue to execute bbb (32:49)
+->new corresponding C code
+(31:05)
+            -if(A==B)
+             {
+               //do sth
+               aaa
+             }else{
+               //do sth else
+               bbb
+             }
 -> 
 ->
 ->
