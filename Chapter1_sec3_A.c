@@ -180,11 +180,12 @@ mov       010
           link->https://blog.csdn.net/newairzhang/article/details/7929754
           link2 for 數學借位->https://www.youtube.com/watch?v=393LiD_tWNI
           -Since there is no need to have 借位 and C位=1, we will continue execute as line 174 //dosth  (28:22)
-          -If there is 借位 and C位=0, we will go to else and coninue to exectue in line 176 (28:25)
+          -If there is 借位 and C位=0, we will go to "else" and coninue to exectue in line 176 (28:25)
           ->Link for C flag->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0801a/CIADCDHH.html
                              and
                             ->https://community.arm.com/processors/b/blog/posts/condition-codes-1-condition-flags-and-codes
-            
+          ->if(a>b) //in assembly (汇编), it will be like subs (28:42)
+            -variable a and b will be put into two sepearte register (寄存器) (28:48)
 -> 
 ->
 ->
