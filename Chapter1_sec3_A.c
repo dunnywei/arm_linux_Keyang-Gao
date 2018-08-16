@@ -191,18 +191,13 @@ mov       010
  ->in assumbly, it will be like (29:06) (for new code)
           mov r1, 数a
           mov r2, 数b
-          sub r0,r1,r2 //r1 - r2==0 then CPSR Z (标志位)->Set as 1
+          sub r0,r1,r2 //r0=r1 - r2==0 then CPSR C flag (标志位)->Set as 1
           beq aaa 
           //否则 continue to execute bbb 
           
    -汇编 空指令 arm->
           https://blog.csdn.net/xwlxw/article/details/43413189
           https://zhidao.baidu.com/question/198311492.html
-   -beq will keep the return address in R14 (Link pointer) at first.
-     Then check beq condition as if Z (标志位) has be seen set or not .
-     if Z (标志位) has been set, execute  aaa (32:12)(32:39)
-     If Z (标志位) has NOT been set,it will become a 空指令 (32:45)
-     空指令 means that it 什么也不做 then continue to execute bbb (32:49)
 ->new corresponding C code
 (31:05)
             -if(A==B)
@@ -213,6 +208,15 @@ mov       010
                //do sth else
                bbb
              }
+->beq will keep the return address in R14 (Link pointer) at first.
+     -Then check beq condition as if Z (标志位) has be seen set or not.////corresponding to line 194
+     -if Z (标志位) has been set, execute  aaa (32:12)(32:39)
+       //if r0==0 so CPSR C flag (标志位)=1 then jump to aaa (33:09)
+     -If Z (标志位) has NOT been set,it will become a 空指令 (32:45)
+       //if r0!=0 , CPSR C flag (标志位)=0 then jump to bbb (33:26)
+     -空指令 means that it 什么也不做 then continue to execute bbb (32:49)
+     -Refers to line 192 and line 203
+->(33:31)
 -> 
 ->
 ->
