@@ -7,8 +7,11 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
   -NE used to determine (判断) Z flag 标志位 ==0 (clear 置0) (34:09)
   -Have to know the concept. Detail can be learned when needeed (34:58)
   -However, if your job relates the development 开发 of ARM assembly 汇编, you need to know the detail (35:06)
-  - 
-->
+  -Use this to do the bubble sort (冒泡排序) (35:23)
+    -Whwen we should exchange, when we don't exchenage (35:33) 
+    -It can be used as an assighment (35:41)
+    -
+->Difference between Cond条件码 and s码 (35:52)
 -> 
 ->
 ->
