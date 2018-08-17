@@ -3,6 +3,7 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
 -> There are several kinds of Cond条件码 (33:37)
   http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Chdhcfbc.html
   -It occupies 4 bits (位)  (33:55)
+  -EQ used to determine (判断) Z flag 标志位 ==1 (set) (34:02)
 ->
 -> 
 ->
