@@ -1,4 +1,8 @@
+
+https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS&index=3
 -> There are several kinds of Cond条件码 (33:37)
+  http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0204j/Chdhcfbc.html
+  -It occupies 4 bits (位)  (33:55)
 ->
 -> 
 ->
