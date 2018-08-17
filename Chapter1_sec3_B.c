@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
   -EQ used to determine (判断) Z flag 标志位 ==1 (set 置1 ) (34:02)
   -NE used to determine (判断) Z flag 标志位 ==0 (clear 置0) (34:09)
   -Have to know the concept. Detail can be learned when needeed (34:58)
+  -However, if your job relates the development 开发 of ARM assembly 汇编, you need to know the detail (35:06)
+  - 
 ->
 -> 
 ->
