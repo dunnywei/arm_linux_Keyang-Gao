@@ -71,8 +71,8 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
 ->type file "arm.a.out", it will tells us this is for arm cpu (53:41)
 ->if we type "arm.a.out" can't be executed (53:42)
 ->type "arm-linux-objdump -dSsx arm.a.out > file" (54:21)
-->@ 8400(address) e92d4800(machine code 机器指令) push {fp,blr}(assembly code 汇编码 )  (54:53)
-->
+->@ 8400(address) e92d4800(machine code 机器指令 or 机器码) push {fp,blr}(assembly code 汇编码 )  (54:53)
+->Each machine code 机器码 consists of 4 byte (字节) or (32bit 位)(55:08)
 ->
 ->
 ->
