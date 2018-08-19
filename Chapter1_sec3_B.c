@@ -47,15 +47,31 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
    -
 ->(50:00) Comparing ARM and x86
   -x86's byte code of instruction set's width is not fixed (50:10). Can be 2/3/4 bytes 
-  -Install cross compiler in linux/windows (50:49) enviroment (50:57)
-  -
+  -Install cross compiler(交叉编译程器) in linux/windows (50:49) enviroment (50:57)
+  -you need to install "arm-linux-gcc" (51:23)
+  -vi t.c   (51:58)
+  #include<stdio.h>
+  
+  void foo(int a)
+  {
+    while(a--)
+      printf("hello\n");
+  }
+  int main(void)
+  {
+    printf("hey\n");
+    foo(3);
+    printf("world\n");
+    return 0;
+  } //(52:50)
      
        
-->
-->
-->
-->
-->
+->file a.out is based on x86 (53:06) 
+->need to type "arm-linux-gcc t.c -o arm.a.out" (53:21)
+->type file "arm.a.out", it will tells us this is for arm cpu (53:41)
+->if we type "arm.a.out" can't be executed (53:42)
+->type "arm-linux-objdump -dSsx arm.a.out > file" (54:21)
+->@ 8400(address) e92d4800(machine code 机器指令) push {fp,blr}(assembly code 汇编码 )  (54:53)
 ->
 ->
 ->
