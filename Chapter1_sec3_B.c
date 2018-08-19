@@ -13,9 +13,12 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
     -
 ->Difference between Cond条件码 and s码 (35:52)
     -The working time (工作时间点) is different (36:00)
-    -One is done before the insturction set (指令) being executed (36:02)
-    -The other is done after the intruction set (指令) being executed (37:07)
-    
+    -One is done before (前) the insturction set (指令) of branch being executed (36:02)
+      -b is for branch (跳转) and eq is 条件码 (Condition code) (36:50)
+      -before branching, I need to see if condition (条件) of beq is met (成立) or not(36:55) 
+      -Cond条件码 applies (37:09)
+    -The other is done after(后) the intruction set (指令) of branch being executed (37:07)
+    -
 -> 
 ->
 ->
