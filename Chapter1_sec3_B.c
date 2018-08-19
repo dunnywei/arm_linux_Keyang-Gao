@@ -45,7 +45,12 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
        -you get the binary code in hex with its associated diassembly code (48:37)
    - without "-g", you can't see anything in C lanuage (49:26)
    -
-->(50:00) 
+->(50:00) Comparing ARM and x86
+  -x86's byte code of instruction set's width is not fixed (50:10). Can be 2/3/4 bytes 
+  -Install cross compiler in linux/windows (50:49) enviroment (50:57)
+  -
+     
+       
 ->
 ->
 ->
