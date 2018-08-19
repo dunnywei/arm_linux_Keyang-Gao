@@ -19,7 +19,9 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
       -Once the Cond条件码 is met (成立), (37:00) I will do the branch (跳转) (36:59). Otherwise I won't jump (37:03)
       -The determination of Cond条件码 is done BEFORE executing the instruction set (指令) of  branch (37:09)
     -The other (s码) is done after(后) the intruction set (指令) of branch being executed (37:07).
-        
+     - After addition (加法) such as ->add r0,r1,#0x55 in line 136 of "Chapter1_sec3_A.c" (37:14), it may cause carry (进位) as 1 (37:16)
+        so the flag (标志) in CPSR has to be set (置位) as 1 (37:21)
+     -
     -
 -> 
 ->
