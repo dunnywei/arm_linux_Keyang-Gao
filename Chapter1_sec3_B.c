@@ -19,12 +19,182 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
       -Once the Cond条件码 is met (成立), (37:00) I will do the branch (跳转) (36:59). Otherwise I won't jump (37:03)
       -The determination of Cond条件码 is done BEFORE executing the instruction set (指令) of  branch (37:09)
     -The other (s码) is done after(后) the intruction set (指令) of branch being executed (37:07).
-     - After addition (加法)/subtraction such as ->add r0,r1,#0x55 in line 136 of "Chapter1_sec3_A.c" (37:14), it may cause carry (进位) as 1 (37:16)
+      - After addition (加法)/subtraction such as ->add r0,r1,#0x55 in line 136 of "Chapter1_sec3_A.c" (37:14), it may cause carry (进位) as 1 (37:16)
         so the flag (标志) in CPSR has to be set (置位) as 1 (37:21) after the adds/subs
-     ->Therefore, 指令执行前判段条件码是否成立
-       -          指令执行厚，跟据s码的设置,影响CPSR register (寄存器) (37:58)
-    -
--> 
+    -Therefore, 指令执行前判段条件码是否成立
+                  -it may affect both C and V if carry and overflow both occur OR only Carry if only carry occurs(38:40)
+       -        指令执行厚，跟据s码的设置,影响CPSR register (寄存器)'s assciated 相关 flags 标志位 (37:58)
+    -software crack (软件破解)->(39:02) It will be really important (39:05)
+      -a softeware program (程序) in binary (二进制) is executed (执行) (39:20). In windows (.exe) in Linux (.elf) (39:32)
+      -Software may ask you to enter the register info/number (39:45)
+                    -res=identity_authorization()  (40:23)
+                     if(result>0)
+                     {
+                       //intiate_program
+                     }else{
+                       //notifiy user to re-enter again
+                     }
+     -assembler->change the assembly code to 0's and 1's
+     -Diassembler->change to 0's and 1's to assembly (41:28)
+     -Brief concept of diassembler (42:37)(44:17)    
+->gcc kernel.c -g -o app
+   -"-g" has the meaning of "adding comment" for C lanuage (47:09)
+   - "file app" will tell you this is a ELF file (47:20)
+   - "objdump -dSsx app > file"
+   - "vi file" the "file" becomes the result of diassemler (47:48)
+       -you get the binary code in hex with its associated diassembly code (48:37)
+   - without "-g", you can't see anything in C lanuage (49:26)
+   -
+->(50:00) 
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
 ->
 ->
 ->
