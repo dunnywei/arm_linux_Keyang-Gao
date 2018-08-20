@@ -1,8 +1,10 @@
 Linux嵌入式开发和驱动开发--1ARM体系结构和汇
 4 ARM汇编指令详解
 link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
-->
-->
+->MOV
+  -Instruction(指令) for data transfer 数据传输 (0:14)
+  -
+->We should should the system enviroment (系统环境) before introducing the instruction set 指令集 (0:36)
 ->
 ->
 ->
