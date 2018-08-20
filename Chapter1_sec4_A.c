@@ -4,7 +4,12 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
 ->MOV
   -Instruction(指令) for data transfer 数据传输 (0:14)
   -
-->We should should the system enviroment (系统环境) before introducing the instruction set 指令集 (0:36)
+->We should introduce the development  enviroment (开发环境) before introducing the instruction set 指令集 (0:36)
+  -ADS 1.2 (1:04)
+    -Really important about isntall directory (2:22)
+    -Need to install in "C:\Program Files\ARM\" as 64 bit (3:03)
+    -Install license (4:53)
+    -*.asf is the executable file in arm (11:05)
 ->
 ->
 ->
