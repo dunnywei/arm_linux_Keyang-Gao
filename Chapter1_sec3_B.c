@@ -76,9 +76,31 @@ https://www.youtube.com/watch?v=Xi3ioi1213k&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L
   mov r0,#3 //move 3 to r0
   bl 83b0<foo> //
 ->Where is the function of foo? It is in the address of 83b0 (55:35)
-->
-->
-->
+->Most used insturctions set in ARM
+  -MOV
+  -MVN
+  -ADD
+  -ADC
+  -SUB
+  -SBC
+  -AND
+  -ORR
+  -EOR
+  -NOR
+  -CMP
+  -BIC
+  -LDR
+  -STR
+  -LDMD
+  -STMFD
+  -B
+  -BL
+  -SWP
+  -MRS
+  -MSR
+->(56:11) 80% of time, after knowing the above.U can understand the ARM assemlby (汇编) instruction set 指令 (56:29)
+->eg MUL 
+   link->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0068b/CIHIHGGJ.html
 ->
 ->
 ->
