@@ -13,8 +13,10 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
     -ADS 1.2 helps us to learn the ARM assemly in the easy way (12:05)
     -It lists the CPU state as 
       -Current (当前)
-        -CPSR determine the current state (当前) by the lowest 5 bits (12:39) from M5 to M0
-        -Link->https://blog.csdn.net/david_luyang/article/details/6276533
+        -CPSR determine the current state (当前) by the lowest 5 bits (12:39) from M4 to M0, Link->https://blog.csdn.net/david_luyang/article/details/6276533
+        -the values (值) of r0 to r15, CPSR and SPSR are shown (12:48)(12:53) 
+        -The highlighted as red menas the change of register (13:04)
+    -How to create the aseembly 汇编 file? (13:28)  
 ->
 ->
 ->
