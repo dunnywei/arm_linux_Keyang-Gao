@@ -41,7 +41,14 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
           SUB R4,R3,R1
           END
      -(17:53)(19:06)(26:04)
+     -Code means 代码段(18:01)
+     -Area asm1test means the name of this segment is as "asm1test" (18:05)
+     -ENTRY 入口(18:18)
 ->
+->
+->
+->
+->          
  AREA asm1test,CODE,READONLY
    ENTRY       
    MOV R0, #0X1
