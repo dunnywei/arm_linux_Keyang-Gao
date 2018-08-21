@@ -30,8 +30,27 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
   -MOV R0, #0X1
      -If justtype this as the following since there is certain format (格式) to follow (17:08)
       MOV R0, #0X1    
+     -Folow the guideline (17:38) and type as following
+          AREA asm1test,CODE,READONLY
+          ENTRY
+          
+          MOV R0, #0X1
+          MOV R1, R0
+          MOV R2, #0X2
+          ADD R3,R1,R2
+          SUB R4,R3,R1
+          END
+     -(17:53)(19:06)(26:04)
 ->
-->
+ AREA asm1test,CODE,READONLY
+   ENTRY       
+   MOV R0, #0X1
+   MOV R1, R0
+   MOV R2, #0X2
+   ADD R3,R1,R2
+   SUB R4,R3,R1
+   END
+->(26:24)
 ->
 ->
 ->
