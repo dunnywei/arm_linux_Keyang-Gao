@@ -16,7 +16,11 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
         -CPSR determine the current state (当前) by the lowest 5 bits (12:39) from M4 to M0, Link->https://blog.csdn.net/david_luyang/article/details/6276533
         -the values (值) of r0 to r15, CPSR and SPSR are shown (12:48)(12:53) 
         -The highlighted as red menas the change of register (13:04)
-    -How to create the aseembly 汇编 file? (13:28)  
+    -How to create the aseembly 汇编 file? (13:28) 
+          -Could I have many unrelated(没有关系 or 不相关) files inside one projected (13:39)?
+          -It will cause the code segment's size becomes bigger (14:12)
+          -If those unrelated files has the same function such as "void m()"(14:19), then the "void m()" 
+            will be defined multiple times (多次定义) or (多重定义) (14:21)
 ->
 ->
 ->
