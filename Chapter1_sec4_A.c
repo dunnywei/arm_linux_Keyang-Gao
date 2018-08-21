@@ -33,7 +33,7 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
      -Folow the guideline (17:38) and type as following
           AREA asm1test,CODE,READONLY
           ENTRY
-          
+          CODE32
           MOV R0, #0X1
           MOV R1, R0
           MOV R2, #0X2
@@ -43,7 +43,9 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
      -(17:53)(19:06)(26:04)
      -Code means 代码段(18:01)
      -Area asm1test means the name of this segment is as "asm1test" (18:05)
-     -ENTRY 入口(18:18)
+     -ENTRY 入口(18:18) like the main() in C lanquage (18:23)
+     -CODE32 means 32bit 位 (18:30).If you didn't write, the default 默认 is 32bit位 (18:38)
+     -
 ->
 ->
 ->
