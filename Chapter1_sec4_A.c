@@ -34,6 +34,7 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
           AREA asm1test,CODE,READONLY
           ENTRY
           CODE32
+      AAA
           MOV R0, #0X1
           MOV R1, R0
           MOV R2, #0X2
@@ -45,6 +46,8 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
      -Area asm1test means the name of this segment is as "asm1test" (18:05)
      -ENTRY 入口(18:18) like the main() in C lanquage (18:23)
      -CODE32 means 32bit 位 (18:30).If you didn't write, the default 默认 is 32bit位 (18:38)
+     -AAA is used as a label 标号 (18:52). It is like a function name and can be named differently (18:58)
+     -label 标号 (19:08) is used as related address (入口地址) of (19:14) "MOV R0, #0X1" (19:21)
      -
 ->
 ->
