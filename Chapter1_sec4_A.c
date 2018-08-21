@@ -21,7 +21,15 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
           -It will cause the code segment's size becomes bigger (14:12)
           -If those unrelated files has the same function such as "void m()"(14:19), then the "void m()" 
             will be defined multiple times (多次定义) or (多重定义) (14:21)
-->
+          -Therefore inside one project, don't put things are unrelated(不相关) files (14:27)
+          -assemlby (汇编) code is named as "*.s" (14:52)
+          -start writing assemlby cde (汇编) (15:34)
+          -
+->Now wa are going to the MOV instruction (指令) (16:14)
+  -can be either "MOV" or "mov" BUT NOT "moV" (16:26)
+  -MOV R0, #0X1
+     -If justtype this as the following since there is certain format (格式) to follow (17:08)
+      MOV R0, #0X1    
 ->
 ->
 ->
