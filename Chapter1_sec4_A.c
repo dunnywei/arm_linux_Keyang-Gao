@@ -10,6 +10,11 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
     -Need to install in "C:\Program Files\ARM\" as 64 bit (3:03)
     -Install license (4:53)
     -*.asf is the executable file in arm (11:05)
+    -ADS 1.2 helps us to learn the ARM assemly in the easy way (12:05)
+    -It lists the CPU state as 
+      -Current (当前)
+        -CPSR determine the current state (当前) by the lowest 5 bits (12:39) from M5 to M0
+        -Link->https://blog.csdn.net/david_luyang/article/details/6276533
 ->
 ->
 ->
