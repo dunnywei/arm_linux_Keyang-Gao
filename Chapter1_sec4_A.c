@@ -41,6 +41,8 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
           ADD R3,R1,R2
           SUB R4,R3,R1
           END
+          MOV R0, #0X2
+
      -(17:53)(19:06)(26:04)
      -"Code" means 代码段(18:01)
      -"Area" asm1test means the name of this segment is as "asm1test" (18:05)
@@ -49,6 +51,11 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
      -"AAA" is used as a label 标号 (18:52). It is like a function name and can be named differently (18:58)
      -label 标号 (19:08) is used as related address (入口地址) of (19:14) "MOV R0, #0X1" (19:21)
      -With "END" (19:37) as fake instruction 伪指令 (19:48). 
+     - fake instruction 伪指令 is not the offical instruction( 指令) sot it won't translate into machine code 机器码. For example the "MOV R0, #0X1"
+          will have its corresponding machine code. "AREA asm1test" won't have it. 
+     -fake instruction 伪指令 is to let the COMPILER/IDE to read/understand (19:59)
+     -if I have "MOV R0, #0X2" after "END". It won't execute (20:09)
+      
 ->
 ->
 ->
