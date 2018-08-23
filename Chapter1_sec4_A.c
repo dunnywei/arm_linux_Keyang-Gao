@@ -55,6 +55,8 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
           will have its corresponding machine code. "AREA asm1test" won't have it. 
      -fake instruction 伪指令 is to let the COMPILER/IDE to read/understand (19:59)
      -if I have "MOV R0, #0X2" after "END". It won't execute (20:09)
+     -In the Debug mode (调试模式) (20:51)
+       
       
 ->
 ->
