@@ -70,7 +70,9 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
       -CPSR register,  (22:15) nzcvqIET_SVC
         -when nzcv is in lower case->0 (22:15) OR when nzcv is in UPPER case->1 (22:17)
       -U can also change the mode of ARM CPU mode eg. Supervisor, System/User (22:32)
-      -
+      -You can restart the entire debug process by clicking "reload image" (22:48)
+      -Q:IN our example, we only have on instruction (指令). After it is done, What will CPU do? (23:00)
+      -A:
       
 ->
 ->
