@@ -57,8 +57,20 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
      -if I have "MOV R0, #0X2" after "END". It won't execute (20:09)
      -In the Debug mode (调试模式) (20:51)
      -Step in->going into the function (函数) (21:35)
-     -
-       
+     -Step->means when see the function(函数), it will finish the execution of the function (21:41)
+-> For the following example
+      AREA asm1test,CODE,READONLY
+          ENTRY
+          CODE32
+      AAA
+          MOV R0, #0X1
+          END
+      -r0 will be 0x00000001 (21:47)
+      -PC will be point to the next intruction to exectue as 0x00006004 (21:57)
+      -CPSR register,  (22:15) nzcvqIET_SVC
+        -when nzcv is in lower case->0 (22:15) OR when nzcv is in UPPER case->1 (22:17)
+      -U can also change the mode of ARM CPU mode eg. Supervisor, System/User (22:32)
+      -
       
 ->
 ->
