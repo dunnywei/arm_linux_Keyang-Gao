@@ -72,7 +72,8 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
       -U can also change the mode of ARM CPU mode eg. Supervisor, System/User (22:32)
       -You can restart the entire debug process by clicking "reload image" (22:48)
       -Q:IN our example, we only have on instruction (指令). After it is done, What will CPU do? (23:00)
-      -A:
+      -A: ARM processor raised an exception cause "undefeined (未定义) instruction (指令)" (23:21). Therefore what has been stored in 内存
+          maay not be a defined (legal 合法) instruction (指令) (23:31)
       
 ->
 ->
