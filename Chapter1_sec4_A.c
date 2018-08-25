@@ -75,9 +75,10 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
       -A: ARM processor raised an exception cause "undefeined (未定义) instruction (指令)" (23:21). Therefore what has been stored in 内存
           maay not be a defined (legal 合法) ARM instruction (指令) (23:31)
         -We only have one but it has more than one (23:37)
-      -CPU 跑飞 or 程序运行跑飞现象 (23:47) link->https://blog.csdn.net/Echo_Ana/article/details/52559738
-      -
-       
+      -IN assmelby, CPU may 跑飞 or a.k.a 程序运行跑飞现象 (23:47) link->https://blog.csdn.net/Echo_Ana/article/details/52559738
+      -In C, can 跑飞 occur (23:58)? when programming the C code under any OS, 跑飞 won't occur (24:04). While execution by double clicking in  OS,
+        it will create a process 进程 by invoking fork() (24:13)
+
       
       
 ->
