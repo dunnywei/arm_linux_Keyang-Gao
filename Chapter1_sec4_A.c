@@ -82,6 +82,10 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
       -In C, can 跑飞 occur (23:58)? when programming the C code under any OS, 跑飞 won't occur (24:04). While execution by double clicking in  OS,
         it will create a process 进程 by invoking fork() (24:13). EXVC 执行 this process 进程 (24:14). After this process 进程 finish executing
         its tasks (24:17), OS will take control (接管) of the CPU for continuing to operate 运转 (24:21)
+      -However, when I just execute the assemlby code with one instruction without consider the 
+        concept of OS (操作系统概念) (24:28),  跑飞 can occur. The reason is that after CPU finish 
+        the execution  (eg MOV R0, #0X1), CPU doesn't know what will execute next (24:32)
+
 
       
       
