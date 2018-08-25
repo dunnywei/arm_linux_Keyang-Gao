@@ -24,7 +24,7 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
           -Therefore inside one project, don't put things are unrelated(不相关) files (14:27)
           -assemlby (汇编) code is named as "*.s" (14:52)
           -start writing assemlby cde (汇编) (15:34)
-          -
+          -https://blog.csdn.net/renlonggg/article/details/55803742
 ->Now wa are going to the MOV instruction (指令) (16:14)
   -can be either "MOV" or "mov" BUT NOT "moV" (16:26)
   -MOV R0, #0X1
@@ -75,9 +75,13 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
       -A: ARM processor raised an exception cause "undefeined (未定义) instruction (指令)" (23:21). Therefore what has been stored in 内存
           maay not be a defined (legal 合法) ARM instruction (指令) (23:31)
         -We only have one but it has more than one (23:37)
-      -IN assmelby, CPU may 跑飞 or a.k.a 程序运行跑飞现象 (23:47) link->https://blog.csdn.net/Echo_Ana/article/details/52559738
+      -IN assmelby during memory copy, CPU doesn't know wheer to execute next (23:55). 
+        It is a.k.a CPU 跑飞 or a.k.a 程序运行跑飞现象 (23:47) 
+                                                                  link->https://blog.csdn.net/Echo_Ana/article/details/52559738
+                                                   zynq 程序跑飞原因分析->https://blog.csdn.net/renlonggg/article/details/55803742
       -In C, can 跑飞 occur (23:58)? when programming the C code under any OS, 跑飞 won't occur (24:04). While execution by double clicking in  OS,
-        it will create a process 进程 by invoking fork() (24:13)
+        it will create a process 进程 by invoking fork() (24:13). EXVC 执行 this process 进程 (24:14). After this process 进程 finish executing
+        its tasks (24:17), OS will take control (接管) of the CPU for continuing to operate 运转 (24:21)
 
       
       
