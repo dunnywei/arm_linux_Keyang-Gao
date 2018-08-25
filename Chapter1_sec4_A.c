@@ -80,11 +80,15 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
                                                                   link->https://blog.csdn.net/Echo_Ana/article/details/52559738
                                                    zynq 程序跑飞原因分析->https://blog.csdn.net/renlonggg/article/details/55803742
       -In C, can 跑飞 occur (23:58)? when programming the C code under any OS, 跑飞 won't occur (24:04). While execution by double clicking in  OS,
-        it will create a process 进程 by invoking fork() (24:13). EXVC 执行 this process 进程 (24:14). After this process 进程 finish executing
+        it will create a process 进程 by invoking fork() (24:13). EXVC 执行 this process 进程 (24:14). Wait() recycle (回收) the process 进程.(24:15)
+        After this process 进程 finish executing
         its tasks (24:17), OS will take control (接管) of the CPU for continuing to operate 运转 (24:21)
       -However, when I just execute the assemlby code with one instruction without consider the 
         concept of OS (操作系统概念) (24:28),  跑飞 can occur. The reason is that after CPU finish 
-        the execution  (eg MOV R0, #0X1), CPU doesn't know what will execute next (24:32)
+        the execution  (eg MOV R0, #0X1), CPU will continue to execute. However  
+        which instruction (指令) CPU will execute next is unknown (24:34)
+      -THE OS conscept is the larnge energy(大能量) endless loop (死循环) (24:39)(24:51)
+      -
 
 
       
