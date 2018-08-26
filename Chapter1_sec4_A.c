@@ -89,15 +89,7 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
         which instruction (指令) CPU will execute next is unknown (24:34)
       -THE OS conscept is the larnge energy(大能量) endless loop (死循环) (24:39)(24:51)
       -
-
-
-      
-      
-->
-->
-->
-->
-->          
+->(25:32)          
  AREA asm1test,CODE,READONLY
    ENTRY       
    MOV R0, #0X1
@@ -106,7 +98,17 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
    ADD R3,R1,R2
    SUB R4,R3,R1
    END
-->(26:24)
+  
+  -SUB R4,R3,R1;R4=R3-R1 (26:35)分号
+
+(26:24)
+->
+->
+->
+->
+->
+->
+->
 ->
 ->
 ->
