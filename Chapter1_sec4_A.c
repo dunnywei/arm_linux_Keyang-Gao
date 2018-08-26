@@ -95,11 +95,14 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
    MOV R0, #0X1
    MOV R1, R0
    MOV R2, #0X2
-   ADD R3,R1,R2
-   SUB R4,R3,R1
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0 
+   B .
    END
   
-  -SUB R4,R3,R1;R4=R3-R1 (26:35)分号
+  -(27:16) Go to debug mode and see
+  -B is the branch (跳转) and dot (.) means the current instruction address 当前指令地址 (27:33) 
 
 (26:24)
 ->
