@@ -104,7 +104,11 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
   -(27:16) Go to debug mode and see
   -B is the branch (跳转) and dot (.) means the current instruction address 当前指令地址 (27:33) 
      -Therefore it will keep branching at this address (不动.原地跳转) (27:56)
-  -
+  -Be aware of "SUBS R0,R0,R0" (29:29)
+     -DUE to "SUBS", the assciated 相关 flags 标志位 will be set (29:41)
+     -so Z and C in CPSR will be in UPPER CASE (29:51)
+     -Z is due to zero occurs (29:58) so it is set as 1
+     -(30:03)
 (26:24)
 ->
 ->
