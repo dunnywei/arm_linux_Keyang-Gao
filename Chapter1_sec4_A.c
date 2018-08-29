@@ -91,7 +91,8 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
       -
 ->(25:32)          
  AREA asm1test,CODE,READONLY
-   ENTRY       
+   ENTRY
+AAA
    MOV R0, #0X1
    MOV R1, R0
    MOV R2, #0X2
@@ -110,8 +111,9 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
      -Z is due to zero occurs (29:58) so it is set as 1
      -(30:03) C occurs when thee is no 借位(borrow) during the subtraction, it will be set to 1 (30:13)
      -If there is 借位(borrow), it will be set to 0. It is vice versa w.r.t "ADDS" (30:17)
-(26:24)
-->
+     -If I use "B AAA" instead of "B .", it means that I wil branch to line 96 and continue to execute (30:51)
+->MVN (数据取反)(31:09) link-> https://blog.csdn.net/shift_f/article/details/3339741
+  
 ->
 ->
 ->
