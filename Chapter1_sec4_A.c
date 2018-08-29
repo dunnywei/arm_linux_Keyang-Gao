@@ -108,7 +108,8 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
      -DUE to "SUBS", the assciated 相关 flags 标志位 will be set (29:41)
      -so Z and C in CPSR will be in UPPER CASE (29:51)
      -Z is due to zero occurs (29:58) so it is set as 1
-     -(30:03)
+     -(30:03) C occurs when thee is no 借位(borrow) during the subtraction, it will be set to 1 (30:13)
+     -If there is 借位(borrow), it will be set to 0. It is vice versa w.r.t "ADDS" (30:17)
 (26:24)
 ->
 ->
