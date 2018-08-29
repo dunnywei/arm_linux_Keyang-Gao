@@ -103,7 +103,8 @@ link->https://www.youtube.com/watch?v=4qziMvvMCjo&index=4&list=PLhqasd25bl-hamUH
   
   -(27:16) Go to debug mode and see
   -B is the branch (跳转) and dot (.) means the current instruction address 当前指令地址 (27:33) 
-
+     -Therefore it will keep branching at this address (不动.原地跳转) (27:56)
+  -
 (26:24)
 ->
 ->
