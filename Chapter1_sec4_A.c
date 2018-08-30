@@ -143,8 +143,14 @@ R1   R0         R3   R2
 
     
 -> R1 and R0 registers will comebine as variable a (33:45)
-       -R3 and R2 registers will comebine as variable b (34:05)
-       
+-> R3 and R2 registers will comebine as variable b (34:05)
+   -After adding (R0 and R2), there may be a carry bit(进位) to (r1 and R3) (34:12)
+   -so C flags 标志位 in CPSR will be set (34:16) due to carry (34:35)
+   -so we will use "ADDS" to reserve the carry bit (34:56) between R0 and R2
+   -Then we will use "ADC" to add another 1 from C flag 标志位 in CPSR if the carrry bit has been set (35:12)(35:21)
+ADDS R4,R0,R2 ;(35:53)
+
+ADC
 ->
 ->
 ->
