@@ -113,7 +113,25 @@ AAA
      -If there is 借位(borrow), it will be set to 0. It is vice versa w.r.t "ADDS" (30:17)
      -If I use "B AAA" instead of "B .", it means that I wil branch to line 96 and continue to execute (30:51)
 ->MVN (数据取反)(31:09) link-> https://blog.csdn.net/shift_f/article/details/3339741
-  
+AREA asm1test,CODE,READONLY
+   ENTRY
+AAA
+   MOV R0, #0X1
+   MOV R1, R0
+   MOV R2, #0X2
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0
+   
+   MVN R5,#0X0 ;
+   
+   B .
+   END
+  -"MVN R5,#0X0" (31:22) result is 
+0000 0000 0000 0000 0000 0000 0000 0000
+1111 1111 1111 1111 1111 1111 1111 1111 (取反 inverse)
+   F   F     F    F    F    F    F    F  
+   -(31:58)
 ->
 ->
 ->
