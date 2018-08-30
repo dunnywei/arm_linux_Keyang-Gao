@@ -137,9 +137,14 @@ AAA
      -In C lanquage, long long occupies 8 bytes (字节) maximum (32:46)
 long a,b,c
      -If I want to do the 64bit addition in ARM, what should I do (33:10)
-   a  
-R1   R0
--> R1 and R0 will comebine as variable a (33:45)
+   a              b  
+R1   R0         R3   R2
+  
+
+    
+-> R1 and R0 registers will comebine as variable a (33:45)
+       -R3 and R2 registers will comebine as variable b (34:05)
+       
 ->
 ->
 ->
