@@ -112,7 +112,7 @@ AAA
      -(30:03) C occurs when thee is no 借位(borrow) during the subtraction, it will be set to 1 (30:13)
      -If there is 借位(borrow), it will be set to 0. It is vice versa w.r.t "ADDS" (30:17)
      -If I use "B AAA" instead of "B .", it means that I wil branch to line 96 and continue to execute (30:51)
-->MVN (数据取反)(31:09) link-> https://blog.csdn.net/shift_f/article/details/3339741
+->MVN (数据取反传输)(31:09) link-> https://blog.csdn.net/shift_f/article/details/3339741
 AREA asm1test,CODE,READONLY
    ENTRY
 AAA
@@ -131,9 +131,15 @@ AAA
 0000 0000 0000 0000 0000 0000 0000 0000
 1111 1111 1111 1111 1111 1111 1111 1111 (取反 inverse)
    F   F     F    F    F    F    F    F  
-   -(31:58)
-->
-->
+   -(31:58) 
+->ADC add with carry (32:09)
+     -We don't use a lot (32:22)
+     -In C lanquage, long long occupies 8 bytes (字节) maximum (32:46)
+long a,b,c
+     -If I want to do the 64bit addition in ARM, what should I do (33:10)
+   a  
+R1   R0
+-> R1 and R0 will comebine as variable a (33:45)
 ->
 ->
 ->
