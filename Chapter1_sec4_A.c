@@ -148,11 +148,12 @@ R1   R0         R3   R2
    -so C flags 标志位 in CPSR will be set (34:16) due to carry (34:35)
    -so we will use "ADDS" to reserve the carry bit (34:56) between R0 and R2
    -Then we will use "ADC" to add another 1 from C flag 标志位 in CPSR if the carrry bit has been set (35:12)(35:21)
-ADDS R4,R0,R2 ;(35:53)
+ADDS R4,R0,R2 ;(35:53) To keep the carry bit
 ADC  R5,R1,R3 ;R1+R3+ C flag 标志位 in CPSR (36:22)
    -ADC will add 1 if there is carry bit in "ADDS R4,R0,R2" line 151 (36:11)
 ->SBC (sub with carry 借位) (36:45)
-->
+     
+->AND (Bitwise operator 位操作)(36:57) 
 ->
 ->
 ->
