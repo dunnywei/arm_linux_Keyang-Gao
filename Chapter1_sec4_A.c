@@ -154,7 +154,22 @@ ADC  R5,R1,R3 ;R1+R3+ C flag 标志位 in CPSR (36:22)
 ->SBC (sub with carry 借位) (36:45)
      
 ->AND (Bitwise operator 位操作)(36:57) 
-->
+     -& operator in C lanquage
+     -a&B->bitwise for each bit (37:41)
+     -a&&b->logical operation (37:45)
+     -eg
+      -a=5; b=8;
+        if(a&b)
+          AAA;
+        else
+          BBB; //0101 &1000=0 (goes here)(39:08)
+      -eg2
+         a=5;b=8
+         if(a&&b)
+          AAA; //0101!=0 &&1000!=0 disregards -ve or +ve so goes here (39:43)  
+        else
+          BBB;   
+->(39:51)
 ->
 ->
 ->
