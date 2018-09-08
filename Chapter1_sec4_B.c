@@ -20,11 +20,18 @@ AAA
    SUBS R0,R0,R0
    
    MVN R5,#0X0 ;
-   AND R3,R1,R2; (40:51)
+   AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
+   OR  
 
    B .
    END
-->
+->In embedded Software Development, Bitwise operator 位操作 (40:15) is a mandatory requirement (41:12)
+     -In application development, they don't use a lot of bitwise operation 位运算 (41:24)
+     -The good application programmer may use the bitwise operation 位运算 (41:27) since it can reduce the
+     resource requiremnt in the memory (41:30)
+     -In embedded software development, there are a lot of bitwise operation 位运算 required (41:34)
+     -You will set 1/0 in the register 寄存器 (41:40) or physical memory (内存) in large bitwise operation 位运算 (41:41)
+     -
 ->
 ->
 ->
