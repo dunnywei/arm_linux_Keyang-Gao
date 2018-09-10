@@ -37,8 +37,28 @@ AAA
  -(41:52) R6 should be 0X0000 0011=3d (43:02)
 ->AND R3,R1,R2
  -(43:21) R3=0x0000 0000=0d (43:21) due to and operation 与操作 (43:37)
- -
-->
+->CMP (compare 比较)
+AREA asm1test,CODE,READONLY
+   ENTRY
+AAA
+   MOV R0, #0X1
+   MOV R1, R0
+   MOV R2, #0X2
+   
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   CMP R3,R1 (44:14)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0
+   
+   MVN R5,#0X0;
+
+   ORR R6,R1,R2; ;R6=R1 OR R2 (41:45)
+   AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
+    
+
+   B .
+   END
+   -It is like SUB. There is a difference (44:08)
 ->
 ->
 ->
