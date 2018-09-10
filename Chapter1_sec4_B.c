@@ -46,7 +46,7 @@ AAA
    MOV R2, #0X2
    
    ADD R3,R1,R2  ;R3=R1+R2 (26:54)
-   CMP R3,R1 (44:14)
+   CMP R3,R1 (44:14);R3-R1
    SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
    SUBS R0,R0,R0
    
@@ -59,6 +59,7 @@ AAA
    B .
    END
    -It is like SUB. There is a difference (44:08)
+   -"CMP" doesn't save the result to another register 寄存器 as "Sub" (44:34)
 ->
 ->
 ->
