@@ -97,7 +97,34 @@ AAA
     -you have to load it into the register 寄存器 (or CPU 内部) then store into another 另一个 address 地址 of physical memory 内存 (47:47)(47:52)
     -load from memory 内存 to register 寄存器 (48:03)
     -store from register 寄存器 to memmory 内存 (48:03)
+    -eg
+AREA asm1test,CODE,READONLY
+   ENTRY
+AAA
+   MOV R0, #0X3
+   BIC R0,R0,#0x1; 
+   MOV R1, R0
+   MOV R2, #0X2
+   
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0
+   
+   MVN R5,#0X0;
+   MOV R6,#0X9000
+   STR R5,[R6]; [] refer to the content of address as brackets 括号 (51:20)
+   
+
+   ORR R6,R1,R2; ;R6=R1 OR R2 (41:45)
+   AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
     
+
+   B .
+   END
+   -(49:07) Compile and see 
+   -Click memory block and set 0x9000 (49:57)
+   -Due to MVN so R5 will contain the inverse of 0->FFFF FFFF (50:30)
+   -When PC is point to 118, we should see the content of address at  0x9000 is FFFF FFFF (51:01)
 ->
 ->
 ->
