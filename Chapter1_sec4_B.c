@@ -93,6 +93,11 @@ AAA
    -When PC(R15) points to line 77,the R0 will be 2d (46:40) 
 ->LDR and STR
   -It has the concept of Load and Store (47:14)
+  -When you want to move from one address 地址 of physical memory 内存 to another 另一个 address 地址 of physical memory 内存
+    -you have to load it into the register 寄存器 (or CPU 内部) then store into another 另一个 address 地址 of physical memory 内存 (47:47)(47:52)
+    -load from memory 内存 to register 寄存器 (48:03)
+    -store from register 寄存器 to memmory 内存 (48:03)
+    
 ->
 ->
 ->
