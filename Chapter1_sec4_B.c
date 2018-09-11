@@ -62,6 +62,10 @@ AAA
    -"CMP" doesn't save the result to another register 寄存器 as "Sub" (44:34)
    -"CMP" only compares these two registers  寄存器 but don't save the result to another register  寄存器(44:42)
    -Its pupurse is to change the flag 标志位 in CPSR  寄存器 (44:54)
+   -like the example in "if(A>B)", we only care which one is bigger (45:12)
+      -We DON'T care what is the different amount between A and B(45:18)
+      -so We only care about the flag 标志位 in CPSR but not the resulted difference between A and B(45:24)
+     
 ->
 ->
 ->
