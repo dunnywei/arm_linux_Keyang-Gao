@@ -66,8 +66,33 @@ AAA
       -We DON'T care what is the different amount between A and B(45:18)
       -so We only care about the flag 标志位 in CPSR but not the resulted difference between A and B(45:24)
      
-->
-->
+->BIC (Bit clear 位清零) command (45:33)
+     -It will set the bit 位 as 0 (45:37)
+     -eg.
+AREA asm1test,CODE,READONLY
+   ENTRY
+AAA
+   MOV R0, #0X3
+   BIC R0,R0,#0x1; 
+   MOV R1, R0
+   MOV R2, #0X2
+   
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0
+   
+   MVN R5,#0X0;
+
+   ORR R6,R1,R2; ;R6=R1 OR R2 (41:45)
+   AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
+    
+
+   B .
+   END
+   -"BIC R0,R0,#0x1" set the lowest bit to 0 in R0 (46:15) then save to R0 寄存器 (46:19)
+   -When PC(R15) points to line 77,the R0 will be 2d (46:40) 
+->LDR and STR
+  -It has the concept of Load and Store (47:14)
 ->
 ->
 ->
