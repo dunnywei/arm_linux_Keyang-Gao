@@ -113,8 +113,9 @@ AAA
    MVN R5,#0X0;
    MOV R6,#0X9000
    STR R5,[R6]; [] refer to the content of address as brackets 括号 (51:20)
-   
+   LDR R7,[R6];obtain the data from the memory (51:28)(51:35)
 
+   STR R5,[R6,#0X4]; 
    ORR R6,R1,R2; ;R6=R1 OR R2 (41:45)
    AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
     
@@ -124,8 +125,11 @@ AAA
    -(49:07) Compile and see 
    -Click memory block and set 0x9000 (49:57)
    -Due to MVN so R5 will contain the inverse of 0->FFFF FFFF (50:30)
-   -When PC is point to 118, we should see the content of address at  0x9000 is FFFF FFFF (51:01)
-->
+   -When PC points to line 116, we should see the content of address at  0x9000 is FFFF FFFF (51:01)
+   -When PC pionts to line 118, R7=FFFF FFFF (52:26)
+   -Thare are more advanced assembly instruction as "STR R5,[R6,#0X4]" (53:09) 
+
+-> 
 ->
 ->
 ->
