@@ -143,7 +143,7 @@ AAA
   -eg
 AREA asm1test,CODE,READONLY
    ENTRY
-AAA
+AAA;(Start of Case I)
    MOV R0, #0X3
    BIC R0,R0,#0x1; 
    MOV R1, R0
@@ -169,12 +169,44 @@ BBB
    MVN R5,#0X1;
    MOV R6,#0X9000
    
-   END
+   END;(End of case I)
   -With "BL BBB" it will jump (跳转) to BBB (54:51)
-  -When PC(L15) is at line 167, the content of L14 is 0000 0000 (55:12)
+  -When PC(L15) is at line 167, the content of R14 is 0000 0000 (55:12)
   -L14 (LR) is used to keep return address (55:22)
-  -BBB points to the address of 0x8044 in line 169 of "MVN R5,#0X1"  (56:02)
-  -
+  -BBB refers to the address of 0x8038 in line 163 of "ORR R6,R1,R2" (56:02)
+   
+  -When PC(L15) points to line 169 of "MVN R5,#0X1", we can see R14(LR) is 0x8044 (56:07) in case 1
+  -eg case II starts
+AAA;(Start of Case II)
+   MOV R0, #0X3
+   BIC R0,R0,#0x1; 
+   MOV R1, R0
+   MOV R2, #0X2
+   
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0
+   
+   MVN R5,#0X0;
+   MOV R6,#0X9000
+   STR R5,[R6]; [] refer to the content of address as brackets 括号 (51:20)
+   LDR R7,[R6];obtain the data from the memory (51:28)(51:35)
+
+   STR R5,[R6,#0X4]; 
+BBB
+   ORR R6,R1,R2; ;R6=R1 OR R2 (41:45)
+   AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
+    
+
+   B BBB
+   
+   MVN R5,#0X1;
+   MOV R6,#0X9000
+   
+   END;(End of case II)
+   -use "B BBB" instead of "BL BBB" (56:23)
+
+
 ->
 ->
 ->
