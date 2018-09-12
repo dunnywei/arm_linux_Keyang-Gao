@@ -127,9 +127,12 @@ AAA
    -Due to MVN so R5 will contain the inverse of 0->FFFF FFFF (50:30)
    -When PC points to line 116, we should see the content of address at  0x9000 is FFFF FFFF (51:01)
    -When PC pionts to line 118, R7=FFFF FFFF (52:26)
-   -Thare are more advanced assembly instruction as "STR R5,[R6,#0X4]" (53:09) 
-
--> 
+   -Thare are more advanced assembly instruction as "STR R5,[R6,#0X4]" (53:09)
+     -It means the base (基地址) + offset 偏移地址 (53:15)
+     -So R6+0x4 at first then get the content at location of [R6+0x4] (53:19)
+     - 90000+4 then get the content at [90004] (53:23)
+     -
+-> STMFD (53:47)
 ->
 ->
 ->
