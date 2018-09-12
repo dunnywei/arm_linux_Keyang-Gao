@@ -132,9 +132,15 @@ AAA
      -So R6+0x4 at first then get the content at location of [R6+0x4] (53:19)
      - 90000+4 then get the content at [90004] (53:23)
      -
--> STMFD (53:47)
-->
-->
+-> STMFD (PUSH) (53:47) as push operation and LDMFD(POP)
+  -link->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0068b/Cacbgchh.html
+  -It will cover later (53:50)
+  
+->B is branch (跳转) operation (指令) (53:54)
+    
+->BL means branch while retaining the return address (54:03) to LR(L14)
+  -link->http://www.keil.com/support/man/docs/armasm/armasm_dom1361289865686.htm
+  -
 ->
 ->
 ->
