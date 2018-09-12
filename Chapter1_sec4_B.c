@@ -166,12 +166,14 @@ BBB
 
    BL BBB
    
-   MVN R5,#0X0;
+   MVN R5,#0X1;
    MOV R6,#0X9000
    
    END
   -With "BL BBB" it will jump (跳转) to BBB (54:51)
-  -When PC(L15) is at line 167, the content of L14 is 0000 0000 (55:12) 
+  -When PC(L15) is at line 167, the content of L14 is 0000 0000 (55:12)
+  -L14 (LR) is used to keep return address (55:22)
+  -BBB points to the address of 0x8044 in line 169 of "MVN R5,#0X1"  (56:02)
   -
 ->
 ->
