@@ -140,6 +140,38 @@ AAA
     
 ->BL means branch while retaining the return address (54:03) to LR(L14)
   -link->http://www.keil.com/support/man/docs/armasm/armasm_dom1361289865686.htm
+  -eg
+AREA asm1test,CODE,READONLY
+   ENTRY
+AAA
+   MOV R0, #0X3
+   BIC R0,R0,#0x1; 
+   MOV R1, R0
+   MOV R2, #0X2
+   
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0
+   
+   MVN R5,#0X0;
+   MOV R6,#0X9000
+   STR R5,[R6]; [] refer to the content of address as brackets 括号 (51:20)
+   LDR R7,[R6];obtain the data from the memory (51:28)(51:35)
+
+   STR R5,[R6,#0X4]; 
+BBB
+   ORR R6,R1,R2; ;R6=R1 OR R2 (41:45)
+   AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
+    
+
+   BL BBB
+   
+   MVN R5,#0X0;
+   MOV R6,#0X9000
+   
+   END
+  -With "BL BBB" it will jump (跳转) to BBB (54:51)
+  -When PC(L15) is at line 167, the content of L14 is 0000 0000 (55:12) 
   -
 ->
 ->
