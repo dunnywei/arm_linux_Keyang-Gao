@@ -171,11 +171,11 @@ BBB
    
    END;(End of case I)
   -With "BL BBB" it will jump (跳转) to BBB (54:51)
-  -When PC(L15) is at line 167, the content of R14 is 0000 0000 (55:12)
+  -When CPU execute line 164 and PC(L15) is at line 167, the content of R14 is 0000 0000 (55:12)
   -L14 (LR) is used to keep return address (55:22)
   -BBB refers to the address of 0x8038 in line 163 of "ORR R6,R1,R2" (56:02)
    
-  -When PC(L15) points to line 169 of "MVN R5,#0X1", we can see R14(LR) is 0x8044 (56:07) in case 1
+  -When CPU execute line 167, PC(L15) points to line 163. and R14(LR) points to "MVN R5,#0X1"as 0x8044 (56:07) in case 1
   -eg case II starts
 AAA;(Start of Case II)
    MOV R0, #0X3
@@ -194,7 +194,7 @@ AAA;(Start of Case II)
 
    STR R5,[R6,#0X4]; 
 BBB
-   ORR R6,R1,R2; ;R6=R1 OR R2 (41:45)
+   ORR R6,R1,R2; R6=R1 OR R2 (41:45)
    AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
     
 
@@ -206,10 +206,12 @@ BBB
    END;(End of case II)
    -use "B BBB" instead of "BL BBB" (56:23)
    -It is required to clean up the register 寄存器 first. (56:39). How to do it (56:52)
-   -The value of R14 won't change when PC(R15) points to (57:03) address of BBB as line 201, LR(R14) won't reserve the address of
-   (57:03) of "MVN R5,#0X1" at line 203 (57:09)
-   -
-
+   -The value of R14 won't change when CPU execute line 201, PC(R15) points to (57:03) address of "ORR R6,R1,R2" 
+   as line 197, LR(R14) WON'T reserve the address of
+   (57:03) of "MVN R5,#0X1" at line 203 (57:09))
+   -Observe what happen (57:12)
+   ->The diference between BL and B are preserving the return address (保存返回地址)of 
+   LR(L14) or not (57:32)
 
 ->
 ->
