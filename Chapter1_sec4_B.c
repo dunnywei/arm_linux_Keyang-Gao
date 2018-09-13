@@ -205,6 +205,10 @@ BBB
    
    END;(End of case II)
    -use "B BBB" instead of "BL BBB" (56:23)
+   -It is required to clean up the register 寄存器 first. (56:39). How to do it (56:52)
+   -The value of R14 won't change when PC(R15) points to (57:03) address of BBB as line 201, LR(R14) won't reserve the address of
+   (57:03) of "MVN R5,#0X1" at line 203 (57:09)
+   -
 
 
 ->
