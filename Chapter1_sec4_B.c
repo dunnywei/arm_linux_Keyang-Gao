@@ -217,7 +217,9 @@ BBB
      -link->https://blog.csdn.net/minsophia/article/details/53068097
      -MRS R0, CPSR; move content of CPSR to R0
      -MSR CPSR,R0; move content of R0 to CPSR 
-     -It is used to change the status mode from USR to SUPV mode (58:34)
+     -It is used to change the status mode from SUPERVISOR mode to USER mode (58:35)
+     -The lowest 5 bit  in CPSR status register 状态 寄存器(58:50) determines if it is in USER mode
+     or kernel mode (59:00)
 ->
 ->
 ->
