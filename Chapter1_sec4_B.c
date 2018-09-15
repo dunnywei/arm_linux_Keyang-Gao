@@ -219,7 +219,10 @@ BBB
      -MSR CPSR,R0; move content of R0 to CPSR 
      -It is used to change the status mode from SUPERVISOR mode to USER mode (58:35)
      -The lowest 5 bit  in CPSR status register 状态 寄存器(58:50) determines if it is in USER mode
-     or kernel mode (59:00)
+      or kernel mode (59:00)
+     -Switch from SUPEVISOR mode to User mode(59:07)
+     -IF CPU is in supervisor mode, the lowest five bits are 10011 (59:17)
+     
 ->
 ->
 ->
