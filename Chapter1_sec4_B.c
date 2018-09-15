@@ -212,7 +212,12 @@ BBB
    -Observe what happen (57:12)
    ->The diference between BL and B are preserving the return address (保存返回地址)of 
    LR(L14) or not (57:32)
-
+->SWP intruction 指令. We rarely use it (57:47)
+->MRS and NSR are used to operate 操作 (modify) CPSR status 状态 register 寄存器 (57:54)
+     -link->https://blog.csdn.net/minsophia/article/details/53068097
+     -MRS R0, CPSR; move content of CPSR to R0
+     -MSR CPSR,R0; move content of R0 to CPSR 
+     -It is used to change the status mode from USR to SUPV mode (58:34)
 ->
 ->
 ->
