@@ -222,9 +222,17 @@ BBB
       or kernel mode (59:00)
      -Switch from SUPEVISOR mode to User mode(59:07)
      -IF CPU is in supervisor mode, the lowest five bits are 10011 (59:17)
-     -The lowest five bits in User mode of CPSR is 10000 (59:24) 
+     -The lowest five bits in User mode of CPSR is 10000 (59:24)
+     eg (1:00:07)
+     CPSR->     |     | | | |  
+                bit  4|3|2|1|0
+     R0
+     -Step 1-> Move the content of CPSR register (寄存器) to R0
+     -Step 2->Modified the last 5 bits of R0 register to 100000
+     -Step 3->Move the content of R0 to CPSR register (寄存器)
      
-->
+     
+->   -
 ->
 ->
 ->
