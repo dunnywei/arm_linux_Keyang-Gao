@@ -225,13 +225,16 @@ BBB
      -The lowest five bits represents mode in User mode of CPSR is 10000 (59:24)
      eg (1:00:07)
                      MODE
-       CPSR->     |   | | | | |  
+       CPSR->       | | | | | |  
                 bit  4|3|2|1|0
      R0
      -Step 1-> Move the content of CPSR register (寄存器) to R0
-     -Step 2->Modified the last 5 bits of R0 register to 100000
+     -Step 2->Modified the last five bits of R0 register to 100000
      -Step 3->Move the content of R0 to CPSR register (寄存器)
-     
+     -Question:ARe you allowed to change the content of CPSR directly->No 
+     -During the change of the content in CPSR ((1:02:40)
+         -You need to ensure that there is only a change to the lowest five bits (1:02:54)
+     -How to implement?(1:03:21)
      
 ->   -
 ->
