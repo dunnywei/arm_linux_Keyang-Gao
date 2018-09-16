@@ -274,10 +274,17 @@ BBB
      -so The lowest bit in R0 will be clear to 0s (1:04:23) then saved to R0 (1:04:52)
         -1's complement(#0XF) of #0XF=1111 1111 1111 0000 then AND with R0 (1:04:33)
         -
-      link->https://blog.csdn.net/qq_38228254/article/details/79652281
+     -link->https://blog.csdn.net/qq_38228254/article/details/79652281
        -"MSR CPSR_cxsf,R0" where cxsf is the flag 标志位 in CPSR (1:05:26)
          -link->https://blog.csdn.net/myleeming/article/details/4133049
-                                                
+     -Testing(1:05:32)
+        -Current CPSR is in SVC=Superviosr mode(1:06:30)
+        -After it execute line "MSR CPSR_cxsf,R0" it should be in User=user mode (1:06:35)
+->Majority (95%) of OS is inplemented in C code (1:07:02)
+   -5% will be in assemlby code (汇编代码) (1:07:04) since C code 代码 can't operate on register 寄存器(1:07:09)
+   -Can you operate the in C code to set the R0 as 3 (1:07:59)->no way (1:07:18)
+->LGMFD and STMFD will be covered later (1:07:57)
+ 
 
 ->
 ->
