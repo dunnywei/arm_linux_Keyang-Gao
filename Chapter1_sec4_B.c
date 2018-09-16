@@ -253,7 +253,8 @@ AAA;(Start of Case II)
    LDR R7,[R6];obtain the data from the memory (51:28)(51:35)
                                                 
    MRS R0,CPSR; 
-   AND R0,#0XFFF0
+   ;AND R0,#0XFFF0
+   BIC R0,R0,#0XF;F=1111
    MSR CPSR,R0
 
    STR R5,[R6,#0X4]; 
@@ -269,7 +270,9 @@ BBB
    
    END;
      -R0 to R12->general purpose register  通用寄存器(1:3:39)
-->   -
+->   -"BIC R0,R0,#0XF" where F=1111 (1:04:14)
+     -so whatever is 1s will be set to 0s (1:04:23)
+
 ->
 ->
 ->
