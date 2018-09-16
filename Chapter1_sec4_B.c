@@ -255,7 +255,7 @@ AAA;(Start of Case II)
    MRS R0,CPSR; 
    ;AND R0,#0XFFF0
    BIC R0,R0,#0XF;F=1111
-   MSR CPSR,R0
+   MSR CPSR_cxsf,R0
 
    STR R5,[R6,#0X4]; 
 BBB
@@ -271,7 +271,13 @@ BBB
    END;
      -R0 to R12->general purpose register  通用寄存器(1:3:39)
 ->   -"BIC R0,R0,#0XF" where F=1111 (1:04:14)
-     -so whatever is 1s will be set to 0s (1:04:23)
+     -so The lowest bit in R0 will be clear to 0s (1:04:23) then saved to R0 (1:04:52)
+        -1's complement(#0XF) of #0XF=1111 1111 1111 0000 then AND with R0 (1:04:33)
+        -
+      link->https://blog.csdn.net/qq_38228254/article/details/79652281
+       -"MSR CPSR_cxsf,R0" where cxsf is the flag 标志位 in CPSR (1:05:26)
+         -link->https://blog.csdn.net/myleeming/article/details/4133049
+                                                
 
 ->
 ->
