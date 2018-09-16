@@ -235,7 +235,40 @@ BBB
      -During the change of the content in CPSR ((1:02:40)
          -You need to ensure that there is only a change to the lowest five bits (1:02:54)
      -How to implement?(1:03:21)
-     
+AREA asm1test,CODE,READONLY
+   ENTRY
+AAA;(Start of Case II)
+   MOV R0, #0X3
+   BIC R0,R0,#0x1; 
+   MOV R1, R0
+   MOV R2, #0X2
+   
+   ADD R3,R1,R2  ;R3=R1+R2 (26:54)
+   SUB R4,R3,R1  ;R4=R3-R1 (26:35)分号 (26:43) 
+   SUBS R0,R0,R0
+   
+   MVN R5,#0X0;
+   MOV R6,#0X9000
+   STR R5,[R6]; [] refer to the content of address as brackets 括号 (51:20)
+   LDR R7,[R6];obtain the data from the memory (51:28)(51:35)
+                                                
+   MRS R0,CPSR; 
+   AND R0,#0XFFF0
+   MSR CPSR,R0
+
+   STR R5,[R6,#0X4]; 
+BBB
+   ORR R6,R1,R2; R6=R1 OR R2 (41:45)
+   AND R3,R1,R2; (40:51)R3=R1 AND R2 (40:49) 
+    
+
+   B BBB
+   
+   MVN R5,#0X1;
+   MOV R6,#0X9000
+   
+   END;
+     -R0 to R12->general purpose register  通用寄存器(1:3:39)
 ->   -
 ->
 ->
