@@ -1,8 +1,17 @@
 Linux嵌入式开发和驱动开发--1ARM体系结构和汇
 5 led灯实验
-->https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
-
-
+https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7ooKBjt0y7L5XS
+->USB to RS232 connnector (0:24)
+  -Reciever and transmitter (0:34)
+  -So you need to go to the system control->Device Driver->COM AND LPT
+    -Then you will see "COM4" in this case (1:16)
+    -
+->
+->
+->
+->
+->
+->
 ->
 ->
 ->
