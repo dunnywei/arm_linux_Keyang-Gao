@@ -7,8 +7,10 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
     -Then you will see "COM4" in this case (1:16)
     -Use a terminal which will match as line 7 as "COM4" in this case (1:41)
     -baud rate=115200. It means it can sends 115200 bit per second (bps) (1:52)
-      -link->https://blog.csdn.net/qq_25077833/article/details/53386562
+      -unit is in 比特位 (2:00)= 115200/8 can be transmitted 传送 in 字节 (2:02)
+      -link->https://blog.csdn.net/qq_25077833/article/details/53386562 
       -link->https://blog.csdn.net/dagefeijiqumeiguo/article/details/68921820
+    -
 ->
 ->
 ->
