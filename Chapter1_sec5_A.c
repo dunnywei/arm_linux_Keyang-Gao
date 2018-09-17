@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       -unit is in 比特位 (2:00)= 115200/8 can be transmitted 传送 in 字节 (2:02)
       -link->https://blog.csdn.net/qq_25077833/article/details/53386562 
       -link->https://blog.csdn.net/dagefeijiqumeiguo/article/details/68921820
-    -
+    -Databits->In each 8 bits= a data packet (数据包) (2:08)
 ->
 ->
 ->
