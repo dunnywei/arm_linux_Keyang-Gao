@@ -11,6 +11,10 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       -link->https://blog.csdn.net/qq_25077833/article/details/53386562 
       -link->https://blog.csdn.net/dagefeijiqumeiguo/article/details/68921820
     -Databits->In each 8 bits= a data packet (数据包) (2:08)
+    -Stop bit->after sending the 8 bits 比特位, we will send a stop 停止 bit 位/标志 (2:12)
+    -parity check 奇偶校验 (2:18)
+->When system starts, it starts from U-Boot (2:43) or boot loader like the one in BIOS (2:47)
+->type "help" to what command line does the system support (2:59)
 ->
 ->
 ->
