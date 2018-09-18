@@ -19,7 +19,8 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       -I can also choose the boot from NAND flash as well (3:18)
       -Treat NAND flash like a hard disk(256 兆 MB) where linux sysetem is installed (3:22) and 线程(thread)/进程(process) (3:23) 
       browsing 浏览 (3:23)
-      -
+      -using pwd->it will list where which direcotory 目录 you are in 
+      -type pwd and result is "/" it means you are in root directory (根目录) (4:05)
 ->
 ->
 ->
