@@ -13,8 +13,13 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
     -Databits->In each 8 bits= a data packet (数据包) (2:08)
     -Stop bit->after sending the 8 bits 比特位, we will send a stop 停止 bit 位/标志 (2:12)
     -parity check 奇偶校验 (2:18)
-->When system starts, it starts from U-Boot (2:43) or boot loader like the one in BIOS (2:47)
-->type "help" to what command line does the system support (2:59)
+->When system starts, it boots from U-Boot (2:43) or boot loader like the one in BIOS (2:47)
+->type "help" to what command line does the system board support (2:59)
+      -This is boots from SD card (3:11)
+      -I can also choose the boot from NAND flash as well (3:18)
+      -Treat NAND flash like a hard disk(256 兆 MB) where linux sysetem is installed (3:22) and 线程(thread)/进程(process) (3:23) 
+      browsing 浏览 (3:23)
+      -
 ->
 ->
 ->
