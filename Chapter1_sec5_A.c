@@ -22,8 +22,10 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       -using pwd->it will list where which direcotory 目录 you are in 
       -type pwd and result is "/" it means you are in root directory (根目录) (4:05)
       -After starting the linux on the target board, I can send the elf executable to the linux board (4:17)
-      -using "~" to boot 启动 from bootloader (4:31)(??)
+      -using "~" to boot 启动 from bootloader (4:31)(??) you will see sth like "U-Boot"
         -Whenn boot 启动 from bootlaoder only, it can't execute ELF file (4:35)
+      -It can only deal with pure binary file (二进制文件)(4:38)
+      -
 ->
 ->
 ->
