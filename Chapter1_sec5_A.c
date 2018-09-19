@@ -51,7 +51,9 @@ LED_TEST
  ->When we want to operate the LED (7:59)
     -1) you need to see the electronic schematic diagram 电子原理图 (8:06)
     -2) Find the LED light (8:24)(8:46)
-    -3) In (8:55) you will see LED x 4, you will see a diode (二极管), 
+    -3) In (8:55) you will see LED x 4, you will see a diode (二极管)
+    -4) On the right, it is 3.3V as VOD_SYS_3.3V (8:59). 3.3V is as high voltage (9:02)
+    -5)
 -> 
 ->
 ->
