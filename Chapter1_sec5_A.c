@@ -26,8 +26,25 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       -using "~" to boot 启动 from bootloader (4:31)(??) you will see sth like "U-Boot"
         -Whenn boot 启动 from bootlaoder only, it can't execute ELF file (4:35)
       -It can only deal with pure binary file (二进制文件)(4:38)
-      -Our development board 开发板 has four LED light (4:46)
-->
+->Our development board 开发板 has four LED light (4:46)
+   -We need to touch electronic schematic diagram 电子原理图 and data sheets 数据表 (5:07)
+   -(6:09)
+AREA asm1test,CODE,READONLY
+   ENTRY
+LED_TEST
+   LDR R0,=0XE0200280
+   LDR R1,=0x1111
+   STR R1,[R0]
+   
+   LDR R0,=0XE0200284
+   LDR R1,=0x3
+   STR R1,[R0]
+   B LED_TEST
+
+   END
+  -after typing "help"
+  -you will see that there is a command as "mv" for memory write (6:32)
+-> 
 ->
 ->
 ->
