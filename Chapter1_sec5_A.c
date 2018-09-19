@@ -43,7 +43,10 @@ LED_TEST
 
    END
   -after typing "help"
-  -you will see that there is a command as "mv" for memory write (6:32)
+  -you will see that there is a command as "mv" for memory write 写入内存 (6:35)
+  -mv 0XE0200280 0x1111 (7:06) so LED light will be ON (7:25)
+  -mv 0XE0200280 0x0000 (7:32) so LED light will be OFF (7:25)
+  -bootloader only provides a command  命令  to operate it (7:39)
 -> 
 ->
 ->
