@@ -46,7 +46,9 @@ LED_TEST
   -you will see that there is a command as "mv" for memory write 写入内存 (6:35)
   -mv 0XE0200280 0x1111 (7:06) so LED light will be ON (7:25)
   -mv 0XE0200280 0x0000 (7:32) so LED light will be OFF (7:25)
-  -bootloader only provides a command  命令  to operate it (7:39)
+  -bootloader only provides a command  命令  to operate it (7:39) via operating its address 地址 (7:43)
+  -We can also write the assemlby 汇编 code to operatge LED as well. (7:48)
+ ->When we want to operate the LED (7:59)
 -> 
 ->
 ->
