@@ -49,6 +49,9 @@ LED_TEST
   -bootloader only provides a command  命令  to operate it (7:39) via operating its address 地址 (7:43)
   -We can also write the assemlby 汇编 code to operatge LED as well. (7:48)
  ->When we want to operate the LED (7:59)
+    -1) you need to see the electronic schematic diagram 电子原理图 (8:06)
+    -2) Find the LED light (8:24)(8:46)
+    -3) In (8:55) you will see LED x 4, you will see a diode (二极管), 
 -> 
 ->
 ->
