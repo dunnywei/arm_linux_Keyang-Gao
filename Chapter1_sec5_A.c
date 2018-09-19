@@ -21,6 +21,7 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       browsing 浏览 (3:23)
       -using pwd->it will list where which direcotory 目录 you are in 
       -type pwd and result is "/" it means you are in root directory (根目录) (4:05)
+      -After starting the linux on the target board, I can send the elf executable to the linux board (4:17)
 ->
 ->
 ->
