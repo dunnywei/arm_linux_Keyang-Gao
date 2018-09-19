@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       -using "~" to boot 启动 from bootloader (4:31)(??) you will see sth like "U-Boot"
         -Whenn boot 启动 from bootlaoder only, it can't execute ELF file (4:35)
       -It can only deal with pure binary file (二进制文件)(4:38)
-      -
+      -Our development board 开发板 has four LED light (4:46)
 ->
 ->
 ->
