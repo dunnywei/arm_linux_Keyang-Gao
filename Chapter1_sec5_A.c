@@ -53,7 +53,8 @@ LED_TEST
     -2) Find the LED light (8:24)(8:46)
     -3) In (8:55) you will see LED x 4, you will see a diode (二极管)
     -4) On the right, it is 3.3V as VOD_SYS_3.3V (8:59). 3.3V is as high voltage (9:02)
-    -5)
+    -5) On the left it is LED1 (9:07)
+    -6) So in order to turn on the LED1 , we need to set LED1 to low level (低电平) and right with high level(高电平) (9:14) 
 -> 
 ->
 ->
