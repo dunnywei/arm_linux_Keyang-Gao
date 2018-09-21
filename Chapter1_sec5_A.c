@@ -56,6 +56,13 @@ LED_TEST
     -5) On the left it is LED1 (9:07)
     -6) So in order to turn on the LED1 , we need to set LED1 to low level (低电平) and right with high level(高电平) (9:14)
     -7) On right with high level (高电平) has been fixed so what we need to do is to set the low level(低电平) on the left (9:23)
+    -8) Where does this LED light connect to? (9:36)
+    -9) We will see that it connects to GPJ2_0 to GPJ2_3 (9:40)
+    -10)We will see that GPJ2_0 to GPJ2_3 are inside S5PV210 (9:54) which menas the CPU (9:59)
+    -11)so GPJ2_0 to GPJ2_3 connects to four pins (引脚) of CPU (10:13)
+    eg GPJ2_0-GPJ2_3，通过控制GPJ2_0-GPJ2_3的寄存器使对应GPIO引脚输出电平为低电平
+    link->http://blog.51cto.com/9291927/1786139
+    link->https://blog.csdn.net/lushoumin/article/details/82107715
 -> 
 ->
 ->
