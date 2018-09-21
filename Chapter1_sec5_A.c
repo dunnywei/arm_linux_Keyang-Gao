@@ -63,6 +63,9 @@ LED_TEST
     eg GPJ2_0-GPJ2_3，通过控制GPJ2_0-GPJ2_3的寄存器使对应GPIO引脚输出电平为低电平
     link->http://blog.51cto.com/9291927/1786139
     link->https://blog.csdn.net/lushoumin/article/details/82107715
+    -12)we have known the name as GPJ2_0, GPJ2_1 and so on. How dowe know the address?(10:18)
+      -GPJ2_0 is a general purpose I/O 通用输入输出 so it can be used for various function  功能(10:31)
+    
 -> 
 ->
 ->
