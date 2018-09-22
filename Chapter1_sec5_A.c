@@ -68,7 +68,9 @@ LED_TEST
     -13)How do we control the GPJ2_0? (10:46)
     -14)There are two registers in GPIO (11:14)
         a)one is configuration 配置 registers 寄存器 (11:14)
+          -It is used to determine the pin's 引脚 or 管脚 working mode 工作模式 (11:41)
         b)the onter is data register 数据寄存器 (11:16)
+    -15)
     
 -> 
 ->
