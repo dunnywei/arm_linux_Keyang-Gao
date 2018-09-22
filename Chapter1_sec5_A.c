@@ -70,7 +70,8 @@ LED_TEST
         a)one is configuration 配置 registers 寄存器 (11:14)
           -It is used to determine the pin's 引脚 or 管脚 working mode 工作模式 (11:41)
         b)the onter is data register 数据寄存器 (11:16)
-    -15)
+          -It is used to determine the pin's 引脚 or 管脚 voltage level 电平
+    -15)For example we have a CPU (12:02)
     
 -> 
 ->
