@@ -77,8 +77,10 @@ LED_TEST
     -16)The pin 引脚 or 管脚 connected CPU and LED light 灯 (12:38). The LED light also connects to the 
     high voltage in (3.3V) (12:49)
       -I need to set the pin 引脚 or 管脚  as the 输出 (12:55) so it is in working mode 工作模式 (12:57) as the low voltage level 低电平.(13:08)
-          -Therefore, we have to set the working mode  工作模式 as ouput mode 输出模式 (13:03)
-         
+          -Therefore, we have to set the working mode  工作模式 as ouput mode 输出模式 (13:03) and output as the low voltage 低电平 so
+          LED light is turned on (13:07)
+      -
+          
           -from the configure register  
     
 -> 
