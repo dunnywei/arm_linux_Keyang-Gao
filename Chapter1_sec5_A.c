@@ -79,7 +79,7 @@ LED_TEST
       -I need to set the pin 引脚 or 管脚  as the 输出 (12:55) so it is in working mode 工作模式 (12:57) as the low voltage level 低电平.(13:08)
           -Therefore, we have to set the working mode  工作模式 as ouput mode 输出模式 (13:03) and output as the low voltage 低电平 so
           LED light is turned on (13:07)
-      -
+      - ouput mode 输出模式 is setted up through configuration 配置 registers 寄存器 (13:15)
           
           -from the configure register  
     
