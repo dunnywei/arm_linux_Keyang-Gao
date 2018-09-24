@@ -73,15 +73,14 @@ LED_TEST
           -It is used to determine the pin's 引脚 or 管脚 voltage level 电平 (11:49)
     -15)For example we have a CPU (12:02) with a pin 引脚 or 管脚 (12:05)
       -At first, we need to have a configuration 配置 registers 寄存器 to control 控制 its status 状态 then you are able to set
-      the low level 低电平 or high level volteage 高电平 via data register 数据寄存器 (12:27)
+      the low level 低电平 or high level voltage 高电平 via data register 数据寄存器 (12:27)
     -16)The pin 引脚 or 管脚 connected CPU and LED light 灯 (12:38). The LED light also connects to the 
     high voltage in (3.3V) (12:49)
       -I need to set the pin 引脚 or 管脚  as the 输出 (12:55) so it is in working mode 工作模式 (12:57) as the low voltage level 低电平.(13:08)
           -Therefore, we have to set the working mode  工作模式 as ouput mode 输出模式 (13:03) and output as the low voltage 低电平 so
           LED light is turned on (13:07)
-      - ouput mode 输出模式 is setted up through configuration 配置 registers 寄存器 (13:15)
-          
-          -from the configure register  
+      -Ouput mode 输出模式 is setted up through configuration 配置 registers 寄存器 (13:15)
+      -For Low or high voltage 低电平 or 高电平, it is controlled by the data register 数据寄存器(13:22)   
     
 -> 
 ->
