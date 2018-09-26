@@ -93,7 +93,7 @@ LED_TEST
   STR R1,[R0]
   
   LDR R0,=0xE0200284;load the address of data register 数据寄存器 to R0
-  LDR R1,=0x0;load the data of content as 0 for low level voltage so LED can be turned on
+  LDR R1,=0x0;load the data of content as 0 for low level voltage 低电平 so LED can be turned on
   STR R1,[R0]
   
 delay1
