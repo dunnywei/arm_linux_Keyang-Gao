@@ -80,9 +80,43 @@ LED_TEST
           -Therefore, we have to set the working mode  工作模式 as ouput mode 输出模式 (13:03) and output as the low voltage 低电平 so
           LED light is turned on (13:07)
       -Ouput mode 输出模式 is setted up through configuration 配置 registers 寄存器 (13:15)
-      -For Low or high voltage 低电平 or 高电平, it is controlled by the data register 数据寄存器(13:22)   
+      -For Low or high voltage 低电平 or 高电平, it is controlled by the data register 数据寄存器(13:22)
+      -
     
--> 
+-> code example (34:39)
+AREA asm1test,CODE,READONLY
+ENTRY
+CODE 32
+LED_TEST
+  LDR R0,=0XE02200280;load the address of control register 控制寄存器 into R0
+  LDR R1,=0X1111;set output working mode  工作模式
+  STR R1,[R0]
+  
+  LDR R0,=0xE0200284;load the address of data register 数据寄存器 to R0
+  LDR R1,=0x0;load the data of content as 0 for low level voltage so LED can be turned on
+  STR R1,[R0]
+  
+delay1
+   LDR R4,=0XFFFFFFFF; Can't use MOV R4,#0XFFFFFFF since move can only support from 0 to 255 (a byte)
+LOOP1
+   SUB R4,R4,#1
+   BNE LOOP1
+   
+   LDR R0,=0xE0200284;
+   LDR R1,=0xFFFF
+   STR R1,[R0]
+   
+delay2
+   LDR R4,=0XFFFFFFFF; Can't use MOV R4,#0XFFFFFFF since move can only support from 0 to 255 (a byte)
+LOOP2
+   SUB R4,R4,#1
+   BNE LOOP2
+   
+B LED_TEST
+   
+   
+   
+  
 ->
 ->
 ->
