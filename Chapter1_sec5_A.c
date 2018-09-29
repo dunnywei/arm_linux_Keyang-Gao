@@ -90,8 +90,7 @@ LED_TEST
             -what is runningg is the boot loader (37:09)
             -      
         ->The operation he has been doing is based inside boot loader (37:13) 
-      ->If I want to have a paulse between each led led while lighting (间隔间隔) (38:42)
-      -
+     
     
 -> code example (34:39)
 AREA asm1test,CODE,READONLY
@@ -124,7 +123,40 @@ LOOP2
    
 B LED_TEST
    
+ ->If I want to have a paulse between each led led while lighting (间隔间隔) (38:42)
+      -What I need to do is to change the code of "LDR R1,=0x5"
+      -0x5 is b0101 (38:49)
+      -code example
+ AREA asm1test,CODE,READONLY
+ENTRY
+CODE 32
+LED_TEST
+  LDR R0,=0XE02200280;load the address of control register 控制寄存器 into R0
+  LDR R1,=0X1111;set output working mode  工作模式
+  STR R1,[R0]
+  
+  LDR R0,=0xE0200284;load the address of data register 数据寄存器 to R0
+  LDR R1,=0x0;load the data of content as 0 for low level voltage 低电平 so LED can be turned on
+  STR R1,[R0]
+  
+delay1
+   LDR R4,=0XFFFFFFFF; Can't use MOV R4,#0XFFFFFFF since move can only support from 0 to 255 (a byte)
+LOOP1
+   SUB R4,R4,#1
+   BNE LOOP1
    
+   LDR R0,=0xE0200284;
+   LDR R1,=0x5; (38:49)
+   STR R1,[R0]
+   
+delay2
+   LDR R4,=0XFFFFFFFF; Can't use MOV R4,#0XFFFFFFF since move can only support from 0 to 255 (a byte)
+LOOP2
+   SUB R4,R4,#1
+   BNE LOOP2
+   
+B LED_TEST
+
    
   
 ->
