@@ -85,8 +85,10 @@ LED_TEST
       -Use assemly(汇编) lanauage to control LED light through RS-232 and RS-242 ports 串口 (35:39)
       -Exercise to have a walk through(36:30)
       -ONE SD is to boot from SD disk (37:05)
-        ->what is runningg is the boot loader (37:09)
       -The other SD card is used to restore (恢复) the board into default state (36:54)
+        -what is runningg is the boot loader (37:09)
+        -The operation he has been doing is based on boot loader (37:13) 
+
       -
     
 -> code example (34:39)
