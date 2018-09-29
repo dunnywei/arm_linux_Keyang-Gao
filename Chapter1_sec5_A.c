@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=xPONsaWO8gE&index=5&list=PLhqasd25bl-hamUHgiK7oo
       -It can only deal with pure binary file (二进制文件)(4:38)
 ->Our development board 开发板 has four LED light (4:46)
    -We need to touch electronic schematic diagram 电子原理图 and data sheets 数据表 (5:07)
-   -(6:09)
+   -CODE1(6:09)
 AREA asm1test,CODE,READONLY
    ENTRY
 LED_TEST
@@ -89,10 +89,8 @@ LED_TEST
             -The other SD card is used to restore (恢复) the board into default state (36:54)
             -what is runningg is the boot loader (37:09)
             -      
-        ->The operation he has been doing is based inside boot loader (37:13) 
-     
-    
--> code example (34:39)
+        ->The operation he has been doing is based inside boot loader (37:13)    
+-> code2
 AREA asm1test,CODE,READONLY
 ENTRY
 CODE 32
@@ -123,10 +121,8 @@ LOOP2
    
 B LED_TEST
    
- ->If I want to have a paulse between each led led while lighting (间隔间隔) (38:42)
-      -What I need to do is to change the code of "LDR R1,=0x5"
-      -0x5 is b0101 (38:49)
-      -code example
+
+->code3
  AREA asm1test,CODE,READONLY
 ENTRY
 CODE 32
@@ -136,7 +132,7 @@ LED_TEST
   STR R1,[R0]
   
   LDR R0,=0xE0200284;load the address of data register 数据寄存器 to R0
-  LDR R1,=0x0;load the data of content as 0 for low level voltage 低电平 so LED can be turned on
+  LDR R1,=0x5;load the data of content as 0 for low level voltage 低电平 so LED can be turned on
   STR R1,[R0]
   
 delay1
@@ -146,7 +142,7 @@ LOOP1
    BNE LOOP1
    
    LDR R0,=0xE0200284;
-   LDR R1,=0x5; (38:49)
+   LDR R1,=0xF; (38:49)
    STR R1,[R0]
    
 delay2
@@ -156,8 +152,13 @@ LOOP2
    BNE LOOP2
    
 B LED_TEST
-
-   
+ ->If I want to have a paulse between each led led while lighting (间隔间隔) (38:42) base on Code 3
+      -What I need to do is to change the code of "LDR R1,=0x5"
+      -0x5 is b0101 (38:49)
+      - high level voltage (高电平) is to turn off LED (39:09) 
+->
+     
+->   
   
 ->
 ->
