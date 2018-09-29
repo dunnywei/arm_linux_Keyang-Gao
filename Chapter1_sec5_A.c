@@ -83,6 +83,10 @@ LED_TEST
       -For Low or high voltage 低电平 or 高电平, it is controlled by the data register 数据寄存器(13:22)
       -You need to restart the board after compiling
       -Use assemly(汇编) lanauage to control LED light through RS-232 and RS-242 ports 串口 (35:39)
+      -Exercise to have a walk through(36:30)
+      -ONE SD is to boot from SD disk (37:05)
+        ->what is runningg is the boot loader (37:09)
+      -
     
 -> code example (34:39)
 AREA asm1test,CODE,READONLY
