@@ -81,7 +81,8 @@ LED_TEST
           LED light is turned on (13:07)
       -Ouput mode 输出模式 is setted up through configuration 配置 registers 寄存器 (13:15)
       -For Low or high voltage 低电平 or 高电平, it is controlled by the data register 数据寄存器(13:22)
-      -
+      -You need to restart the board after compiling
+      -Use assemly(汇编) lanauage to control LED light through RS-232 and RS-242 ports 串口 (35:39)
     
 -> code example (34:39)
 AREA asm1test,CODE,READONLY
