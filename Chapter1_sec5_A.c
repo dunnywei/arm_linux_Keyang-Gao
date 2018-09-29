@@ -84,11 +84,13 @@ LED_TEST
       -You need to restart the board after compiling
       -Use assemly(汇编) lanauage to control LED light through RS-232 and RS-242 ports 串口 (35:39)
       -Exercise to have a walk through(36:30)
-      -ONE SD is to boot from SD disk (37:05)
-      -The other SD card is used to restore (恢复) the board into default state (36:54)
-        -what is runningg is the boot loader (37:09)
-        -The operation he has been doing is based on boot loader (37:13) 
-
+      ->TWO SD cards
+        ->ONE SD is to boot from SD disk (37:05)
+            -The other SD card is used to restore (恢复) the board into default state (36:54)
+            -what is runningg is the boot loader (37:09)
+            -      
+        ->The operation he has been doing is based inside boot loader (37:13) 
+      ->If I want to have a paulse between each led led while lighting (间隔间隔) (38:42)
       -
     
 -> code example (34:39)
