@@ -7,7 +7,7 @@ Section1_c和汇编混合编程
     -link->http://infocenter.arm.com/help/topic/com.arm.doc.espc0002/ATPCS.pdf
 ->Use C lanquage to call the function (调用函数) written in assembly or vice versa (0:28)(0:58)
 ->How to passing the paramter (传递参数) between C and assemlby during function call 函数调用(0:58)
-->
+->In C programming lanquage, we have two parameters (参数) (1:06)
 ->
 ->
 ->
