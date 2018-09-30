@@ -155,7 +155,10 @@ B LED_TEST
  ->If I want to have a paulse between each led led while lighting (间隔间隔) (38:42) base on Code 3
       -What I need to do is to change the code of "LDR R1,=0x5"
       -0x5 is b0101 (38:49)
-      - high level voltage (高电平) is to turn off LED (39:09) 
+      - high level voltage (高电平) is to turn off LED (39:09)
+      -Type "lodab" as load binary
+      -Type "go 0x2100000" to debug (39:54)
+      -
 ->
      
 ->   
