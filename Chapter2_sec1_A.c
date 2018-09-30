@@ -5,8 +5,8 @@ Section1_c和汇编混合编程
 ->ATPCS protocol (协议)(0:48)
     -link->http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0056d/ch02s01s03.html
     -link->http://infocenter.arm.com/help/topic/com.arm.doc.espc0002/ATPCS.pdf
-->Use C lanquage to call the function (调用函数) written in assembly or vice versa (0:28)
-->
+->Use C lanquage to call the function (调用函数) written in assembly or vice versa (0:28)(0:58)
+->How to passing the paramter (传递参数) between C and assemlby during function call 函数调用(0:58)
 ->
 ->
 ->
