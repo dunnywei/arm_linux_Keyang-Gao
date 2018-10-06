@@ -23,11 +23,11 @@ int main(void)
 
 
 
-3G---------------------------------
-   6
-   4
+---------------------------------
+   6  (Stack Segment)
+   4  
         
-   main
+   main (code segment)
    fun
 
 
@@ -36,6 +36,9 @@ int main(void)
     -When main is call the "fun" function,we need to pass two parameters as 4 and 6 (参数)(4:34)
     -They use stack 栈 to pass it from main to "func" (4:37)
     -They will pass from the right to the left on the stack 栈 a.k.a 压栈 (4:44)
+    -Therefore, it will put 6 first then put 4 later (4:54)
+    -In C programming code, when it start to execute fun(4,6), flow of execution will jump 跳转 to the  function of the address (函数地址)
+        from main function to "fun" function (5:07)
     -(starts here)
         
        
