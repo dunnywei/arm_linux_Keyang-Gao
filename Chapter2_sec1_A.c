@@ -39,8 +39,26 @@ int main(void)
     -Therefore, it will put 6 first then put 4 later (4:54)
     -In C programming code, when it start to execute fun(4,6), flow of execution will jump 跳转 to the  function of the address (函数地址)
         from main function to "fun" function (5:07)
-    -After the flow of control is at the address of "fun" function, arguments 6 and 4 passed then obtained during the execution time (5:26)
+    -After the flow of control is at the address of "fun" function, arguments (实参) 6 and 4 passed then obtained during the execution time (5:26)
         link->https://blog.csdn.net/marcelwu/article/details/65629158
+    -Within the function of "fun", when function start to obtain the value from parameter 形参 a or b (5:27), it will get from
+    the stack 栈 (5:30)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
     -(starts here)
       
         
