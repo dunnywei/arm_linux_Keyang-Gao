@@ -34,7 +34,8 @@ int main(void)
 
     -main and fun are both saved in the code segment (代码段) (4:28)
     -When main is call the "fun" function,we need to pass two parameters as 4 and 6 (参数)(4:34)
-    -
+    -They use stack 栈 to pass it from main to "func" (4:37)
+    -They will pass from the right to the left on the stack 栈 a.k.a 压栈 (4:44)
     -(starts here)
         
        
