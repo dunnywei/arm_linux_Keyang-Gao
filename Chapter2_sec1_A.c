@@ -33,6 +33,8 @@ int main(void)
 
 
     -main and fun are both saved in the code segment (代码段) (4:28)
+    -When main is call the "fun" function,we need to pass two parameters as 4 and 6 (参数)(4:34)
+    -
     -(starts here)
         
        
