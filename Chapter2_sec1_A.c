@@ -25,8 +25,8 @@ int main(void)
 
 ---------------------------------
 //Stack grows down
-   6  (Stack Segment)
-   4  
+   6 as b  (Stack Segment)
+   4 as a 
         
         
    main (code segment)
@@ -47,9 +47,18 @@ int main(void)
     the stack 栈 (5:30)
     -While pushing on the stack 压栈, we go from right to the left. While poping out of stack 出栈, we goes from left to the right due to
     FIFO (5:42)
-    -In the "fun" function, when it need to get the vale of the paparamter, it will obtain the value from stack 栈
+    -During the execution of the "fun" function, PC (R15) points to the address of function (6:08)
+    -When function need to get the vale of the paparamter, it will obtain the value from stack 栈
     via index (索引) (6:14)
-    -
+->Now we need to cross programming in both C and assembly (汇编) (6:21)
+->We can write the function 函数 in assembly(汇编) and use C lanquage to call 调用 it (6:25)
+->
+->
+->
+->
+->
+->
+->
     -
     -
     -
