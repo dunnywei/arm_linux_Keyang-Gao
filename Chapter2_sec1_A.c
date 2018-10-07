@@ -24,8 +24,10 @@ int main(void)
 
 
 ---------------------------------
+//Stack grows down
    6  (Stack Segment)
    4  
+        
         
    main (code segment)
    fun
@@ -35,7 +37,7 @@ int main(void)
     -main and fun are both saved in the code segment (代码段) (4:28)
     -When main is call the "fun" function,we need to pass two parameters as 4 and 6 (参数)(4:34)
     -They use stack 栈 to pass it from main to "func" (4:37)
-    -They will pass from the right to the left on the stack 栈 a.k.a 压栈 (4:44)
+    -They will pass from the right to the left while pushing on the stack a.k.a 压栈 (4:44)
     -Therefore, it will put 6 first then put 4 later (4:54)
     -In C programming code, when it start to execute fun(4,6), flow of execution will jump 跳转 to the  function of the address (函数地址)
         from main function to "fun" function (5:07)
@@ -43,6 +45,19 @@ int main(void)
         link->https://blog.csdn.net/marcelwu/article/details/65629158
     -Within the function of "fun", when function start to obtain the value from parameter 形参 a or b (5:27), it will get from
     the stack 栈 (5:30)
+    -While pushing on the stack 压栈, we go from right to the left. While poping out of stack 出栈, we goes from left to the right due to
+    FIFO (5:42)
+    -In the "fun" function, when it need to get the vale of the paparamter, it will obtain the value from stack 栈
+    via index (索引) (6:14)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
     -
     -
     -
