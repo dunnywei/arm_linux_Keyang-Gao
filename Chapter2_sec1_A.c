@@ -20,9 +20,6 @@ int main(void)
     -They are using stack (堆栈)(2:56) to pass the parameter (参数) from RIGHT to LEFT (3:36)
     -So it will starts from 6 then to 4 a.k.a 压栈 (3:55)
     -graphical view
-
-
-
 ---------------------------------
 //Stack grows down
    6 as b  (Stack Segment)
@@ -52,7 +49,7 @@ int main(void)
     via index (索引) (6:14)
 ->Now we need to cross programming in both C and assembly (汇编) (6:21)
 ->We can write the function 函数 in assembly(汇编) and use C lanquage to call 调用 it (6:25)
-->
+->For example, I am writing a bubbble_sort in assemlby (汇编) (6:30) by using the label 标号 (6:47)
 ->
 ->
 ->
