@@ -55,12 +55,16 @@ int main(void)
 ->The Following is the demonstration of bubble sort in C lanquage as Code 2. (7:32)
 ->The first parameter represents the start address 起始地址 or 首地址 of the array 数组. The second parameter represents the length of
 array(7:39)
-->
+->IN C programming, I have two paramters (参数) passing (传递) to the bubble_sort function. Therefore, I also need to pass
+in two paramters (参数) in assemlby lanquage as well. (7:53)
 ->
 ->
 ->      
 ->code 2 (10:05)
-void bubble_sort(int a[],int n);
+void bubble_sort(int a[],int n)
+{
+        
+}
 
 /*bubble.s*/
 bubble_sort
