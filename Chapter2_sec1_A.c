@@ -50,6 +50,7 @@ int main(void)
 ->Now we need to cross programming in both C and assembly (汇编) (6:21)
 ->We can write the function 函数 in assembly(汇编) and use C lanquage to call 调用 it (6:25)
 ->For example, I am writing a bubbble_sort in assemlby (汇编) (6:30) by using the label 标号 (6:47)
+-> label 标号 represents the address (地址) (6:51). It is the same as the fuction name 函数名 (6:54)
 ->
 ->
 ->
