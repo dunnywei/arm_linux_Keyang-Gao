@@ -51,40 +51,14 @@ int main(void)
 ->We can write the function 函数 in assembly(汇编) and use C lanquage to call 调用 it (6:25)
 ->For example, I am writing a bubbble_sort in assemlby (汇编) (6:30) by using the label 标号 (6:47)
 -> label 标号 represents the address (地址) (6:51). It is the same as the fuction name 函数名 (6:54)
+->What bubble sor is doing is to have the 泡泡排序 (7:15)
+->The Following is the demonstration of bubble sort in C lanquage as Code 2. (7:32)
+->The first parameter represents the start address 起始地址 or 首地址 of the array 数组. The second parameter represents the length of
+array(7:39)
 ->
 ->
 ->
-->
-->
-->
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -(starts here)
-      
-        
-       
+->      
 ->code 2 (10:05)
 void bubble_sort(int a[],int n);
 
@@ -114,6 +88,31 @@ int main(void)
    
    return 0;
 }
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -(starts here)
     
 ->
 ->
