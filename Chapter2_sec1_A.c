@@ -57,8 +57,9 @@ int main(void)
 array(7:39)
 ->IN C programming, I have two paramters (参数) passing (传递) to the bubble_sort function. Therefore, I also need to pass
 in two paramters (参数) in assemlby lanquage as well. (7:53)
-->
-->
+->If I have already written the bubble_sort and the main function try to call 调用 it (8:04),
+->The main function is written in C lanquage (8:37), bubble_sort is written in assembly code (汇编) (8:48)
+->When C program needs to call the function in in assembly code (汇编) (9:04)
 ->      
 ->code 2 (10:05)
 void bubble_sort(int a[],int n)
@@ -66,7 +67,8 @@ void bubble_sort(int a[],int n)
         
 }
 
-/*bubble.s*/
+/*汇编
+ *bubble.s*/
 bubble_sort
    move r0
    
@@ -75,7 +77,7 @@ bubble_sort
 int main()
 {
     int a[10];
-    bubble_sort(a,10);
+    bubble_sort(a,10); (8:10)
 }
 ->code 3 (15:10)(16:07)
 #include <stdio.h>
@@ -92,6 +94,20 @@ int main(void)
    
    return 0;
 }
+
+;(17:05)
+   AREA MYADD,CODE,READONLY
+   ENTRY
+   EXPORT my
+myadd
+   ADD R2,R0,R1
+   MOV R0,R2
+   MOV R15,R14 ;MOV PC,LR (19:04)
+
+   END
+
+->code 4 (29:16)
+
     -
     -
     -
