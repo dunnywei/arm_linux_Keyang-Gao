@@ -60,7 +60,8 @@ in two paramters (参数) in assemlby lanquage as well. (7:53)
 ->If I have already written the bubble_sort and the main function try to call 调用 it (8:04),
 ->The main function is written in C lanquage (8:37), bubble_sort is written in assembly code (汇编) (8:48)
 ->When C program needs to call the function in in assembly code (汇编) (9:04)
-->      
+->When the main function in C program wants to call bubble_sort function in assembly lanquage 汇编代码 
+in ARM architecture (体系结构), do we do the same way as in x86 architecture architecture (9:30)
 ->code 2 (10:05)
 void bubble_sort(int a[],int n)
 {
