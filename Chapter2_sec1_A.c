@@ -28,7 +28,7 @@ int main(void)
         
    main (code segment)
    fun
-
+----------------------------
 
 
     -main and fun are both saved in the code segment (代码段) (4:28)
@@ -51,18 +51,13 @@ int main(void)
 ->We can write the function 函数 in assembly(汇编) and use C lanquage to call 调用 it (6:25)
 ->For example, I am writing a bubbble_sort in assemlby (汇编) (6:30) by using the label 标号 (6:47)
 -> label 标号 represents the address (地址) (6:51). It is the same as the fuction name 函数名 (6:54)
-->What bubble sor is doing is to have the 泡泡排序 (7:15)
+->What bubble sort is doing is to have the 泡泡排序 (7:15)
 ->The Following is the demonstration of bubble sort in C lanquage as Code 2. (7:32)
-->The first parameter represents the start address 起始地址 or 首地址 of the array 数组. The second parameter represents the length of
-array(7:39)
-->IN C programming, I have two paramters (参数) passing (传递) to the bubble_sort function. Therefore, I also need to pass
-in two paramters (参数) in assemlby lanquage as well. (7:53)
-->If I have already written the bubble_sort and the main function try to call 调用 it (8:04),
-->The main function is written in C lanquage (8:37), bubble_sort is written in assembly code (汇编) (8:48)
-->When C program needs to call the function in in assembly code (汇编) (9:04)
-->When the main function in C program wants to call bubble_sort function in assembly lanquage 汇编代码 
-in ARM architecture (体系结构), do we do the same way as in x86 architecture architecture (9:30)
+
+
+
 ->code 2 (10:05)
+----------------------------------------------
 void bubble_sort(int a[],int n)
 {
         
@@ -73,13 +68,51 @@ void bubble_sort(int a[],int n)
 bubble_sort
    move r0
    
-
 /*main.c*/
 int main()
 {
     int a[10];
     bubble_sort(a,10); (8:10)
 }
+------------------------------------------------
+->Under CODE 2
+->The first parameter represents the start address 起始地址 or 首地址 of the array 数组. The second parameter represents the length of
+array(7:39)
+->IN C programming, I have two paramters (参数) passing (传递) to the bubble_sort function. Therefore, I also need to pass
+in two paramters (参数) in assemlby lanquage as well. (7:53)
+->If I have already written the bubble_sort and the main function try to call 调用 it (8:04),
+->The main function is written in C lanquage (8:37), bubble_sort is written in assembly code (汇编) (8:48)
+->When C program needs to call the function in in assembly code (汇编) (9:04)
+->When the main function in C program wants to call bubble_sort function in assembly lanquage 汇编代码 
+in ARM architecture (体系结构), do we do the same way as in x86 architecture architecture (9:30)
+->The answer is Yes. We still use stack 栈 (9:35)    
+->Using the resters 寄存器 vs using the stack 栈. Which is faster? (9:35)
+    -Using register 寄存器
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+
+
+
 ->code 3 (15:10)(16:07)
 #include <stdio.h>
 
@@ -133,7 +166,7 @@ myadd
     -
     -
     -
-    -(starts here)
+    -
     
 ->
 ->
