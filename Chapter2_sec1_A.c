@@ -85,10 +85,12 @@ in two paramters (参数) in assemlby lanquage as well. (7:53)
 ->When C program needs to call the function in in assembly code (汇编) (9:04)
 ->When the main function in C program wants to call bubble_sort function in assembly lanquage 汇编代码 
 in ARM architecture (体系结构), do we do the same way as in x86 architecture architecture (9:30)
-->The answer is Yes. We still use stack 栈 (9:35)    
+->The answer is Yes. We can use stack 栈 / registers (寄存器) to pass the paramter (传递参数) (9:35)    
 ->Using the resters 寄存器 vs using the stack 栈. Which is faster? (9:35)
     -Using register 寄存器 is faster (9:51)
-    -There are 37 registers 寄存器 in ARM architecutre. Under each mode, ARM can see 17 and 18 registers 寄存器(9:59)
+    -There are 37 registers 寄存器 in ARM architecutre. Under each mode, ARM can see 17/18 registers 寄存器(9:59)
+    -ARM has more registers 寄存器 than x86 (10:01) so it pass the parameter (传递参数) via the registers (寄存器) (10:09)
+    -
 ->
 ->
 ->
