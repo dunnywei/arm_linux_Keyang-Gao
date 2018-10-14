@@ -87,7 +87,8 @@ in two paramters (参数) in assemlby lanquage as well. (7:53)
 in ARM architecture (体系结构), do we do the same way as in x86 architecture architecture (9:30)
 ->The answer is Yes. We still use stack 栈 (9:35)    
 ->Using the resters 寄存器 vs using the stack 栈. Which is faster? (9:35)
-    -Using register 寄存器
+    -Using register 寄存器 is faster (9:51)
+    -There are 37 registers 寄存器 in ARM architecutre. Under each mode, ARM can see 17 and 18 registers 寄存器(9:59)
 ->
 ->
 ->
