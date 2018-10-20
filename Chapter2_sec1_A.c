@@ -91,7 +91,31 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -There are 37 registers 寄存器 in ARM architecutre. Under each mode, ARM can see 17/18 registers 寄存器(9:59)
     -ARM has more registers 寄存器 than x86 (10:01) so it pass the parameter (传递参数) via the registers (寄存器) (10:09)
     -X86 only has the limited registers 寄存器 so it has to use stack 栈 
-    -ARM has more registers so it pass the paramter via registers (10:19)
+    -ARM has more registers so it pass the paramter via registers for speeding perfomrance up (提高速度)  (10:19)
+    -This is why we have ATPS protocol 协议 (10:25)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
     -
 ->
 ->
