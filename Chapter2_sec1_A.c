@@ -95,10 +95,10 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -This is why we have ATPS protocol 协议 (10:25)
     -We will use R0 to R3 used for passing the parameter (传递参数) during the function call 函数调用 (10:34)
     -For example, we are going to make a function to the following (10:37)
-    -int add(int a,int b,int c) 
-    -so R0=a,R1=b,R2=c
+    -int add(int a,int b,int c, int d) 
+    -so R0=a,R1=b,R2=c, R3=d for using registers 寄存器 to pass the paramter (传递参数) (10:55)
     -R0 is used to keep the return value 返回值 from the function call (函数调用)
-    -using stack to passing the parameter (传递参数) if, there are more than "FOUR" (>=4) paramters.
+    -using stack to passing the parameter (传递参数) if, there are more than "FOUR" (>4) paramters 参数. (11:16)
     -Those will requiret to use the stack to passing the parameter (传递参数)
     -
     -
