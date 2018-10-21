@@ -97,10 +97,12 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -For example, we are going to make a function to the following (10:37)
     -int add(int a,int b,int c, int d) 
     -so R0=a,R1=b,R2=c, R3=d for using registers 寄存器 to pass the paramter (传递参数) (10:55)
-    -R0 is used to keep the return value 返回值 from the function call (函数调用)
     -using stack to passing the parameter (传递参数) if, there are more than "FOUR" (>4) paramters 参数. (11:16)
-    -Those will requiret to use the stack to passing the parameter (传递参数)
-    -
+        -Those will require to use the stack 栈 to passing the parameter (传递参数)
+    -R0 is used to keep the return value 返回值 from the function call (函数调用) (12:04)
+    -Can a function return more than one varialbe? (12:14)
+        -Yes, we can use the pointer.
+        -However, we have to ensure that what pointer doesn't point to a local variable (局部变量)(12:32)
     -
     -(starts here)
     -
