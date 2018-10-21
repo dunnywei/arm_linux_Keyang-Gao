@@ -105,7 +105,9 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
         -However, we have to ensure that what pointer doesn't point to a local variable (局部变量)(12:32)
             -The reason is that the local variable 局部变量  will be released 释放 after the function ends (12:35)
             -Usually there are two ways. One is use addressed aloocated from "mollac" through static number 静态数 (12:40)(12:43)
-           -
+           ->https://blog.csdn.net/wzy_1988/article/details/8687859 (most imporant)
+           -link->https://blog.csdn.net/weiyuefei/article/details/51563890
+           -link->https://blog.csdn.net/zkangaroo/article/details/61202533?utm_source=blogxgwz1
     -
     -(starts here)
     -
