@@ -103,6 +103,7 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -Can a function return more than one varialbe? (12:14)
         -Yes, we can use the pointer.
         -However, we have to ensure that what pointer doesn't point to a local variable (局部变量)(12:32)
+            -The reason is that the local variable 局部变量  will be released 释放 after the function ends (12:35)
     -
     -(starts here)
     -
