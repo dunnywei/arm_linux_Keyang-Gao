@@ -100,10 +100,12 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -using stack to passing the parameter (传递参数) if, there are more than "FOUR" (>4) paramters 参数. (11:16)
         -Those will require to use the stack 栈 to passing the parameter (传递参数)
     -R0 is used to keep the return value 返回值 from the function call (函数调用) (12:04)
-    -Can a function return more than one varialbe? (12:14)
-        -Yes, we can use the pointer.
+    -Can a function use return stetement.It can only return one varialbe? (12:14)
+        -If we want to return more than one variable. We can use pointer 指针.
         -However, we have to ensure that what pointer doesn't point to a local variable (局部变量)(12:32)
             -The reason is that the local variable 局部变量  will be released 释放 after the function ends (12:35)
+            -Usually there are two ways. One is use addressed aloocated from "mollac" through static number 静态数 (12:40)(12:43)
+           -
     -
     -(starts here)
     -
