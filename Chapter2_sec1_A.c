@@ -108,7 +108,7 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
            ->https://blog.csdn.net/wzy_1988/article/details/8687859 (most imporant)
            -link->https://blog.csdn.net/weiyuefei/article/details/51563890
            -link->https://blog.csdn.net/zkangaroo/article/details/61202533?utm_source=blogxgwz1
-    -
+           -Or you package 封装 as a structure 结构体 (12:46) then return it as a structure 结构体(12:49)
     -(starts here)
     -
     -
