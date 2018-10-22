@@ -109,7 +109,7 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
            -link->https://blog.csdn.net/weiyuefei/article/details/51563890
            -link->https://blog.csdn.net/zkangaroo/article/details/61202533?utm_source=blogxgwz1
            -Or you package 封装 as a structure 结构体 (12:46) then return it as a structure 结构体(12:49)
-           -return value in R0 can be a valuable or a pointer
+           -return value in R0 can be a value 变量 or a pointer 指针 (13:07)
     -(starts here)
     -
     -
