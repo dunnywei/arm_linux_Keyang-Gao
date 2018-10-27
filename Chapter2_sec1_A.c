@@ -93,7 +93,7 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -X86 only has the limited registers 寄存器 so it has to use stack 栈 
     -ARM has more registers so it pass the paramter via registers for speeding perfomrance up (提高速度)  (10:19)
     -This is why we have ATPS protocol 协议 (10:25)
-    -We will use R0 to R3 used for passing the parameter (传递参数) during the function call 函数调用 (10:34)
+    -a) We will use R0 to R3 used for passing the parameter (传递参数) during the function call 函数调用 (10:34)
     -For example, we are going to make a function to the following (10:37)
     -int add(int a,int b,int c, int d) 
     -so R0=a,R1=b,R2=c, R3=d for using registers 寄存器 to pass the paramter (传递参数) (10:55)
@@ -109,54 +109,11 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
            -link->https://blog.csdn.net/weiyuefei/article/details/51563890
            -link->https://blog.csdn.net/zkangaroo/article/details/61202533?utm_source=blogxgwz1
            -Or you package 封装 as a structure 结构体 (12:46) then return it as a structure 结构体(12:49)
-    -return value in R0 can be a value 变量 or a pointer 指针 (13:07)
-    -If more than four parameters 参数 (>4), we will use stack 栈 to pass paremeters 传递参数 (13:12)
-    -
-    -
-    -
-    -
-    -(starts here)
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-->
-
-
-
+    -b)return value in R0 can be a value 变量 or a pointer 指针 (13:07)
+    -c)If more than four parameters 参数 (>4), we will use stack 栈 to pass paremeters 传递参数 (13:12)
+-The following is the example (13:32)
+      
+  
 ->code 3 (15:10)(16:07)
 #include <stdio.h>
 
@@ -183,6 +140,51 @@ myadd
    MOV R15,R14 ;MOV PC,LR (19:04)
 
    END
+   
+   -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+
+-----------------------------end of ATPS--------------------------------------------------------------------
+      -(starts here)
 
 ->code 4 (29:16)
 
@@ -211,7 +213,44 @@ myadd
     -
     -
     -
-    
+  -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
 ->
 ->
 ->
