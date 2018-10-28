@@ -111,7 +111,31 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
            -Or you package 封装 as a structure 结构体 (12:46) then return it as a structure 结构体(12:49)
     -b)return value in R0 can be a value 变量 or a pointer 指针 (13:07)
     -c)If more than four parameters 参数 (>4), we will use stack 栈 to pass paremeters 传递参数 (13:12)
--The following is the example (13:32)
+->The following is the example (13:32)
+->We will use C code to calls 调用  assemly code 汇编 (13:35)
+    -There are three modes 模式 between C and assembly lanuages (13:40)
+    -1st mode->C code to calls 调用  assemly code 汇编
+    -2nd mode->assemly code 汇编 calls 调用 C code (13:44)  
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+                   
       
   
 ->code 3 (15:10)(16:07)
