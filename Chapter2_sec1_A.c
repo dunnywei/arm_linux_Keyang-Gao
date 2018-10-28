@@ -116,7 +116,9 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -There are three modes 模式 between C and assembly lanuages (13:40)
     -1st mode->C code to calls 调用  assemly code 汇编
     -2nd mode->assemly code 汇编 calls 调用 C code (13:44)  
-    -
+    -3rd mode->embedded assembly code inside C code 内嵌 汇编 (C语言内嵌汇编)(13:50)
+               -https://blog.csdn.net/pbymw8iwm/article/details/8227839
+               -https://blog.csdn.net/yxc135/article/details/11537763
     -
     -
     -
