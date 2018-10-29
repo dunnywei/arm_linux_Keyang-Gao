@@ -119,9 +119,76 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -3rd mode->embedded assembly code inside C code 内嵌 汇编 (C语言内嵌汇编)(13:50)
                -https://blog.csdn.net/pbymw8iwm/article/details/8227839
                -https://blog.csdn.net/yxc135/article/details/11537763
+    -The most common is 1sst mode from C code to assemly code 汇编 (13:55) or 3rd embedded assembly 内嵌汇编(13:58) 
+    -2nd mode is less common (14:03)
+->code 3 (15:30)(16:07)
+#include <stdio.h>
+
+extern int myadd(int a,int b);
+
+int main(void)
+{
+   int a=3;//R0
+   int b=5;//R1
+   int c;
+   c=myadd(a,b);
+   printf("%d\n",c);
+   
+   return 0;
+}
+
+;save as myadd.s (16:21)(17:05)
+   AREA MYADD,CODE,READONLY
+   ENTRY;We shoudn't use entry (16:56)
+   EXPORT my
+myadd
+   ADD R2,R0,R1
+   MOV R0,R2
+   MOV R15,R14 ;MOV PC,LR (19:04)
+
+   END
+   
+    -When we use regsister  寄存器  to pass the parameter (传递参数) (17:16), 
     -
     -
     -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    - 
     -
     -
     -
@@ -139,75 +206,6 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -
                    
       
-  
-->code 3 (15:10)(16:07)
-#include <stdio.h>
-
-extern int myadd(int a,int b);
-
-int main(void)
-{
-   int a=3;
-   int b=5;
-   int c;
-   c=myadd(a,b);
-   printf("%d\n",c);
-   
-   return 0;
-}
-
-;(17:05)
-   AREA MYADD,CODE,READONLY
-   ENTRY
-   EXPORT my
-myadd
-   ADD R2,R0,R1
-   MOV R0,R2
-   MOV R15,R14 ;MOV PC,LR (19:04)
-
-   END
-   
-   -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
 
 -----------------------------end of ATPS--------------------------------------------------------------------
       -(starts here)
