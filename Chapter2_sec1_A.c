@@ -144,15 +144,15 @@ int main(void)
 myadd
    ADD R2,R0,R1
    MOV R0,R2
-   MOV R15,R14 ;MOV PC,LR (19:04)
+   MOV R15,R14 ;MOV PC,LR (18:15)
 
    END
    
     -When we use regsister  寄存器  to pass the parameter (传递参数) (17:16), 
     -During the call function, a and b registers are copy to R0 and R1 registers 寄存器 (17:22) respectively (17:26)
     -Or we can do like this "ADD R0,R0,R1" instead of "ADD R2,R0,R1" (17:41)
-    -
-    -
+    -LR saves the return address of the function 函数的返回地址 (18:44)
+    -myadd inside the assembly lanquage is with a static 局部 (19:06)
     -
     -
     -
