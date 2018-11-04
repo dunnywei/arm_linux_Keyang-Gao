@@ -154,7 +154,8 @@ myadd
     -LR saves the return address of the function 函数的返回地址 (18:44)
     -myadd inside the assembly (汇编) lanquage is with a static 局部 (19:06)
     -if it is a static valuable/function inside the assembly (汇编) code, c code can't call this function (调用函数) or variable. (19:11)
-    -
+    -Therefore we need to have a keyword "EXPORT" as 对外倒梳 (??) (19:19)   
+        -link->https://blog.csdn.net/uruita/article/details/7496929
     -
     -
     -
