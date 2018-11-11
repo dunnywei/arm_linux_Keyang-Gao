@@ -158,9 +158,9 @@ myadd
         -link->https://blog.csdn.net/uruita/article/details/7496929
     -Then we will use make to compile 编译 and may have an error 错误 (19:33)
     -THe error is named as
- image doesn't have an entry point (NOt specified or not set due to mu
+ image doesn't have an entry point (入口点) (NOt specified or not set due to multiple choices)
     -images->means executable program 可执行 程序 (19:41)
-    -
+    -ENTRY 入口 is not equal to the entry point (20:02)
     -
     -
     -
