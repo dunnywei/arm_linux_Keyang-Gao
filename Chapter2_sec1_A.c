@@ -152,11 +152,11 @@ myadd
     -During the call function, a and b registers are copy to R0 and R1 registers 寄存器 (17:22) respectively (17:26)
     -Or we can do like this "ADD R0,R0,R1" instead of "ADD R2,R0,R1" (17:41)
     -LR saves the return address of the function 函数的返回地址 (18:44)
-    -myadd inside the assembly (汇编) lanquage is with a static 局部 (19:06)
+    -myadd inside the assembly (汇编) lanquage is with a static 局部 by default 默认 (19:06)
     -if it is a static valuable/function inside the assembly (汇编) code, c code can't call this function (调用函数) or variable. (19:11)
-    -Therefore we need to have a keyword "EXPORT" as 对外倒梳 (??) (19:19)   
+    -Therefore we need to have a keyword "EXPORT" as 对外倒梳(出) (??) (19:19) (19:27)  
         -link->https://blog.csdn.net/uruita/article/details/7496929
-    -
+    -After than we will use make to compile 编译 and may have an error 错误 (19:33)
     -
     -
     -
