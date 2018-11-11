@@ -156,9 +156,10 @@ myadd
     -if it is a static valuable/function inside the assembly (汇编) code, c code can't call this function (调用函数) or variable. (19:11)
     -Therefore we need to have a keyword "EXPORT" as 对外倒梳(出) (??) (19:19) (19:27)  
         -link->https://blog.csdn.net/uruita/article/details/7496929
-    -After than we will use make to compile 编译 and may have an error 错误 (19:33)
-    -
-    -
+    -Then we will use make to compile 编译 and may have an error 错误 (19:33)
+    -THe error is named as
+ image doesn't have an entry point (NOt specified or not set due to mu
+    -images->means executable program 可执行 程序 (19:41)
     -
     -
     -
