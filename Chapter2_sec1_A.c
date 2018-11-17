@@ -161,6 +161,15 @@ myadd
  image doesn't have an entry point (入口点) (NOt specified or not set due to multiple choices)
     -images->means executable program 可执行 程序 (19:41)
     -ENTRY 入口 is not equal to the entry point (20:02)
+->IN C coding, the main function is the entry point ((入口点) (20:10)
+->
+->
+->
+->
+->
+->
+->
+->
     -
     -
     -
