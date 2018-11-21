@@ -162,7 +162,7 @@ myadd
     -images->means executable program 可执行 程序 (19:41)
     -ENTRY 入口 is not equal to the entry point (20:02)
 ->IN C coding, the main function is the entry point ((入口点) (20:10)
-->
+->Therefore, the compiler is confused about which one it should call since there are more than one entry points (20:13)
 ->
 ->
 ->
