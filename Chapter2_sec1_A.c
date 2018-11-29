@@ -122,6 +122,7 @@ in ARM architecture (体系结构), do we do the same way as in x86 architecture
     -The most common is 1sst mode from C code to assemly code 汇编 (13:55) or 3rd embedded assembly 内嵌汇编(13:58) 
     -2nd mode is less common (14:03)
 ->code 3 (15:30)(16:07)
+--------------------------------------------------------------------------------------------------------
 #include <stdio.h>
 
 extern int myadd(int a,int b);
@@ -147,7 +148,7 @@ myadd
    MOV R15,R14 ;MOV PC,LR (18:15)
 
    END
-   
+----------------------------------------------------------------------------------------------------------   
     -When we use regsister  寄存器  to pass the parameter (传递参数) (17:16), 
     -During the call function, a and b registers are copy to R0 and R1 registers 寄存器 (17:22) respectively (17:26)
     -Or we can do like this "ADD R0,R0,R1" instead of "ADD R2,R0,R1" (17:41)
@@ -163,8 +164,8 @@ myadd
     -ENTRY 入口 is not equal to the entry point (20:02)
 ->IN C coding, the main function is the entry point ((入口点) (20:10)
 ->Therefore, the compiler is confused about which one it should call since there are more than one entry points (20:13)
-->
-->
+->ONe come from the main function in C. The other is the main in assemlby 汇编 (20:19)
+->Therefore compiler 编译器  didn't know which one to choose from (20:24)
 ->
 ->
 ->
