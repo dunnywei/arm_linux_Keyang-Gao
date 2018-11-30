@@ -177,22 +177,10 @@ myadd
    MOV R15,R14 ;MOV PC,LR (18:15)
 
    END                                                    
-    -we just get rid off the entry (20:33) then compile withoug any issue (20:41)
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    
-->
-->
+    -we just comment out the ENTRY (20:33) then it should compile withoug any issue (20:41)
+    -Now the entry point is on the main
+->Now we will start the debug tool (调试工具) (20:51) 
+->When the program enters the assemly, it will starts as "__MAIN" (20:55)
 ->
 ->
     -
