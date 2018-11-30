@@ -141,7 +141,7 @@ int main(void)
 ;save as myadd.s (16:21)(17:05)
    AREA MYADD,CODE,READONLY
    ENTRY;We shoudn't use entry (16:56)
-   EXPORT my
+   EXPORT myadd
 myadd
    ADD R2,R0,R1
    MOV R0,R2
@@ -166,7 +166,31 @@ myadd
 ->Therefore, the compiler is confused about which one it should call since there are more than one entry points (20:13)
 ->ONe come from the main function in C. The other is the main in assemlby 汇编 (20:19)
 ->Therefore compiler 编译器  didn't know which one to choose from (20:24)
-->
+->How do we solve the problem?
+ ;save as myadd.s (16:21)(17:05)
+   AREA MYADD,CODE,READONLY
+   ;ENTRY;We shoudn't use entry (16:56)
+   EXPORT myadd
+myadd
+   ADD R2,R0,R1
+   MOV R0,R2
+   MOV R15,R14 ;MOV PC,LR (18:15)
+
+   END                                                    
+    -we just get rid off the entry (20:33) then compile withoug any issue (20:41)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    
 ->
 ->
 ->
