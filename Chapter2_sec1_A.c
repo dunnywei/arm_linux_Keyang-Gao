@@ -183,6 +183,20 @@ myadd
 ->When the program enters the diassemly, it will starts as "__MAIN" (20:55). 
 ->In linux platform, it is called __start (21:03)
 ->So what does the start code 起动代码 do? (21:08)
+                                                       -
+    -Initialize the memory
+    -load 加载 the shared library 共享库(21:10)
+    -Then it will call the main function 函数 (21:12)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
 ->
 ->
 ->
