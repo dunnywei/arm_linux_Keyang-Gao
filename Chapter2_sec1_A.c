@@ -211,7 +211,7 @@ int main(void)
    //mov r0,#0
 }
     -bl is to to save/keep the return address 返回地址(22:08)
-    -
+    -We need to be aware that why it uses r0 and r1 instead of r3 and r4 during the function call 函数调用 (22:20) 
     -
     -
     -
