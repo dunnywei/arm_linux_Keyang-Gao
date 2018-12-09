@@ -167,6 +167,7 @@ myadd
 ->ONe come from the main function in C. The other is the main in assemlby 汇编 (20:19)
 ->Therefore compiler 编译器  didn't know which one to choose from (20:24)
 ->How do we solve the problem?
+-Code 4
  ;save as myadd.s (16:21)(17:05)
    AREA MYADD,CODE,READONLY
    ;ENTRY;We shoudn't use entry (16:56)
@@ -192,7 +193,24 @@ myadd
     fucntion local variable 函数局部变量  (21:37) 
     -The reason is that ARM has more registers  寄存器. (21:49).
     -Pass to the registers will be faster than passing to the physical memory 内存(21:52)
-    -
+->Code 5                                                     
+int main(void)
+{
+   int a=3;//R0
+   //mov r0,#3
+   int b=5;//R1
+    //mov r1,#5
+   int c;
+   c=myadd(a,b);
+    //bl myadd
+   printf("%d\n",c);
+    //add r0,pc,#8 ; 0x80cc
+    //bl _printf
+   
+   return 0;
+   //mov r0,#0
+}
+    -bl is to to save/keep the return address 返回地址(22:08)
     -
     -
     -
