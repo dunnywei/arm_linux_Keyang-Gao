@@ -190,8 +190,8 @@ myadd
     -In ARM compiler, it uses __main which has the same functinality as __main                                                  
     -When we see the value of int a=3 or int b=5, the comppiler in arm assign the register 寄存器 directly (21:43) instead of the
     fucntion local variable 函数局部变量  (21:37) 
-    -
-    -
+    -The reason is that ARM has more registers  寄存器. (21:49).
+    -Pass to the registers will be faster than passing to the physical memory 内存(21:52)
     -
     -
     -
