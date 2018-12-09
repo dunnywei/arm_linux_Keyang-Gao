@@ -187,7 +187,9 @@ myadd
     -Initialize the memory
     -load 加载 the shared library 共享库(21:10)
     -Then it will call the main function 函数 (21:12)
-    -
+    -In ARM compiler, it uses __main which has the same functinality as __main                                                  
+    -When we see the value of int a=3 or int b=5, the comppiler in arm assign the register 寄存器 directly (21:43) instead of the
+    fucntion local variable 函数局部变量  (21:37) 
     -
     -
     -
