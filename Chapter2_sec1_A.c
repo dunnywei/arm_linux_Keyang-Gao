@@ -212,8 +212,11 @@ int main(void)
 }
     -bl is to to save/keep the return address 返回地址(22:08)
     -We need to be aware that why it uses r0 and r1 instead of r3 and r4 during the function call 函数调用 (22:20) of myadd
-    -We can see that R0 is 0x0000 0003 and R1 is 0x0000 0005 while getting into the code warrior during diassemly 反汇编 (22:47)
-    -
+    -bl will save the the return address of myadd then jump to the assembly of myadd. In assembly 汇编 We can see that R0
+    is 0x0000 0003 and R1 is 0x0000 0005 while getting into the code warrior during diassemly 反汇编 (22:47)
+    -The value of R0 and R3 are the paramters of A and B in function myadd (22:53)
+       -实参(argument)和形参(parameter)
+       -link->https://bbs.csdn.net/topics/30240920
     -
     -
     -
