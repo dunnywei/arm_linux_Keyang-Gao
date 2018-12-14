@@ -218,8 +218,9 @@ int main(void)
        -实参(argument)和形参(parameter)
        -link->https://bbs.csdn.net/topics/30240920
                                                      
-   -The myadd function is in Code, R0 and R1 are saved to R2 (22:46)
+   -In Code4, The myadd function is in Code, R0 and R1 are saved to R2 (22:46)
    -5+3=8(23:00)
+   -In Code4 if we have the return value, we need to save it to R0 (23:03)
 
                                                      
 ->
