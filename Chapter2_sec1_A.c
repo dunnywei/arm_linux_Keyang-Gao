@@ -220,8 +220,21 @@ int main(void)
                                                      
    -In Code4, The myadd function is in Code, R0 and R1 are saved to R2 (22:46)
    -5+3=8(23:00)
-   -In Code4 if we have the return value, we need to save it to R0 (23:03)
-
+   -In Code4 if we have the return value, we need to save it to R0 (23:03) so the value of R0 is 8 as well(23:09)
+                                                     
+   -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
                                                      
 ->
     
