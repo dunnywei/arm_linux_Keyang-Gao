@@ -203,6 +203,7 @@ int main(void)
    int c;
    c=myadd(a,b);
     //bl myadd
+    //mov r1,r0
    printf("%d\n",c);
     //add r0,pc,#8 ; 0x80cc
     //bl _printf
@@ -221,8 +222,8 @@ int main(void)
    -In Code4, The myadd function is in Code, R0 and R1 are saved to R2 (22:46)
    -5+3=8(23:00)
    -In Code4 if we have the return value, we need to save it to R0 (23:03) so the value of R0 is 8 as well(23:09)
-                                                     
-   -
+   -We save the R14 address to PC or R15 since R14 keeps the fuction return address as 0x0000 8088 (23:15)                                                  
+   -After executing the myadd function, it returns to line 206 (23:22)
     -
     -
     -
