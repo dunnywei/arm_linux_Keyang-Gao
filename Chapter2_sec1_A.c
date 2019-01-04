@@ -227,7 +227,7 @@ int main(void)
     -It needs to invoke the printf function 函数 (23:28)
     -How many parameter (参数) does printf have currently? (23:31)
     -Two for now (23:36)
-    -
+    -双引号 as " " with 字符串 (23:41) 
     -
     -
     -
