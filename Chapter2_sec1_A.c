@@ -225,8 +225,8 @@ int main(void)
    -We save the R14 address to PC or R15 since R14 keeps the fuction return address 函数返回地址 as 0x0000 8088 (23:15)                                                  
    -After executing the myadd function, it returns to line 206 (23:22)
     -It needs to invoke the printf function 函数 (23:28)
-    -How many parameter (参数) does printf have? (23:31)
-    -
+    -How many parameter (参数) does printf have currently? (23:31)
+    -Two for now (23:36)
     -
     -
     -
