@@ -230,8 +230,8 @@ int main(void)
     -双引号 as " " with 字符串 (23:41) 
     -C is a integer 整型 variable (23:42)
     -Move the value of r0 to r1 (23:47)
-    -The reason is the return value of myadd is saved in r0 (23:55)
-    -
+    -The reason is the return value 返回值 of myadd function 函数 is saved in r0 (23:55)
+    -IN order to pass the parameter to the funtion 函数 of printf(), the value is saved in r1 register 寄存器 (24:02)
     -
     -
     -
