@@ -229,8 +229,8 @@ int main(void)
     -Two for now (23:36)
     -双引号 as " " with 字符串 (23:41) 
     -C is a integer 整型 variable (23:42)
-    -
-    -
+    -Move the value of r0 to r1 (23:47)
+    -The reason is the return value of myadd is saved in r0 (23:55)
     -
     -
     -
