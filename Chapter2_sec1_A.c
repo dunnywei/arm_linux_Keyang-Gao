@@ -234,8 +234,28 @@ int main(void)
     -IN order to pass the parameter to the funtion 函数 of printf(), the value is saved in r1 register 寄存器 (24:02)
     -What does value c corresponding 对应 register 寄存器? It is r1
     -What does 双引号 as " " with 字符串 corresponding r0 (24:09)
+    -"Mov r1,r0"->It is for copying the return value of C as "C=myadd(a,b)" (24:15) to r1 (24:19)
+    -Then assigning another value of r0 with new value as (24:17)
+add r0,pc,#8 :#0x80cc 
+    -Once r0 and r1 are ready (24:24), we will branch to _printf as 
+       "bl _printf" (24:27)
     -
     -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+   
                                                      
 ->
     
