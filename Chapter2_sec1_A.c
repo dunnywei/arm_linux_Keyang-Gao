@@ -239,8 +239,8 @@ int main(void)
 add r0,pc,#8 :#0x80cc 
     -Once r0 and r1 are ready (24:24), we will branch to _printf as 
        "bl _printf" (24:27)
-    -
-    -
+    -Execution/Debug
+    -Load the parameter 形参 in r0 and r1 (25:23)
     -
     -
     -
