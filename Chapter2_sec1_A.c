@@ -227,7 +227,7 @@ int main(void)
     -It needs to invoke the printf function 函数 (23:28)
     -How many parameter (参数) does printf have currently? (23:31)
     -Two for now (23:36)
-    -双引号 as " " with 字符串 (23:41) 
+    -双引号 as " " with 字符串 string character (23:41) 
     -C is a integer 整型 variable (23:42)
     -Move the value of r0 to r1 (23:47)
     -The reason is the return value 返回值 of myadd function 函数 is saved in r0 (23:55)
@@ -235,14 +235,14 @@ int main(void)
     -What does value c corresponding 对应 register 寄存器? It is r1
     -What does 双引号 as " " with 字符串 corresponding r0 (24:09)
     -"Mov r1,r0"->It is for copying the return value of C as "C=myadd(a,b)" (24:15) to r1 (24:19)
-    -Then assigning another value of r0 with new value as (24:17)
+    -Then assigning another value of r0 with new value from the address of 字符串 string character as (24:17)
 add r0,pc,#8 :#0x80cc 
     -Once r0 and r1 are ready (24:24), we will branch to _printf as 
        "bl _printf" (24:27)
     -Execution/Debug
     -Load the parameter 形参 in r0 and r1 (25:23)
-    -
-    -
+    -The entry point of the application starts at main function 函数 
+    -Before main function 函数 call/invvoke myadd, it will load values into r0 and r1 from left to right (25:08)
     -
     -
     -
