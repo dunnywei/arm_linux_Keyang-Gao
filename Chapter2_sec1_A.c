@@ -242,8 +242,8 @@ add r0,pc,#8 :#0x80cc
     -Execution/Debug
     -Load the parameter 形参 in r0 and r1 (25:23)
     -The entry point of the application starts at main function 函数 
-    -Before main function 函数 call/invvoke myadd, it will load values into r0 and r1 from left to right (25:08)
-    -
+    -Before main function 函数 call/invvoke myadd, it will load values into r0 and r1 as parameter 形参 from left to right for preparation (25:08)
+    -Then it will invoke myadd (25:16)(25:27)
     -
     -
     -
