@@ -246,7 +246,7 @@ add r0,pc,#8 :#0x80cc
     -Then it will invoke myadd (25:16)(25:27)
     -Inside myadd function, it will utilize r0 and r1 then compute the value to r2 in line 175(25:34)
     -The return value is saved in r0 (25:49)
-    -
+    -To return to the caller's address in assemlby, it is done by using " MOV R15,R14 ;MOV PC,LR" (25:54)
     -
     -
     -
