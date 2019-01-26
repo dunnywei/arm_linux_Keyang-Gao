@@ -244,8 +244,8 @@ add r0,pc,#8 :#0x80cc
     -The entry point of the application starts at main function 函数 
     -Before main function 函数 call/invvoke myadd, it will load values into r0 and r1 as parameter 形参 from left to right for preparation (25:08)
     -Then it will invoke myadd (25:16)(25:27)
-    -
-    -
+    -Inside myadd function, it will utilize r0 and r1 then compute the value to r2 in line 175(25:34)
+    -The return value is saved in r0 (25:49)
     -
     -
     -
