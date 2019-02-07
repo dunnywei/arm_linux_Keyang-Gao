@@ -249,9 +249,9 @@ add r0,pc,#8 :#0x80cc
     -To return to the caller's address in assemlby, it is done by using " MOV R15,R14 ;MOV PC,LR" (25:54)
     -LR(Link Register) keeps the return address (26:02)
     -PC relates to the next instruction set will be executed (26:02)
-    -
-    -
-    -
+    -The result of adding two number is 8 then move it to r0 (26:11) according to LINE 177
+    -After doing the adding as myadd, move the return address as the content of LR to PC  (26:14)
+    -Threfore PC will point to where it should execute (26:16)
     -
     -
     -
