@@ -167,6 +167,7 @@ myadd
 ->ONe come from the main function in C. The other is the main in assemlby 汇编 (20:19)
 ->Therefore compiler 编译器  didn't know which one to choose from (20:24)
 ->How do we solve the problem?
+ ----------------------------------------------------------------------------------------------------------------------------                                                    
 -Code 4
  ;save as myadd.s (16:21)(17:05)
    AREA MYADD,CODE,READONLY
@@ -177,7 +178,8 @@ myadd
    MOV R0,R2
    MOV R15,R14 ;MOV PC,LR (18:15)
 
-   END                                                    
+   END 
+-----------------------------------------------------------------------------------------------------------------------------
     -we just comment out the ENTRY (20:33) then it should compile withoug any issue (20:41)
     -Now the entry point is on the main
 ->Now we will start the debug tool (调试工具) (20:51) 
@@ -211,6 +213,7 @@ int main(void)
    return 0;
    //mov r0,#0
 }
+----------------------------------------------------------------------------------------------------------------------------
     -bl is to to save/keep the return address 返回地址(22:08) so it will save as 0x0000 80B8
     -We need to be aware that why it uses r0 and r1 instead of r3 and r4 during the function call 函数调用 (22:20) of myadd
     -bl will save the the return address of myadd then jump to the assembly of myadd. In assembly 汇编 We can see that R0
@@ -252,6 +255,12 @@ add r0,pc,#8 :#0x80cc
     -The result of adding two number is 8 then move it to r0 (26:11) according to LINE 177
     -After doing the adding as myadd, move the return address as the content of LR to PC  (26:14)
     -Threfore PC will point to where it should execute (26:16)
+    -AFter it returns to the main function, the r0 holds the return value of the function myadd() (26:22)
+    -We need to move th content of r0 to r1 LINE 208 since r1 refers to varble c while invoking printf function (26:32)
+    -
+    -
+    -
+    -
     -
     -
     -
