@@ -256,7 +256,7 @@ add r0,pc,#8 :#0x80cc
     -After doing the adding as myadd, move the return address as the content of LR to PC  (26:14)
     -Threfore PC will point to where it should execute (26:16)
     -AFter it returns to the main function, the r0 holds the return value of the function myadd() (26:22)
-    -We need to move th content of r0 to r1 LINE 208 since r1 refers to varble c while invoking printf function (26:32)
+    -We need to move th content of r0 to r1 LINE 208 since r1 refers to varble c while invoking printf function (26:32) from left to the right (26:40)
     -
     -
     -
@@ -266,7 +266,7 @@ add r0,pc,#8 :#0x80cc
     -
    
                                                      
-->
+->From ASM to call C(27:21)
     
 ->
 ->
