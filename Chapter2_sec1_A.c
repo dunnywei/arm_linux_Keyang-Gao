@@ -269,6 +269,38 @@ add r0,pc,#8 :#0x80cc
  ----------------Section of ASM call C starts------------------------------------------------------------                                                
 ->From_ASM_to_call C(27:21)
     -Have to follow the same protocol as well (27:32)
+    -Code 6(27:44) of main.c
+#include <stdio.h>
+int add(int a,int b)
+{
+    return a+b;
+}
+int main(void)
+{
+    int res;
+    int a=3;
+    res=fun();
+}
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+                                                        
+                                                         
+    -Code7(30:05) of fun.s
+AREA FUN,CODE, READONLY
+
+fun
+    add r0,r0,#1
+    add r1,r1,#1
+    bl add 
+    -(31:09)
     -
     -
     -
@@ -294,10 +326,20 @@ add r0,pc,#8 :#0x80cc
     -
     -
     -
-    -
-    -
-    -
-    -
+    -Code7(30:05) of fun.s
+AREA FUN,CODE, READONLY
+
+fun
+    add r0,r0,#1
+    add r1,r1,#1
+    mov r8,r14
+    bl add
+    mov r5,r0
+    mov r14,r8
+    mov pc,lr
+    
+    end
+    -(31:09)(32:05)
     -
 
 ->
@@ -315,7 +357,21 @@ add r0,pc,#8 :#0x80cc
 ->
 ->
 ->
-->
+    -Code7(34:16) of fun.s
+AREA FUN,CODE, READONLY
+IMPORT add
+EXPORT fun
+fun
+    add r0,r0,#1
+    add r1,r1,#1
+    mov r8,r14
+    bl add
+    mov r5,r0
+    mov r14,r8
+    mov pc,lr
+    
+    end
+    -(31:09)(32:05)(34:20)
                                                  
     -
     -
