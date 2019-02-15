@@ -281,7 +281,7 @@ int main(void)
     int a=3;
     res=fun();
 }
-    -
+    -Call function without the paramter (28:13)
     -
     -
     -
