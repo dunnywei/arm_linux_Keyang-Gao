@@ -271,6 +271,8 @@ add r0,pc,#8 :#0x80cc
     -Have to follow the same protocol as well (27:32)
     -Code 6(27:44) of main.c
 #include <stdio.h>
+
+extern int fun();
 int add(int a,int b) (28:26)
 {
     return a+b;
@@ -280,10 +282,11 @@ int main(void)
     int res;
     int a=3,b=5;
     res=fun(a,b);
-    printf();//29:06
+    printf("%d\n",res);//29:06
+    return 0;
 }
     -Call function without the paramter (28:13) in fun
-    -
+    -The "func" will be implemented by assemly (29:26)
     -
     -
     -
