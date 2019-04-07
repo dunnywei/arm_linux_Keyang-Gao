@@ -288,9 +288,9 @@ int main(void)
     -Call function without the paramter (28:13) in fun
     -The "func" will be implemented by assemly (29:26)
     -Create an assembly code by code warrier (30:05)
-    -No need to create the key work "ENTRY" in the following (30:15)
-    -
-    -
+    -No need to create the key work "ENTRY" in the following Cod 7(30:15)
+    -Main will pass two parameters as "a" and "b" into fun then it will cal myadd function (30:31)
+    -function of "fun" will carry two paramters (形参) as r0 and r1 then call add (30:31) function (30:35)
     -
     -
     -
