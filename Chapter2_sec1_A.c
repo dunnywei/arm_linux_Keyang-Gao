@@ -272,7 +272,7 @@ add r0,pc,#8 :#0x80cc
     -Code 6(27:44) of main.c
 #include <stdio.h>
 
-extern int fun();
+extern int fun(int a,int b);
 int add(int a,int b) (28:26)
 {
     return a+b;
@@ -287,8 +287,8 @@ int main(void)
 }
     -Call function without the paramter (28:13) in fun
     -The "func" will be implemented by assemly (29:26)
-    -
-    -
+    -Create an assembly code by code warrier (30:05)
+    -No need to create the key work "ENTRY" in the following (30:15)
     -
     -
     -
