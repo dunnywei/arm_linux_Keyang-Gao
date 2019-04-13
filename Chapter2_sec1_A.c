@@ -293,8 +293,9 @@ int main(void)
     -function of "fun" will carry two paramters (形参) as r0 and r1 then call add (30:31) function (30:35)
     -I want to use bl (30:29) to call add function in assembly (30:34)
     -So the calling procudure will be main()->fun() //wriiten in assemlby->add() //written in C
-    -After add() is done in C code, it has to return a variable as r0 (31:09)
-    -
+    -After add() is done in C code, it has to return a variable as r0 (31:09). It is because r0 is the register for
+                                                     returning the variable 传递(should be 返回) 参数. (31:19)
+    -Then it will return this value back to the main() (31:20)
                                                         
                                                          
     -Code7(30:05) of fun.s
