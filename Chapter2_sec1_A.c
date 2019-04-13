@@ -291,8 +291,8 @@ int main(void)
     -No need to create the key work "ENTRY" in the following Cod 7(30:15)
     -Main will pass two parameters as "a" and "b" into fun then it will cal myadd function (30:31)
     -function of "fun" will carry two paramters (形参) as r0 and r1 then call add (30:31) function (30:35)
-    -I want to use bl (30:29)
-    -
+    -I want to use bl (30:29) to call add function in assembly (30:34)
+    -So the calling procudure will be main()->fun() //wriiten in assemlby->add() //written in C
     -
     -
                                                         
