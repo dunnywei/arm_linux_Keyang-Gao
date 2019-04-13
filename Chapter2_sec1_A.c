@@ -291,7 +291,7 @@ int main(void)
     -No need to create the key work "ENTRY" in the following Cod 7(30:15)
     -Main will pass two parameters as "a" and "b" into fun then it will cal myadd function (30:31)
     -function of "fun" will carry two paramters (形参) as r0 and r1 then call add (30:31) function (30:35)
-    -
+    -I want to use bl (30:29)
     -
     -
     -
@@ -303,7 +303,10 @@ AREA FUN,CODE, READONLY
 fun
     add r0,r0,#1
     add r1,r1,#1
-    bl add 
+    mov r8,r14
+    bl add
+    mov r5,r0
+    mov 
     -(31:09)
     -
     -
