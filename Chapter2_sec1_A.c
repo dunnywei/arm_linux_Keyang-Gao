@@ -306,10 +306,14 @@ fun
     add r1,r1,#1
     mov r8,r14
     bl add
-    mov r5,r0
-    mov 
+    add  r5,r0
+    mov r14,r8
+    mov pc,lr 
+    
+    end
+    
     -We need to back up the "return address" 返回地址 from r14 to 48(31:20)
-    -
+    -Explaination is in thefollowing (32:00)
     -
     -
     -
