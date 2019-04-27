@@ -315,7 +315,7 @@ fun
     -We need to back up the "return address" 返回地址 from r14 to 48(31:20)
     -For monitoring purpse, we have "mov r5,r0" (31:45)
     -Explaination is in thefollowing (32:00)
-    -
+    -When you invoke ret=fun(a,b) where a is 3 and b is 5(32:08)
     -
     -
     -
