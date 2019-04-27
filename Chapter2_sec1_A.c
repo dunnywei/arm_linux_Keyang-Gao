@@ -316,7 +316,7 @@ fun
     -For monitoring purpse, we have "mov r5,r0" (31:45)
     -Explaination is in thefollowing (32:00)
     -When you invoke ret=fun(a,b) where a is 3 and b is 5(32:08)
-    -
+    -Once I am in the function of "func", I add 1 to a as 4 and add 1 to b as 6 (32:13)
     -
     -
     -
