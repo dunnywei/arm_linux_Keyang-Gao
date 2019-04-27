@@ -304,7 +304,7 @@ AREA FUN,CODE, READONLY
 fun
     add r0,r0,#1
     add r1,r1,#1
-    mov r8,r14 ;reserve the return address from main()
+    mov r8,r14 ;reserve the return address from main() of printf() function
     bl add
     mov  r5,r0
     mov r14,r8 ;r14 is lr(link register)
@@ -317,8 +317,8 @@ fun
     -Explaination is in thefollowing (32:00)
     -When you invoke ret=fun(a,b) where a is 3 and b is 5(32:08)
     -Once I am in the function of "func", I add 1 to a as 4 and add 1 to b as 6 (32:13)
-    -
-    -
+    -At the same time, I back up the return address of "printf() function" in line 285 by "mov r8,r14" (32:18)(32:26)
+    -Now I execute "bl add" in line 398. (32:33)
     -
     -
     -
