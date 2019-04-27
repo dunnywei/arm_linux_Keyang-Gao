@@ -304,17 +304,17 @@ AREA FUN,CODE, READONLY
 fun
     add r0,r0,#1
     add r1,r1,#1
-    mov r8,r14
+    mov r8,r14 ;reserve the return address from main()
     bl add
-    add  r5,r0
-    mov r14,r8
+    mov  r5,r0
+    mov r14,r8 ;r14 is lr(link register)
     mov pc,lr 
     
     end
     
     -We need to back up the "return address" 返回地址 from r14 to 48(31:20)
+    -For monitoring purpse, we have "mov r5,r0" (31:45)
     -Explaination is in thefollowing (32:00)
-    -
     -
     -
     -
