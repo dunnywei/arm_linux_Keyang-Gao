@@ -317,9 +317,9 @@ fun
     -Explaination is in thefollowing (32:00)
     -When you invoke ret=fun(a,b) where a is 3 and b is 5(32:08)
     -Once I am in the function of "func", I add 1 to a as 4 and add 1 to b as 6 (32:13)
-    -At the same time, I back up the return address of "printf() function" in line 285 by "mov r8,r14" (32:18)(32:26)
-    -Now I execute "bl add" in line 398. (32:33)
-    -
+    -At first, I will back up the return address of "printf() function" in line 285 by C compiler (32:18)(32:26) according to ATPCS protocol.
+    -At second I execute "bl add" in line 398. (32:33)
+       -so I will back up the explicitly the returned address of "mov r5,r0" in line 285 by calling the instruction set "mov r8,r14" (32:39)
     -
     -
     -
