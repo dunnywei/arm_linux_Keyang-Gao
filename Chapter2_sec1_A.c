@@ -280,7 +280,7 @@ int add(int a,int b) (28:26)
 int main(void)
 {
     int res;
-    int a=3,b=5;//mov r14,r15 (implicitly)
+    int a=3,b=5;//mov r14,r15 (implicitly)->after mov, r14 points to the one in printf()
     res=fun(a,b);
     printf("%d\n",res);//29:06
     return 0;
@@ -304,8 +304,8 @@ AREA FUN,CODE, READONLY
 fun
     add r0,r0,#1
     add r1,r1,#1
-    mov r8,r14 ;reserve the return address from main() of printf() function //mov r14,r15 (implicitly)
-    bl add
+    mov r8,r14 ;reserve the return address from main() of printf() function //mov r14,r15 (implicitly)->done by C compiler
+    bl add                                                                  //after mov, r14 points to mov r5,r0
     mov  r5,r0;For the convience of monitoring (31:49)
     mov r14,r8 ;r14 is lr(link register)
     mov pc,lr //=mov r15,r14 
@@ -320,7 +320,7 @@ fun
     -At first, I will back up the return address of "printf() function" in line 285 by C compiler as "mov r14,15" (32:18)(32:26) according to ATPCS protocol.
     -At second I execute "bl add" in line 398. (32:33)
        -so I will back up the explicitly the returned address of "mov r5,r0" in line 285 by calling the instruction set "mov r8,r14" then "move r14,r15(implictyly)" (32:39)
-    -If I don't have "mov r8,r14" in line 307, the r14 of "printf" will be reflush (冲掉) and it will NEVER execute line 185 (32:47)
+    -If I don't have "mov r8,r14" in line 307, the r14 of "printf" will be reflush (冲掉) and it will execute from line 309 to line 311 and  NEVER execute line 285 (32:47)
     -In add(), it will return 10 in r0 due to 4+6. (32:59)
     -
     -
