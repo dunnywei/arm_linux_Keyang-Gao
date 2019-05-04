@@ -280,7 +280,7 @@ int add(int a,int b) (28:26)
 int main(void)
 {
     int res;
-    int a=3,b=5;
+    int a=3,b=5;//mov r14,r15 (implicitly)
     res=fun(a,b);
     printf("%d\n",res);//29:06
     return 0;
@@ -304,9 +304,9 @@ AREA FUN,CODE, READONLY
 fun
     add r0,r0,#1
     add r1,r1,#1
-    mov r8,r14 ;reserve the return address from main() of printf() function
+    mov r8,r14 ;reserve the return address from main() of printf() function //mov r14,r15 (implicitly)
     bl add
-    mov  r5,r0
+    mov  r5,r0;For the convience of monitoring (31:49)
     mov r14,r8 ;r14 is lr(link register)
     mov pc,lr 
     
@@ -317,10 +317,10 @@ fun
     -Explaination is in thefollowing (32:00)
     -When you invoke ret=fun(a,b) where a is 3 and b is 5(32:08)
     -Once I am in the function of "func", I add 1 to a as 4 and add 1 to b as 6 (32:13)
-    -At first, I will back up the return address of "printf() function" in line 285 by C compiler (32:18)(32:26) according to ATPCS protocol.
+    -At first, I will back up the return address of "printf() function" in line 285 by C compiler as "mov r14,15" (32:18)(32:26) according to ATPCS protocol.
     -At second I execute "bl add" in line 398. (32:33)
-       -so I will back up the explicitly the returned address of "mov r5,r0" in line 285 by calling the instruction set "mov r8,r14" (32:39)
-    -
+       -so I will back up the explicitly the returned address of "mov r5,r0" in line 285 by calling the instruction set "mov r8,r14" then "move r14,r15(implictyly)" (32:39)
+    -If I don't have "mov r8,r14" in line 307, the r14 of "printf" will be reflush (冲掉) and it will NEVER execute line 185 (32:47)
     -
     -
     -
