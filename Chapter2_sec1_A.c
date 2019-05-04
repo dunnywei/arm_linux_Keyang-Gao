@@ -202,7 +202,7 @@ int main(void)
    int a=3;//R0
    //mov r0,#3
    int b=5;//R1
-    //mov r1,#5
+    //mov r1,#5 //mov r14,r15 (implicitly)
    int c;
    c=myadd(a,b);
     //bl myadd
@@ -308,7 +308,7 @@ fun
     bl add
     mov  r5,r0;For the convience of monitoring (31:49)
     mov r14,r8 ;r14 is lr(link register)
-    mov pc,lr 
+    mov pc,lr //=mov r15,r14 
     
     end
     
@@ -321,7 +321,7 @@ fun
     -At second I execute "bl add" in line 398. (32:33)
        -so I will back up the explicitly the returned address of "mov r5,r0" in line 285 by calling the instruction set "mov r8,r14" then "move r14,r15(implictyly)" (32:39)
     -If I don't have "mov r8,r14" in line 307, the r14 of "printf" will be reflush (冲掉) and it will NEVER execute line 185 (32:47)
-    -
+    -In add(), it will return 10 in r0 due to 4+6. (32:59)
     -
     -
     -
