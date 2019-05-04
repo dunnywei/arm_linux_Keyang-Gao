@@ -320,14 +320,14 @@ fun
     -At first, I will back up the return address of "printf() function" in line 285 by C compiler as "mov r14,15" (32:18)(32:26) according to ATPCS protocol.
     -At second I execute "bl add" in line 398. (32:33)
        -so I will back up the explicitly the returned address of "mov r5,r0" in line 285 by calling the instruction set "mov r8,r14" then "move r14,r15(implictyly)" (32:39)
-    -If I don't have "mov r8,r14" in line 307, the r14 of "printf" will be reflush (冲掉) and it will execute from line 309 to line 311 and  NEVER execute line 285 (32:47)
+    -If I don't have "mov r8,r14" in line 307, the r14 of "printf" will be reflush (冲掉) and it will execute from line 309 to line 311 and  NEVER execute line 285 of printf (32:47)
     -In add(), it retunr value of "10" is stored in r0 due to 4+6. (32:59)
     -For the conviniece of monitoring/observation, we will have "mov r5,r0" (33:07)
-    -
-    -
-    -
-    -
-    -
+    -For returning to the main() as 主程序 , we will have "mov r5 , r0" , "mov r14, r8" and "mov pc,lr". (33:13)
+    -"mov r14, r8", return the back-up address to r14 (33:18)
+    -We can fast track by using "mov pc,r8" instead of {"mov r14, r8" and "mov pc,lr"} (33:33)
+       -The reason is to following the coding covention since all of return is done by lr as "mov pc,lr" (33:35)
+    -This is the example of assembly code 汇编 call C's function 函數 (33:47)
     -
     -
     -
