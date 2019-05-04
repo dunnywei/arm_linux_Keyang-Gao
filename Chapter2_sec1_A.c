@@ -328,6 +328,8 @@ fun
     -We can fast track by using "mov pc,r8" instead of {"mov r14, r8" and "mov pc,lr"} (33:33)
        -The reason is to following the coding covention since all of return is done by lr as "mov pc,lr" (33:35)
     -This is the example of assembly code 汇编 call C's function 函數 (33:47)
+    -There fore we need to have "IMPORT add" for assembly code 汇编 call C's function 函數 (33:53)
+    -IMPORT is as 对内导入
     -
     -
     -
@@ -336,22 +338,6 @@ fun
     -
     -
     -
-    -
-    -
-    -Code7(30:05) of fun.s
-AREA FUN,CODE, READONLY
-
-fun
-    add r0,r0,#1
-    add r1,r1,#1
-    mov r8,r14
-    bl add
-    mov r5,r0
-    mov r14,r8
-    mov pc,lr
-    
-    end
-    -(31:09)(32:05)
     -
 
 ->
@@ -369,7 +355,7 @@ fun
 ->
 ->
 ->
-    -Code7(34:16) of fun.s
+    -Code8(34:16) of fun.s
 AREA FUN,CODE, READONLY
 IMPORT add
 EXPORT fun
