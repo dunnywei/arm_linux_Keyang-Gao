@@ -54,8 +54,7 @@ int main(void)
 -> label 标号 represents the address (地址) (6:51). It is the same as the fuction name 函数名 (6:54)
 ->What bubble sort is doing is to have the 泡泡排序 (7:15)
 ->The Following is the demonstration of bubble sort in C lanquage as Code 2. (7:32)
-
-
+       
 
 ->code 2 (10:05)
 ----------------------------------------------
@@ -329,8 +328,8 @@ fun
        -The reason is to following the coding covention since all of return is done by lr as "mov pc,lr" (33:35)
     -This is the example of assembly code 汇编 call C's function 函數 (33:47)
     -There fore we need to have "IMPORT add" for assembly code 汇编 call C's function 函數 (33:53)
-    -IMPORT is as 对内导入
-    -
+    -IMPORT is as 对内导入 (34:00)
+    -fun function will be used by main fuction so it required to be "IMPORT fun" 对外导出 (34:11)
     -
     -
     -
