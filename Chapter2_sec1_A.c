@@ -321,8 +321,8 @@ fun
     -At second I execute "bl add" in line 398. (32:33)
        -so I will back up the explicitly the returned address of "mov r5,r0" in line 285 by calling the instruction set "mov r8,r14" then "move r14,r15(implictyly)" (32:39)
     -If I don't have "mov r8,r14" in line 307, the r14 of "printf" will be reflush (冲掉) and it will execute from line 309 to line 311 and  NEVER execute line 285 (32:47)
-    -In add(), it will return 10 in r0 due to 4+6. (32:59)
-    -
+    -In add(), it retunr value of "10" is stored in r0 due to 4+6. (32:59)
+    -For the conviniece of monitoring/observation, we will have "mov r5,r0" (33:07)
     -
     -
     -
