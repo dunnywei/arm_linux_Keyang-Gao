@@ -329,16 +329,8 @@ fun
     -This is the example of assembly code 汇编 call C's function 函數 (33:47)
     -There fore we need to have "IMPORT add" for assembly code 汇编 call C's function 函數 (33:53)
     -IMPORT is as 对内导入 (34:00)
-    -fun function will be used by main fuction so it required to be "IMPORT fun" 对外导出 (34:11)
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-
+    -fun function will be used by main fuction in C so it required to be "IMPORT fun" 对外导出 (34:11)(34:15)
+    -Now it is the executing time
 ->
 ->
 ->
@@ -409,6 +401,12 @@ fun
     -
     -
     -
+    -
+    -
+    -
+    -
+    -
+    -                                                   -
     -
     -
     -
@@ -796,4 +794,18 @@ fun
 ->
 ->
 ->
-
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
+->
