@@ -274,22 +274,24 @@ add r0,pc,#8 :#0x80cc
 extern int fun(int a,int b);
 int add(int a,int b) (28:26)
 {
-    return a+b;
+    return a+b;  
+    //add r0,r0,r1
+    //mov pc,r14  [0x0000 80ac]
 }
 int main(void)
 {
-    int res;
+    int res; 
     int a=3,b=5;//mov r14,r15 (implicitly)->after mov, r14 points to the one in printf()
-    //mov r0,#3
-    //mov r1,#5
+    //mov r0,#3 [0x0000 80b4] 
+    //mov r1,#5 [0x0000 80b8]
     res=fun(a,b);
-    //bl fun
-    //mov r1,r0
+    //bl fun    [0x0000 80bc]
+    //mov r1,r0 [0x0000 80c0]
     printf("%d\n",res);//29:06
-    //add rp,pc,_8;0x80d4
-    //bl _printf
+    //add rp,pc,_8;  [0x0000 80c4]
+    //bl _printf     [0x0000 80c8]
     return 0;
-    //mov r0,#0
+    //mov r0,#0      [0x0000 80cc]
 }
     -Call function without the paramter (28:13) in fun
     -The "func" will be implemented by assemly (29:26)
@@ -339,11 +341,11 @@ fun
     -fun function will be used by main fuction in C so it required to be "IMPORT fun" 对外导出 (34:11)(34:15)                                                  
 ->Now it is the executing time (34:52)
                                                        -
-    -
-    -
-    -
-    -
-    -
+    - bl fun->to see if r14 will change or not (34:58)
+    -r14 is at [0x0000 80C0] (34:59)->as mov r14,pc OR mov r14,r15->so the return address is kept in r14
+    -IN function of fun with assembly
+    -variable a holding 3 is added with 1 so (3+1)
+    -variable b holding 5 is added with 1 so (5+1)(35:06)
     -
     -
     -
