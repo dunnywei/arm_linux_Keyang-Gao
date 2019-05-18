@@ -280,9 +280,16 @@ int main(void)
 {
     int res;
     int a=3,b=5;//mov r14,r15 (implicitly)->after mov, r14 points to the one in printf()
+    //mov r0,#3
+    //mov r1,#5
     res=fun(a,b);
+    //bl fun
+    //mov r1,r0
     printf("%d\n",res);//29:06
+    //add rp,pc,_8;0x80d4
+    //bl _printf
     return 0;
+    //mov r0,#0
 }
     -Call function without the paramter (28:13) in fun
     -The "func" will be implemented by assemly (29:26)
@@ -329,9 +336,23 @@ fun
     -This is the example of assembly code 汇编 call C's function 函數 (33:47)
     -There fore we need to have "IMPORT add" for assembly code 汇编 call C's function 函數 (33:53)
     -IMPORT is as 对内导入 (34:00)
-    -fun function will be used by main fuction in C so it required to be "IMPORT fun" 对外导出 (34:11)(34:15)
-    -Now it is the executing time
-->
+    -fun function will be used by main fuction in C so it required to be "IMPORT fun" 对外导出 (34:11)(34:15)                                                  
+->Now it is the executing time (34:52)
+                                                       -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
 ->
 ->
 ->
