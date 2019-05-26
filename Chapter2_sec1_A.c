@@ -346,7 +346,8 @@ fun
     -IN function of fun with assembly
     -variable a holding 3 is added with 1 so (3+1=4)
     -variable b holding 5 is added with 1 so (5+1=6)(35:06)
-    -
+    -reserve the r14 to r8 as "mov r5,r8" (35:13). If we didn't do this, r14 will pionts to "0x0000 80C0" as "mov r1,r0" (34:51)                                          
+    -Then it will call "bl add", which returns to C coding (35:21)
     -
     -
     -
