@@ -310,13 +310,13 @@ int main(void)
 AREA FUN,CODE, READONLY
 
 fun
-    add r0,r0,#1
-    add r1,r1,#1
-    mov r8,r14 ;reserve the return address from main() of printf() function //mov r14,r15 (implicitly)->done by C compiler
-    bl add                                                                  //after mov, r14 points to mov r5,r0
-    mov  r5,r0;For the convience of monitoring (31:49)
-    mov r14,r8 ;r14 is lr(link register)
-    mov pc,lr //=mov r15,r14 
+    add r0,r0,#1;//[0x0000 A498]
+    add r1,r1,#1;//[0x0000 A49C]
+    mov r8,r14 ;//[0x0000 A4A0]reserve the return address from main() of printf() function //mov r14,r15 (implicitly)->done by C compiler
+    bl add;//[0x0000 A4A4]                                                                  //after mov, r14 points to mov r5,r0
+    mov  r5,r0;//[0x0000 A4A8] For the convience of monitoring (31:49)
+    mov r14,r8 ;//[0x0000 A4AC] r14 is lr(link register)
+    mov pc,lr //[0x0000 A4b0] =mov r15,r14 
     
     end
     
@@ -346,7 +346,7 @@ fun
     -IN function of fun with assembly
     -variable a holding 3 is added with 1 so (3+1=4)
     -variable b holding 5 is added with 1 so (5+1=6)(35:06)
-    -reserve the r14 to r8 as "mov r5,r8" (35:13). If we didn't do this, r14 will pionts to "0x0000 80C0" as "mov r1,r0" (34:51)                                          
+    -reserve the r14 to r8 as "mov r5,r8" (35:13). If we do this, r14 will pionts to [0x0000 80C0] as "mov r1,r0" (34:51).If we didn't do this, r14 will pionts to [0x0000 A4A8] so it be stuck in fun function in assembly code and neve return to main() in C                                         
     -Then it will call "bl add", which returns to C coding (35:21)
     -
     -
