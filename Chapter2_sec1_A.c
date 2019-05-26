@@ -344,8 +344,8 @@ fun
     - bl fun->to see if r14 will change or not (34:58)
     -r14 is at [0x0000 80C0] (34:59)->as mov r14,pc OR mov r14,r15->so the return address is kept in r14
     -IN function of fun with assembly
-    -variable a holding 3 is added with 1 so (3+1)
-    -variable b holding 5 is added with 1 so (5+1)(35:06)
+    -variable a holding 3 is added with 1 so (3+1=4)
+    -variable b holding 5 is added with 1 so (5+1=6)(35:06)
     -
     -
     -
