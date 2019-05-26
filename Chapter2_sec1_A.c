@@ -274,10 +274,16 @@ add r0,pc,#8 :#0x80cc
 extern int fun(int a,int b);
 int add(int a,int b) (28:26)
 {
-    return a+b;  
+    return a+b;  [0000 80a8;
     //add r0,r0,r1
     //mov pc,r14  [0x0000 80ac]
 }
+/*Start of code shown during execution*/
+/*
+mov pc,r14
+*/
+/*End of code shown during execution*/
+
 int main(void)
 {
     int res; 
@@ -348,9 +354,15 @@ fun
     -variable b holding 5 is added with 1 so (5+1=6)(35:06)
     -reserve the r14 to r8 as "mov r5,r8" (35:13). If we do this, r14 will pionts to [0x0000 80C0] as "mov r1,r0" (34:51).If we didn't do this, r14 will pionts to [0x0000 A4A8] so it be stuck in fun function in assembly code and neve return to main() in C                                         
     -Then it will call "bl add", which returns to C coding (35:21)
+    -IN function add() in C codeing
+    -the value of a is stored in r0 and value of b is stored in r1 (35:29) then adding r0 and r1 (35:32).
+    -Return value is stored in r0 (35:35)
+    -How does compiler return to the caller in add function as int add(int a,int b)?
+    -It is done by using mov pc,r14 (35:41)
     -
     -
     -
+    -                                                
     -
     -
     -
