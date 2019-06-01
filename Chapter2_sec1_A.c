@@ -360,8 +360,8 @@ fun
     -How does compiler return to the caller in add function as int add(int a,int b)?
     -It is done by using mov pc,r14 (35:41)
     -add 4 and 6 to 10 (35:47) as we can see the value of r0 will be changed after returning from "bl add" at line 322
-    -assign r0 to r5 as "mov r5,r0" and assign r8 to r14 as "mov r14,r8" (35:55)
-    -                                                
+    -assign the vale in r0 to r5 as "mov r5,r0" and assign the value in r8 to r14 as "mov r14,r8" (35:55)
+    -Then move the content of r14 to PC(r15) (36:00)                                               
     -
     -
     -
