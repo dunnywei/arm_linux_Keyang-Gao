@@ -363,7 +363,7 @@ fun
     -assign the vale in r0 to r5 as "mov r5,r0" and assign the value in r8 to r14 as "mov r14,r8" (35:55)
     -Then move the content of r14 to PC(r15) (36:00) so the executing code will return to the C Code (36:04) in line 296 for printf (36:07)                                             
     -C can call assembly and assembly code can call C as well (36:18)
-    -
+    -Passing parameter using (r0 and r3). return value is stored in r0 (36:24)
     -
     -
     -
