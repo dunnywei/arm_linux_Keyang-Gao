@@ -325,7 +325,7 @@ fun
     mov pc,lr //[0x0000 A4b0] =mov r15,r14 
     
     end
-    
+ --------------------------------end of code 7-------------------------------------------------   
     -We need to back up the "return address" 返回地址 from r14 to 48(31:20)
     -For monitoring purpse, we have "mov r5,r0" (31:45)
     -Explaination is in thefollowing (32:00)
@@ -377,6 +377,68 @@ fun
     -
 
 ->The third is a.k.a as 内嵌 汇编 inline assembly (36:55)
+                   -
+    -Code 8
+                  
+ int main(void)
+                  {
+                      __asm
+                      {
+                          mrs r5,cpsr
+                          bic r5,r5,#0xf
+                          bic r5,r5,#0x2
+                          msr CPSR_cxsf,r5
+                          printf("hello\n");
+                          return 0
+                      }
+                  }
+    -
+   -
+    -
+    -                                                
+    -
+    -
+    -
+    -
+    -
+                   -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+                   -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
 ->
 ->
 ->
@@ -390,7 +452,7 @@ fun
 ->
 ->
 ->
-    -Code8(34:16) of fun.s
+    -Code x(34:16) of fun.s
 AREA FUN,CODE, READONLY
 IMPORT add
 EXPORT fun
