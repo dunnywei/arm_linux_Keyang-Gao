@@ -395,8 +395,8 @@ fun
     -内嵌 汇编 means that inside C code, it contains the assembly code as well (37:04) 
    -It is still  C programming code 程序代码 (37:14)
     -IN some case we can swtich from xbc to user mode (37:50)
-    -                                                
-    -
+    -Or switch from xpc to rq mode (37:55)                                                
+    ->the "__asm" is special symbol 特殊符号 used for 内嵌 汇编 (38:20)
     -
     -
     -
