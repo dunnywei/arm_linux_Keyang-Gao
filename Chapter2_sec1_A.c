@@ -412,7 +412,7 @@ fun
        
                   
     - 2b) We will use USER mode indtead of IRQ mode due to its simpolitcityso we will use "bic r5,r5,#0x0F" (39:34)
-        - bic means bit clear according to (http://www.keil.com/support/man/docs/armasm/armasm_dom1361289864906.htm)
+        - bic means bit clear with and operation according to (http://www.keil.com/support/man/docs/armasm/armasm_dom1361289864906.htm)
         -
         -
     -
