@@ -434,7 +434,7 @@ int main(void)
 }   
     -We will use "orr r5,r5, #0x02" according to line "407" 
     -In "msr CPSR_cxsf,r5", we will have CPSR_cxsf due to matchin the corresponding (互对) (40:18)  
-    -
+    -The CPSR_cxsf will set everything according to (https://www.heyrick.co.uk/armwiki/The_Status_register)
     -
     -
     -
