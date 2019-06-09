@@ -399,7 +399,7 @@ fun
     ->the "__asm" is special symbol 特殊符号 used for 内嵌 汇编 (38:20)
     -If you want to switch from C programming code to assembly programming code 汇编, we need to
     opearte on cpsr register(38:36)
-    -You gave to obtain the content from CPSR then modify (38:46)
+    -You gave to obtain the content from CPSR and modify it then write it back to the CPSR (38:46)(38:48)
     -
     -
                    -
