@@ -403,21 +403,37 @@ fun
     -At first, we will obtain the content of cpsr register to r5 "mrs r5,cpsr" (38:58)
     -At the second 2a), we need to change it to the IRQ mode (39:06)(39:16)
         -M[4:0] | MODE
-        -10010  | IRQ
         -10000  | USER
+        -10010  | IRQ
         -
         -
         -
         -
        
                   
-    - 2b) We will use USER mode indtead of IRQ mode due to its simpolitcityso we will use "bic r5,r5,#0x0F" (39:34)
+    - 2b) We will use USER mode indtead of IRQ mode due to its simpolitcityso we will use "bic r5,r5,#0x0F" (39:34) for user mode
         - bic means bit clear with and operation according to (http://www.keil.com/support/man/docs/armasm/armasm_dom1361289864906.htm)
         -It will clean up the lowest 4 bits so it will become zero (39:38)
         -According to (https://blog.csdn.net/yueniaoshi/article/details/7578714), the bic operation will do "AND r5,r5,~(0x0F)" 
-    -
-    -
-    -
+    -2c)what happen if we want to be in IRQ mode, what should we do? (39:46)
+  -Code 9 (40:03)
+                  
+int main(void)
+{
+     __asm
+     {
+                          mrs r5,cpsr
+                          bic r5,r5, #0xf
+                          orr r5,r5, #0x2
+                              
+                          bic r5,r5,#0x2
+                          msr CPSR_cxsf,r5
+                          printf("hello\n");
+                          return 0
+      }
+}   
+    -We will use "orr r5,r5, #0x02" according to line "407" 
+    -In "msr CPSR_cxsf,r5", we will have CPSR_cxsf due to matchin the corresponding (互对) (40:18)  
     -
     -
     -
