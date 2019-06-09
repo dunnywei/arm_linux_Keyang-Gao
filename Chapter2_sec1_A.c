@@ -395,13 +395,40 @@ fun
     -内嵌 汇编 means that inside C code, it contains the assembly code as well (37:04) 
    -It is still  C programming code 程序代码 (37:14)
     -IN some case we can swtich from supervisor calls(svc) to user mode (37:50)
-    -Or switch from supervisor calls(svc) to rq mode (37:55)                                                
+    -Or switch from supervisor calls(svc) to IRQ mode (37:55)                                                
     ->the "__asm" is special symbol 特殊符号 used for 内嵌 汇编 (38:20)
     -If you want to switch from C programming code to assembly programming code 汇编, we need to
     opearte on cpsr register(38:36)
     -You gave to obtain the content from CPSR and modify it then write it back to the CPSR (38:46)(38:48)
     -At first, we will obtain the content of cpsr register to r5 "mrs r5,cpsr" (38:58)
-    -At the second, we need to change it to the rq mode (39:06)
+    -At the second 2a), we need to change it to the IRQ mode (39:06)(39:16)
+        -M[4:0] | MODE
+        -10010  | IRQ
+        -10000  | USER
+        -
+        -
+        -
+        -
+       
+                  
+    - 2b) We will use USER mode indtead of IRQ mode due to its simpolitcityso we will use "bic r5,r5,#0x0F" (39:34)
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
+    -
                    -
     -
     -
@@ -421,25 +448,6 @@ fun
     -
     -
     -
-                   -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
-    -
 ->
 ->
 ->
@@ -452,6 +460,96 @@ fun
 ->
 ->
 ->
+        -
+        -
+        -
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -    
 ->
     -Code x(34:16) of fun.s
 AREA FUN,CODE, READONLY
