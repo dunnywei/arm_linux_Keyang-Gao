@@ -448,7 +448,7 @@ int main(void)
     -If the executable code eg a.out consistt of more than 100 files (42:32).Within those 100 files, u use 15 of them with "in-line assebmly" (42:36)
     -Now you are using the arm architecutre and if u swith to x86 architure->issuse arose 
     -In *.c files can be cross compiler (42:50)
-    -
+    -Then the all 15 *.c files contain in line 内嵌 汇编 assemlby code need to be changed.->We can't even loose any of them. (43:57)
    
                    -
     -
