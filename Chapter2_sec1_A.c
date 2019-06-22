@@ -436,10 +436,10 @@ int main(void)
     -The CPSR_cxsf will set everything according to (https://www.heyrick.co.uk/armwiki/The_Status_register)
     -(40:25), we will add some c code as "printf("hello\n");
     -Now we are at debug mode by make it (40:42)
-    -
-    -
-    -
-    -
+    -CPSR must be in capital letter (41:06)
+    -From the "ARM7TIMI - Registers"->"CPSR"->"nICva1ft_svc" mode->this is where it starts as line 422 to line 427 (41:30)
+    -Then it will switch to "ARM7TIMI - Registers"->"CPSR"->"nICva1ft_IRQ" mode (41:30)
+    -Therefore we switch the from svc mode to irq mode via inline assembly (41:38)
     -
     -
     -
