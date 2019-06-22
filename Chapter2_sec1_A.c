@@ -417,7 +417,7 @@ fun
         -According to (https://blog.csdn.net/yueniaoshi/article/details/7578714), the bic operation will do "AND r5,r5,~(0x0F)" 
     -2c)what happen if we want to be in IRQ mode, what should we do? (39:46)
   -Code 9 (40:03)
-                  
+#include <stdio.h>               
 int main(void)
 {
      __asm
@@ -425,16 +425,17 @@ int main(void)
                           mrs r5,cpsr
                           bic r5,r5, #0xf
                           orr r5,r5, #0x2
-                              
-                          bic r5,r5,#0x2
                           msr CPSR_cxsf,r5
+     }
                           printf("hello\n");
                           return 0
-      }
+      
 }   
     -We will use "orr r5,r5, #0x02" according to line "407" 
     -In "msr CPSR_cxsf,r5", we will have CPSR_cxsf due to matchin the corresponding (互对) (40:18)  
     -The CPSR_cxsf will set everything according to (https://www.heyrick.co.uk/armwiki/The_Status_register)
+    -(40:25), we will add some c code as "printf("hello\n");
+    -Now we are at debug mode by make it (40:42)
     -
     -
     -
@@ -446,8 +447,7 @@ int main(void)
     -
     -
     -
-    -
-    -
+   
                    -
     -
     -
