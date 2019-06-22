@@ -440,12 +440,14 @@ int main(void)
     -From the "ARM7TIMI - Registers"->"CPSR"->"nICva1ft_svc" mode->this is where it starts as line 422 to line 427 (41:30)
     -Then it will switch to "ARM7TIMI - Registers"->"CPSR"->"nICva1ft_IRQ" mode (41:30)
     -Therefore we switch the from svc mode (super visor code) to irq mode via inline assembly (41:38)
-    -
-    -
-    -
-    -
-    -
-    -
+    -At the end, it will print a "Hello" (41:47)
+    -In the development, you require to wrte sth in assembly code->whick one should we choose from the following (42:07)
+        -using *.s to write as assembly code (1)
+        -using inline assembly (2)
+    -We should use sth as *.s as (1) instead of (2)->we need to consider the effect of portablity (42:26)
+    -If the executable code eg a.out consistt of more than 100 files (42:32).Within those 100 files, u use 15 of them with "in-line assebmly" (42:36)
+    -Now you are using the arm architecutre and if u swith to x86 architure->issuse arose 
+    -In *.c files can be cross compiler (42:50)
     -
    
                    -
