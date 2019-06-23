@@ -449,11 +449,11 @@ int main(void)
     -Now you are using the arm architecutre and if u swith to x86 architure->issuse arose 
     -In *.c files can be cross compiler (42:50)
     -Then the all 15 *.c files contain in line 内嵌 汇编 assemlby code need to be changed.->We can't even loose any of them. (43:57)
-   
-                   -
-    -
-    -
-    -
+  
+    -So you put those 15 *.c files containing in line assembly into one *.s file contains all the 15 funcitonality from .c files (43:06)
+    -Now you have 100 files with 99 with *.c and one *.s file 
+    -So now you try to do the cross platform driver development from x86 to ARM, I only need to focus in one *.s (43:18)
+    -It will dramatically reduce time and difficulties. Try not to use inline assembly between *.s and *.c codevelopment due to the future difficulties in portablity (43:39)
     -
     -
     -
