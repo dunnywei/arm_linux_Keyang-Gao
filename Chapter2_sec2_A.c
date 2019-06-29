@@ -9,11 +9,11 @@ Section2_计算机存储介质
 ->2)hardware data sheet and chip manual 原理图 和 芯片手册
 ->3)Understand SOC chip with configuration in UART,NandFlash,Timer and coding the device driver 驱动程序 for all of them
 ->4)Finish boot loader project including coding and porting (1:29)
-->
-->
-->
-->
-->
+->Once you get your develoment board (开发板), u need to answer the folloiling question (2:10)
+->1)What does your chip's name and based on on which ARM kernel
+->2)What is the main frequency of the CPU, what kind of main memory (DDR) it is using, the size of memory
+->3)which OS will run in the development board? what will be the difference
+->4)What is BSP? what the BSP for the dvelopment board supports for external configuration (外设)? 
 ->
 ->
 ->
