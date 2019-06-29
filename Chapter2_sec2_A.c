@@ -3,11 +3,12 @@ https://www.youtube.com/watch?v=Tsyw7xqRwCE&list=PLhqasd25bl-igPZWIM2cQrcSX7oFZJ
 
 Linux嵌入式开发和驱动开发--2开发板外设驱动
 Section2_计算机存储介质
-->IN this section we need to know how to read data sheet and CPU manual 数据表(原里图)和CPU手册(0:20)
-->
-->
-->
-->
+->IN this section we need to know how to read hardware data sheet and chip manual 原理图 和 芯片手册(0:20)
+-Goal
+->1)ARM cpu architecture and assembly
+->2)hardware data sheet and chip manual 原理图 和 芯片手册
+->3)Understand SOC chip with configuration in UART,NandFlash,Timer and coding the device driver 驱动程序 for all of them
+->4)Finish boot loader project including coding and porting (1:29)
 ->
 ->
 ->
