@@ -11,6 +11,12 @@ Section2_计算机存储介质
 ->4)Finish boot loader project including coding and porting (1:29)
 ->Once you get your develoment board (开发板), u need to answer the folloiling question (2:10)
 ->1)What does your chip's name and based on on which ARM kernel
+        -s5pv210 (2:42)
+        -link->https://item.taobao.com/item.htm?id=15592082970&ali_trackid=2:mm_14364811_3440779_59046457:1561854669_194_984915867&pvid=100_11.1.130.21_56537_7881561854648228712&scm=null
+        -
+        -
+        -          
+        -
 ->2)What is the main frequency of the CPU, what kind of main memory (DDR) it is using, the size of memory
 ->3)which OS will run in the development board? what will be the difference
 ->4)What is BSP? what the BSP for the dvelopment board supports for external configuration (外设)? 
