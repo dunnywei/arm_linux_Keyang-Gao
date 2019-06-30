@@ -14,12 +14,12 @@ Section2_计算机存储介质
         -s5pv210 (2:42)
         -link->https://item.taobao.com/item.htm?id=15592082970&ali_trackid=2:mm_14364811_3440779_59046457:1561854669_194_984915867&pvid=100_11.1.130.21_56537_7881561854648228712&scm=null
         -Using coretex-A8 (2:49)
-        -210 means samsung add other external controller configuration (外设控制器) (3:07)
+        -210 means samsung add other external controller configuration (外设控制器) (3:07) to form s5pv210(3:12)
         -          
         -
-->2)What is the main frequency of the CPU, what kind of main memory (DDR) it is using, the size of memory
-->3)which OS will run in the development board? what will be the difference
-->4)What is BSP? what the BSP for the dvelopment board supports for external configuration (外设)? 
+->2)What is the main frequency of the CPU(1Ghz), what kind of main memory (DDR) it is using(128MB*4=512MB), the size of memory
+->3)which OS will run in the development board? what will be the difference->Linux and Android (3:30)
+->4)What is BSP (板支持包)(3:38)? what the BSP for the dvelopment board supports for external configuration (外设)? 
 ->
 ->
 ->
