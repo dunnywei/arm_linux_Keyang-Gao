@@ -19,12 +19,12 @@ Section2_计算机存储介质
         -
 ->2)What is the main frequency of the CPU(1Ghz), what kind of main memory (DDR) it is using(128MB*4=512MB), the size of memory
 ->3)which OS will run in the development board? what will be the difference->Linux and Android (3:30)
-->4)What is BSP (板支持包)(3:38)? what the BSP for the dvelopment board supports for external configuration (外设)?
+->4)What is BSP (板级支持包)(3:38)? what the BSP for the dvelopment board supports for external configuration (外设)?
         -The development board has the associated boot loader and associated/portable OS (3:47) with external device driver 外围设备 (外设)驱动 (3:54)
-        -
-        -
-        -
-        -          
+        -So the manufacture of develoment board (开发板) must provide
+        -1)bootlaoder
+        -2)runnable linux os (4:32)
+        -3)
         -
         -
         -
