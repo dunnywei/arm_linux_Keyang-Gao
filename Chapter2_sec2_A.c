@@ -24,13 +24,28 @@ Section2_计算机存储介质
         -So the manufacture of develoment board (开发板) must provide
         -1)bootlaoder
         -2)runnable linux os (4:32) and android os->therefore it will attract the custumers to buy it (4:36)
-        -3)BSP=OS+boot loader+device driver (4:65)
+        -3)BSP=OS+boot loader+device driver (4:55)
         -
         -
         -
         -
-->
-->
+->Peripheral identification (外设识别) (6:30)
+        -reset key
+        -key for /home ,/back,/menu
+        -Input/ouput (I/O) interface
+        -Network interface
+        -USB interface
+        -SD interface
+        -camera interface
+        -WIFI heasphone interface
+        -AV interface
+        -启动跳线->NAND-SDBOOT
+        -可变电阻 as ADC
+        -LCD interface:Connect to LCD externally
+        -
+        -
+        -             
+->Be aware of inserting/removing SD card (6:56)
 ->
 ->
 ->
