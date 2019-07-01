@@ -23,8 +23,8 @@ Section2_计算机存储介质
         -The development board has the associated boot loader and associated/portable OS (3:47) with external device driver 外围设备 (外设)驱动 (3:54)
         -So the manufacture of develoment board (开发板) must provide
         -1)bootlaoder
-        -2)runnable linux os (4:32)
-        -3)
+        -2)runnable linux os (4:32) and android os->therefore it will attract the custumers to buy it (4:36)
+        -3)BSP=OS+boot loader+device driver (4:65)
         -
         -
         -
