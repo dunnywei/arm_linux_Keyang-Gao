@@ -47,8 +47,8 @@ Section2_计算机存储介质
         -             
 ->Be aware of inserting/removing SD card (6:56)
 ->Be aware of the power supply voltage 电压. It used 5V. If we apply 110V, it will demage the board (7:39)
-->
-->
+->Serial cable->dual female (7:57)
+->Use hypertrm instead of terraterm (8:16)
 ->
 ->
 ->
