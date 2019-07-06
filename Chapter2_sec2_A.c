@@ -49,8 +49,8 @@ Section2_计算机存储介质
 ->Be aware of the power supply voltage 电压. It used 5V. If we apply 110V, it will demage the board (7:39)
 ->Serial cable->dual female (7:57)
 ->Use hypertrm instead of terraterm (8:16)
-->We need to see data sheet and schematic diagram (原理图 和 芯片手册) (8:47)
-->
+->We need to see data sheet(芯片手册) and schematic diagram (原理图) (原理图 和 芯片手册) (8:47)
+->Now reading the data sheet (芯片手册)->S5PV210_REV1.pdf (9:08)
 ->
 ->
 ->
