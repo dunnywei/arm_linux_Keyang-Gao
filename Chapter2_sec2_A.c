@@ -51,6 +51,24 @@ Section2_计算机存储介质
 ->Use hypertrm instead of terraterm (8:16)
 ->We need to see data sheet(芯片手册) and schematic diagram (原理图) (原理图 和 芯片手册) (8:47)
 ->Now reading the data sheet (芯片手册)->S5PV210_REV1.pdf (9:08)
+        -Section 01:Preview
+        -Section 02:System->系统
+        -Section 03:Bus->总线 (9:37)
+        -Section 04:interrupt->中断
+        -Section 05:memory (内存)
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
