@@ -59,17 +59,17 @@ Section2_计算机存储介质
         -Section 06:DMA (Direct Memory Access)->直接存储 (10:04)
         -Section 07:Timer 定时器
         -Section 08:Connectivity storage->serial port (串口) (10:16)
+        -Section 09:Multimedia 多媒体
+        -Section 10:audio 音频
+        -Section 11:security
+        -Section 12:_etc
         -
         -
         -
         -
         -
         -
-        -
-        -
-        -
-        -
-->
+->After u recieve the chip and want to undersstand it in quickly, we must spend time reading it (10:38)
 ->
 ->
 ->
