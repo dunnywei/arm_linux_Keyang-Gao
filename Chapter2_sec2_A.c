@@ -55,8 +55,8 @@ Section2_计算机存储介质
         -Section 02:System->系统
         -Section 03:Bus->总线 (9:37)
         -Section 04:interrupt->中断
-        -Section 05:memory (内存)->It deals wtih the "management of saving" (9:47) in DRAM, SRAM, Flash (9:58)
-        -
+        -Section 05:memory (内存)->Not only deals with memory (内存). It also deals wtih the "management of saving" (9:47) in DRAM, SRAM, Flash (9:58)
+        -Section 06:DMA (Direct Memory Access)->直接存储 (10:04)
         -
         -
         -
