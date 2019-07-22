@@ -53,7 +53,7 @@ Section2_计算机存储介质
 ->Now reading the data sheet (芯片手册)->S5PV210_REV1.pdf (9:08)
         -Section 01:Overview
             -1:overview of S5P210
-            -2:Size and ball map
+            -2:Size and ball map (管脚封装)
         -Section 02:System->系统
         -Section 03:Bus->总线 (9:37)
         -Section 04:interrupt->中断
@@ -73,7 +73,7 @@ Section2_计算机存储介质
         -
 ->After u recieve the chip and want to undersstand it in quickly, we must spend time reading it (10:38)
 ->Hardware engineers select the developmet board, they need to understand the specification of 芯片 (CPU) (10:57),they will check the Section 01:overview. (11:02)
-->In Section 01:Overview, it will cover the memory map(内存布局) (11:15)
+->In Section 01:Overview, it will cover the memory map(内存布局) (11:15) and Size and ball map (管脚封装) (11:18)
 ->
 ->
 ->
