@@ -74,7 +74,7 @@ Section2_计算机存储介质
 ->After u recieve the chip and want to undersstand it in quickly, we must spend time reading it (10:38)
 ->Hardware engineers select the developmet board, they need to understand the specification of 芯片 (CPU) (10:57),they will check the Section 01:overview. (11:02)
 ->In Section 01:Overview, it will cover the memory map(内存布局) (11:15) and Size and ball map (管脚封装) (11:18)
-->
+->We need to go through Chapter 1 so we will have deep undersatnding about the chip 芯片 (11:26)
 ->
 ->
 ->
