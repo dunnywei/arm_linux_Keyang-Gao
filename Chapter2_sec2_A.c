@@ -76,7 +76,12 @@ Section2_计算机存储介质
 ->In Section 01:Overview, it will cover the memory map(内存布局) (11:15) and Size and ball map (管脚封装) (11:18)
 ->We need to go through Chapter 1 so we will have deep undersatnding about the chip 芯片 (11:26)
 ->Currenlty we are focusing on Boot loader and ARM so Section 09:multimedia can be ignored (11:41)
-->
+->So  -Section 01:Overview
+        -based on ARM cortec-a8
+        -
+        -
+        -
+        -
 ->
 ->
 ->
