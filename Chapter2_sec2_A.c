@@ -78,7 +78,7 @@ Section2_计算机存储介质
 ->Currenlty we are focusing on Boot loader and ARM so Section 09:multimedia can be ignored (11:41)
 ->So  -Section 01:Overview
         -based on ARM cortec-a8
-        -
+        -It supports ARM architecture V-7 指令集(12:34)
         -
         -
         -
