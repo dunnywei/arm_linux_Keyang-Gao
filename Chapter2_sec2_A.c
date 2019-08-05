@@ -80,6 +80,15 @@ Section2_计算机存储介质
         -based on ARM cortec-a8
         -It supports ARM architecture V-7 指令集(12:34)
         -It supports 64bit bus 总线 architecture (12:42)
+        -It support the hardware acceleration 硬件加速 for mulimedia application 多媒体 as Multi Format Codec (MFC) for encoding/decodeding MPGEG-1/2/4, H.263 and H264 and decoding
+        of VC1 (12:48)(12:56)
+        -S5PV210 has the external interface 接口 to external memory  外部存储(13:04)(13:08)
+           -Including flash,ROM,DRAM
+           -Low Power 低功耗 DDR (LPDDR) 
+           -NAND-Flash-> U 盘 (13:37) 
+        -
+        -
+        -
         -
         -
 ->
