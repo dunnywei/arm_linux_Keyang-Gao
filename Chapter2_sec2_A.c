@@ -79,7 +79,7 @@ Section2_计算机存储介质
 ->So  -Section 01:Overview
         -based on ARM cortec-a8
         -It supports ARM architecture V-7 指令集(12:34)
-        -It supports 64bit bus architecture (12:42)
+        -It supports 64bit bus 总线 architecture (12:42)
         -
         -
 ->
