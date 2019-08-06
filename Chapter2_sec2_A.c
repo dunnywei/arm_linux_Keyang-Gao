@@ -85,17 +85,29 @@ Section2_计算机存储介质
         -S5PV210 has the external interface 接口 to external memory  外部存储(13:04)(13:08)
            -Including flash,ROM,DRAM
            -Low Power 低功耗 DDR (LPDDR) 
-           -NAND-Flash-> U 盘 (13:37) 
+           -NAND-Flash-> U 盘 (13:37)->usually it is larger like 10GB (14:43)
            -NOR-Flash->Bios (14:05). It stores the bios code inside the NOR-flash (14:05)
                      ->it can also be used to save bootloader as well (14:21)
                      ->Its memory size is smaller->it is between 2MB 兆字节 to 32MB 兆字节 (14:23)
                      ->It can store bios and bootloader (14:38)
-        - 
-        -
-        -
-        -
-        -
-->
+        - TFT 24bit LCD controller
+        -USB 
+        -Camera interface
+        -UART port
+        -GPIIO port
+->System architecture for S5PV210 (15:39)
+        -CortexA8->512KB L2 cache
+            -ALU (computing unit),maximum frequency 1Ghz
+        -SYSTEM perihpheral, Connectivity, Multimedia and Memory Interface are all supoorted by Samsung
+        -(System peripheral)->watchdog timer,timer 
+        -(Connectivity) (16:17)
+           -UART
+           -I2C
+           -GPIO
+        -Mulitmedia->2D/3D graphics, JPEG,H263, H264
+        -Memory->SRAM, Low Power DDR(LPDDR)
+        -Power Management->provided by samsung 
+        -All of them are connected by AHB/AXI bus 总线(17:13)
 ->
 ->
 ->
