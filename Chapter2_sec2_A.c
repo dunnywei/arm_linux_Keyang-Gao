@@ -89,7 +89,8 @@ Section2_计算机存储介质
            -NOR-Flash->Bios (14:05). It stores the bios code inside the NOR-flash (14:05)
                      ->it can also be used to save bootloader as well (14:21)
                      ->Its memory size is smaller->it is between 2MB 兆字节 to 32MB 兆字节 (14:23)
-        -
+                     ->It can store bios and bootloader (14:38)
+        - 
         -
         -
         -
