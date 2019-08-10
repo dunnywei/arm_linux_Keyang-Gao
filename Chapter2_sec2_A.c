@@ -114,13 +114,13 @@ Section2_计算机存储介质
         -All of them are connected by AHB/AXI bus 总线(17:13)(17:28)
 ->UART (18:03)
         -There are 4 ports 串口(18:03)
+        -Rx/Tx independing 256 byte FIFO 队列 (for 缓存)(18:16)
         -
         -
         -
         -
         -
         -
-        =-
         -
         -
         -
