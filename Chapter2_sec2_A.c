@@ -115,7 +115,7 @@ Section2_计算机存储介质
 ->UART (18:03)
         -There are 4 ports 串口(18:03)
         -Rx/Tx independing 256 byte FIFO 队列 (for 缓存)(18:16)
-        -
+        -Support IrDA 1.0 SIR (115.2kbps)->it is the baud rate (18:35)
         -
         -
         -
