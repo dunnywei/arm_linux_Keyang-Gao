@@ -107,12 +107,25 @@ Section2_计算机存储介质
         -(Connectivity) (16:17)
            -UART
            -I2C
-           -GPIO
+           -GPIO 通用IO
         -Mulitmedia->2D/3D graphics, JPEG,H263, H264
         -Memory->SRAM, Low Power DDR(LPDDR)
         -Power Management->provided by samsung 
-        -All of them are connected by AHB/AXI bus 总线(17:13)
-->
+        -All of them are connected by AHB/AXI bus 总线(17:13)(17:28)
+->UART (18:03)
+        -There are 4 ports 串口(18:03)
+        -
+        -
+        -
+        -
+        -
+        -
+        =-
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
