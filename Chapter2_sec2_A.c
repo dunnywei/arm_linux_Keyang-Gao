@@ -1,3 +1,7 @@
+ITEC 5201 Tuesday and Thursday
+IMD  4701 Tuesday and THursday
+IMD  4901 Tuesday and THursday
+
 计算机存储介质
 https://www.youtube.com/watch?v=Tsyw7xqRwCE&list=PLhqasd25bl-igPZWIM2cQrcSX7oFZJ9Bo&index=7
 
