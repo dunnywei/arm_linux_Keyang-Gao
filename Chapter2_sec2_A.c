@@ -145,7 +145,7 @@ Section2_计算机存储介质
         -     
 ->Memory map->super important (19:57)
         -all of the address showing up here is physical address 物理地址 (20:05). It is not virtual address 虚拟地址 (20:07)
-        -
+        -It is a 32 bit CPU chip 芯片 so it can see all 4GB physical address 物理地址 (20:11)
         -
         -
         -
