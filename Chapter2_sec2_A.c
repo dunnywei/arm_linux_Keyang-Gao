@@ -131,7 +131,18 @@ Section2_计算机存储介质
    -When we show the LED light flashing yesterday, we connect LED to the GPIO pin (管脚) (19:03)
    -We can set the GPIO pin as input/ouput (19:08)
    -We can even set LOW/HIGH voltage 电平 in GPIO (19:11)
-->
+    -It has 237 pins  (管脚) (19:16) so tthey are divided into groups 组 as ports (19:24)
+    -In the example of GPA1->it consits of 4 input ports (19:35)
+    -In the example of GPJ0,1,2,3,4,5:35 in/out ports (19:35)
+      
+->In Convention (19:46)
+        -Symbol R->means read only
+        -Symbol W->means write only
+        -R/W->Read and Write
+        -RWC->Read,Write,Clear
+        -RWS->Read,Write,Set
+        -
+        -     
 ->
 ->
 ->
