@@ -144,6 +144,16 @@ Section2_计算机存储介质
         -
         -     
 ->Memory map->super important (19:57)
+        -all of the address showing up here is physical address 物理地址 (20:05)
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
