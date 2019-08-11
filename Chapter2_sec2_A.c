@@ -129,6 +129,8 @@ Section2_计算机存储介质
 ->GPIO is important
    -When we go out to the field,we need to configure GPIO (18:53)
    -When we show the LED light flashing yesterday, we connect LED to the GPIO pin (管脚) (19:03)
+   -We can set the GPIO pin as input/ouput (19:08)
+   -We can even set LOW/HIGH voltage 电平 in GPIO (19:11)
 ->
 ->
 ->
