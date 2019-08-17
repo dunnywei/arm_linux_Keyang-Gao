@@ -148,7 +148,7 @@ Section2_计算机存储介质
         -It is a 32 bit CPU chip 芯片 so it can see all 4GB physical address 物理地址 (20:11)
         -It is the split of physical address of memory into division. Therefore from physical address 物理地址 of 0x2000 0000 
             to 0x7fff ffff is applied for DRAM1 and DRAM 2 (20:27) 
-        -
+        -DRAM means 内存 (20:31)
         -
         -
         -
