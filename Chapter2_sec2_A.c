@@ -149,8 +149,8 @@ Section2_计算机存储介质
         -It is the split of physical address of memory into division. Therefore from physical address 物理地址 of 0x2000 0000 
             to 0x7fff ffff is applied for DRAM1 and DRAM 2 (20:27) 
         -DRAM means 内存 (20:31)
-        -
-        -
+        -The size of DRAM_0 is greater than DRAM_1 since it is from 0x2000_0000 to 0x3FFF_FFFF(20:41)
+        -IF we see the next page, we can see DRAM_0 has size of 512MB and DRAM_1 has the size of 1024MB (20:53)
         -
         -
         -
