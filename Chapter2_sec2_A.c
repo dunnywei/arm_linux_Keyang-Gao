@@ -174,8 +174,9 @@ Section2_计算机存储介质
         -for v210,we have 512MB and refers to DRAM_0 
         -Yeserday we have the "Load a value then go 0x2160 0000" so we use the memory address at DRAM_0 (22:17)
         -For DRAM_1,it be applied for expansion however it is not connected yet(22:36)
-        -
-        -          
+        
+ ->For SFRS(special function register特殊功能寄存器) from 0xE000_0000 to 0xFFFF_FFF (22:46)
+        -It is used to save the special register          
         -
         -
         -
