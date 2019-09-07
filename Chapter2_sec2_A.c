@@ -2,8 +2,25 @@ ITEC 5201 Tuesday and Thursday
 IMD  4701 Tuesday and THursday
 IMD  4901 Tuesday and THursday
 
-计算机存储介质
+
+
+Chapter 2:计算机存储介质
 https://www.youtube.com/watch?v=Tsyw7xqRwCE&list=PLhqasd25bl-igPZWIM2cQrcSX7oFZJ9Bo&index=7
+
+Chapter 3:Linux嵌入式开发和驱动开发--3外设和bootloader
+https://www.youtube.com/playlist?list=PLhqasd25bl-joEljBbhILdAJSAwprZRst
+Chapter 4:Linux嵌入式开发和驱动开发--4ARM中断编程
+https://www.youtube.com/playlist?list=PLhqasd25bl-ia5YgrJxOXLZ3T6njUC-uX
+
+Chapter 5:Linux嵌入式开发和驱动开发--5kernel启动过程和kernel核心结构
+https://www.youtube.com/watch?v=lC4nGPJvihY&list=PLhqasd25bl-i5E544dfYthnOcX_iv3smq
+
+Chapter 6:Linux嵌入式开发和驱动开发--6-linux字符设备
+https://www.youtube.com/watch?v=e_vX8rFWrh4&list=PLhqasd25bl-j_ELYbdQnzH__tCALKkAyN
+
+Chapter 7:Linux嵌入式开发和驱动开发--7-linux中断
+https://www.youtube.com/watch?v=38qK042lHxA&list=PLhqasd25bl-ivgl24XtKBsX6mcn8z0fJU
+
 
 Linux嵌入式开发和驱动开发--2开发板外设驱动
 Section2_计算机存储介质
