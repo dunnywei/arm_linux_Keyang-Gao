@@ -171,9 +171,9 @@ Section2_计算机存储介质
         -IF we see the next page, we can see DRAM_0 has size of 512MB 兆字节 and DRAM_1 has the size of 1024MB=1GB (20:53)
         -The maximum is 1.5 GB for physical memory 物理内存. Not unlimited.
         -All physical address is allocated 详述 OR 分配 (21:35)
-        -for 210,we have 512MB and refers to DRAM_0 
+        -for v210,we have 512MB and refers to DRAM_0 
         -Yeserday we have the "Load a value then go 0x2160 0000" so we use the memory address at DRAM_0 (22:17)
-        -
+        -For DRAM_1,it be applied for expansion however it is not connected yet(22:36)
         -
         -          
         -
