@@ -177,12 +177,12 @@ Section2_计算机存储介质
         
  ->For SFRS(special function register特殊功能寄存器) from 0xE000_0000 to 0xFFFF_FFF (22:46)
         -It is used to save the special register          
+        -it refers to "control register" 控制寄存器 and "data register" 数据寄存器. This is what we have done yesterday in Chapter1_sec5_A.c (22:58) 
         -
         -
         -
         -
         -
-        -Load a value then go 0x2160 0000 
         -
 ->
 ->
