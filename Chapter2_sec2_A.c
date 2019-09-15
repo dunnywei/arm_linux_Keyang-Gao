@@ -181,6 +181,7 @@ Section2_计算机存储介质
         -it refers to "control register" 控制寄存器 and "data register" 数据寄存器. This is what we have done yesterday in Chapter1_sec5_A.c (22:58) 
         -We used the physial address of "0xE020 8000" (23:09)
         -(23:17)
+    
  ->IROM (23:34)
         -IROM from 0xD0000_0000 to 0xCFFF_FFFF (64KB)
         -Read ONLY Memory
@@ -196,10 +197,18 @@ Section2_计算机存储介质
         -
         -
         -
-->From (23:55), we know that it has 96KB RAM and 64KB ROM
-->
-->
-->
+->From (23:55), we know that it has 96KB RAM and 64KB ROM for Multi layer AHB/AXI bus
+->It means that Multi layer AHB/AXI bus has physicl memory 内存 (24:06) 
+        -96 KB RAM and 64KB ROM are super important for Boot loader (24:13) witin CPU (24:21) 在CPU内部
+        -
+        -
+        -
+        -          
+        -
+->Pin assignment 引脚分配/芯片封装 (24:43)
+        -It is used for hardware engineer (24:43)
+        -How many points(balls)->584 点 (24:58)
+        -
 ->
 ->
 ->
