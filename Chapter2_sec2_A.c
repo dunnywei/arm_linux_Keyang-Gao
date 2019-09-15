@@ -181,12 +181,22 @@ Section2_计算机存储介质
         -it refers to "control register" 控制寄存器 and "data register" 数据寄存器. This is what we have done yesterday in Chapter1_sec5_A.c (22:58) 
         -We used the physial address of "0xE020 8000" (23:09)
         -(23:17)
+ ->IROM (23:34)
+        -IROM from 0xD0000_0000 to 0xCFFF_FFFF (64KB)
+        -Read ONLY Memory
         -
         -
         -
         -
-->
-->
+        -
+->IRAM
+        -IRAM from 0xD002_00000 to 0xD003_7FFFF (96KB)
+        -Read/Write memory (24:01)
+        -
+        -
+        -
+        -
+->From (23:55), we know that it has 96KB RAM and 64KB ROM
 ->
 ->
 ->
