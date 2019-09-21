@@ -205,7 +205,17 @@ Section2_计算机存储介质
         -
         -
         -
-->
+->Section 3_Clock Controller
+        -It deals with 时钟 (27:12)
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
