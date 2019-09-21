@@ -63,8 +63,6 @@ Section2_计算机存储介质
         -启动跳线->NAND-SDBOOT
         -可变电阻 as ADC
         -LCD interface:Connect to LCD externally
-        -
-        -
         -             
 ->Be aware of inserting/removing SD card (6:56)
 ->Be aware of the power supply voltage 电压. It used 5V. If we apply 110V, it will demage the board (7:39)
@@ -86,11 +84,6 @@ Section2_计算机存储介质
         -Section 10:audio 音频
         -Section 11:security
         -Section 12:_etc
-        -
-        -
-        -
-        -
-        -
         -
 ->After u recieve the chip and want to undersstand it in quickly, we must spend time reading it (10:38)
 ->Hardware engineers select the developmet board, they need to understand the specification of 芯片 (CPU) (10:57),they will check the Section 01:overview. (11:02)
@@ -133,15 +126,6 @@ Section2_计算机存储介质
         -There are 4 ports 串口(18:03)
         -Rx/Tx independing 256 byte FIFO 队列 (for 缓存)(18:16)
         -Support IrDA 1.0 SIR (115.2kbps)->it is the baud rate (18:35)
-        -
-        -
-        -
-        -
-        -
-        -
-        -
-        -
-        -
         -
 ->GPIO is important
    -When we go out to the field,we need to configure GPIO (18:53)
@@ -186,24 +170,13 @@ Section2_计算机存储介质
         -IROM from 0xD0000_0000 to 0xCFFF_FFFF (64KB)
         -Read ONLY Memory
         -
-        -
-        -
-        -
-        -
 ->IRAM
         -IRAM from 0xD002_00000 to 0xD003_7FFFF (96KB)
         -Read/Write memory (24:01)
         -
-        -
-        -
-        -
 ->From (23:55), we know that it has 96KB RAM and 64KB ROM for Multi layer AHB/AXI bus
 ->It means that Multi layer AHB/AXI bus has physicl memory 内存 (24:06) 
         -96 KB RAM and 64KB ROM are super important for Boot loader (24:13) witin CPU (24:21) 在CPU内部
-        -
-        -
-        -
-        -          
         -
 ->Pin assignment 引脚分配/芯片封装 (24:43)
         -It is used for hardware engineer (24:43)
@@ -211,6 +184,11 @@ Section2_计算机存储介质
         -For hardware engineer, under which row and wich column, it will specifiy which pins 引脚 value and what is it useful (25:11)
         -The manual should be applied on what you are searching for. It shouldn't be like novel for reading from top to buttom (25:55)
         -Like KP_COL[0]->we don't need to know what it is useful and what value it is (26:06). It is for the hardware engineer to make the PCB(26:14)(??)
+        -After going through the overview (26:42),we are at the system (26:48)
+        -
+->Now we are at Section 02_system 
+        -It is dealing with GPIO (26:53)
+        -
         -
         -
         -          
@@ -221,7 +199,12 @@ Section2_计算机存储介质
         -
         -
         -
-->
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
