@@ -208,7 +208,7 @@ Section2_计算机存储介质
 ->Pin assignment 引脚分配/芯片封装 (24:43)
         -It is used for hardware engineer (24:43)
         -How many points(balls)->584 点 (24:58)
-        -
+        -For hardware engineer, under which row and wich column, it will specifiy which pins 引脚 value and what is it useful (25:11) 
 ->
 ->
 ->
