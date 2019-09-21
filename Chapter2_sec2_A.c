@@ -208,7 +208,19 @@ Section2_计算机存储介质
 ->Pin assignment 引脚分配/芯片封装 (24:43)
         -It is used for hardware engineer (24:43)
         -How many points(balls)->584 点 (24:58)
-        -For hardware engineer, under which row and wich column, it will specifiy which pins 引脚 value and what is it useful (25:11) 
+        -For hardware engineer, under which row and wich column, it will specifiy which pins 引脚 value and what is it useful (25:11)
+        -The manual should be applied on what you are searching for. It shouldn't be like novel for reading from top to buttom (25:55)
+        -Like KP_COL[0]->we don't need to know what it is useful and what value it is (26:06). It is for the hardware engineer to make the PCB(26:14)(??)
+        -
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
