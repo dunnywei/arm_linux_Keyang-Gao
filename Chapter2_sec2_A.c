@@ -205,8 +205,10 @@ Section2_计算机存储介质
         -
         -
         -
-->Section 3_Clock Controller
-        -It deals with 时钟 (27:12)
+->Section 2_3_Clock Controller
+        -It deals with 时钟 (27:12)(27:19)
+->Section 2_4:Boot sequence      
+        -If we have time, we will cover it(27:31)
         -
         -
         -
@@ -215,8 +217,7 @@ Section2_计算机存储介质
         -
         -
         -
-        -
-->
+->We need to know the store (存) in CPU (27:41)
 ->
 ->
 ->
