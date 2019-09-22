@@ -217,7 +217,17 @@ Section2_计算机存储介质
         -
         -
         -
-->We need to know the store (存) in CPU (27:41)
+->We need to know the store (存储) in CPU (27:41)
+        -Which read/write is the most fast?
+           -read/write physcial memory 内存(faster)
+           -read/wrie  hard drive (硬盘) (28:34)
+        -
+        -
+        -
+        -
+        -
+        -
+        
 ->
 ->
 ->
