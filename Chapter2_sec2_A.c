@@ -218,12 +218,12 @@ Section2_计算机存储介质
         -
         -
 ->We need to know the store (存储) in CPU (27:41)
-        -Which read/write is the most fast?
-           -read/write physcial memory 内存(faster)
-           -read/wrie  hard drive (硬盘) (28:34)
         -What will affect the CPU performance with process? (28:15)
         -Usually it deals with I/O operation 输入输出操作(28:27)
-        -
+        -Which read/write is the most fast?
+           -read/write physcial memory 内存(faster)
+           -read/wrie  hard drive (硬盘) (28:34)  
+        -Whilesaving datato DataBase->everything is saved within hard drive (硬盘) (28:41)
         -
         -
         -
