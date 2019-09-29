@@ -224,8 +224,11 @@ Section2_计算机存储介质
            -read/write physcial memory 内存(faster)
            -read/wrie  hard drive (硬盘) (28:34)  
         -Whilesaving datato DataBase->everything is saved within hard drive (硬盘) (28:41)
-        -
-        -
+        -cache(高速缓冲存储器是存在于主存)(28:49)
+        https://blog.csdn.net/baidu_35679960/article/details/78610804
+https://blog.csdn.net/guyongqiangx/article/details/52045849
+https://blog.csdn.net/politefish/article/details/5594741
+        -physical memory database  物理内存数据库 is applied in baidu (28:49)
         -
         
 ->
