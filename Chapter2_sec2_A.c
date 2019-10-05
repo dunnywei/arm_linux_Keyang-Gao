@@ -234,7 +234,30 @@ https://blog.csdn.net/politefish/article/details/5594741
         -physical memory database  物理内存数据库 is applied in baidu (28:49) with size in terabyte 万亿字节 (28:52)
         -All data is saved in the physical memory (物理内存).During the data search between physical memory 内存 vs hard drive (硬盘) (29:04)
         -It will be faster to search in physical memory 内存 than hard drive (29:10) so IO operation 输入输出操作 will affect CPU performance (29:12)
-->What will affect the IO operation? the speed of the medium interface (介质)(29:17)
+->What will affect the porformance of IO operation 输入输出操作 the speed of the medium interface (介质)(29:17)       
+        -We should know which media 介质 is faster/slower (29:20)
+        -We can use a pyramid to describe it (29:49)
+        -For the top->fastest 
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -          
+                
 ->
 ->
 ->
