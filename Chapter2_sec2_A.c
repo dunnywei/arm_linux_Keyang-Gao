@@ -1,3 +1,6 @@
+Chinese medicine
+->http://yibian.hopto.org/
+
 ITEC 5201 Tuesday and Thursday
 IMD  4701 Tuesday and THursday
 IMD  4901 Tuesday and THursday
