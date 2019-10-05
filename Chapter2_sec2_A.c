@@ -228,7 +228,7 @@ Section2_计算机存储介质
         https://blog.csdn.net/baidu_35679960/article/details/78610804
 https://blog.csdn.net/guyongqiangx/article/details/52045849
 https://blog.csdn.net/politefish/article/details/5594741
-        -physical memory database  物理内存数据库 is applied in baidu (28:49)
+        -physical memory database  物理内存数据库 is applied in baidu (28:49) with size in terabyte 万亿字节 (28:52)
         -
         
 ->
