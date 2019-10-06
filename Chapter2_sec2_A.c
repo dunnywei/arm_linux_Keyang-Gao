@@ -237,7 +237,7 @@ https://blog.csdn.net/politefish/article/details/5594741
 ->What will affect the porformance of IO operation 输入输出操作 the speed of the medium interface (介质)(29:17)       
         -We should know which media 介质 is faster/slower (29:20)
         -We can use a pyramid to describe it (29:49)
-        -For the top->fastest 
+        -For the top->fastest, more expensive,smaller in storage size 
         -
         -          
         -
@@ -257,21 +257,26 @@ https://blog.csdn.net/politefish/article/details/5594741
         -
         -
         -  
-->
+->-|_|-|_|-|_|-|_|
+             |Rising and wave up
+           |falling then wave down
+           
+   
 ->Register 寄存器,  CPU triggerer  (1 ns)
 ->Cache缓存, SRAM, 随机存取固态硬碟(random access solid state drive) (10ns), SRAM,DDRAM,
 电容表显示( capacitor gauge display) telling u when you should recharge your battery,refresh刷新
 ->Hard drive 硬盘
         -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
         -NAND flash,Toshibal, large in storage size,1g to 256G,it acts as if it is a hard drive 硬盘          
+       
+->Network Drive OR cloud 网络硬盘
+        -ROM
         -
         -
         -
         -
         -
         -
-        -
-->
 ->
 ->
 ->
