@@ -252,10 +252,10 @@ https://blog.csdn.net/politefish/article/details/5594741
            |falling then wave down
            
 ->Top of the list   
-->Register 寄存器,  CPU triggerer  (1 ns)
+->1)Register 寄存器,  CPU triggerer  (1 ns)
   -Its speed is really simliar to CPU for each instruction set(30:55)
-  -          
-  -
+  -ARM has 37 registers 寄存器 (31:09)          
+  -Really fast but most expensive (31:12)
   -
   -
   -
@@ -264,8 +264,16 @@ https://blog.csdn.net/politefish/article/details/5594741
   -
   -
   -              
-->Cache缓存, SRAM, 随机存取固态硬碟(random access solid state drive) (10ns), SRAM,DDRAM,
+->2)Cache缓存(31:28), SRAM, 随机存取固态硬碟(random access solid state drive) (10ns), SRAM,DDRAM,
 电容表显示( capacitor gauge display) telling u when you should recharge your battery,refresh刷新
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -   
 ->Hard drive 硬盘
         -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
         -NAND flash,Toshibal, large in storage size,1g to 256G,it acts as if it is a hard drive 硬盘          
