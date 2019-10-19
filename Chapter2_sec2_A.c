@@ -256,7 +256,7 @@ https://blog.csdn.net/politefish/article/details/5594741
   -Its speed is really simliar to CPU for each instruction set(30:55)
   -ARM has 37 registers 寄存器 (31:09)          
   -Really fast but most expensive (31:12)
-  -
+  -触发器 (32:27)
   -
   -
   -
@@ -266,7 +266,7 @@ https://blog.csdn.net/politefish/article/details/5594741
   -              
 ->2)Cache缓存(31:28), SRAM, 随机存取固态硬碟(random access solid state drive) (10ns), SRAM,DDRAM,
 电容表显示( capacitor gauge display) telling u when you should recharge your battery,refresh刷新
-  -
+  -Fast as well (32:08)
   -
   -
   -
