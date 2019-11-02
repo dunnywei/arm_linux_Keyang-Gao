@@ -264,21 +264,27 @@ https://blog.csdn.net/politefish/article/details/5594741
   -
   -
   -              
-->2)Cache缓存(31:28), SRAM, 随机静态存储器(random access solid state drive) (10ns), 
+->2)Cache缓存(31:28), SRAM, 随机静态存储器(Static Random-Access Memory) (10ns), 
   -Fast as well (32:08)
+  -explains:
+  -https://blog.csdn.net/lvjianxin6015/article/details/53994641
   -
   -
   -
   -
   -
+           -
   -
   -
- ->physical memory 内存 (32:57):SRAM,DDRAM,
+  -
+  -
+  -
+  -     
+ ->physical memory 内存 (32:57): DRAM,SRAM,DDRAM,
 电容表显示( capacitor gauge display) telling u when you should recharge your battery,refresh刷新
-
- -
-  -
-  -
+  -In PC, the interface is a.k.a DRAM. 
+  -In Development board, it is a.k.a as SRAM
+  -both of the mare based on DRAM interface (33:04)
   -
   -
   -
