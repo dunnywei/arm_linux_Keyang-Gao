@@ -268,8 +268,8 @@ https://blog.csdn.net/politefish/article/details/5594741
   -Fast as well (32:08)
   -explains:
   -https://blog.csdn.net/lvjianxin6015/article/details/53994641
-  -
-  -
+  -ROM,SRAM,RAM,DRAM explaination
+  -https://blog.csdn.net/u011403063/article/details/79536547 (important)
   -
   -
   -
