@@ -264,7 +264,7 @@ https://blog.csdn.net/politefish/article/details/5594741
   -
   -
   -              
-->2)Cache缓存(31:28), SRAM, 随机存取固态硬碟(random access solid state drive) (10ns), 
+->2)Cache缓存(31:28), SRAM, 随机静态存储器(random access solid state drive) (10ns), 
   -Fast as well (32:08)
   -
   -
