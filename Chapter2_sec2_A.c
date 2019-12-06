@@ -290,8 +290,9 @@ https://blog.csdn.net/politefish/article/details/5594741
   -In DRAM, for one bit 比特位 place, it requires to have one 晶体管 and power 电源 (5V or 3.3V or 12V ) (33:47)
   -What is the special charaters about the 电容 (capacitor)? (33:52) 
         -The store cahrge will be lost after certain duration so we require to keep charging it (34:07) 
-        -After capacitor has been charged. One or 1 represents that it has been charge. Zero or 1 represents discharged (34:15)
-        -
+        -After capacitor has been charged. One or 1 represents that it has been charged. Zero or 1 represents 
+        that it has been discharged (34:15)
+        -We need to recharge it the charged capacitor drop around 70% (34:43)
         -
         -
                                              -
