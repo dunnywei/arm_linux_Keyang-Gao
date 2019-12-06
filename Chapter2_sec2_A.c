@@ -285,8 +285,9 @@ https://blog.csdn.net/politefish/article/details/5594741
   -In PC, the interface is a.k.a DRAM. 
   -In Development board, it is a.k.a as SRAM
   -both of the mare based on DRAM interface (33:04)
-  - DRAM->dynamic crystal tube 晶体管 (33:40)
-  -
+  -The difference between Dynamic and Static
+  - DRAM->dynamic crystal tube 动态晶体管 (33:40)
+  -In DRAM, for one bit 比特位 place, it requires to have one 晶体管 and power 电源 (5V or 3.3V) (33:47)
   -
   -
 ->Hard drive 硬盘
