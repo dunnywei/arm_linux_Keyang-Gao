@@ -280,15 +280,15 @@ https://blog.csdn.net/politefish/article/details/5594741
   -
   -
   -     
- ->physical memory 内存 (32:57): DRAM 随机动态存储器 (Dynamic Random-Access Memory (33:20)(33:25) as 100ms ,SRAM,DDRAM,
-电容表显示( capacitor gauge display) telling u when you should recharge your battery,refresh刷新
+ ->physical memory 内存 (32:57): DRAM 随机动态存储器 (Dynamic Random-Access Memory (33:20)(33:25) as 100ms ,
+ ->SRAM,DDRAM,电容表显示( capacitor gauge display)  telling u when you should recharge your battery,refresh刷新
   -In PC, the interface is a.k.a DRAM. 
   -In Development board, it is a.k.a as SRAM
   -both of the mare based on DRAM interface (33:04)
   -The difference between Dynamic and Static
   - DRAM->dynamic crystal tube 动态晶体管 (33:40)
-  -In DRAM, for one bit 比特位 place, it requires to have one 晶体管 and power 电源 (5V or 3.3V) (33:47)
-  -
+  -In DRAM, for one bit 比特位 place, it requires to have one 晶体管 and power 电源 (5V or 3.3V or 12V ) (33:47)
+  -What is the special charaters about the 电容 (capacitor)? (33:52) 
   -
 ->Hard drive 硬盘
         -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
