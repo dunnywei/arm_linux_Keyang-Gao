@@ -296,7 +296,7 @@ https://blog.csdn.net/politefish/article/details/5594741
         -
         -
                                              -
-  -
+  -DRAM 随机动态存储器->it means that it will access the RAM endlessly (35:16)
   -
   -
   -
