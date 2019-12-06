@@ -289,7 +289,22 @@ https://blog.csdn.net/politefish/article/details/5594741
   - DRAM->dynamic crystal tube 动态晶体管 (33:40)
   -In DRAM, for one bit 比特位 place, it requires to have one 晶体管 and power 电源 (5V or 3.3V or 12V ) (33:47)
   -What is the special charaters about the 电容 (capacitor)? (33:52) 
+        -The store cahrge will be lost after certain duration so we require to keep charging it (34:07) 
+        -After capacitor has been charged. One or 1 represents that it has been charge. Zero or 1 represents discharged (34:15)
+        -
+        -
+        -
+                                             -
   -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -  
 ->Hard drive 硬盘
         -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
         -NAND flash,Toshibal, large in storage size,1g to 256G,it acts as if it is a hard drive 硬盘          
