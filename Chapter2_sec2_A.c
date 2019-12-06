@@ -280,7 +280,7 @@ https://blog.csdn.net/politefish/article/details/5594741
   -
   -
   -     
- ->physical memory 内存 (32:57): DRAM 随机动态存储器 (Dynamic Random-Access Memory (33:20) ,SRAM,DDRAM,
+ ->physical memory 内存 (32:57): DRAM 随机动态存储器 (Dynamic Random-Access Memory (33:20)(33:25) ,SRAM,DDRAM,
 电容表显示( capacitor gauge display) telling u when you should recharge your battery,refresh刷新
   -In PC, the interface is a.k.a DRAM. 
   -In Development board, it is a.k.a as SRAM
