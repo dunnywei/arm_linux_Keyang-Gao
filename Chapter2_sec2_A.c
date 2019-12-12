@@ -295,9 +295,10 @@ https://blog.csdn.net/politefish/article/details/5594741
         -We need to recharge it the charged capacitor drop around 70% (34:43)
         -
         -
-                                             -
-  -DRAM 随机动态存储器->it means that it will access the RAM endlessly (35:16)
-  -
+        -
+  -DRAM 随机动态存储器->it requires to recharge afte fixed duration of time(35:16)
+                                              -需要在固定时间后重新充电
+  -SRAM 静态随机存取存储器->it doesn't need to charge regularly (35:21)
   -
   -
   -
