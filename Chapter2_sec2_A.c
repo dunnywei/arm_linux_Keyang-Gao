@@ -280,7 +280,7 @@ https://blog.csdn.net/politefish/article/details/5594741
   -
   -
   -     
- ->physical memory 内存 (32:57): DRAM 随机动态存储器 (Dynamic Random-Access Memory (33:20)(33:25) as 100ms ,
+ ->3)physical memory 内存 (32:57): DRAM 随机动态存储器 (Dynamic Random-Access Memory (33:20)(33:25) as 100ms ,
  ->SRAM,DDRAM,电容表显示( capacitor gauge display)  telling u when you should recharge your battery,refresh刷新
   -In PC, the interface is a.k.a DRAM. 
   -In Development board, it is a.k.a as SRAM
@@ -299,7 +299,7 @@ https://blog.csdn.net/politefish/article/details/5594741
   -DRAM 随机动态存储器->it requires to recharge afte fixed duration of time(35:16)
                                               -需要在固定时间后重新充电
   -SRAM 静态随机存取存储器->it doesn't need to charge regularly (35:21)
-  -
+      -No 電流 but with 晶體管 (35:27)
   -
   -
   -
