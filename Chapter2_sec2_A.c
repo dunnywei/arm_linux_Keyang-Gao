@@ -296,12 +296,12 @@ https://blog.csdn.net/politefish/article/details/5594741
         -
         -
         -
-  -DRAM 随机动态存储器->it requires to recharge afte fixed duration of time(35:16)
+  -SDRAM and DDRAM 随机动态存储器->it requires to recharge afte fixed duration of time(35:16) or refresh刷新
                                               -需要在固定时间后重新充电
   -SRAM 静态随机存取存储器->it doesn't need to charge regularly (35:21)
       -No 電流 (circuitry) but with 晶體管 (transistor) (35:27)
   -晶體管 (transistor) is made up silicon 硅 (35:27)
-  -
+  -The cost of having six transtitors 晶體管 is greather than the one having one transistor 晶體管 (36:02)
   -
   -
   -
