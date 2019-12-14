@@ -302,7 +302,7 @@ https://blog.csdn.net/politefish/article/details/5594741
       -No 電流 (circuitry) but with 晶體管 (transistor) (35:27)
   -晶體管 (transistor) is made up silicon 硅 (35:27)
   -The cost of having six transtitors 晶體管 is greather than the one having one transistor 晶體管 (36:02)
-  -
+     -Defintely, the one with six transistors has higher performance (36:04)
   -
   -
   -
