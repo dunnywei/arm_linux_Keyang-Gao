@@ -311,7 +311,7 @@ https://blog.csdn.net/politefish/article/details/5594741
         -For SDRAM in one cycle from a to b (37:04)
         -0 to 1->rising edge 上升
         -1 to 0->falling edge 下降
-        ->- is high and _ is low (37:20)
+        ->- is high as crest(波峰) and _ is low as trough (波谷) (37:20) (37:42)
         -
   - 
   -  
