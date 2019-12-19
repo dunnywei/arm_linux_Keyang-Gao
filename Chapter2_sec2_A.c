@@ -305,7 +305,14 @@ https://blog.csdn.net/politefish/article/details/5594741
      -Defintely, the one with six transistors has higher performance (36:04)
   -Ususally we use SDRAM and DDRAM for our physical memory (内存)(36:11)
   -For example in DRAM (36:21)
-  -
+        -In timing diagram, (36:50)
+-|_|-|_|-|_|-|_|
+        -
+        -
+        -
+        -
+        -
+  - 
   -  
 ->Hard drive 硬盘
         -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
