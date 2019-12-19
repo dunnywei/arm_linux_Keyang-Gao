@@ -307,10 +307,11 @@ https://blog.csdn.net/politefish/article/details/5594741
   -For example in DRAM (36:21)
         -In timing diagram, (36:50)
 -|_|-|_|-|_|-|_|
-        -
-        -
-        -
-        -
+ a   b
+        -For SDRAM in one cycle from a to b (37:04)
+        -0 to 1->rising edge 上升
+        -1 to 0->falling edge 下降
+        ->- is high and _ is low (37:20)
         -
   - 
   -  
