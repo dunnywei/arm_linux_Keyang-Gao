@@ -310,7 +310,7 @@ https://blog.csdn.net/politefish/article/details/5594741
  a   b
         -For SDRAM in one cycle from a to b (37:04)
         -0 to 1->rising edge 上升
-        -1 to 0->falling edge 下降
+        -1 (高电平) to 0 (低电平)->falling edge 下降沿 (37:54)
         ->- is high as crest(波峰) and _ is low as trough (波谷) (37:20) (37:42)
         -
   - 
