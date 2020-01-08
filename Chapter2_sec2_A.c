@@ -313,7 +313,7 @@ https://blog.csdn.net/politefish/article/details/5594741
         -1 (高电平) to 0 (低电平)->falling edge 下降沿 (37:54)
         ->- is high as crest(波峰) and _ is low as trough (波谷) (37:20) (37:42)
         -
-  - 
+  -In SDRAM, within on period-> it only can have one read then write data (38:05)(38:10)
   -  
 ->Hard drive 硬盘
         -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
