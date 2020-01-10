@@ -24,6 +24,9 @@ https://www.youtube.com/watch?v=e_vX8rFWrh4&list=PLhqasd25bl-j_ELYbdQnzH__tCALKk
 Chapter 7:Linux嵌入式开发和驱动开发--7-linux中断
 https://www.youtube.com/watch?v=38qK042lHxA&list=PLhqasd25bl-ivgl24XtKBsX6mcn8z0fJU
 
+From other website->
+https://www.bilibili.com/video/av31630936/?spm_id_from=333.788.videocard.13
+
 
 Linux嵌入式开发和驱动开发--2开发板外设驱动
 Section2_计算机存储介质
