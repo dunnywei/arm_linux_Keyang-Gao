@@ -1,5 +1,18 @@
 Link->https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
-1->Day 1
+->Day P01
+         -host->required arm-none-gcc
+         -target->Need to let LINUX OS running
+        -1)Power ON
+        -2) bootloadder as U-Boot in binary
+        -3)Kernel->zimage or uimage in binary
+        -4)rootfs as file system in binary
+            -bin->command
+            -sbin->command
+            -etc->config
+            -lib
+        -          
+        -
+        -
 ->
 ->
 ->
