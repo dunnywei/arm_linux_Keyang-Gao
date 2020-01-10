@@ -27,6 +27,11 @@ https://www.youtube.com/watch?v=38qK042lHxA&list=PLhqasd25bl-ivgl24XtKBsX6mcn8z0
 From other website->
 https://www.bilibili.com/video/av31630936/?spm_id_from=333.788.videocard.13
 
+others->
+https://www.bilibili.com/video/av65948041/?spm_id_from=333.788.videocard.3
+
+https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
+
 
 Linux嵌入式开发和驱动开发--2开发板外设驱动
 Section2_计算机存储介质
