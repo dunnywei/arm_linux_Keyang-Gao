@@ -32,6 +32,7 @@ https://www.bilibili.com/video/av65948041/?spm_id_from=333.788.videocard.3
 
 https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
 
+https://www.bilibili.com/video/av45580704/?spm_id_from=333.788.videocard.1
 
 Linux嵌入式开发和驱动开发--2开发板外设驱动
 Section2_计算机存储介质
