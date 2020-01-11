@@ -37,6 +37,8 @@ https://www.bilibili.com/video/av45580704/?spm_id_from=333.788.videocard.1
 DO178->
 https://www.bilibili.com/video/av31896512?from=search&seid=9658075534689431288
 
+python and c code->
+https://www.youtube.com/watch?v=-SvmjCWBX10
 Linux嵌入式开发和驱动开发--2开发板外设驱动
 Section2_计算机存储介质
 ->IN this section we need to know how to read hardware data sheet and chip manual 原理图 和 芯片手册(0:20)
