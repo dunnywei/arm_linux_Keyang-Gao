@@ -14,16 +14,25 @@ Link->https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
         -
         -
 ->Day P02
-        -Require configuration of ubuntu (either on virtual machine or host)
-        -Copy arm-gcc-4.6.4.tar as the folder of linux_4412 within ubuntu (01:40)
-        -
-        -
-        -          
-        -
-        -
-        -
-        -
-        -
+        -Require configuration of ubuntu (either on virtual machine or host) for linux device driver configuration (3:10)
+                 -Copy arm-gcc-4.6.4.tar as the folder of linux_4412\toolchain within ubuntu (01:40)
+                 -"Cross_tool" or "tool chain" on host (01:44)
+                 -Required to unzip it by "tar -xvf *.tar ~/Linux_4412/toolchain"
+                     -where ~ means the main directory (3:17) as the example in this lecture
+        -Require to set the enviroment variable 
+             -required to edit ~/bin/bashrc (03:44)
+             -What we need to do is to add the following at the end (04:08)
+export PATH=$PATH:/home/goerge/Linux_4412/toolcahin/gcc-4.6.4/bin
+        -upate the patch by type the following (4:54)
+source ~/.bashrc
+        -Type the follwoing
+arm-none-linux-gnueabi-gcc -v
+        -we will see (05:11)
+ Using build-in specs
+ Collect_GCC=arm-none-linux-gnueabi-gcc
+ COLLECT_LTO_WRAPPER=/home/george/linux_4412/toolchain/gcc-4.6.4/bin
+        -after seening above, it means that our cross compiler is working
+        -We need to add kernel/our modified code on the host (05:41)
         -
         -
         -
