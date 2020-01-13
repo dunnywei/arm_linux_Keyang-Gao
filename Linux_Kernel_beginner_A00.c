@@ -13,7 +13,25 @@ Link->https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
         -          
         -
         -
-->
+->Day P02
+        -Require configuration of ubuntu (either on virtual machine or host)
+        -Copy arm-gcc-4.6.4.tar as the folder of linux_4412 within ubuntu (01:40)
+        -
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
