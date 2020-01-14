@@ -44,11 +44,14 @@ arm-none-linux-gnueabi-gcc -v
 ->p03->tftps and nfs
         -We are setting up the tool chain for cross platform development (00:26) (交叉工具开发)
         -At the final stage, we deliver the final product in our development board
-        -We will have two types of memory medium
-        -DDR (All the codes will be load in the physical memory 内存 so CPU can crun)
-        -EMMC (01:20)
-        -
-        -
+        -We will have two types of memory medias
+         -DDR (1GB)(All the codes will be load in the physical memory 内存 so CPU can crun)
+         -eEMMC (1GB)(01:20)
+                 ->U-BOOT.bin (binary)->burned in
+                 ->uimage
+                 ->rootfs file system (2:00)
+        -Executing, U-BOOT.bin will be loaded into DDR physical memory 内存 (2:32)
+        -After U-BOOT.bin finish executing, it will load the linux kernel into the DDR physical memory 内存 (02:56)
         -
         -
         -
