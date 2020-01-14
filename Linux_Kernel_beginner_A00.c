@@ -46,10 +46,12 @@ arm-none-linux-gnueabi-gcc -v
         -At the final stage, we deliver the final product in our development board
         -We will have two types of memory medias
          -DDR (1GB)(All the codes will be load in the physical memory 内存 so CPU can crun)
-         -eEMMC (1GB)(01:20)
+         -eMMC (1GB)(01:20)
                  ->U-BOOT.bin (binary)->burned in
                  ->uimage
                  ->rootfs file system (2:00)
+                 ->Think this as the type of NOR-Flash for saving the U-BOOT image and kernel image as described in the following link
+                    -https://www.cypress.com/documentation/white-papers/comparing-nor-flash-slc-nand-emmc-and-ufs-embedded-system-booting
         -Executing, U-BOOT.bin will be loaded into DDR physical memory 内存 (2:32)
         -After U-BOOT.bin finish executing, it will load the linux kernel into the DDR physical memory 内存 (02:56)
         -
