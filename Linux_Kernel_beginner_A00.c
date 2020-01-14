@@ -41,7 +41,25 @@ arm-none-linux-gnueabi-gcc -v
         -
         -
         -
-->
+->p03->tftps and nfs
+        -We are setting up the tool chain for cross platform development (00:26)
+        -
+        -
+        -
+        -          
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
