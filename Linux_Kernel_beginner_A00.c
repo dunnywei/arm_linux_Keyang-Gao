@@ -42,11 +42,11 @@ arm-none-linux-gnueabi-gcc -v
         -
         -
 ->p03->tftps and nfs
-        -We are setting up the tool chain for cross platform development (00:26)
-        -
-        -
-        -
-        -          
+        -We are setting up the tool chain for cross platform development (00:26) (交叉工具开发)
+        -At the final stage, we deliver the final product in our development board
+        -We will have two types of memory medium
+        -DDR (All the codes will be load in the physical memory 内存 so CPU can crun)
+        -EMMC (01:20)
         -
         -
         -
