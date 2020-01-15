@@ -45,7 +45,7 @@ arm-none-linux-gnueabi-gcc -v
         -We are setting up the tool chain for cross platform development (00:26) (交叉工具开发)
         -At the final stage, we deliver the final product in our development board
         -We will have two types of memory medias
-         -DDR (1GB)(All the codes will be load in the physical memory 内存 so CPU can crun)
+         -DDR (1GB)(All the codes will be load in the physical memory 内存 so CPU can run)
          -eMMC (1GB)(01:20)
                  ->U-BOOT.bin (binary)->burned in
                  ->uimage
@@ -54,8 +54,9 @@ arm-none-linux-gnueabi-gcc -v
                     -https://www.cypress.com/documentation/white-papers/comparing-nor-flash-slc-nand-emmc-and-ufs-embedded-system-booting
         -Executing, U-BOOT.bin will be loaded into DDR physical memory 内存 (2:32)
         -After U-BOOT.bin finish executing, it will load the linux kernel into the DDR physical memory 内存 (02:56)
-        -
-        -
+        -The uimage will be at 0x41000000 in RAM (03:12). We could locate in other location if we need to. it is a.k.a
+        kernel executing (03:24).
+        -We need to mount 卦载 the rootFs file system to RAM as well (3:33)
         -
         -
         -
