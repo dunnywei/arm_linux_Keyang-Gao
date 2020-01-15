@@ -37,6 +37,9 @@ https://www.bilibili.com/video/av45580704/?spm_id_from=333.788.videocard.1
 DO178->
 https://www.bilibili.com/video/av31896512?from=search&seid=9658075534689431288
 
+freertos->
+        https://www.bilibili.com/video/av24584314?from=search&seid=947590164254792850
+
 python and c code->
 https://www.youtube.com/watch?v=-SvmjCWBX10
 Linux嵌入式开发和驱动开发--2开发板外设驱动
