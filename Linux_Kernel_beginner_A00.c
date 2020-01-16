@@ -58,9 +58,11 @@ arm-none-linux-gnueabi-gcc -v
         kernel executing (03:24).
         -We need to mount 卦载 the rootFs file system to RAM as well (3:33)
             -What we want here is that we are able to find the bin/sbin/etc (3:45) therefore we are able to use "cp","ls" commands (3:51)
-        ->U-Boot will mount both uimage and dtb for new kernel (4:16)
-        -
-        -
+        ->U-Boot will mount both uimage and dtb file for new kernel (4:16)
+         -dtb file only exist after kenel 3.0 (04:33)
+         -it is the device descriptor 设备描述 (04:40)
+         -It will be mounted into RAM at address of 0x42000000 (05:02)
+        ->Therefore when kernel is executing, the kernel will be able to understand how many number of external configuration is available (05:16)
         -
         -
         -
