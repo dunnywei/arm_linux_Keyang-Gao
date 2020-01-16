@@ -62,11 +62,44 @@ arm-none-linux-gnueabi-gcc -v
          -dtb file only exist after kenel 3.0 (04:33)
          -it is the device descriptor 设备描述 (04:40)
          -It will be mounted into RAM at address of 0x42000000 (05:02)
-        ->Therefore when kernel is executing, the kernel will be able to understand how many number of external configuration is available (05:16)
-        -
-        -
-        -
-        -
+        ->Therefore when kernel is executing, the kernel will be able to understand how many number of external configuration is available by reading it (05:16)
+        -it is the device descriptor 设备描述 which will describe peripheral device 外围设备
+           -Such as LCD, external keyboard, DM9000 for network card, even the I2C bus (5:49) (5:54)
+           
+         -final product
+                    -DDR (固话) (fixed)
+                          -
+                          -
+                          -dtb文件
+                          -rootfs will be mounted here
+                          -uimage as (0x41000000)
+                          -U-boot
+                          
+                    -NandFlash/eMMC (7:03)
+                           -rootfs
+                           ->Uimage
+                           ->U-BOOT
+                           -
+        -However in the development, we may use another way (6:37)
+        -we will have the development board (6:48)
+                    -Has DDR
+                          -
+                          -
+                          -
+                          -
+                          
+                    -NandFlash/eMMC (7:03)
+                           -
+                           -
+                           -
+                           -
+                           ->U-BOOT
+                           -
+
+                    -
+                    -
+                    -
+        -However, the U-image and rootfs will be different than the original one (7:34)
         -
 ->
 ->
