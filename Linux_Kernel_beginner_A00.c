@@ -57,7 +57,7 @@ arm-none-linux-gnueabi-gcc -v
         -The uimage will be at 0x41000000 in RAM (03:12). We could locate in other location if we need to. it is a.k.a
         kernel executing (03:24).
         -We need to mount 卦载 the rootFs file system to RAM as well (3:33)
-        -
+            -What we want here is that we are able to find the bin/sbin/etc (3:45) therefore we are able to copy (3:51)
         -
         -
         -
