@@ -101,15 +101,15 @@ arm-none-linux-gnueabi-gcc -v
                               -uimage
                               -
                               -
-                           -
+                           -"/opt/rootfs"
                            -
                     -
                     -
                     -
         -However, the U-image and rootfs will be different than the original one (7:34)
         -In development, we will utilize "/tftpboot" folder  (07:56)
-                 -Under the "tftp" folder, we will have uimage and dtb file (08:04)
-                 -
+                 -Under the "tftpboot" folder, we will have uimage and dtb file (08:04)
+                 -The rootfs file system will be under "/opt/rootfs" (08:11)
                  -
                  -
                  -
