@@ -81,26 +81,40 @@ arm-none-linux-gnueabi-gcc -v
                            ->U-BOOT
                            -
         -However in the development, we may use another way (6:37)
-        -we will have the development board (6:48)
+        -IMPORTANT:we will have the development board (6:48)
                     -Has DDR
                           -
                           -
                           -
-                          -
+                          -U-boot (it is the same 07:30)
                           
                     -NandFlash/eMMC (7:03)
                            -
                            -
                            -
                            -
-                           ->U-BOOT
+                           ->U-BOOT.bin
                            -
 
+                    -Ubuntu
+                           -"/tftpboot"
+                              -uimage
+                              -
+                              -
+                           -
+                           -
                     -
                     -
                     -
         -However, the U-image and rootfs will be different than the original one (7:34)
-        -
+        -In development, we will utilize "/tftpboot" folder  (07:56)
+                 -Under the "tftp" folder, we will have uimage and dtb file (08:04)
+                 -
+                 -
+                 -
+                 -
+                 -
+         
 ->
 ->
 ->
