@@ -87,7 +87,7 @@ arm-none-linux-gnueabi-gcc -v
                           -Dtb file loaded from HOST
                           -UImage at 0x41000000 from HOST
                           -
-                          -U-boot (it is the same 07:30) from EMMC
+                          -U-boot (it is the same 07:30) from EMMC will mount the rootfs file system
                           
                     -NandFlash/eMMC (7:03)
                            -
@@ -118,7 +118,22 @@ arm-none-linux-gnueabi-gcc -v
                  -Uimage will be load to DDR at deveopment board but U-Boot will be loaded from eMMC or NORFlash (9:13)
                  -dtb file will be loaded into DDR as well from host via tftp (9:22)
                  -It is using Linux 4101 and Linux 3200 (9:37)
-                 -For developoment board , "Dtb file" and "uimage" are loaded from host. For production, both of them are loaded from eMMC(09:46)  
+                 -For developoment board , "Dtb file" and "uimage" are loaded from host. For production, both of them are loaded from eMMC(09:46)
+                 -While kernel is running, it will load the "dtf" file then mount rootfts file system (10:04),therefore kernel is able to access ~/sbin, ~/sbin and ~/etc (10:11)  
+                 -T
+                 -
+                 -
+                 -
+                 -
+                 -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
          
 ->
 ->
