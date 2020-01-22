@@ -110,8 +110,8 @@ arm-none-linux-gnueabi-gcc -v
         -In development, we will utilize "/tftpboot" folder  (07:56)
                  -Under the "tftpboot" folder, we will have uimage and dtb file (08:04)
                  -The rootfs file system will be under "/opt/rootfs" (08:11)
-                 -
-                 -
+                 -The reason is to mimic the same file system in DDR for the final product (8:27)
+                 -U-BOOT will load the "uimage" and "dtf file system" from tcp/ip or udp to the developmeent board->like load VxWorks.stc to the development board (8:43)
                  -
                  -
          
