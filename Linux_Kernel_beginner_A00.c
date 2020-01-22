@@ -70,7 +70,7 @@ arm-none-linux-gnueabi-gcc -v
                     -DDR (固话) (fixed)
                           -
                           -
-                          -dtb文件
+                          -dtb文件 at 0x42000000
                           -rootfs will be mounted here
                           -uimage as (0x41000000)
                           -U-boot
@@ -84,8 +84,8 @@ arm-none-linux-gnueabi-gcc -v
         -IMPORTANT:we will have the development board (6:48)
 /**********************************start of development board (target)**************************************************/                    
                    -Has DDR
-                          -
-                          -UImage at 0x40000 from HOST
+                          -Dtb file loaded from HOST
+                          -UImage at 0x41000000 from HOST
                           -
                           -U-boot (it is the same 07:30) from EMMC
                           
@@ -115,7 +115,10 @@ arm-none-linux-gnueabi-gcc -v
                  -The reason is to mimic the same file system in DDR for the final product (8:27)
                  -U-BOOT will load the "uimage" and "dtf file system" from tftp via UDP to the developmeent board->like load VxWorks.stc to the development board (8:43)
                  -Host is regarded as server and target is regarded as client (9:01)
-                 -Uimage will be load to DDR at deveopment board but U-Boot will be loaded from eMMC or NORFlash
+                 -Uimage will be load to DDR at deveopment board but U-Boot will be loaded from eMMC or NORFlash (9:13)
+                 -dtb file will be loaded into DDR as well from host via tftp (9:22)
+                 -It is using Linux 4101 and Linux 3200 (9:37)
+                 -For developoment board , "Dtb file" and "uimage" are loaded from host. For production, both of them are loaded from eMMC(09:46)  
          
 ->
 ->
