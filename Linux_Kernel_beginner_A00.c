@@ -120,13 +120,19 @@ arm-none-linux-gnueabi-gcc -v
                  -It is using Linux 4101 and Linux 3200 (9:37)
                  -For developoment board , "Dtb file" and "uimage" are loaded from host. For production, both of them are loaded from eMMC(09:46)
                  -While kernel is running, it will load the "dtf" file then mount rootfts file system (10:04),therefore kernel is able to access ~/sbin, ~/sbin and ~/etc (10:11)  
-                 -T
+                 -Now the system is running (10:16)
                  -
                  -
                  -
                  -
                  -
-        -
+        -If we need to run all development board with linux->we need to run: U-BOOT,U-Image,Rootfs
+                 -All of these are in binary and stored in DDR RAM (10:37)
+                 -In the developoment enviroment, we did this via network in tftp
+                 -The advantage of doing this:if we add more files such as .ko (driver) or elf, we only need 
+                 to copy those files into "/opt/rootfs" (11:06)
+                 -
+                 -
         -
         -
         -
