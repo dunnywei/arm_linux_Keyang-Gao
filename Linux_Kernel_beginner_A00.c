@@ -130,8 +130,12 @@ arm-none-linux-gnueabi-gcc -v
                  -All of these are in binary and stored in DDR RAM (10:37)
                  -In the developoment enviroment, we did this via network in tftp
                  -The advantage of doing this:if we add more files such as .ko (driver) or elf, we only need 
-                 to copy those files into "/opt/rootfs" (11:06)
-                          -Link for elf isin the following->https://blog.csdn.net/TaylorPotter/article/details/90247231
+                 to copy those files into "/opt/rootfs" (11:06). Therefore system is able to run.
+                          -Link for elf csdn is in the following->https://blog.csdn.net/TaylorPotter/article/details/90247231
+                 -The the system is running, it will mount the "/opt/rootfs" via nfs (11:13)
+                 -nfs is like shared 共享 (11:17)
+                 -In ubuntu, we write/modify/compile codes in Ubuntu(Host) (11:28)
+                 -
                  -
                  -
         -
