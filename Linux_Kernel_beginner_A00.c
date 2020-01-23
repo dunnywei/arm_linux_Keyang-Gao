@@ -131,6 +131,7 @@ arm-none-linux-gnueabi-gcc -v
                  -In the developoment enviroment, we did this via network in tftp
                  -The advantage of doing this:if we add more files such as .ko (driver) or elf, we only need 
                  to copy those files into "/opt/rootfs" (11:06)
+                          -Link for elf isin the following->https://blog.csdn.net/TaylorPotter/article/details/90247231
                  -
                  -
         -
