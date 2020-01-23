@@ -135,11 +135,16 @@ arm-none-linux-gnueabi-gcc -v
                  -The the system is running, it will mount the "/opt/rootfs" via nfs (11:13)
                  -nfs is like shared 共享 (11:17)
                  -In ubuntu, we write/modify/compile codes in Ubuntu(Host) (11:28)
+                 -While ececuting 运行 the code, it will be in the development board after putting the executable files in "/opt/rootfs" (11:36)(double check it)
+                 -What we are missing in this step is buring/recording 烧录 (11:41)
                  -
-                 -
-                 -
-        -
-        -
+        -Comparing with the FInal product, the difference is
+                 -If we update the .ko or elf file(s) (11:47), we required to buring/recording 烧录 each time (11:52)
+                 -It will take longer time if we need to burn after these modification (11:59) (12:07)
+                 -While working in coperation, we will use burn/record everytime if the re is any update.
+                 -However, it is ok to use the other way for my own study->save a lot of time (12:13)->it is called tftp+nfs mode (12:20)
+                 -Use tftp to download kernel and use nfs to share the "/opt/rootfs" (12:25) via network
+        -we will learn how to do it pratically next lecture (12:38)
         -
         -
         -
