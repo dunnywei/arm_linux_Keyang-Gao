@@ -151,8 +151,49 @@ arm-none-linux-gnueabi-gcc -v
         -
         -
          
+->p04
+        -IF we want to let the system run, we need to copy the uImage and dtb file into the development
+        board of DDR RAM from UBoot(host) via network (00:22)
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+
 ->
-->
+ -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+
 ->
 ->
 ->
