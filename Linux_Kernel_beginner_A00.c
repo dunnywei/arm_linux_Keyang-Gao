@@ -155,7 +155,7 @@ arm-none-linux-gnueabi-gcc -v
         -IF we want to let the system run, we need to copy the uImage and dtb file into the development
         board of DDR RAM from UBoot(host) via network (00:22)
         -We need to ensure the files of "uimage" and "dtb" files are available (00:35)
-        -
+        -We are requird to config the U-BOOT since U-Boot is designed to load the "uimage" (00:41)
         -
         -
         -
