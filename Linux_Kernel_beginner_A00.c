@@ -162,7 +162,7 @@ arm-none-linux-gnueabi-gcc -v
         -1)The "uimage" with "exynos4412-fs4412.dtb" should be put into the folder of "192.168.7.21/tftpboot" in VM machine (01:33)(01:52)
                  where 192.168.7.21 is the host ip of ubuntu (03:01)
         -2)We need to config the U-Boot parameter (3:11) so it can load the linux kernel (3:24)
-        -
+        -During the "autoreboot" , we will hit the keyboard (03:41), we will see the version of U-BOot, size of physical memory, Emmc (4:02)
         -
         -
         -
