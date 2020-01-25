@@ -157,7 +157,7 @@ arm-none-linux-gnueabi-gcc -v
         -We need to ensure the files of "uimage" and "dtb" files are available (00:35)
         -We are requird to config the U-BOOT since U-Boot is designed to load the "uimage" (00:41)
         -We can use either uimage or zimage in (01:21). In addition, we need to have the exynos4412-fs4412.dtb (01:26)
-        -
+        -The "uimage" with "exynos4412-fs4412.dtb" should be put into the folder of "192.168.7.21/tftpboot" in VM machine (01:33)(01:52)
         -
         -
         -
