@@ -46,6 +46,9 @@ Linux block device->
 
 python and c code->
 https://www.youtube.com/watch?v=-SvmjCWBX10
+
+ PE与X86/X64汇编 从入门到改行->
+         https://www.bilibili.com/video/av53352785?from=search&seid=365745999278957512
 Linux嵌入式开发和驱动开发--2开发板外设驱动
 Section2_计算机存储介质
 ->IN this section we need to know how to read hardware data sheet and chip manual 原理图 和 芯片手册(0:20)
