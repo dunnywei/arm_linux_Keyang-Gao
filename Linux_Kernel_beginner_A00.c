@@ -164,7 +164,27 @@ arm-none-linux-gnueabi-gcc -v
         -2)We need to config the U-Boot parameter (3:11) so it can load the linux kernel (3:24)
         -During the "auto reboot" , we will hit the keyboard (03:41), we will see the version of U-BOot,CPU info, Development board info, size of physical memory, eMMC info (4:02)
         -The most important thing is "Hit any key to stop autoboot"->we need to hit any key in the keyboard. Then we will be in the commandline (04:28)
-        -
+        -The following is the procedure to set up (4:43)
+                 -"set bootcmd tftp 0x41000000 uImage\; tftp 0x42000000 exynos4412-fs4412.dtb\;bootm 0x41000000 - 0x42000000"
+                 -"save"
+                 -Description (4:43)
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                  -
+                 -
+                 -
+                 -
+                 -
         -
         -
         -
