@@ -168,8 +168,8 @@ arm-none-linux-gnueabi-gcc -v
                  -"set bootcmd tftp 0x41000000 uImage\; tftp 0x42000000 exynos4412-fs4412.dtb \;bootm 0x41000000 - 0x42000000"
                  -"save"
                  -Description (4:43)
-                 -we put all of the chracters of "tftp........-42000000" to bootcmd (5:46)
-                 -
+                 -we copy all of the chracters of "tftp........-42000000" to bootcmd (5:46)
+                 -During the auoto rest while counting down, it will read the content in bootcmd (06:02)
                  -
                  -
                  -
