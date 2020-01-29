@@ -170,8 +170,8 @@ arm-none-linux-gnueabi-gcc -v
                  -Description (4:43)
                  -we copy all of the chracters of "tftp........-42000000" to bootcmd (5:46)
                  -During the auoto rest while counting down, it will read the content in bootcmd (06:02)
-                 -" tftp 0x41000000 uImage\" is a command or action. Our uimage on tftp server will be loaded to DRAM at address of 0x41000000 (06:28)
-                 -
+                 -" tftp 0x41000000 uImage\" is a command or action. Our uimage or linux kernel on tftp server will be downloaded to DRAM at address of 0x41000000 (06:28)
+                 -"\; tftp 0x42000000 exynos4412-fs4412.dtb" where ; means coninue and the next command (6:44)
                  -
                  -
                  -
