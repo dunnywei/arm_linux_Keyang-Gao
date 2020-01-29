@@ -34,6 +34,12 @@ https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
 
 https://www.bilibili.com/video/av45580704/?spm_id_from=333.788.videocard.1
 
+嵌入式之Linux并发程序设计->
+https://www.bilibili.com/video/av73202565
+
+嵌入式之Linux网络编程
+https://www.bilibili.com/video/av73203918
+
 DO178->
 https://www.bilibili.com/video/av31896512?from=search&seid=9658075534689431288
 
