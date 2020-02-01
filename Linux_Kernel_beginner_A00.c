@@ -175,7 +175,7 @@ arm-none-linux-gnueabi-gcc -v
                  -"\; tftp 0x42000000 exynos4412-fs4412.dtb" where ; means coninue and the next command (6:44) so what it does do is the
                  *.dtb file will be downloaded to 0x42000000 (06:50) in RAM via tftp. 
                  -";bootm 0x41000000 - 0x42000000" is another command for start up (启动) the kernel (07:14)
-                 -
+                 -THe kernel will start up (启动) at 0x41000000 (07:26)
                  -
                  -
                  -
