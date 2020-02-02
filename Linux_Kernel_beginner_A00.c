@@ -1,5 +1,6 @@
 Link->https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
 link2->https://www.dalipan.com/detail/9c8f2515a2cf016438d9e9c6cc098353
+嵌入式+物联网
 link3 for list->https://www.yunpanjingling.com/resources/5d0e63704b3f4113b5072714
 data structure->
          https://www.dalipan.com/detail/93308f654da0115a6e71e5fc8df5ce84
