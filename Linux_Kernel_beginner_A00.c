@@ -175,8 +175,8 @@ arm-none-linux-gnueabi-gcc -v
         -During the "auto reboot" , we will hit the keyboard (03:41), we will see the version of U-BOot,CPU info, Development board info, size of physical memory, eMMC info (4:02)
         -The most important thing is "Hit any key to stop autoboot"->we need to hit any key in the keyboard. Then we will be in the commandline (04:28)
         -The following is the procedure to set up (4:43)
-                 -"set bootcmd tftp 0x41000000 uImage\; tftp 0x42000000 exynos4412-fs4412.dtb \;bootm 0x41000000 - 0x42000000"
-                 -"save"
+                 -a->"set bootcmd tftp 0x41000000 uImage\; tftp 0x42000000 exynos4412-fs4412.dtb \;bootm 0x41000000 - 0x42000000"
+                 -b->"save"
                  -Description (4:43)
                  -we copy all of the chracters of "tftp........-42000000" to bootcmd (5:46)
                  -During the auoto rest while counting down, it will read the content in bootcmd (06:02)
@@ -186,8 +186,8 @@ arm-none-linux-gnueabi-gcc -v
                  *.dtb file will be downloaded to 0x42000000 (06:50) in RAM via tftp. 
                  -";bootm 0x41000000 - 0x42000000" is another command for start up (启动) the kernel (07:14)
                  -THe kernel will start up (启动) at 0x41000000 (07:26).At the the same time, kernel will read *.dtb file from 0x42000000 (07:35)
-                 -The "-" within "bootm 0x41000000 - 0x42000000" means RAMDISK (8:01)
-                 -
+                 -The "-" within "bootm 0x41000000 - 0x42000000" means RAMDISK (8:01) for preserving the space (8:11)
+                 -What is the IP for the host (09:17) so we need to set up the server or host IP (09:15)
                  -
                  -
                  -
