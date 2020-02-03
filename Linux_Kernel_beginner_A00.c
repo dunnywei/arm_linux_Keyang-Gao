@@ -9,6 +9,10 @@ data structure->
 ->game engine
 https://www.dalipan.com/detail/ae7e9418244bac3d2e273e80aa7c7062
 search term->opengl
+
+->Dtft and fft
+https://www.youtube.com/channel/UCFJRdk0slyosSdaVlZmsM2A/videos
+https://www.youtube.com/watch?v=QLCXSxgxRPY
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
