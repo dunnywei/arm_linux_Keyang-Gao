@@ -13,6 +13,8 @@ search term->opengl
 ->Dtft and fft
 https://www.youtube.com/channel/UCFJRdk0slyosSdaVlZmsM2A/videos
 https://www.youtube.com/watch?v=QLCXSxgxRPY
+->derive of fourier transform
+https://www.youtube.com/watch?v=FGjMZ1uMRrs&list=PLhSp9OSVmeyJ5N-JUEZj7uS6IAT9a79nD
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
