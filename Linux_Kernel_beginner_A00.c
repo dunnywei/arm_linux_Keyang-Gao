@@ -19,6 +19,9 @@ https://www.youtube.com/watch?v=FGjMZ1uMRrs&list=PLhSp9OSVmeyJ5N-JUEZj7uS6IAT9a7
 
 ->electrical engineering fourier transform
 https://www.youtube.com/watch?v=KRfS_3tnKec
+
+->novel
+https://www.biqubu.com/book_24662/
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
