@@ -204,12 +204,37 @@ arm-none-linux-gnueabi-gcc -v
                  -What is the IP for the host (09:17) so we need to set up the server or host IP (09:15)
                  -"serverip" is for host ip and "ipaddr" is for client ip as 192.168.7.22 (09:31)(09:46)
                  -use "pri" or "print" to print the save stuff (11:11)
-                 -After everything has been set, we can reboot (11:44)
-                  -
+                 -After everything has been set, we can reboot the target(11:44) we will see the following  as
+                  TFTP from server 192.168.7.21; our IP is 192.168.7.22
+                 -The image is loaded to 0x41000000 as
+                 Load address:0x41000000
+                 -The dtb file is loaded as
+                 Filename 'exynos4412-fs4412.dtb'
+                 Load address: 0x42000000
+                 -Then you will see things relate to bootm such as 
+                 Loadking Kernel Image ...ok
+                 Loading Device Tree to 4fff4000
+                 -Don't worry about 4fff4000 since it is done in internal (12:44) it relates to 0x42000000 (12:48)
+                 -You may see Kernel Panic (13:29)
+                 1.595000] Kernel Panic -not syncing
+                 -It is because that you need to mount "rootfs" (13:38). We need to tell the kernel how to mount the rootfs (13:50)
                  -
                  -
                  -
                  -
+                 -
+                 -
+                 -
+                 -
+                 -
+ 
+  ->p05                        -
+        -
+        -
+        -
+        -
+        -
+        -
         -
         -
         -
@@ -235,7 +260,16 @@ arm-none-linux-gnueabi-gcc -v
         -
 
 ->
- -
+        -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
         -
         -
         -
@@ -256,6 +290,24 @@ arm-none-linux-gnueabi-gcc -v
         -
 
 ->
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
 ->
 ->
 ->
