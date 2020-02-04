@@ -20,8 +20,7 @@ https://www.youtube.com/watch?v=FGjMZ1uMRrs&list=PLhSp9OSVmeyJ5N-JUEZj7uS6IAT9a7
 ->electrical engineering fourier transform
 https://www.youtube.com/watch?v=KRfS_3tnKec
 
-->novel
-https://www.biqubu.com/book_24662/
+
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
@@ -201,7 +200,7 @@ arm-none-linux-gnueabi-gcc -v
                  -THe kernel will start up (启动) at 0x41000000 (07:26).At the the same time, kernel will read *.dtb file from 0x42000000 (07:35)
                  -The "-" within "bootm 0x41000000 - 0x42000000" means RAMDISK (8:01) for preserving the space (8:11)
                  -What is the IP for the host (09:17) so we need to set up the server or host IP (09:15)
-                 -"serverip" is for host ip and "ipaddr" is for client ip (09:31)
+                 -"serverip" is for host ip and "ipaddr" is for client ip as 192.168.7.22 (09:31)(09:46)
                  -
                  -
                   -
