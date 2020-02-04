@@ -187,8 +187,10 @@ arm-none-linux-gnueabi-gcc -v
         -During the "auto reboot" , we will hit the keyboard (03:41), we will see the version of U-BOot,CPU info, Development board info, size of physical memory, eMMC info (4:02)
         -The most important thing is "Hit any key to stop autoboot"->we need to hit any key in the keyboard. Then we will be in the commandline (04:28)
         -The following is the procedure to set up (4:43)
-                 -a->"set bootcmd tftp 0x41000000 uImage\; tftp 0x42000000 exynos4412-fs4412.dtb \;bootm 0x41000000 - 0x42000000"
-                 -b->"save"
+                 -d->set ipaddr 192.168.7.22
+                 -a->set serverip 192.168.7.21 
+                 -b->"set bootcmd tftp 0x41000000 uImage\; tftp 0x42000000 exynos4412-fs4412.dtb \;bootm 0x41000000 - 0x42000000"
+                 -c->"save"
                  -Description (4:43)
                  -we copy all of the chracters of "tftp........-42000000" to bootcmd (5:46)
                  -During the auoto rest while counting down, it will read the content in bootcmd (06:02)
@@ -201,7 +203,7 @@ arm-none-linux-gnueabi-gcc -v
                  -The "-" within "bootm 0x41000000 - 0x42000000" means RAMDISK (8:01) for preserving the space (8:11)
                  -What is the IP for the host (09:17) so we need to set up the server or host IP (09:15)
                  -"serverip" is for host ip and "ipaddr" is for client ip as 192.168.7.22 (09:31)(09:46)
-                 -
+                 -use "pri" to print the save stuff (11:11)
                  -
                   -
                  -
