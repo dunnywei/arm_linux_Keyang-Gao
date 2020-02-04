@@ -232,7 +232,7 @@ arm-none-linux-gnueabi-gcc -v
         -We need to mount the nfs to mount the "rootfs"
                  -we need to have the file system of "rootfs" as file of "rootfs.tar.xz" then unzip to the unbuntu host directory (1:32) 
                           of /opt/4412 (02:46)
-                 -
+                 -Then you will be able to see the "rootfs" as /opt/4412/rootfs (3:15)
                  -
                  -
                  -
