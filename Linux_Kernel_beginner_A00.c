@@ -197,14 +197,14 @@ arm-none-linux-gnueabi-gcc -v
                     -Host is the server and target is the client (06:30)
                  -" tftp 0x41000000 uImage\" is a command or action. Our uimage or linux kernel on tftp server will be downloaded to DRAM at address of 0x41000000 (06:28)
                  -"\; tftp 0x42000000 exynos4412-fs4412.dtb" where ; means coninue and the next command (6:44) so what it does do is the
-                 *.dtb file will be downloaded to 0x42000000 (06:50) in RAM via tftp. 
+                 *.dtb file will be downloaded to 0x42000000 (06:50) in RAM via tftp. "\" means to connect all of the commands together (11:32)
                  -";bootm 0x41000000 - 0x42000000" is another command for start up (启动) the kernel (07:14)
                  -THe kernel will start up (启动) at 0x41000000 (07:26).At the the same time, kernel will read *.dtb file from 0x42000000 (07:35)
                  -The "-" within "bootm 0x41000000 - 0x42000000" means RAMDISK (8:01) for preserving the space (8:11)
                  -What is the IP for the host (09:17) so we need to set up the server or host IP (09:15)
                  -"serverip" is for host ip and "ipaddr" is for client ip as 192.168.7.22 (09:31)(09:46)
-                 -use "pri" to print the save stuff (11:11)
-                 -
+                 -use "pri" or "print" to print the save stuff (11:11)
+                 -After everything has been set, we can reboot (11:44)
                   -
                  -
                  -
