@@ -236,7 +236,7 @@ arm-none-linux-gnueabi-gcc -v
                  "tar -xvf rootfs.tar.xz -C /opt/4412/" (3:25)
                  -b)we need to configure 配置 the nfs server 服务器 (4:02) so the folder of 
                  "/opt/4412/rootfs" could be mounted (04:13)
-                 -
+                           -nfs server required to be installed (4:30)
                  -
                  -
                  -
