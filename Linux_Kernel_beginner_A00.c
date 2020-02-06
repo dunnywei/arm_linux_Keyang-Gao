@@ -234,7 +234,8 @@ arm-none-linux-gnueabi-gcc -v
                           of /opt/4412 (02:46)
                  -Then you will be able to see the "rootfs" as /opt/4412/rootfs (3:15) by typing
                  "tar -xvf rootfs.tar.xz -C /opt/4412/" (3:25)
-                 -b)we need to configure 配置 the nfs server 服务器 (4:02)
+                 -b)we need to configure 配置 the nfs server 服务器 (4:02) so the folder of 
+                 "/opt/4412/rootfs" could be mounted (04:13)
                  -
                  -
                  -
