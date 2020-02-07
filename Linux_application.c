@@ -1,0 +1,22 @@
+->p03
+        -Linux proccess state
+                 -https://medium.com/@cloudchef/linux-process-states-and-signals-a967d18fab64
+                 -(10:13)
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+ ->
+        -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
+                 -
