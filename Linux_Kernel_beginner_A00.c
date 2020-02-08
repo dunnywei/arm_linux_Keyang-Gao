@@ -247,7 +247,7 @@ arm-none-linux-gnueabi-gcc -v
                                -This is the tool, we just need to know the steps to set up. We don't need to know why (5:59)
                                -"*" nmeans for all users (6:04)
                                    
-                 -This is the
+                 -After everything in "/etc/exports" has been config, we need to restart the nfs service by
                  -
                  -
                  -
