@@ -240,8 +240,14 @@ arm-none-linux-gnueabi-gcc -v
                           -How do we set up? (5:08)
                           -"sudo vi /etc/exports" (5:13) 
                           -
-                 -
-                 -
+                 -Within "/etc/exports" (05:22)
+                               -We need to add (5:32)
+/opt/4412/rootfs *(sub_tree_check,rw,no_root_squash,async)     
+                               -"*(sub_tree_check,rw,no_root_squash,async)" is the option (05:36) don't worry about hits for now
+                               -This is the tool, we just need to know the steps to set up. We don't need to know why (5:59)
+                               -"*" nmeans for all users (6:04)
+                                   
+                 -This is the
                  -
                  -
                  -
