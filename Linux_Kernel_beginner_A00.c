@@ -248,7 +248,7 @@ arm-none-linux-gnueabi-gcc -v
                                -"*" nmeans for all users (6:04)
                                    
                  -After everything in "/etc/exports" has been config, we need to restart the nfs service by entering the following in the target shell (ubuntu)(6:14)
- suo service nfs-kernel-server restart                                       
+ suo service nfs-kernel-server restart             //for reboot (重啟 nfs)(6:30)                           
                  -
                  -
                  -
