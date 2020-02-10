@@ -249,7 +249,7 @@ arm-none-linux-gnueabi-gcc -v
                                    
                  -After everything in "/etc/exports" has been config, we need to restart the nfs service by entering the following in the target shell (ubuntu)(6:14)
  suo service nfs-kernel-server restart             //for reboot (重啟 nfs)(6:30)                           
-                 -
+                 -How do we know if obt could be mounted or not (06:35)
                  -
                  -
                  -
