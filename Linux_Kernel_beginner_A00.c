@@ -248,9 +248,12 @@ arm-none-linux-gnueabi-gcc -v
                                -"*" nmeans for all users (6:04)
                                    
                  -After everything in "/etc/exports" has been config, we need to restart the nfs service by entering the following in the target shell (ubuntu)(6:14)
- suo service nfs-kernel-server restart             //for reboot (重啟 nfs)(6:30)                           
-                 -How do we know if obt could be mounted or not (06:35)
-                 -
+ sudo service nfs-kernel-server restart             //for reboot (重啟 nfs)(6:30)                           
+                 -How do we know if obt could be mounted or not by entering the following in the target shell (06:35)(6:52)
+sudo mount -t nfs localhost:/opt/4412/rootfs /mnt 
+cd /mnt
+                  -we should be able to see the follwoing direcotories as the following  (6:59)
+ /bin    /dev     /etc     /lib     /linuxrc /mnt     /proc    /root    /sbin    /sys     /tmp    /usr      /var                  
                  -
                  -
                  -
