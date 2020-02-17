@@ -20,6 +20,8 @@ https://www.youtube.com/watch?v=FGjMZ1uMRrs&list=PLhSp9OSVmeyJ5N-JUEZj7uS6IAT9a7
 ->electrical engineering fourier transform
 https://www.youtube.com/watch?v=KRfS_3tnKec
 
+->fourier transform sine
+https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ
 
 ->Day P01
          -host->required arm-none-gcc
