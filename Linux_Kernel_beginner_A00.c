@@ -19,6 +19,7 @@ https://www.youtube.com/watch?v=FGjMZ1uMRrs&list=PLhSp9OSVmeyJ5N-JUEZj7uS6IAT9a7
 
 ->electrical engineering fourier transform
 https://www.youtube.com/watch?v=KRfS_3tnKec
+Electrical Engineering: Ch 19: Fourier Transform (1 of 45) What is a Fourier Transform? (done)
 
 ->fourier transform sine
 https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ
@@ -249,14 +250,14 @@ arm-none-linux-gnueabi-gcc -v
                                -This is the tool, we just need to know the steps to set up. We don't need to know why (5:59)
                                -"*" nmeans for all users (6:04)
                                    
-                 -After everything in "/etc/exports" has been config, we need to restart the nfs service by entering the following in the target shell (ubuntu)(6:14)
+                 -c)After everything in "/etc/exports" has been config, we need to restart the nfs service by entering the following in the target shell (ubuntu)(6:14)
  sudo service nfs-kernel-server restart             //for reboot (重啟 nfs)(6:30)                           
                  -How do we know if obt could be mounted or not by entering the following in the target shell (06:35)(6:52)
 sudo mount -t nfs localhost:/opt/4412/rootfs /mnt 
 cd /mnt
                   -we should be able to see the follwoing direcotories as the following  (6:59)
  /bin    /dev     /etc     /lib     /linuxrc /mnt     /proc    /root    /sbin    /sys     /tmp    /usr      /var                  
-                 -
+                 -d)Within the target or development board, we can tell kernel to mount the "/opt/4412/rootfs" by (8:05)
                  -
                  -
                  -
