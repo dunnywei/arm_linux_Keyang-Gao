@@ -233,12 +233,12 @@ arm-none-linux-gnueabi-gcc -v
  
   ->p05                        -
         -We need to mount the nfs to mount the "rootfs"
-                 -a)we need to have the file system of "rootfs" as file of "rootfs.tar.xz" then unzip to the unbuntu host directory (1:32) 
+                 -a)we need to have the file system of "rootfs" as file of "rootfs.tar.xz" then unzip to the unbuntu host directory (1:32) [Host]
                           of /opt/4412 (02:46)
                  -Then you will be able to see the "rootfs" as /opt/4412/rootfs (3:15) by typing
                  "tar -xvf rootfs.tar.xz -C /opt/4412/" (3:25)
                  -b)we need to configure 配置 the nfs server 服务器 (4:02) so the folder of 
-                 "/opt/4412/rootfs" could be mounted (04:13)
+                 "/opt/4412/rootfs" could be mounted (04:13) [host]
                            -nfs server required to be installed (4:30)
                           -How do we set up? (5:08)
                           -"sudo vi /etc/exports" (5:13) 
@@ -251,13 +251,15 @@ arm-none-linux-gnueabi-gcc -v
                                -"*" nmeans for all users (6:04)
                                    
                  -c)After everything in "/etc/exports" has been config, we need to restart the nfs service by entering the following in the target shell (ubuntu)(6:14)
- sudo service nfs-kernel-server restart             //for reboot (重啟 nfs)(6:30)                           
-                 -How do we know if obt could be mounted or not by entering the following in the target shell (06:35)(6:52)
+ sudo service nfs-kernel-server restart             //for reboot (重啟 nfs)(6:30) [host]                           
+                 -How do we know if obt could be mounted or not by entering the following in the host shell (06:35)(6:52)
 sudo mount -t nfs localhost:/opt/4412/rootfs /mnt 
 cd /mnt
                   -we should be able to see the follwoing direcotories as the following  (6:59)
  /bin    /dev     /etc     /lib     /linuxrc /mnt     /proc    /root    /sbin    /sys     /tmp    /usr      /var                  
-                 -d)Within the target or development board, we can tell kernel to mount the "/opt/4412/rootfs" by (8:05)
+                 -d)Within the target or development board, we can tell kernel to mount the "/opt/4412/rootfs" by in target shell (8:05) [target] (9:08)
+set bootargs consle=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
+save         
                  -
                  -
                  -
