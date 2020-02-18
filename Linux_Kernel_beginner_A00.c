@@ -260,8 +260,11 @@ cd /mnt
                  -d)Within the target or development board, we can tell kernel to mount the "/opt/4412/rootfs" by in target shell (8:05) [target] (9:08)
 set bootargs consle=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
 save         
-                 -
-                 -
+                 -"rw" means it the root file system can be written or write(9:09)
+                 - 
+                 -reboot and should see the following in the development board console
+VFS:Mount root (nfs filesystem) on device 0:10     
+                 -We will see the developmont board is running linux system (10:50)
                  -
                  -
                  -
