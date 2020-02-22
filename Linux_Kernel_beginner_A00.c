@@ -13,6 +13,8 @@ search term->opengl
 ->Dtft and fft
 https://www.youtube.com/channel/UCFJRdk0slyosSdaVlZmsM2A/videos
          -Series 1:Understanding fourier series (7:37)(21:49)(26:30)
+         -Series 2:
+         -Series 3:
 https://www.youtube.com/watch?v=QLCXSxgxRPY
 ->derive of fourier transform
 https://www.youtube.com/watch?v=FGjMZ1uMRrs&list=PLhSp9OSVmeyJ5N-JUEZj7uS6IAT9a79nD
@@ -263,10 +265,13 @@ save
                  -"rw" means it the root file system can be written or write(9:09)
                  - 
                  -reboot and should see the following in the development board console
+Filename 'uimage' as kernel image
 VFS:Mount root (nfs filesystem) on device 0:10     
+                 -It means the mounting of nfs is OK (10:40)
+                
                  -We will see the developmont board is running linux system (10:50)
-                 -
-                 -
+                 -when we create a directory as "drv_module" in development board,we will find pit that the same directory
+                 has been created in "/opt/4412/rootfs"
                  -
                  -
                  -
