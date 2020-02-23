@@ -266,17 +266,19 @@ save
                  - 
                  -reboot and should see the following in the development board console
 Filename 'uimage' as kernel image
-VFS:Mount root (nfs filesystem) on device 0:10     
+VFS:Mount root (nfs filesystem) on device 0:10 as nfs      
                  -It means the mounting of nfs is OK (10:40)
                 
                  -We will see the developmont board is running linux system (10:50)
                  -when we create a directory as "/drv_module" in development board,we will find pit that the same directory
-                 has been created in "/opt/4412/rootfs/drv_module"->threfore they are shared in terms of directory (11:19)
+                 has been created in "/opt/4412/rootfs/drv_module" under ubuntu host ->threfore they are shared in terms of directory (11:19)
                  -Type "touch abc.txt" within "/opt/4412/rootfs/drv_module" (11:29)
-                 -Therefore if we create a file under "/opt/4412/rootfs/drv_module", we can execute it within the direcotory in the development board
+                 -Therefore if we create a file under "/opt/4412/rootfs/drv_module" under ubuntu (host), we can execute it within the direcotory in the development board
                   so the development time is reduced (12:35)
-                 -
-                 -
+                 -Explaination of 
+set bootargs consle=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
+
+                 -bootarg->It is the argurment which uboot send to kernel for intialization  (12:56).All of them are in the type of char (13:04) 
                  -
                  -
                  -
