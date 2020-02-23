@@ -271,9 +271,10 @@ VFS:Mount root (nfs filesystem) on device 0:10
                 
                  -We will see the developmont board is running linux system (10:50)
                  -when we create a directory as "drv_module" in development board,we will find pit that the same directory
-                 has been created in "/opt/4412/rootfs"->threfore they are shared (11:19)
+                 has been created in "/opt/4412/rootfs"->threfore they are shared in terms of directory (11:19)
                  -Type "touch abc.txt" within "/opt4412/rootfs" (11:29)
-                 -
+                 -Therefore if we create a file under "/opt4412/rootfs", we can execute it within the direcotory in the development board
+                  so the development time is reduced (12:35)
                  -
                  -
                  -
