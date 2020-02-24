@@ -260,7 +260,7 @@ cd /mnt
                   -we should be able to see the follwoing direcotories as the following  (6:59)
  /bin    /dev     /etc     /lib     /linuxrc /mnt     /proc    /root    /sbin    /sys     /tmp    /usr      /var                  
                  -d)Within the target or development board, we can tell kernel to mount the "/opt/4412/rootfs" by in target shell (8:05) [target] (9:08)
-set bootargs consle=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
+set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
 save         
                  -"rw" means it the root file system can be written or write(9:09)
                  - 
@@ -276,12 +276,16 @@ VFS:Mount root (nfs filesystem) on device 0:10 as nfs
                  -Therefore if we create a file under "/opt/4412/rootfs/drv_module" under ubuntu (host), we can execute it within the direcotory in the development board
                   so the development time is reduced (12:35)
                  -Explaination of 
-set bootargs consle=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
+set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
 
                  -bootarg->It is the argurment which uboot send to kernel for intialization  (12:56).All of them are in the type of char (13:04) 
-                 -consle=ttySAC2->During the Kernel intialization, it will tell which device will ouput configuration info (13:33)
-                 -
-                 -
+                 -consle=ttySAC2->During the Kernel intialization, it will tell ouput configuration info from shich device (13:33)
+                 -Example of kenrle configuration info is listed (13:45)
+       [ 0.535000] 13810000.serial: ttySAC1 at MMIO
+       [ 0.535000] 13810000.serial: ttySAC2 at MMIO
+      [ 0.535000]  console [ttySAC2] enabled
+
+                 -withoug putting "console=ttySAC2,115200", system will hangs while at "starting kernel" (14:32)
                  -
                  -
         -
