@@ -279,7 +279,7 @@ VFS:Mount root (nfs filesystem) on device 0:10 as nfs
 set bootargs consle=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.168.7.21:/opt/4412/rootfs ip=192.168.7.22
 
                  -bootarg->It is the argurment which uboot send to kernel for intialization  (12:56).All of them are in the type of char (13:04) 
-                 -
+                 -consle=ttySAC2->During the Kernel intialization, it will tell which device will ouput configuration info (13:33)
                  -
                  -
                  -
