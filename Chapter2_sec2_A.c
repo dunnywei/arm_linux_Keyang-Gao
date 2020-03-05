@@ -1,6 +1,6 @@
 Chinese medicine
 ->http://yibian.hopto.org/
-
+->ubuntu xdrp->https://askubuntu.com/questions/234856/unable-to-do-remote-desktop-using-xrdp
 ITEC 5201 Tuesday and Thursday
 IMD  4701 Tuesday and THursday
 IMD  4901 Tuesday and THursday
@@ -349,7 +349,7 @@ https://blog.csdn.net/politefish/article/details/5594741
         -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
         -NAND flash,Toshibal, large in storage size,1g to 256G,it acts as if it is a hard drive 硬盘
 -
-        -DDRAM->D(Double)DRAM->It can do read/write twice within one period(38:15) 
+        -DDRAM->D(Double)DRAM->It can do read/write from 0 to 1 (rising edge) or 1 to 0 (falling edge) within one period(38:15).Therefore read/write can be done twice within a period (38:32) 
         -
         -
         -
