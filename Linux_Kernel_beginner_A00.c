@@ -288,7 +288,8 @@ set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.1
                  -withoug putting "console=ttySAC2,115200", system will hangs while at "starting kernel" (14:32)
                  -
                  -
-        -
+ 
+->p06 done
         -
         -
         -
