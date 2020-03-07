@@ -346,11 +346,11 @@ https://blog.csdn.net/politefish/article/details/5594741
   -In SDRAM, within on period-> it only can have one read then write data once (38:05)(38:10)
   -  
 ->Hard drive 硬盘
-        -Nor flash   ,Intel , small in storage size, 2m to 32m, save bios/bootloader 
-        -NAND flash,Toshibal, large in storage size,1g to 256G,it acts as if it is a hard drive 硬盘
+        -Nor flash   ,Intel , small in storage size, 2MB to 32MG, save bios/bootloader 
+        -NAND flash,Toshibal, large in storage size,1GB to 256GB,it acts as if it is a hard drive 硬盘
 -
         -DDRAM->D(Double)DRAM->It can do read/write from 0 to 1 (rising edge) or 1 to 0 (falling edge) within one period(38:15).Therefore read/write can be done twice within a period (38:32) 
-        -
+        -Without changing the frequency requirement, the speed of writing SDRAM vs DDRAM is 1:2
         -
         -
         -          
