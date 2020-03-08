@@ -26,6 +26,8 @@ Electrical Engineering: Ch 19: Fourier Transform (1 of 45) What is a Fourier Tra
 ->fourier transform sine
 https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ
 
+->radar system
+https://www.youtube.com/playlist?list=PLUJAYadtuizA8RC2Qk8LfmiWA56HZsk9y
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
