@@ -28,6 +28,7 @@ https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ
 
 ->radar system
 https://www.youtube.com/playlist?list=PLUJAYadtuizA8RC2Qk8LfmiWA56HZsk9y
+https://nptel.ac.in/courses/108105154/
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
