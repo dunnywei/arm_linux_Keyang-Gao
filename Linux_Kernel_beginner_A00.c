@@ -296,10 +296,11 @@ set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.1
         -
         -
         -
-        -
-        -
-        -
-        -
+->p07 done
+        -comple dts file to dtb file so linux kernel is able to load
+        -uimage=64 bytes of head + zimage (4:08)
+        -dts_>device tree description file (8:07)
+        -dtb->device tree binary (8:07)
         -
         -
         -
