@@ -301,10 +301,11 @@ set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.1
         -uimage=64 bytes of head + zimage (4:08)
         -dts_>device tree description file (8:07)
         -dtb->device tree binary (8:07)
-        -
-        -
-        -
-        -
+        -a
+        -b
+        -c
+->p07
+        -We require to connect to nfs file system via network so we need to port network driver (0:25)
         -
         -
         -
