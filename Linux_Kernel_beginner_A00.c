@@ -306,7 +306,8 @@ set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.1
         -c
 ->p07
         -We require to connect to nfs file system via network so we need to port network driver (0:25)
-        -
+        -we require to provide some info in the network driver within dtb as
+  vim arch/arm/boot/dts/exynos4412-fs4412.dta (0:42)
         -
         -
         -
