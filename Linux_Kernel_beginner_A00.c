@@ -313,7 +313,7 @@ set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.1
         -make dtbs (2:00)
         -make manuconfig (04:18)
         -make uimage -j2 (06:43)
-        -
+        -need to include "clk_ignore_unused" (10:00)
         -
         -
         -
