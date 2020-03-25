@@ -314,10 +314,13 @@ set bootargs console=ttySAC2,115200 init=/linuxrc root=/dev/nfs rw nfsroot=192.1
         -make manuconfig (04:18)
         -make uimage -j2 (06:43)
         -need to include "clk_ignore_unused" (10:00)
-        -
-        -
-        -
-        -
+        -As long as you see the following (10:49)
+  "Freeing unused kernel memory:232K (Code4e9000 - c052300)
+        -We can see our compiled image like (11:10)
+ FREEMPT Mon March.......
+        -"clk_ignore_unused"->if the clock is not used, igonred (12:11)
+        -We need to do on the development board as (12:48)
+set bootargs clk_ignore_unused console=ttySAC2,115200 and so on
         -
         -
         -
