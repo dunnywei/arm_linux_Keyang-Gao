@@ -328,7 +328,7 @@ set bootargs clk_ignore_unused console=ttySAC2,115200 and so on
         -
 
 ->p09
-        -
+        -source insight->I will use visual studio codec
                  -
                  -
                  -
