@@ -329,7 +329,7 @@ set bootargs clk_ignore_unused console=ttySAC2,115200 and so on
 
 ->p09
         -source insight->I will use visual studio codec
-                 -
+                 -Create a folder
                  -
                  -
                  -
@@ -339,9 +339,10 @@ set bootargs clk_ignore_unused console=ttySAC2,115200 and so on
                  -
                  -
  ->-p10
-        -
-                 -
-                 -
+        -1st driver as hellow.c
+                 -Create a folder and file as the following (1:45)
+"/Linux_4412/mydriver/1st_drv/hello_drv"    
+                 -Be aware where you are going to put it do put it anywhere (1:45)
                  -
                  -
                  -
