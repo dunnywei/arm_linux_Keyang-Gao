@@ -1,4 +1,8 @@
 Link->https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
+Link1A->https://www.bilibili.com/video/BV1C4411q7VZ?from=search&seid=4249761625529598429
+嵌入式内核及驱动开发（高级）
+Link1B->https://www.bilibili.com/video/BV1A4411q75R?from=search&seid=11833665182952645586
+嵌入式内核及驱动开发（初级）
 link2->https://www.dalipan.com/detail/9c8f2515a2cf016438d9e9c6cc098353
 嵌入式+物联网
 link3 for list->https://www.yunpanjingling.com/resources/5d0e63704b3f4113b5072714
