@@ -348,9 +348,9 @@ set bootargs clk_ignore_unused console=ttySAC2,115200 and so on
  ->-p10
         -1st driver as hellow.c
                  -Create a folder and file as the following (1:45)
-"/Linux_4412/mydriver/1st_drv/hello_drv"    
-                 -Be aware where you are going to put it do put it anywhere (1:45)
-                 -
+"/Linux_4412/mydriver/1st_drv/hello_drv/hello.c"    
+                 -Be aware where you are going to put it.Don't put it anywhere (1:45)
+                 -There are four steps for wiriting it (2:14)
                  -
                  -
                  -
