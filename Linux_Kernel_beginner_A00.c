@@ -11,12 +11,15 @@ data structure->
          https://www.dalipan.com/detail/828ce126ddc52a606516c90ac47e260b
 link3->https://www.bilibili.com/video/BV12441147P3?from=search&seid=14338355517388043676
 [嵌入式开发]应用层开发篇之IO系统
-->the other one
+->the other one(embedded linux)
 https://www.youtube.com/watch?v=ZWbrHPaBaJo
-->the other one
+->the other II(embedded linux)
 https://www.bilibili.com/video/BV1Sb411s7Tv?from=search&seid=4347870250196927697
-->Another good link->
+->Another good link
 https://space.bilibili.com/97139894/video?tid=0&page=3&keyword=&order=pubdate
+->UDP programming
+https://www.bilibili.com/video/BV1J741177hq?p=2
+https://space.bilibili.com/394982852/video?keyword=08linux
 ->game engine
 https://www.dalipan.com/detail/ae7e9418244bac3d2e273e80aa7c7062
 search term->opengl
