@@ -20,6 +20,9 @@ https://space.bilibili.com/97139894/video?tid=0&page=3&keyword=&order=pubdate
 ->UDP programming
 https://www.bilibili.com/video/BV1J741177hq?p=2
 https://space.bilibili.com/394982852/video?keyword=08linux
+
+->AI computer vision
+https://www.bilibili.com/video/BV1A7411e7VL?from=search&seid=4347870250196927697
 ->game engine
 https://www.dalipan.com/detail/ae7e9418244bac3d2e273e80aa7c7062
 search term->opengl
