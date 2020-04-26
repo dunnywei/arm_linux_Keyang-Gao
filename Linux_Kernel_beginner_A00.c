@@ -27,6 +27,7 @@ https://www.youtube.com/watch?v=uIanSvWou1M
 https://www.bilibili.com/video/BV1A7411e7VL?from=search&seid=4347870250196927697
 ->AI工程师计算机视觉方向
 https://www.dalipan.com/search?keyword=AI%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E6%96%B9%E5%90%91
+P1->03:24
 ->game engine
 https://www.dalipan.com/detail/ae7e9418244bac3d2e273e80aa7c7062
 search term->opengl
