@@ -21,6 +21,7 @@ https://space.bilibili.com/97139894/video?tid=0&page=3&keyword=&order=pubdate
 https://www.bilibili.com/video/BV1J741177hq?p=2
 https://space.bilibili.com/394982852/video?keyword=08linux
 
+https://www.bilibili.com/video/BV12E41197zn?p=2
 ->UDP server youtube
 https://www.youtube.com/watch?v=uIanSvWou1M
 ->AI computer vision
