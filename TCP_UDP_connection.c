@@ -7,7 +7,8 @@ link03->TFTP protocol
 https://www.youtube.com/results?search_query=%E5%B0%81%E8%A3%85+tftp
 link04->tftp beginner
 https://www.emertxe.com/trainings/technical-resource-library/embedded-systems/linux-internals-network-programming-course-contents/linux-internals-network-programming-industry-projects-list/project3trivial-file-transfer-protocol-tftp/
-link1->
+link04->TFTP with C code
+https://blog.csdn.net/sh21_/article/details/68951065
 link1->
 link1->
 link1->
