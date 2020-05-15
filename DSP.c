@@ -10,3 +10,11 @@ https://www.youtube.com/watch?v=jnxTpxB7HR8
 
 4->DSP FFT
 https://www.youtube.com/watch?v=htCj9exbGo0
+https://www.youtube.com/watch?v=8spoTzUS3o8
+
+
+5->
+  
+6->
+  
+7->
