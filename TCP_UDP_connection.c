@@ -9,7 +9,9 @@ link04->tftp beginner
 https://www.emertxe.com/trainings/technical-resource-library/embedded-systems/linux-internals-network-programming-course-contents/linux-internals-network-programming-industry-projects-list/project3trivial-file-transfer-protocol-tftp/
 link04->TFTP with C code
 https://blog.csdn.net/sh21_/article/details/68951065
-link1->
-link1->
+link05->Bind to the specific interface of socket
+https://stackoverflow.com/questions/15673846/how-to-give-to-a-client-specific-ip-address-in-c
+link06->netcat for UDP and TCP connection
+https://www.digitalocean.com/community/tutorials/how-to-use-netcat-to-establish-and-test-tcp-and-udp-connections-on-a-vps
 link1->
 link1->
