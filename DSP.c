@@ -18,6 +18,8 @@ https://www.youtube.com/watch?v=EsJGuI7e_ZQ&list=PLKHPYFaGiDpaoCgEbfgDm7RBUDgd_r
 5->fftw
 https://www.cnblogs.com/lifan3a/articles/12502261.html
   
-6->
+6->DSP as ME565 Lecture 16: Discrete Fourier Transforms (DFT)
+
+https://www.youtube.com/watch?v=KTj1YgeN2sY
   
 7->
