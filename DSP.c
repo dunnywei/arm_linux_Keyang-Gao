@@ -22,4 +22,12 @@ https://www.cnblogs.com/lifan3a/articles/12502261.html
 
 https://www.youtube.com/watch?v=KTj1YgeN2sY
   
-7->
+7->FFT Unity circle->
+https://books.google.ca/books?id=0CH5DQAAQBAJ&pg=PA54&lpg=PA54&dq=wn+kn+and+circle+fft&source=bl&ots=HLyRhC70Vy&sig=ACfU3U2e3Cn2brasjkgeEILr3lEpAPcCJw&hl=en&sa=X&ved=2ahUKEwjwr-f7ocDpAhXcmXIEHV6uA_oQ6AEwAHoECAgQAQ#v=onepage&q=wn%20kn%20and%20circle%20fft&f=false
+
+->http://www.cs.cmu.edu/afs/andrew/scs/cs/15-463/2001/pub/www/notes/fourier/fourier.pdf
+
+8->video of FFT
+->https://www.youtube.com/watch?v=vlFdVYAXIxg
+->https://www.youtube.com/watch?v=r4Pc-rGBRJA
+->https://www.youtube.com/watch?v=BXghmsH-mKY
