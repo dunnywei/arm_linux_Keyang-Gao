@@ -31,3 +31,7 @@ https://books.google.ca/books?id=0CH5DQAAQBAJ&pg=PA54&lpg=PA54&dq=wn+kn+and+circ
 ->https://www.youtube.com/watch?v=vlFdVYAXIxg
 ->https://www.youtube.com/watch?v=r4Pc-rGBRJA
 ->https://www.youtube.com/watch?v=BXghmsH-mKY
+->https://www.youtube.com/watch?v=1mVbZLHLaf0
+(30:45)
+
+9->
