@@ -34,4 +34,5 @@ https://books.google.ca/books?id=0CH5DQAAQBAJ&pg=PA54&lpg=PA54&dq=wn+kn+and+circ
 ->https://www.youtube.com/watch?v=1mVbZLHLaf0
 (30:45)
 
-9->
+9->FFT from bilibili website
+https://www.bilibili.com/video/BV1W7411c7Kc?from=search&seid=6608309197717646932
