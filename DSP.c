@@ -17,7 +17,8 @@ https://www.youtube.com/watch?v=EsJGuI7e_ZQ&list=PLKHPYFaGiDpaoCgEbfgDm7RBUDgd_r
 566619
 5->fftw
 https://www.cnblogs.com/lifan3a/articles/12502261.html
-  
+https://www.youtube.com/watch?v=WxCjthsZwjQ
+
 6->DSP as ME565 Lecture 16: Discrete Fourier Transforms (DFT)
 
 https://www.youtube.com/watch?v=KTj1YgeN2sY
@@ -36,3 +37,6 @@ https://books.google.ca/books?id=0CH5DQAAQBAJ&pg=PA54&lpg=PA54&dq=wn+kn+and+circ
 
 9->FFT from bilibili website
 https://www.bilibili.com/video/BV1W7411c7Kc?from=search&seid=6608309197717646932
+-Section1->(14:38)(21:10)(21:24)(34:00->property)(35:01)
+
+10->
