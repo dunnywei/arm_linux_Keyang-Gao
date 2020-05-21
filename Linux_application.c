@@ -3,7 +3,9 @@
 ->install fftw in linux
 https://www.youtube.com/watch?v=3vDfmd7u1wU
 /usr/local/lib
-
+->includepath for Makefile with visual studio code
+https://stackoverflow.com/questions/22545029/makefile-how-to-correctly-include-header-file-and-its-directory
+https://www.youtube.com/watch?v=SV1elTaMBWU
 ->gcc flags
 https://www.rapidtables.com/code/linux/gcc/gcc-wall.html
 
