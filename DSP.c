@@ -41,4 +41,20 @@ https://books.google.ca/books?id=0CH5DQAAQBAJ&pg=PA54&lpg=PA54&dq=wn+kn+and+circ
 https://www.bilibili.com/video/BV1W7411c7Kc?from=search&seid=6608309197717646932
 -Section1->(14:38)(21:10)(21:24)(34:00->property)(35:01)
 
-10->
+10->fft shift
+
+https://www.mathworks.com/matlabcentral/answers/288818-what-s-the-purpose-of-doing-fftshift-twice
+https://stackoverflow.com/questions/5915125/fftshift-ifftshift-c-c-source-code (implement in C)
+https://www.youtube.com/watch?v=9HRF_cF315E (good explaination)
+
+11->scale down dbm or dbs
+https://www.youtube.com/watch?v=ZMgd2obTZyc
+https://www.youtube.com/watch?v=Tn97U1HVtpo
+
+12->dbm and dbs
+https://www.youtube.com/watch?v=ta1sUTiJNkY
+https://www.youtube.com/watch?v=jlrUOePnVIs
+https://www.youtube.com/watch?v=XFixTSxgMs8
+https://www.youtube.com/watch?v=yMPdSL19LWs
+https://www.youtube.com/watch?v=byQvq68QUmw
+
