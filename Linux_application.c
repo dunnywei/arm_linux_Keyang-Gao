@@ -9,7 +9,10 @@ https://www.youtube.com/watch?v=SV1elTaMBWU
 ->gcc flags
 https://www.rapidtables.com/code/linux/gcc/gcc-wall.html
 
+->rec into structure socket programming site:stackoverflow.com
+-https://stackoverflow.com/questions/2014033/send-and-receive-a-file-in-socket-programming-in-linux-with-c-c-gcc-g
 
+-https://github.com/cirosantilli/cpp-cheat/tree/53196c683990d639fac97fbc416cb86782279739/posix/socket/inet
 
 ->link->https://www.bilibili.com/video/av73202565/
 ->p03
