@@ -39,8 +39,8 @@ https://books.google.ca/books?id=0CH5DQAAQBAJ&pg=PA54&lpg=PA54&dq=wn+kn+and+circ
 
 9->FFT from bilibili website
 https://www.bilibili.com/video/BV1W7411c7Kc?from=search&seid=6608309197717646932
--Section1->(14:38)(21:10)(21:24)(34:00->property)(35:01)(37:55) (Done)
-->Section 2->(00:08)
+-Section1->(34:00->property)(35:01) (Done)
+->Section 2->(00:08)(02:57)
 
 10->fft shift
 
@@ -58,4 +58,13 @@ https://www.youtube.com/watch?v=jlrUOePnVIs
 https://www.youtube.com/watch?v=XFixTSxgMs8
 https://www.youtube.com/watch?v=yMPdSL19LWs
 https://www.youtube.com/watch?v=byQvq68QUmw
+
+13->decimation
+https://flylib.com/books/en/2.729.1/decimation.html
+Video
+https://www.youtube.com/watch?v=uetveL47LtU
+https://www.youtube.com/watch?v=qJYGd2pi_n4
+
+14->
+
 
