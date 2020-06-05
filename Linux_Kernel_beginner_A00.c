@@ -22,6 +22,9 @@ https://www.bilibili.com/video/BV1J741177hq?p=2
 https://space.bilibili.com/394982852/video?keyword=08linux
 
 https://www.bilibili.com/video/BV12E41197zn?p=2
+
+->Linux Network Programming
+https://www.bilibili.com/video/BV1J4411j7Rx?from=search&seid=1541130395184657891
 ->UDP server youtube
 https://www.youtube.com/watch?v=uIanSvWou1M
 ->AI computer vision
@@ -32,6 +35,12 @@ P1->03:24
 ->game engine
 https://www.dalipan.com/detail/ae7e9418244bac3d2e273e80aa7c7062
 search term->opengl
+
+->智能机器人软件开发教程基础，从helloworld到神经网络
+AI
+https://www.bilibili.com/video/BV1L4411v7fB/?spm_id_from=333.788.videocard.7
+
+
 
 ->Dtft and fft
 https://www.youtube.com/channel/UCFJRdk0slyosSdaVlZmsM2A/videos
