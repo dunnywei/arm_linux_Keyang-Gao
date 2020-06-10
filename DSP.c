@@ -65,6 +65,16 @@ Video
 https://www.youtube.com/watch?v=uetveL47LtU
 https://www.youtube.com/watch?v=qJYGd2pi_n4
 
-14->
+14->complex baseband representation
+video
+https://www.youtube.com/watch?v=JXXpq0hPNfI
+https://www.youtube.com/watch?v=bvmBnAVcOKc
+
+https://www.youtube.com/watch?v=JXXpq0hPNfI
+https://www.youtube.com/playlist?list=PLA5C2F41190F383E4 for 2014
+https://nptel.ac.in/courses/117/101/117101051/           for 2009
+Lecture 1 (27:49)
+
+https://www.bilibili.com/video/BV1P4411H7Ee?from=search&seid=1472188324462369109
 
 
