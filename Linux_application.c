@@ -20,6 +20,9 @@ https://stackoverflow.com/questions/1394735/java-writing-in-file-little-endian
 ->java with NextMidas
 https://nextmidas.techma.com/
 
+-->Writing complex number in C++
+https://stackoverflow.com/questions/42203311/writing-reading-stdcomplex-values-in-binary-file
+
 ->link->https://www.bilibili.com/video/av73202565/
 ->p03
         -Linux proccess state
