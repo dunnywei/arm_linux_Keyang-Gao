@@ -14,6 +14,12 @@ https://www.rapidtables.com/code/linux/gcc/gcc-wall.html
 
 -https://github.com/cirosantilli/cpp-cheat/tree/53196c683990d639fac97fbc416cb86782279739/posix/socket/inet
 
+->write a binary file in java with little endian
+https://stackoverflow.com/questions/1394735/java-writing-in-file-little-endian
+
+->java with NextMidas
+https://nextmidas.techma.com/
+
 ->link->https://www.bilibili.com/video/av73202565/
 ->p03
         -Linux proccess state
