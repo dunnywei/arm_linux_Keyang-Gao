@@ -76,7 +76,7 @@ https://nptel.ac.in/courses/117/101/117101051/           for 2009
 Lecture 1 (27:49)
 
   
-  
+->Digital Communcation  
 ->https://www.bilibili.com/video/BV1P4411H7Ee?from=search&seid=1472188324462369109
 ->DSP textbook
 http://www.dspguide.com/ch10/1.htm
