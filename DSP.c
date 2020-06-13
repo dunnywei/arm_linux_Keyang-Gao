@@ -81,4 +81,14 @@ Lecture 1 (27:49)
 ->DSP textbook
 http://www.dspguide.com/ch10/1.htm
 
+->relate to fouirier transformation of t
+http://www.thefouriertransform.com/pairs/triangle.php
+https://lpsa.swarthmore.edu/Fourier/Xforms/FXUseTables.html
+
+->fourier transform of ramp function
+https://www.youtube.com/watch?v=EpsXpyYH74Q
+https://math.stackexchange.com/questions/1920602/how-does-one-derive-the-fourier-transform-of-the-ramp-function
+note let the w=2*PI*f so dw/df=2pi then doing the derivate w.r.t df->will get the answer
+http://eceweb1.rutgers.edu/~gajic/solmanual/slides/chapter2.pdf
+
 
