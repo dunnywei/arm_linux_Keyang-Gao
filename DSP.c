@@ -75,6 +75,8 @@ https://www.youtube.com/playlist?list=PLA5C2F41190F383E4 for 2014
 https://nptel.ac.in/courses/117/101/117101051/           for 2009
 Lecture 1 (27:49)
 
+15->complex baseband representation
+https://www.youtube.com/watch?v=h_7d-m1ehoY
   
 ->Digital Communcation  
 ->https://www.bilibili.com/video/BV1P4411H7Ee?from=search&seid=1472188324462369109
