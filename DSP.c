@@ -77,6 +77,16 @@ Lecture 1 (27:49)
 
 15->complex baseband representation
 https://www.youtube.com/watch?v=h_7d-m1ehoY
+
+16->baseband vs passband
+https://www.youtube.com/watch?v=tJdQ4AWlD64
+
+17->frequency synthesizer
+https://www.youtube.com/watch?v=kOAUpw0W138
+
+
+18->RF Fundamentals: Part 1 - Learn All About Radio Frequency in 1 Hour
+https://www.youtube.com/watch?v=4ykV-53G63A
   
 ->Digital Communcation  
 ->https://www.bilibili.com/video/BV1P4411H7Ee?from=search&seid=1472188324462369109
