@@ -17,3 +17,8 @@ https://waterprogramming.wordpress.com/2016/08/12/a-quick-example-code-to-write-
 https://stackoverflow.com/questions/25201131/writing-csv-files-from-c
 
 https://www.gormanalysis.com/blog/reading-and-writing-csv-files-with-cpp/
+
+
+->write hexdecimal in Java
+https://www.javamex.com/tutorials/conversion/decimal_hexadecimal.shtml#:~:text=int%20decimal%20%3D%20Integer.&text=out.,as%20in%20the%20table%20above).
+->

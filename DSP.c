@@ -87,6 +87,9 @@ https://www.youtube.com/watch?v=kOAUpw0W138
 
 18->RF Fundamentals: Part 1 - Learn All About Radio Frequency in 1 Hour
 https://www.youtube.com/watch?v=4ykV-53G63A
+
+19->Principles of Communication Systems 
+https://www.youtube.com/watch?v=F3slBe2r8vA&list=PLq-Gm0yRYwTgX2FkPVcY6io003-tZd8Ru
   
 ->Digital Communcation  
 ->https://www.bilibili.com/video/BV1P4411H7Ee?from=search&seid=1472188324462369109
