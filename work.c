@@ -21,4 +21,6 @@ https://www.gormanalysis.com/blog/reading-and-writing-csv-files-with-cpp/
 
 ->write hexdecimal in Java
 https://www.javamex.com/tutorials/conversion/decimal_hexadecimal.shtml#:~:text=int%20decimal%20%3D%20Integer.&text=out.,as%20in%20the%20table%20above).
+
+https://stackoverflow.com/questions/45495981/how-to-convert-an-int-to-hex-with-leading-zeros-in-java
 ->
