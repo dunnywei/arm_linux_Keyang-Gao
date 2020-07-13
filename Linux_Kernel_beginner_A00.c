@@ -22,7 +22,14 @@ https://www.bilibili.com/video/BV1J741177hq?p=2
 https://space.bilibili.com/394982852/video?keyword=08linux
 
 https://www.bilibili.com/video/BV12E41197zn?p=2
-
+->Linux application
+Linux系统开发必备一 - C语言基础精讲 https://www.bilibili.com/video/av77902723
+Linux系统开发必备二 - 数据结构精讲 https://www.bilibili.com/video/av78071266/
+Linux系统开发必备三 - IO操作及文件系统精讲 https://www.bilibili.com/video/av78101793/
+Linux系统开发必备四 - 信号与线程的并发精讲 https://www.bilibili.com/video/av78008174/
+Linux系统开发必备五 - 进程间通信IPC精讲 https://www.bilibili.com/video/av79050582/
+Linux下C语言socket网络编程视频教程 https://www.bilibili.com/video/av54020738/
+Linux网络编程实战 https://www.bilibili.com/video/av77289477/
 ->Linux Network Programming
 https://www.bilibili.com/video/BV1J4411j7Rx?from=search&seid=1541130395184657891
 ->UDP server youtube
@@ -76,6 +83,15 @@ https://nptel.ac.in/courses/108105154/
         -          
         -
         -
+->Gane Engine
+ 	-https://www.youtube.com/watch?v=GFYT7Lqt1h8&list=PLlrATfBNZ98eOOCk2fOFg7Qg5yoQfFAdf
+	-
+	-
+	-
+	-
+	-
+	-
+	-
 ->Day P02
         -Require configuration of ubuntu (either on virtual machine or host) for linux device driver configuration (3:10)
                  -Copy arm-gcc-4.6.4.tar as the folder of linux_4412\toolchain within ubuntu (01:40)
