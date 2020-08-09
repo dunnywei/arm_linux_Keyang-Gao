@@ -32,6 +32,12 @@ Linux下C语言socket网络编程视频教程 https://www.bilibili.com/video/av5
 Linux网络编程实战 https://www.bilibili.com/video/av77289477/
 ->Linux Network Programming
 https://www.bilibili.com/video/BV1J4411j7Rx?from=search&seid=1541130395184657891
+->x86 assemlby OR 计算机语言 x86汇编语言：从实模式到保护模式（操作系统引导课） 原书作者李忠制作 少量字幕
+https://www.bilibili.com/video/BV1xE411N74T?from=search&seid=2296215128170191067
+
+->kernel 【计算机】内核编程（全20课）
+https://www.bilibili.com/video/BV1h4411C7Y6/?spm_id_from=333.788.videocard.2
+
 ->UDP server youtube
 https://www.youtube.com/watch?v=uIanSvWou1M
 ->AI computer vision
