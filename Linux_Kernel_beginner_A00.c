@@ -38,6 +38,8 @@ https://www.bilibili.com/video/BV1xE411N74T?from=search&seid=2296215128170191067
 ->kernel 【计算机】内核编程（全20课）
 https://www.bilibili.com/video/BV1h4411C7Y6/?spm_id_from=333.788.videocard.2
 
+->Linux Kernel related info
+https://www.zygx8.com/thread-9393-1-1.html
 ->UDP server youtube
 https://www.youtube.com/watch?v=uIanSvWou1M
 ->AI computer vision
