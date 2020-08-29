@@ -77,6 +77,13 @@ https://www.youtube.com/channel/UCrltzuSvRbL3rpsvLDnFkuQ
 ->radar system
 https://www.youtube.com/playlist?list=PLUJAYadtuizA8RC2Qk8LfmiWA56HZsk9y
 https://nptel.ac.in/courses/108105154/
+->search term "vxworks" result avionics related
+https://www.bilibili.com/video/BV11W411k7aV?from=search&seid=14580782029280087857
+
+->Linux RTOS "Xenomai实战"
+https://www.bilibili.com/video/BV1Qz4y1X7fc?from=search&seid=14580782029280087857
+->x86 assemlby or X86汇编
+https://www.youtube.com/watch?v=MvM4vNk0wS0&list=PL0MagCinIFoy_jd-YXg2JQfawyBQ_qquX
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
