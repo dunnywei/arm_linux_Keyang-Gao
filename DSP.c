@@ -110,6 +110,14 @@ http://eceweb1.rutgers.edu/~gajic/solmanual/slides/chapter2.pdf
 ->DSP from NCTU
 https://www.youtube.com/playlist?list=PLj6E8qlqmkFuUfwSfmEXgjeJI33ZxxmSd
 
+->Signal and System MIT(1987)
+https://www.youtube.com/watch?v=KJnAy6hzetw&list=PL41692B571DD0AF9B
+
+->Signal and System MIT (2015)
+https://www.youtube.com/watch?v=-FHm2pQmiSM
+
+
+
 
 
 
