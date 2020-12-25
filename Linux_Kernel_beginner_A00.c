@@ -1,3 +1,12 @@
+link7->Linux 内核分析与应用 Linux kernel analysis
+https://www.bilibili.com/video/BV1XV411k72Q?from=search&seid=3795702781779637726
+
+link6->Linux内核源码研读与实战演练 (35课时) Linux kernel
+https://www.bilibili.com/video/BV12J41137Dv?from=search&seid=3795702781779637726	
+link5->linux 高级嵌入式linux内核及驱动开发实战视频课程
+https://www.bilibili.com/video/BV11y4y1r793?from=search&seid=3795702781779637726
+link4->linux驱动-块设备 linux block device
+https://www.bilibili.com/video/BV15a411F7Jz?from=search&seid=4620572555143641293
 Link->https://www.bilibili.com/video/av73306160/?spm_id_from=333.788.videocard.2
 Link1A->https://www.bilibili.com/video/BV1C4411q7VZ?from=search&seid=4249761625529598429
 嵌入式内核及驱动开发（高级）
