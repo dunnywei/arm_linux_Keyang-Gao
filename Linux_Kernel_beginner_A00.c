@@ -1,3 +1,12 @@
+
+link10->https://www.bilibili.com/video/BV1Rp4y1i7Qq?from=search&seid=13331317018281485148
+https://www.bilibili.com/video/BV1Rp4y1i7Qq?from=search&seid=13331317018281485148
+link9->Linux驱动（已完结）
+https://www.bilibili.com/video/BV1u5411x7c6?from=search&seid=13331317018281485148
+
+link8->正点原子【第四期】手把手教你学 Linux之驱动开发篇
+https://www.bilibili.com/video/BV1fJ411i7PB/?spm_id_from=333.788.videocard.0
+
 link7->Linux 内核分析与应用 Linux kernel analysis
 https://www.bilibili.com/video/BV1XV411k72Q?from=search&seid=3795702781779637726
 
