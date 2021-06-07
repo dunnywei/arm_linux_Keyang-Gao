@@ -102,6 +102,14 @@ https://www.bilibili.com/video/BV11W411k7aV?from=search&seid=1458078202928008785
 https://www.bilibili.com/video/BV1Qz4y1X7fc?from=search&seid=14580782029280087857
 ->x86 assemlby or X86汇编
 https://www.youtube.com/watch?v=MvM4vNk0wS0&list=PL0MagCinIFoy_jd-YXg2JQfawyBQ_qquX
+->Linux I2c and SOU from linux foundation
+Search term->Tutorial_ Introduction to I2C and SPI_ Both In-kernel and In-userspace - Michael Welling
+link->https://www.youtube.com/watch?v=c10wAKWpjts
+viewing progress:
+Go via I2C->from 00:00:00->06:36->09:35
+00:57:03->1:03:10->1:08:06->1:08:33->1:10:03->1:12:56->1:15:09->1:16:24->1:23:11->done
+
+
 ->Day P01
          -host->required arm-none-gcc
          -target->Need to let LINUX OS running
