@@ -1,0 +1,16 @@
+->Video 06 as https://www.bilibili.com/video/BV12E411h71h?p=6
+	-bdinfo
+	-printenv
+	-setenv 'author abc'
+	-saveenv
+	-md.b 0x80000010 0x10 //display memory
+	-nm.b 0x80000010 0xab //memory modify for one byte
+	-mm.w 0x00000010 0xabcdefga //incretment by its self
+	-mw.w 0x00000010 0xabcdefga 10//write 16 blocks
+	-cp.w 0x00000010 0x00000100 10//copy content from src to dest
+	-cmp
+	-Network command inside uboot (
+	-ping 
+		-setenv ipaddr 192.168.1.215
+		-saveenv
+	-(26:28)
